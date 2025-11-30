@@ -10,7 +10,8 @@ interface Props {
 }
 
 function MunicipalityDetail({ municipalityId, electionData, parties }: Props) {
-    const result = electionData.results[municipalityId];
+    const result = electionData.results[municipalityId] ||
+        (electionData.constituencies ? electionData.constituencies[municipalityId] : undefined);
 
     if (!result) {
         return (

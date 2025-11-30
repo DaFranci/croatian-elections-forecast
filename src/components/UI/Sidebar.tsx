@@ -8,7 +8,7 @@ import NationalSummary from './NationalSummary';
 import './Sidebar.css';
 
 function Sidebar() {
-    const { sidebarOpen, selectedMunicipality, selectedElection } = useAppContext();
+    const { sidebarOpen, selectedMunicipality, selectedElection, viewMode } = useAppContext();
     const [electionData, setElectionData] = useState<ElectionData | null>(null);
     const [parties, setParties] = useState<PartyInfo[]>([]);
 
@@ -40,7 +40,7 @@ function Sidebar() {
             <div className="sidebar-content">
                 <div className="sidebar-section">
                     <h2 className="section-title">
-                        <span className="title-icon">🗳️</span>
+                        <span className="title-icon">dY-3�,?</span>
                         2024 Parliamentary Elections
                     </h2>
                     <div className="election-meta">
@@ -73,7 +73,7 @@ function Sidebar() {
                     <div className="sidebar-section">
                         <div className="info-box">
                             <p className="info-text">
-                                👆 Click on a municipality to see detailed results
+                                dY`+ Click on a {viewMode === 'constituency' ? 'constituency' : 'municipality'} to see detailed results
                             </p>
                         </div>
                     </div>

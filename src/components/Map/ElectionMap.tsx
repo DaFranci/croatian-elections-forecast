@@ -3,7 +3,7 @@ import Map, { Source, Layer, MapLayerMouseEvent, Popup } from 'react-map-gl/mapl
 import type { FillLayer, LineLayer } from 'react-map-gl/maplibre';
 import { useAppContext } from '../../context/AppContext';
 import { loadGeoJSON, loadElectionData, loadPartyData } from '../../utils/dataLoader';
-import { calculateWinners, joinElectionWithGeo, getPartyColor } from '../../utils/dataProcessor';
+import { calculateWinners, joinElectionWithGeo } from '../../utils/dataProcessor';
 import { ElectionData, PartyInfo } from '../../types';
 import MapControls from './MapControls';
 import Legend from '../UI/Legend';
@@ -18,14 +18,13 @@ const INITIAL_VIEW_STATE = {
 };
 
 const BASE_MAP_STYLE = {
-    version: 8,
+    version: 8 as const,
     sources: {},
     layers: [
         {
             id: 'background',
-            type: 'background',
+            type: 'background' as const,
             paint: {
-                // A softer, matte grey-blue. Easier on the eyes than #0f0f1e
                 'background-color': '#F0F2F5',
             },
         },
@@ -44,6 +43,7 @@ function ElectionMap() {
     } = useAppContext();
 
     const [geoData, setGeoData] = useState<any>(null);
+    const [constituencyGeoData, setConstituencyGeoData] = useState<any>(null);
     const [electionData, setElectionData] = useState<ElectionData | null>(null);
     const [parties, setParties] = useState<PartyInfo[]>([]);
     const [loading, setLoading] = useState(true);
@@ -79,6 +79,21 @@ function ElectionMap() {
 
         loadData();
     }, [selectedElection]);
+
+    // Load constituency GeoJSON when switching to constituency view
+    useEffect(() => {
+        async function loadConstituencyData() {
+            if (viewMode === 'constituency' && !constituencyGeoData) {
+                try {
+                    const constGeo = await loadGeoJSON('constituencies');
+                    setConstituencyGeoData(constGeo);
+                } catch (error) {
+                    console.error('Error loading constituency data:', error);
+                }
+            }
+        }
+        loadConstituencyData();
+    }, [viewMode, constituencyGeoData]);
 
     const getFillOpacity = useCallback((): any => {
         if (visualizationMode !== 'margin' || !electionData) return 0.7;
@@ -190,6 +205,46 @@ function ElectionMap() {
         }
     }, [visualizationMode, viewMode, electionData, parties, turnoutMap]);
 
+    // Constituency fill color - uses constituency data directly
+    const getConstituencyFillColor = useCallback((): any => {
+        if (!electionData || !parties.length) return '#808080';
+
+        const colorExpression: any = ['match', ['get', 'id']];
+
+        if (electionData.constituencies) {
+            Object.entries(electionData.constituencies).forEach(([constId, constData]) => {
+                const winnerId = constData.winner;
+                if (winnerId) {
+                    const party = parties.find(p => p.id === winnerId);
+                    if (party) {
+                        colorExpression.push(constId, party.color);
+                    }
+                }
+            });
+        }
+
+        colorExpression.push('#404040');
+        return colorExpression;
+    }, [electionData, parties]);
+
+    // Constituency fill opacity
+    const getConstituencyFillOpacity = useCallback((): any => {
+        if (visualizationMode !== 'margin' || !electionData) return 0.7;
+
+        const opacityExpression: any = ['match', ['get', 'id']];
+
+        if (electionData.constituencies) {
+            Object.entries(electionData.constituencies).forEach(([constId, constData]) => {
+                const margin = constData.margin || 0;
+                const opacity = 0.3 + (margin / 100) * 0.7;
+                opacityExpression.push(constId, opacity);
+            });
+        }
+
+        opacityExpression.push(0.5);
+        return opacityExpression;
+    }, [visualizationMode, electionData]);
+
     const municipalityLayer: FillLayer = useMemo(() => ({
         id: 'municipalities',
         type: 'fill',
@@ -199,21 +254,45 @@ function ElectionMap() {
         },
     }), [getFillColor, getFillOpacity]);
 
+    const constituencyLayer: FillLayer = useMemo(() => ({
+        id: 'constituencies',
+        type: 'fill',
+        paint: {
+            'fill-color': getConstituencyFillColor(),
+            'fill-opacity': getConstituencyFillOpacity(),
+        },
+    }), [getConstituencyFillColor, getConstituencyFillOpacity]);
+
+    const interactiveLayers = useMemo(() => (
+        viewMode === 'constituency'
+            ? ['constituencies']
+            : ['municipalities']
+    ), [viewMode]);
+
     const municipalityOutlineLayer: LineLayer = useMemo(() => ({
         id: 'municipalities-outline',
         type: 'line',
         paint: {
-            'line-color': [
-                'case',
-                ['==', ['get', 'id'], selectedMunicipality || ''],
-                '#FFFFFF',
-                '#2a2a3e',
-            ],
+            'line-color': '#FFFFFF',
             'line-width': [
                 'case',
-                ['==', ['get', 'id'], selectedMunicipality || ''],
+                ['==', ['to-string', ['get', 'id']], selectedMunicipality || ''],
                 3,
-                0.5,
+                0.9,
+            ],
+        },
+    }), [selectedMunicipality]);
+
+    const constituencyOutlineLayer: LineLayer = useMemo(() => ({
+        id: 'constituencies-outline',
+        type: 'line',
+        paint: {
+            'line-color': '#FFFFFF',
+            'line-width': [
+                'case',
+                ['==', ['to-string', ['get', 'id']], selectedMunicipality || ''],
+                3,
+                0.9,
             ],
         },
     }), [selectedMunicipality]);
@@ -231,7 +310,7 @@ function ElectionMap() {
 
         if (feature) {
             setCursor('pointer');
-            setHoveredMunicipality(prev => (prev !== featureId ? featureId : prev));
+            setHoveredMunicipality((prev: string | undefined) => (prev !== featureId ? featureId : prev));
             setHoverInfo({
                 longitude: event.lngLat.lng,
                 latitude: event.lngLat.lat,
@@ -271,7 +350,7 @@ function ElectionMap() {
                 initialViewState={INITIAL_VIEW_STATE}
                 style={{ width: '100%', height: '100%' }}
                 mapStyle={BASE_MAP_STYLE}
-                interactiveLayerIds={['municipalities']}
+                interactiveLayerIds={interactiveLayers}
                 onClick={handleClick}
                 onMouseMove={handleMouseMove}
                 onMouseLeave={handleMouseLeave}
@@ -279,10 +358,19 @@ function ElectionMap() {
                 cursor={cursor}
                 reuseMaps
             >
+                {/* Constituency layers - shown in constituency view */}
+                {constituencyGeoData && (
+                    <Source id="constituencies-source" type="geojson" data={constituencyGeoData}>
+                        {viewMode === 'constituency' && <Layer {...constituencyLayer} />}
+                        {viewMode === 'constituency' && <Layer {...constituencyOutlineLayer} />}
+                    </Source>
+                )}
+
+                {/* Municipality layers - always shown for interactions */}
                 {geoData && (
                     <Source id="municipalities-source" type="geojson" data={geoData}>
-                        <Layer {...municipalityLayer} />
-                        <Layer {...municipalityOutlineLayer} />
+                        {viewMode === 'municipality' && <Layer {...municipalityLayer} />}
+                        {viewMode === 'municipality' && <Layer {...municipalityOutlineLayer} />}
                     </Source>
                 )}
 

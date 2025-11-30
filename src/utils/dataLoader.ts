@@ -98,7 +98,7 @@ export async function loadPartyData(): Promise<PartyInfo[]> {
 /**
  * Load GeoJSON data for administrative boundaries
  */
-export async function loadGeoJSON(level: 'counties' | 'municipalities' | 'zagreb-districts'): Promise<GeoJSON> {
+export async function loadGeoJSON(level: 'counties' | 'municipalities' | 'zagreb-districts' | 'constituencies'): Promise<GeoJSON> {
     const cacheKey = `geo-${level}`;
 
     if (dataCache.has(cacheKey)) {
