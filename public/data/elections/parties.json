@@ -1,0 +1,122 @@
+[
+    {
+        "id": "HDZ",
+        "name": "Hrvatska demokratska zajednica",
+        "shortName": "HDZ",
+        "color": "#0047AB"
+    },
+    {
+        "id": "SDP",
+        "name": "Socijaldemokratska partija Hrvatske",
+        "shortName": "SDP",
+        "color": "#E31E24"
+    },
+    {
+        "id": "DP",
+        "name": "Domovinski pokret",
+        "shortName": "DP",
+        "color": "#FF6B35"
+    },
+    {
+        "id": "MOST",
+        "name": "Most nezavisnih lista",
+        "shortName": "MOST",
+        "color": "#FFD700"
+    },
+    {
+        "id": "POLITIČKA PLATFORMA",
+        "name": "Možemo! - Politička platforma",
+        "shortName": "Možemo!",
+        "color": "#00A651"
+    },
+    {
+        "id": "FOKUS",
+        "name": "Fokus",
+        "shortName": "FOKUS",
+        "color": "#9B59B6"
+    },
+    {
+        "id": "HSP",
+        "name": "Hrvatska stranka prava",
+        "shortName": "HSP",
+        "color": "#000000"
+    },
+    {
+        "id": "HSS",
+        "name": "Hrvatska seljačka stranka",
+        "shortName": "HSS",
+        "color": "#228B22"
+    },
+    {
+        "id": "IDS",
+        "name": "Istarski demokratski sabor",
+        "shortName": "IDS",
+        "color": "#FFD700"
+    },
+    {
+        "id": "HDSSB",
+        "name": "Hrvatski demokratski savez Slavonije i Baranje",
+        "shortName": "HDSSB",
+        "color": "#8B4513"
+    },
+    {
+        "id": "ŽIVI ZID",
+        "name": "Živi zid",
+        "shortName": "Živi zid",
+        "color": "#9B59B6"
+    },
+    {
+        "id": "PAMETNO",
+        "name": "Pametno",
+        "shortName": "PAMETNO",
+        "color": "#00BFFF"
+    },
+    {
+        "id": "RF",
+        "name": "Radnička fronta",
+        "shortName": "RF",
+        "color": "#DC143C"
+    },
+    {
+        "id": "HNS",
+        "name": "Hrvatska narodna stranka - Liberalni demokrati",
+        "shortName": "HNS",
+        "color": "#FFA500"
+    },
+    {
+        "id": "REFORMISTI",
+        "name": "Reformisti",
+        "shortName": "REFORMISTI",
+        "color": "#4169E1"
+    },
+    {
+        "id": "OIP",
+        "name": "Odlučnost i pravednost",
+        "shortName": "OIP",
+        "color": "#8B008B"
+    },
+    {
+        "id": "STRANKA IVANA PERNARA",
+        "name": "Stranka Ivana Pernara",
+        "shortName": "Pernar",
+        "color": "#FF1493"
+    },
+    {
+        "id": "HSP AS",
+        "name": "Hrvatska stranka prava dr. Ante Starčević",
+        "shortName": "HSP AS",
+        "color": "#2F4F4F"
+    },
+    {
+        "id": "NEZAVISNE LISTE",
+        "name": "Nezavisne liste",
+        "shortName": "Nezavisni",
+        "color": "#A9A9A9"
+    },
+    {
+        "id": "Other",
+        "name": "Other Parties",
+        "shortName": "Other",
+        "color": "#808080"
+    }
+]
