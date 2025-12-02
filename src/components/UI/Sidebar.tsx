@@ -40,13 +40,13 @@ function Sidebar() {
             <div className="sidebar-content">
                 <div className="sidebar-section">
                     <h2 className="section-title">
-                        <span className="title-icon">dY-3�,?</span>
+                        <span className="title-icon">📋</span>
                         2024 Parliamentary Elections
                     </h2>
                     <div className="election-meta">
                         <div className="meta-item">
                             <span className="meta-label">Date:</span>
-                            <span className="meta-value">April 17, 2024</span>
+                            <span className="meta-value">{electionData?.date}</span>
                         </div>
                         <div className="meta-item">
                             <span className="meta-label">National Turnout:</span>
