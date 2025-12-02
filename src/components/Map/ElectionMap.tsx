@@ -278,7 +278,7 @@ function ElectionMap() {
                 'case',
                 ['==', ['to-string', ['get', 'id']], selectedMunicipality || ''],
                 3,
-                0.9,
+                0.3,
             ],
         },
     }), [selectedMunicipality]);
@@ -292,7 +292,7 @@ function ElectionMap() {
                 'case',
                 ['==', ['to-string', ['get', 'id']], selectedMunicipality || ''],
                 3,
-                0.9,
+                0.3,
             ],
         },
     }), [selectedMunicipality]);

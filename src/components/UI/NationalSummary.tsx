@@ -73,7 +73,7 @@ function NationalSummary({ electionData, parties }: Props) {
             </div>
 
             <div className="total-seats">
-                Total: {Object.values(seats).reduce((a, b) => a + b, 0)} / 140 seats
+                Total: {Object.values(seats).reduce((a, b) => a + b, 0)} seats
             </div>
         </div>
     );

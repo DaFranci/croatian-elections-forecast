@@ -324,6 +324,15 @@ def process_csv_files(year):
                     
                     # Create municipality ID
                     muni_id = normalize_municipality_name(muni_name)
+                    
+                    # Handle Zagreb aggregation
+                    # Zagreb is split across multiple constituencies and often listed as "ZAGREB - DISTRICT" or "ZAGREB - CONSTITUENCY"
+                    # We want to aggregate all of these into a single "zagreb" entry
+                    muni_name_upper = muni_name.upper()
+                    if (muni_name_upper.startswith('ZAGREB') or muni_name_upper.startswith('GRAD ZAGREB')) and \
+                       'ŽUPANIJA' not in muni_name_upper and 'ZUPANIJA' not in muni_name_upper:
+                        muni_id = 'zagreb'
+                    
                     if not muni_id:
                         continue
 

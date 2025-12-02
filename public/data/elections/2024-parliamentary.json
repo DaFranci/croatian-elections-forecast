@@ -77,47 +77,47 @@
         }
       }
     },
-    "zagreb-i-izborna-jedinica": {
-      "name": "ZAGREB - I. IZBORNA JEDINICA",
-      "constituency": "I. IZBORNA JEDINICA",
-      "total_voters": 265377,
-      "votes_cast": 184046,
-      "turnout": 0.6935,
+    "zagreb": {
+      "name": "ZAGREB - VI. IZBORNA JEDINICA",
+      "constituency": "VI. IZBORNA JEDINICA",
+      "total_voters": 652313,
+      "votes_cast": 442085,
+      "turnout": 0.6777,
       "parties": {
         "FOKUS": {
-          "votes": 6669,
+          "votes": 16629,
           "coalition_name": "FOKUS, REPUBLIKA"
         },
         "OIP": {
-          "votes": 3564,
+          "votes": 7369,
           "coalition_name": "ODLUČNOST I PRAVEDNOST - OIP"
         },
         "POKRET ZA HRVATSKU POLJOPRIVREDU": {
-          "votes": 549,
+          "votes": 986,
           "coalition_name": "AGRARNA STRANKA - POKRET ZA HRVATSKU POLJOPRIVREDU, AKCIJA ZA PROMJENE"
         },
         "DP": {
-          "votes": 16172,
+          "votes": 42504,
           "coalition_name": "DOMOVINSKI POKRET - DP, PRAVO I PRAVDA, BLOK ZA HRVATSKU - BLOK, AGRAMERI - NEZAVISNA LISTA"
         },
         "HDZ": {
-          "votes": 44964,
+          "votes": 112279,
           "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ, HRVATSKA SOCIJALNO - LIBERALNA STRANKA - HSLS, HRVATSKA DEMOKRŠĆANSKA STRANKA - HDS, HRVATSKA NARODNA STRANKA - LIBERALNI DEMOKRATI - HNS, HRVATSKA STRANKA UMIROVLJENIKA - HSU"
         },
         "HSP": {
-          "votes": 522,
+          "votes": 1748,
           "coalition_name": "HRVATSKA STRANKA PRAVA - HSP, HRVATSKO BILO, HRVATSKA DEMOKRATSKA SELJAČKA STRANKA - HDSS"
         },
         "MOST": {
-          "votes": 12857,
+          "votes": 40684,
           "coalition_name": "MOST, HRVATSKI SUVERENISTI, HRVATSKA KONZERVATIVNA STRANKA - HKS, NEZAVISNA LISTA MLADIH - NLM"
         },
         "POLITIČKA PLATFORMA": {
-          "votes": 40206,
+          "votes": 85499,
           "coalition_name": "MOŽEMO! - POLITIČKA PLATFORMA"
         },
         "POKRET ZA MODERNU HRVATSKU": {
-          "votes": 577,
+          "votes": 1227,
           "coalition_name": "POKRET ZA MODERNU HRVATSKU"
         },
         "PH": {
@@ -125,28 +125,36 @@
           "coalition_name": "PRAVEDNA HRVATSKA - PH"
         },
         "RF": {
-          "votes": 1528,
+          "votes": 3539,
           "coalition_name": "RADNIČKA FRONTA - RF"
         },
         "SOCIJALDEMOKRATI": {
-          "votes": 1702,
+          "votes": 3803,
           "coalition_name": "SOCIJALDEMOKRATI, ISTARSKI DEMOKRATSKI SABOR - IDS, PRIMORSKO GORANSKI SAVEZ - PGS, HRVATSKI LABURISTI - STRANKA RADA - LABURISTI, DEMOKRATI"
         },
         "SDP": {
-          "votes": 45512,
+          "votes": 101766,
           "coalition_name": "SOCIJALDEMOKRATSKA PARTIJA HRVATSKE - SDP, CENTAR, HRVATSKA SELJAČKA STRANKA - HSS, \"DALIJA OREŠKOVIĆ I LJUDI S IMENOM I PREZIMENOM\" - \"DO i SIP\", NARODNA STRANKA - REFORMISTI - REFORMISTI, GRAĐANSKO-LIBERALNI SAVEZ - GLAS"
         },
         "UMIROVLJENICI ZAJEDNO": {
-          "votes": 3654,
+          "votes": 8588,
           "coalition_name": "UMIROVLJENICI ZAJEDNO - POLITIČKA PLATFORMA - UMIROVLJENICI ZAJEDNO, STRANKA UMIROVLJENIKA - SU, BLOK UMIROVLJENICI ZAJEDNO - BUZ, DEMOKRATSKA STRANKA UMIROVLJENIKA - DSU"
         },
         "STRANKA IVANA PERNARA": {
-          "votes": 1088,
+          "votes": 3837,
           "coalition_name": "STRANKA IVANA PERNARA"
         },
         "JAVNO DOBRO": {
           "votes": 234,
           "coalition_name": "JAVNO DOBRO"
+        },
+        "DAMIR-KRISTIJAN ROGINA": {
+          "votes": 648,
+          "coalition_name": "NEOVISNA LISTA - DAMIR-KRISTIJAN ROGINA"
+        },
+        "HSGO": {
+          "votes": 238,
+          "coalition_name": "HRVATSKA STRANKA GRAĐANSKOG OTPORA - HSGO"
         }
       }
     },
@@ -1121,67 +1129,6 @@
         },
         "UMIROVLJENICI ZAJEDNO": {
           "votes": 128,
-          "coalition_name": "UMIROVLJENICI ZAJEDNO - POLITIČKA PLATFORMA - UMIROVLJENICI ZAJEDNO, STRANKA UMIROVLJENIKA - SU, BLOK UMIROVLJENICI ZAJEDNO - BUZ, DEMOKRATSKA STRANKA UMIROVLJENIKA - DSU"
-        }
-      }
-    },
-    "zagreb-ii-izborna-jedinica": {
-      "name": "ZAGREB - II. IZBORNA JEDINICA",
-      "constituency": "II. IZBORNA JEDINICA",
-      "total_voters": 143245,
-      "votes_cast": 90502,
-      "turnout": 0.6318,
-      "parties": {
-        "HSP": {
-          "votes": 461,
-          "coalition_name": "HRVATSKA STRANKA PRAVA - HSP, HRVATSKO BILO, HRVATSKA DEMOKRATSKA SELJAČKA STRANKA - HDSS"
-        },
-        "FOKUS": {
-          "votes": 1935,
-          "coalition_name": "FOKUS, REPUBLIKA"
-        },
-        "OIP": {
-          "votes": 1666,
-          "coalition_name": "ODLUČNOST I PRAVEDNOST - OIP"
-        },
-        "STRANKA IVANA PERNARA": {
-          "votes": 1041,
-          "coalition_name": "STRANKA IVANA PERNARA"
-        },
-        "POKRET ZA HRVATSKU POLJOPRIVREDU": {
-          "votes": 437,
-          "coalition_name": "AGRARNA STRANKA - POKRET ZA HRVATSKU POLJOPRIVREDU, AKCIJA ZA PROMJENE"
-        },
-        "DP": {
-          "votes": 11809,
-          "coalition_name": "DOMOVINSKI POKRET - DP, PRAVO I PRAVDA, DEMOKRATSKI HSS - DHSS, ZELENA LISTA, AGRAMERI - NEZAVISNA LISTA"
-        },
-        "HDZ": {
-          "votes": 27496,
-          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ, HRVATSKA SOCIJALNO - LIBERALNA STRANKA - HSLS, HRVATSKA DEMOKRŠĆANSKA STRANKA - HDS, HRVATSKA NARODNA STRANKA - LIBERALNI DEMOKRATI - HNS, HRVATSKA STRANKA UMIROVLJENIKA - HSU"
-        },
-        "MOST": {
-          "votes": 10957,
-          "coalition_name": "MOST, HRVATSKI SUVERENISTI, HRVATSKA KONZERVATIVNA STRANKA - HKS, NEZAVISNA LISTA MLADIH - NLM"
-        },
-        "POLITIČKA PLATFORMA": {
-          "votes": 10225,
-          "coalition_name": "MOŽEMO! - POLITIČKA PLATFORMA, HOĆEMO PRAVEDNO"
-        },
-        "RF": {
-          "votes": 697,
-          "coalition_name": "RADNIČKA FRONTA - RF"
-        },
-        "SOCIJALDEMOKRATI": {
-          "votes": 1009,
-          "coalition_name": "SOCIJALDEMOKRATI, ISTARSKI DEMOKRATSKI SABOR - IDS, PRIMORSKO GORANSKI SAVEZ - PGS, HRVATSKI LABURISTI - STRANKA RADA - LABURISTI, DEMOKRATI"
-        },
-        "SDP": {
-          "votes": 18549,
-          "coalition_name": "SOCIJALDEMOKRATSKA PARTIJA HRVATSKE - SDP, CENTAR, HRVATSKA SELJAČKA STRANKA - HSS, \"DALIJA OREŠKOVIĆ I LJUDI S IMENOM I PREZIMENOM\" - \"DO i SIP\", NARODNA STRANKA - REFORMISTI - REFORMISTI, GRAĐANSKO-LIBERALNI SAVEZ - GLAS"
-        },
-        "UMIROVLJENICI ZAJEDNO": {
-          "votes": 1830,
           "coalition_name": "UMIROVLJENICI ZAJEDNO - POLITIČKA PLATFORMA - UMIROVLJENICI ZAJEDNO, STRANKA UMIROVLJENIKA - SU, BLOK UMIROVLJENICI ZAJEDNO - BUZ, DEMOKRATSKA STRANKA UMIROVLJENIKA - DSU"
         }
       }
@@ -18942,75 +18889,6 @@
         "RF": {
           "votes": 47,
           "coalition_name": "RADNIČKA FRONTA - RF"
-        }
-      }
-    },
-    "zagreb-vi-izborna-jedinica": {
-      "name": "ZAGREB - VI. IZBORNA JEDINICA",
-      "constituency": "VI. IZBORNA JEDINICA",
-      "total_voters": 243691,
-      "votes_cast": 167537,
-      "turnout": 0.6875,
-      "parties": {
-        "HSP": {
-          "votes": 765,
-          "coalition_name": "HRVATSKA STRANKA PRAVA - HSP, HRVATSKO BILO, HRVATSKA DEMOKRATSKA SELJAČKA STRANKA - HDSS"
-        },
-        "FOKUS": {
-          "votes": 8025,
-          "coalition_name": "FOKUS, REPUBLIKA"
-        },
-        "OIP": {
-          "votes": 2139,
-          "coalition_name": "ODLUČNOST I PRAVEDNOST - OIP"
-        },
-        "STRANKA IVANA PERNARA": {
-          "votes": 1708,
-          "coalition_name": "STRANKA IVANA PERNARA"
-        },
-        "DP": {
-          "votes": 14523,
-          "coalition_name": "DOMOVINSKI POKRET - DP, PRAVO I PRAVDA, DEMOKRATSKI HSS - DHSS, ZELENA LISTA, AGRAMERI - NEZAVISNA LISTA"
-        },
-        "HDZ": {
-          "votes": 39819,
-          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ, HRVATSKA SOCIJALNO - LIBERALNA STRANKA - HSLS, HRVATSKA DEMOKRŠĆANSKA STRANKA - HDS, HRVATSKA NARODNA STRANKA - LIBERALNI DEMOKRATI - HNS, HRVATSKA STRANKA UMIROVLJENIKA - HSU"
-        },
-        "MOST": {
-          "votes": 16870,
-          "coalition_name": "MOST, HRVATSKI SUVERENISTI, HRVATSKA KONZERVATIVNA STRANKA - HKS, NEZAVISNA LISTA MLADIH - NLM"
-        },
-        "POLITIČKA PLATFORMA": {
-          "votes": 35068,
-          "coalition_name": "MOŽEMO! - POLITIČKA PLATFORMA"
-        },
-        "DAMIR-KRISTIJAN ROGINA": {
-          "votes": 648,
-          "coalition_name": "NEOVISNA LISTA - DAMIR-KRISTIJAN ROGINA"
-        },
-        "POKRET ZA MODERNU HRVATSKU": {
-          "votes": 650,
-          "coalition_name": "POKRET ZA MODERNU HRVATSKU"
-        },
-        "RF": {
-          "votes": 1314,
-          "coalition_name": "RADNIČKA FRONTA - RF"
-        },
-        "SOCIJALDEMOKRATI": {
-          "votes": 1092,
-          "coalition_name": "SOCIJALDEMOKRATI, ISTARSKI DEMOKRATSKI SABOR - IDS, PRIMORSKO GORANSKI SAVEZ - PGS, HRVATSKI LABURISTI - STRANKA RADA - LABURISTI, DEMOKRATI"
-        },
-        "SDP": {
-          "votes": 37705,
-          "coalition_name": "SOCIJALDEMOKRATSKA PARTIJA HRVATSKE - SDP, CENTAR, HRVATSKA SELJAČKA STRANKA - HSS, \"DALIJA OREŠKOVIĆ I LJUDI S IMENOM I PREZIMENOM\" - \"DO i SIP\", NARODNA STRANKA - REFORMISTI - REFORMISTI, GRAĐANSKO-LIBERALNI SAVEZ - GLAS"
-        },
-        "UMIROVLJENICI ZAJEDNO": {
-          "votes": 3104,
-          "coalition_name": "UMIROVLJENICI ZAJEDNO - POLITIČKA PLATFORMA - UMIROVLJENICI ZAJEDNO, STRANKA UMIROVLJENIKA - SU, BLOK UMIROVLJENICI ZAJEDNO - BUZ, DEMOKRATSKA STRANKA UMIROVLJENIKA - DSU"
-        },
-        "HSGO": {
-          "votes": 238,
-          "coalition_name": "HRVATSKA STRANKA GRAĐANSKOG OTPORA - HSGO"
         }
       }
     },
@@ -37532,40 +37410,6 @@
         "RF": {
           "votes": 829,
           "coalition_name": "RADNIČKA FRONTA - RF"
-        }
-      }
-    },
-    "XI": {
-      "name": "XI. IZBORNA JEDINICA",
-      "total_voters": 40071,
-      "votes_cast": 40058,
-      "turnout": 0.9997,
-      "winner": "VLATKA MARTINOVIĆ",
-      "margin": 2.99,
-      "parties": {
-        "HSP": {
-          "votes": 426,
-          "coalition_name": "AUTOHTONA - HRVATSKA STRANKA PRAVA - DRAŽEN KELEMINEC - A - HSP - Dražen Keleminec"
-        },
-        "FOKUS": {
-          "votes": 186,
-          "coalition_name": "FOKUS, REPUBLIKA"
-        },
-        "VLATKA MARTINOVIĆ": {
-          "votes": 1623,
-          "coalition_name": "VLATKA MARTINOVIĆ"
-        },
-        "MARKO ČAKTAŠ": {
-          "votes": 17,
-          "coalition_name": "MARKO ČAKTAŠ"
-        },
-        "RUŽICA ALVIR": {
-          "votes": 29,
-          "coalition_name": "RUŽICA ALVIR"
-        },
-        "ŽARKO PAVLOVIĆ": {
-          "votes": 22,
-          "coalition_name": "ŽARKO PAVLOVIĆ"
         }
       }
     }
