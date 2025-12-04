@@ -53,18 +53,17 @@ export interface GeoJSON {
 }
 
 // Visualization modes
-export type VisualizationMode = 'winner' | 'margin' | 'turnout' | 'swing';
-export type ViewMode = 'municipality' | 'constituency';
+export type VisualizationMode = 'winner' | 'margin' | 'turnout';
+export type ViewMode = 'district' | 'municipality';
+export type Year = 2020 | 2024;
 
 // App state types
 export interface AppState {
-    selectedElection: string;
-    comparisonElection?: string;
+    year: Year;
     visualizationMode: VisualizationMode;
     viewMode: ViewMode;
-    selectedMunicipality?: string;
+    activeId: number | string | null; // null = national view, number = district, string = municipality
     hoveredMunicipality?: string;
-    sidebarOpen: boolean;
     zoomLevel: number;
 }
 

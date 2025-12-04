@@ -5,9 +5,6 @@ import { useAppContext } from '../../context/AppContext';
 import { loadGeoJSON, loadElectionData, loadPartyData } from '../../utils/dataLoader';
 import { calculateWinners, joinElectionWithGeo } from '../../utils/dataProcessor';
 import { ElectionData, PartyInfo } from '../../types';
-import MapControls from './MapControls';
-import Legend from '../UI/Legend';
-import './ElectionMap.css';
 
 const INITIAL_VIEW_STATE = {
     longitude: 16.5,
@@ -33,11 +30,11 @@ const BASE_MAP_STYLE = {
 
 function ElectionMap() {
     const {
-        selectedElection,
+        year,
         visualizationMode,
         viewMode,
-        selectedMunicipality,
-        setSelectedMunicipality,
+        activeId,
+        setActiveId,
         setHoveredMunicipality,
         setZoomLevel,
     } = useAppContext();
@@ -54,13 +51,16 @@ function ElectionMap() {
         feature: any;
     } | null>(null);
 
+    // Map year to election ID
+    const electionId = year === 2024 ? '2024-parliamentary' : '2020-parliamentary';
+
     useEffect(() => {
         async function loadData() {
             setLoading(true);
             try {
                 const [geo, election, partyData] = await Promise.all([
                     loadGeoJSON('municipalities'),
-                    loadElectionData(selectedElection),
+                    loadElectionData(electionId),
                     loadPartyData(),
                 ]);
 
@@ -78,12 +78,12 @@ function ElectionMap() {
         }
 
         loadData();
-    }, [selectedElection]);
+    }, [electionId]);
 
-    // Load constituency GeoJSON when switching to constituency view
+    // Load constituency GeoJSON when switching to district view
     useEffect(() => {
         async function loadConstituencyData() {
-            if (viewMode === 'constituency' && !constituencyGeoData) {
+            if (viewMode === 'district' && !constituencyGeoData) {
                 try {
                     const constGeo = await loadGeoJSON('constituencies');
                     setConstituencyGeoData(constGeo);
@@ -103,7 +103,7 @@ function ElectionMap() {
         Object.entries(electionData.results).forEach(([id, result]) => {
             let margin = result.margin || 0;
 
-            if (viewMode === 'constituency' && result.constituency && electionData.constituencies) {
+            if (viewMode === 'district' && result.constituency && electionData.constituencies) {
                 const constId = result.constituency.split('.')[0].trim();
                 const constResult = electionData.constituencies[constId];
                 margin = constResult?.margin || 0;
@@ -122,7 +122,7 @@ function ElectionMap() {
 
         const map: Record<string, number> = {};
         Object.entries(electionData.results).forEach(([id, result]) => {
-            if (viewMode === 'constituency' && result.constituency && electionData.constituencies) {
+            if (viewMode === 'district' && result.constituency && electionData.constituencies) {
                 const constId = result.constituency.split('.')[0].trim();
                 const constResult = electionData.constituencies[constId];
                 map[id] = constResult ? constResult.turnout : 0;
@@ -143,7 +143,7 @@ function ElectionMap() {
                 Object.entries(electionData.results).forEach(([id, result]) => {
                     let winnerId: string | undefined;
 
-                    if (viewMode === 'constituency' && result.constituency && electionData.constituencies) {
+                    if (viewMode === 'district' && result.constituency && electionData.constituencies) {
                         const constId = result.constituency.split('.')[0].trim();
                         const constResult = electionData.constituencies[constId];
                         winnerId = constResult?.winner;
@@ -180,7 +180,7 @@ function ElectionMap() {
                 Object.entries(electionData.results).forEach(([id, result]) => {
                     let winnerId: string | undefined;
 
-                    if (viewMode === 'constituency' && result.constituency && electionData.constituencies) {
+                    if (viewMode === 'district' && result.constituency && electionData.constituencies) {
                         const constId = result.constituency.split('.')[0].trim();
                         const constResult = electionData.constituencies[constId];
                         winnerId = constResult?.winner;
@@ -264,7 +264,7 @@ function ElectionMap() {
     }), [getConstituencyFillColor, getConstituencyFillOpacity]);
 
     const interactiveLayers = useMemo(() => (
-        viewMode === 'constituency'
+        viewMode === 'district'
             ? ['constituencies']
             : ['municipalities']
     ), [viewMode]);
@@ -276,12 +276,12 @@ function ElectionMap() {
             'line-color': '#FFFFFF',
             'line-width': [
                 'case',
-                ['==', ['to-string', ['get', 'id']], selectedMunicipality || ''],
+                ['==', ['to-string', ['get', 'id']], String(activeId) || ''],
                 3,
                 0.3,
             ],
         },
-    }), [selectedMunicipality]);
+    }), [activeId]);
 
     const constituencyOutlineLayer: LineLayer = useMemo(() => ({
         id: 'constituencies-outline',
@@ -290,19 +290,22 @@ function ElectionMap() {
             'line-color': '#FFFFFF',
             'line-width': [
                 'case',
-                ['==', ['to-string', ['get', 'id']], selectedMunicipality || ''],
+                ['==', ['to-string', ['get', 'id']], String(activeId) || ''],
                 3,
                 0.3,
             ],
         },
-    }), [selectedMunicipality]);
+    }), [activeId]);
 
     const handleClick = useCallback((event: MapLayerMouseEvent) => {
         const feature = event.features?.[0];
         if (feature) {
-            setSelectedMunicipality(feature.properties?.id);
+            const id = feature.properties?.id;
+            // Convert to number if it's a district ID (numeric string)
+            const parsedId = viewMode === 'district' ? id : id;
+            setActiveId(parsedId);
         }
-    }, [setSelectedMunicipality]);
+    }, [setActiveId, viewMode]);
 
     const handleMouseMove = useCallback((event: MapLayerMouseEvent) => {
         const feature = event.features?.[0];
@@ -335,17 +338,15 @@ function ElectionMap() {
 
     if (loading) {
         return (
-            <div className="map-container">
-                <div className="map-loading">
-                    <div className="loading-spinner"></div>
-                    <p>Loading election data...</p>
-                </div>
+            <div className="absolute inset-0 flex flex-col items-center justify-center bg-slate-100">
+                <div className="w-12 h-12 border-4 border-blue-600 border-t-transparent rounded-full animate-spin"></div>
+                <p className="mt-4 text-slate-600 text-lg">Loading map data...</p>
             </div>
         );
     }
 
     return (
-        <div className="map-container">
+        <div className="absolute inset-0 w-full h-full">
             <Map
                 initialViewState={INITIAL_VIEW_STATE}
                 style={{ width: '100%', height: '100%' }}
@@ -358,11 +359,11 @@ function ElectionMap() {
                 cursor={cursor}
                 reuseMaps
             >
-                {/* Constituency layers - shown in constituency view */}
+                {/* Constituency layers - shown in district view */}
                 {constituencyGeoData && (
                     <Source id="constituencies-source" type="geojson" data={constituencyGeoData}>
-                        {viewMode === 'constituency' && <Layer {...constituencyLayer} />}
-                        {viewMode === 'constituency' && <Layer {...constituencyOutlineLayer} />}
+                        {viewMode === 'district' && <Layer {...constituencyLayer} />}
+                        {viewMode === 'district' && <Layer {...constituencyOutlineLayer} />}
                     </Source>
                 )}
 
@@ -384,7 +385,7 @@ function ElectionMap() {
                     >
                         <div className="municipality-name">
                             {hoverInfo.feature.properties.name}
-                            {viewMode === 'constituency' && electionData?.results[hoverInfo.feature.properties.id]?.constituency && (
+                            {viewMode === 'district' && electionData?.results[hoverInfo.feature.properties.id]?.constituency && (
                                 <div style={{ fontSize: '0.8em', opacity: 0.8, marginTop: '2px' }}>
                                     {electionData.results[hoverInfo.feature.properties.id].constituency}
                                 </div>
@@ -392,9 +393,6 @@ function ElectionMap() {
                         </div>
                     </Popup>
                 )}
-
-                <Legend />
-                <MapControls />
             </Map>
         </div>
     );

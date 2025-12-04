@@ -1,14 +1,12 @@
 import React, { createContext, useContext, useState, ReactNode } from 'react';
-import { AppState, VisualizationMode, ViewMode } from '../types';
+import { AppState, VisualizationMode, ViewMode, Year } from '../types';
 
 interface AppContextType extends AppState {
-    setSelectedElection: (election: string) => void;
-    setComparisonElection: (election: string | undefined) => void;
+    setYear: (year: Year) => void;
     setVisualizationMode: (mode: VisualizationMode) => void;
     setViewMode: (mode: ViewMode) => void;
-    setSelectedMunicipality: (id: string | undefined) => void;
+    setActiveId: (id: number | string | null) => void;
     setHoveredMunicipality: (id: string | undefined) => void;
-    toggleSidebar: () => void;
     setZoomLevel: (zoom: number) => void;
 }
 
@@ -16,26 +14,16 @@ const AppContext = createContext<AppContextType | undefined>(undefined);
 
 export const AppProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
     const [state, setState] = useState<AppState>({
-        selectedElection: '2024-parliamentary',
-        comparisonElection: undefined,
+        year: 2024,
         visualizationMode: 'winner',
         viewMode: 'municipality',
-        selectedMunicipality: undefined,
+        activeId: null,
         hoveredMunicipality: undefined,
-        sidebarOpen: true,
         zoomLevel: 7,
     });
 
-    const setSelectedElection = (election: string) => {
-        setState(prev => ({ ...prev, selectedElection: election }));
-    };
-
-    const setComparisonElection = (election: string | undefined) => {
-        setState(prev => ({
-            ...prev,
-            comparisonElection: election,
-            visualizationMode: election ? 'swing' : 'winner'
-        }));
+    const setYear = (year: Year) => {
+        setState(prev => ({ ...prev, year }));
     };
 
     const setVisualizationMode = (mode: VisualizationMode) => {
@@ -43,19 +31,15 @@ export const AppProvider: React.FC<{ children: ReactNode }> = ({ children }) => 
     };
 
     const setViewMode = (mode: ViewMode) => {
-        setState(prev => ({ ...prev, viewMode: mode }));
+        setState(prev => ({ ...prev, viewMode: mode, activeId: null })); // Reset selection when changing view mode
     };
 
-    const setSelectedMunicipality = (id: string | undefined) => {
-        setState(prev => ({ ...prev, selectedMunicipality: id }));
+    const setActiveId = (id: number | string | null) => {
+        setState(prev => ({ ...prev, activeId: id }));
     };
 
     const setHoveredMunicipality = (id: string | undefined) => {
         setState(prev => ({ ...prev, hoveredMunicipality: id }));
-    };
-
-    const toggleSidebar = () => {
-        setState(prev => ({ ...prev, sidebarOpen: !prev.sidebarOpen }));
     };
 
     const setZoomLevel = (zoom: number) => {
@@ -66,13 +50,11 @@ export const AppProvider: React.FC<{ children: ReactNode }> = ({ children }) => 
         <AppContext.Provider
             value={{
                 ...state,
-                setSelectedElection,
-                setComparisonElection,
+                setYear,
                 setVisualizationMode,
                 setViewMode,
-                setSelectedMunicipality,
+                setActiveId,
                 setHoveredMunicipality,
-                toggleSidebar,
                 setZoomLevel,
             }}
         >

@@ -1,5 +1,11 @@
 import { useAppContext } from '../../context/AppContext';
-import './ElectionSelector.css';
+import {
+    Select,
+    SelectContent,
+    SelectItem,
+    SelectTrigger,
+    SelectValue,
+} from "@/components/ui/select"
 
 interface ElectionOption {
     id: string;
@@ -32,27 +38,27 @@ const ELECTIONS: ElectionOption[] = [
 function ElectionSelector() {
     const { selectedElection, setSelectedElection } = useAppContext();
 
-    const handleChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
-        setSelectedElection(event.target.value);
-    };
-
     return (
-        <div className="election-selector">
-            <label htmlFor="election-select" className="selector-label">
+        <div className="flex items-center gap-2 max-md:flex-col max-md:items-start max-md:gap-1">
+            <label className="text-sm font-semibold text-white uppercase tracking-wide max-md:text-xs">
                 Election:
             </label>
-            <select
-                id="election-select"
-                value={selectedElection}
-                onChange={handleChange}
-                className="selector-dropdown"
-            >
-                {ELECTIONS.map(election => (
-                    <option key={election.id} value={election.id}>
-                        {election.label}
-                    </option>
-                ))}
-            </select>
+            <Select value={selectedElection} onValueChange={setSelectedElection}>
+                <SelectTrigger className="w-[180px] bg-[#1a1a2e]/80 border-white/20 text-white hover:bg-[#1a1a2e]/95 hover:border-white/40 focus:ring-offset-0 focus:ring-0">
+                    <SelectValue placeholder="Select election" />
+                </SelectTrigger>
+                <SelectContent className="bg-[#1a1a2e] border-white/20 text-white">
+                    {ELECTIONS.map(election => (
+                        <SelectItem
+                            key={election.id}
+                            value={election.id}
+                            className="focus:bg-white/10 focus:text-white cursor-pointer"
+                        >
+                            {election.label}
+                        </SelectItem>
+                    ))}
+                </SelectContent>
+            </Select>
         </div>
     );
 }

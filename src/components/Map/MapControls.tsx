@@ -1,7 +1,11 @@
 import { useCallback } from 'react';
 import { useMap } from 'react-map-gl/maplibre';
 import { useAppContext } from '../../context/AppContext';
-import './MapControls.css';
+import { Button } from '@/components/ui/button';
+import {
+    ToggleGroup,
+    ToggleGroupItem,
+} from "@/components/ui/toggle-group"
 
 function MapControls() {
     const { current: map } = useMap();
@@ -24,20 +28,22 @@ function MapControls() {
     }, [map]);
 
     return (
-        <div className="map-controls">
-            <div className="view-mode-selector">
-                <select
-                    value={viewMode}
-                    onChange={(e) => setViewMode(e.target.value as any)}
-                    className="map-control-select"
-                >
-                    <option value="municipality">By Municipality</option>
-                    <option value="constituency">By Voting District</option>
-                </select>
+        <div className="absolute top-6 right-6 flex flex-col gap-2 z-10 items-end max-md:top-4 max-md:right-4">
+            <div className="mb-1 bg-[#1a1a2e]/90 backdrop-blur-sm border border-white/10 rounded-lg p-1">
+                <ToggleGroup type="single" value={viewMode} onValueChange={(value) => { if (value) setViewMode(value as any) }}>
+                    <ToggleGroupItem value="municipality" aria-label="Toggle municipality view" className="data-[state=on]:bg-[#e94560] data-[state=on]:text-white text-[#b8b8b8] hover:text-white hover:bg-white/10">
+                        Municipality
+                    </ToggleGroupItem>
+                    <ToggleGroupItem value="constituency" aria-label="Toggle constituency view" className="data-[state=on]:bg-[#e94560] data-[state=on]:text-white text-[#b8b8b8] hover:text-white hover:bg-white/10">
+                        Constituency
+                    </ToggleGroupItem>
+                </ToggleGroup>
             </div>
 
-            <button
-                className="map-control-btn"
+            <Button
+                variant="outline"
+                size="icon"
+                className="bg-[#1a1a2e]/90 backdrop-blur-sm hover:bg-[#1a1a2e] hover:border-[#e94560] hover:scale-105 active:scale-95 max-md:w-9 max-md:h-9"
                 onClick={handleZoomIn}
                 title="Zoom In"
                 aria-label="Zoom In"
@@ -45,10 +51,12 @@ function MapControls() {
                 <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
                     <path d="M10 4v12M4 10h12" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
                 </svg>
-            </button>
+            </Button>
 
-            <button
-                className="map-control-btn"
+            <Button
+                variant="outline"
+                size="icon"
+                className="bg-[#1a1a2e]/90 backdrop-blur-sm hover:bg-[#1a1a2e] hover:border-[#e94560] hover:scale-105 active:scale-95 max-md:w-9 max-md:h-9"
                 onClick={handleZoomOut}
                 title="Zoom Out"
                 aria-label="Zoom Out"
@@ -56,10 +64,12 @@ function MapControls() {
                 <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
                     <path d="M4 10h12" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
                 </svg>
-            </button>
+            </Button>
 
-            <button
-                className="map-control-btn"
+            <Button
+                variant="outline"
+                size="icon"
+                className="bg-[#1a1a2e]/90 backdrop-blur-sm hover:bg-[#1a1a2e] hover:border-[#e94560] hover:scale-105 active:scale-95 max-md:w-9 max-md:h-9"
                 onClick={handleResetView}
                 title="Reset View"
                 aria-label="Reset View"
@@ -68,7 +78,7 @@ function MapControls() {
                     <path d="M10 2a8 8 0 100 16 8 8 0 000-16zm0 14a6 6 0 110-12 6 6 0 010 12z" />
                     <path d="M10 6v4l3 2" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" fill="none" />
                 </svg>
-            </button>
+            </Button>
         </div>
     );
 }

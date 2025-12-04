@@ -1,3 +1,10 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
   /* Party Colors - Official Croatian Political Parties */
   --color-hdz: #0047AB;
@@ -16,7 +23,7 @@
   --color-text-secondary: #b8b8b8;
   --color-border: #2a2a3e;
   --color-background: #0f0f1e;
-  
+
   /* Turnout Gradient */
   --color-turnout-low: #404040;
   --color-turnout-mid: #FFA500;
@@ -63,19 +70,12 @@
   --radius-xl: 1rem;
 }
 
-/* Import Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-html, body {
+html,
+body {
   width: 100%;
-  height: 100%;
-  overflow: hidden;
+  min-height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 
 body {
@@ -90,9 +90,7 @@ body {
 
 #root {
   width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
+  min-height: 100%;
 }
 
 /* Scrollbar Styling */
@@ -182,9 +180,12 @@ a:hover {
 
 /* Loading Animation */
 @keyframes pulse {
-  0%, 100% {
+
+  0%,
+  100% {
     opacity: 1;
   }
+
   50% {
     opacity: 0.5;
   }
