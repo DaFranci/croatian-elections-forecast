@@ -133,6 +133,15 @@ function ElectionMap() {
         return map;
     }, [electionData, viewMode]);
 
+    const constituencyTurnoutMap = useMemo(() => {
+        if (!electionData?.constituencies) return {};
+        const map: Record<string, number> = {};
+        Object.entries(electionData.constituencies).forEach(([id, data]) => {
+            map[id] = data.turnout;
+        });
+        return map;
+    }, [electionData]);
+
     const getFillColor = useCallback((): any => {
         if (!electionData || !parties.length) return '#808080';
 
@@ -168,9 +177,8 @@ function ElectionMap() {
                     'interpolate',
                     ['linear'],
                     ['get', ['get', 'id'], ['literal', turnoutMap]],
-                    0.4, '#404040',
-                    0.5, '#FFA500',
-                    0.7, '#00FF00',
+                    0, '#FFFFFF',
+                    1, '#276e27ff',
                 ];
             }
 
@@ -209,6 +217,16 @@ function ElectionMap() {
     const getConstituencyFillColor = useCallback((): any => {
         if (!electionData || !parties.length) return '#808080';
 
+        if (visualizationMode === 'turnout') {
+            return [
+                'interpolate',
+                ['linear'],
+                ['get', ['get', 'id'], ['literal', constituencyTurnoutMap]],
+                0, '#FFFFFF',
+                1, '#276e27ff',
+            ];
+        }
+
         const colorExpression: any = ['match', ['get', 'id']];
 
         if (electionData.constituencies) {
@@ -225,7 +243,7 @@ function ElectionMap() {
 
         colorExpression.push('#404040');
         return colorExpression;
-    }, [electionData, parties]);
+    }, [electionData, parties, visualizationMode, constituencyTurnoutMap]);
 
     // Constituency fill opacity
     const getConstituencyFillOpacity = useCallback((): any => {

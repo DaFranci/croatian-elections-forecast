@@ -166,6 +166,7 @@ function AppContent() {
                     id: activeId,
                     name: muniData.name,
                     turnout: muniData.turnout * 100,
+                    constituency: muniData.constituency,
                     results
                 }
             }
@@ -220,7 +221,7 @@ function AppContent() {
 
                 {/* Key Metrics Row */}
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-                    <Card className="p-4 flex items-center justify-between cursor-pointer hover:border-blue-300 transition-colors" onClick={() => setActiveId(null)}>
+                    <Card className="p-4 flex items-center justify-between cursor-pointer hover:border-blue-300 transition-colors bg-white" onClick={() => setActiveId(null)}>
                         <div>
                             <p className="text-sm font-medium text-slate-500">Ukupna izlaznost</p>
                             <h3 className="text-2xl font-bold text-slate-900 mt-1">{activeData.turnout.toFixed(1)}%</h3>
@@ -230,7 +231,7 @@ function AppContent() {
                         </div>
                     </Card>
 
-                    <Card className="p-4 flex items-center justify-between">
+                    <Card className="p-4 flex items-center justify-between bg-white">
                         <div>
                             <p className="text-sm font-medium text-slate-500">Datum izbora</p>
                             <h3 className="text-xl font-bold text-slate-900 mt-1">{dateString}</h3>
@@ -336,7 +337,7 @@ function AppContent() {
                             <div className="p-6 border-b border-slate-100 bg-slate-50/80">
                                 <div className="flex items-center justify-between mb-2">
                                     <Badge variant={activeId === null ? 'default' : 'outline'} className={activeId === null ? "bg-blue-600" : "bg-white"}>
-                                        {activeId === null ? "Nacionalni rezultati" : (viewMode === 'district' ? `Izborna jedinica` : `Općina`)}
+                                        {activeId === null ? "Nacionalni rezultati" : (viewMode === 'district' ? `Izborna jedinica` : activeData.constituency)}
                                     </Badge>
                                     <span className="text-xs text-slate-400 font-mono">
                                         {year}
@@ -354,7 +355,7 @@ function AppContent() {
                             </div>
 
                             {/* Results List */}
-                            <div className="flex-1 overflow-y-auto p-6 space-y-6">
+                            <div className="flex-1 overflow-y-auto p-6 space-y-6 bg-white">
                                 <div className="space-y-4">
                                     {activeData.results.map((result, idx) => {
                                         const party = parties.find(p => p.id === result.partyId)

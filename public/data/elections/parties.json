@@ -114,6 +114,12 @@
         "color": "#A9A9A9"
     },
     {
+        "id": "NPS",
+        "name": "Nezavisna platforma Sjever",
+        "shortName": "NPS",
+        "color": "#008080"
+    },
+    {
         "id": "Other",
         "name": "Other Parties",
         "shortName": "Other",
