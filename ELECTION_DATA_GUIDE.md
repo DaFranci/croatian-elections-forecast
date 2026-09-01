@@ -100,7 +100,7 @@ Our application expects election data in this JSON format:
 1. Visit https://www.izbori.hr/
 2. Navigate to 2024 Parliamentary Election results
 3. Download results by municipality (if available as CSV/Excel)
-4. Save to `scripts/raw_data/2024_raw.csv` (or similar)
+4. Save to `public/data/elections/csvs/2024/` (one CSV per constituency)
 
 ### Step 2: Identify Data Structure
 
@@ -115,7 +115,7 @@ Open the downloaded file and note:
 I'll create a Python script to help transform the data:
 
 ```python
-# See scripts/transform_dip_data.py
+# See scripts/transform_election_data.py
 ```
 
 ### Step 4: Match Municipality IDs
