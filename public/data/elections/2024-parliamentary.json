@@ -22587,7 +22587,7 @@
         }
       }
     },
-    "novigrad": {
+    "novigrad-zadarska": {
       "name": "NOVIGRAD",
       "constituency": "VII. IZBORNA JEDINICA",
       "total_voters": 2049,
@@ -23347,7 +23347,7 @@
         }
       }
     },
-    "starigrad": {
+    "starigrad-zadarska": {
       "name": "STARIGRAD",
       "constituency": "VII. IZBORNA JEDINICA",
       "total_voters": 1792,

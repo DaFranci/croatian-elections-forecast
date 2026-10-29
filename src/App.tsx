@@ -374,6 +374,7 @@ function AppContent() {
                                                     </div>
                                                     <div className="text-right">
                                                         <div className="text-lg font-bold text-slate-900">{result.percent.toFixed(1)}%</div>
+                                                        <div className="text-xs text-slate-500 font-medium">{result.votes.toLocaleString('hr-HR')} glasova</div>
                                                     </div>
                                                 </div>
                                                 {/* Progress Bar */}

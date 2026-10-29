@@ -344,6 +344,20 @@ def process_csv_files(year):
                         elif 'zagrebačka' in county_name:
                             muni_id = 'sveta-nedelja-zagreb'
                     
+                    if muni_id == 'novigrad':
+                        county_name = (row.get('Naziv županije') or row.get('Županija') or '').lower()
+                        if 'istarska' in county_name:
+                            muni_id = 'novigrad-istarska'
+                        elif 'zadarska' in county_name:
+                            muni_id = 'novigrad-zadarska'
+
+                    if muni_id == 'starigrad':
+                        county_name = (row.get('Naziv županije') or row.get('Županija') or '').lower()
+                        if 'zadarska' in county_name:
+                            muni_id = 'starigrad-zadarska'
+                        else:
+                            muni_id = 'starigrad-hvar'
+                    
                     # Extract vote data
                     try:
                         total_voters = 0
@@ -433,7 +447,11 @@ def process_csv_files(year):
         # Extract Roman numeral or number from name
         # Assuming name format "I. IZBORNA JEDINICA"
         const_id = const_name.split('.')[0].strip() if '.' in const_name else const_name
-        
+
+        # Constituency XI (diaspora) has no map geometry and is excluded
+        if const_id == 'XI':
+            continue
+
         # Calculate winner and margin
         winner = None
         margin = 0
