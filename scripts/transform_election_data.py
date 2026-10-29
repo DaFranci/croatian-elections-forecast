@@ -245,11 +245,8 @@ def process_csv_files(year):
         return None
     
     # Get all regular result files (exclude inozemstvo and posebna)
-    # Constituency XII (national minorities, files *_12_*) is excluded: its voters are
-    # also on the regular rolls in older elections and it has no map geometry
     result_files = [f for f in csv_dir.glob('*_rezultati.csv')
-                   if 'inozemstvo' not in f.name and 'posebna' not in f.name
-                   and not f.name.endswith('_12_rezultati.csv')]
+                   if 'inozemstvo' not in f.name and 'posebna' not in f.name]
     
     if not result_files:
         print(f"ERROR: No result files found in {csv_dir}")
@@ -393,7 +390,12 @@ def process_csv_files(year):
                     const_name = ''
                     if const_key:
                         const_name = row.get(const_key, '').strip()
-                    
+
+                    # Constituency XII (national minorities) is excluded: in older elections
+                    # its voters are also on the regular rolls, and it has no map geometry
+                    if const_name.startswith('XII.'):
+                        continue
+
                     # Extract party votes
                     party_votes = extract_party_votes(row, party_columns, headers)
                     

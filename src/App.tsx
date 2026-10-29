@@ -2,7 +2,7 @@ import { useState, useEffect, useMemo } from 'react'
 import { AppProvider, useAppContext } from './context/AppContext'
 import { loadElectionData, loadPartyData } from './utils/dataLoader'
 import { calculateWinners, calculateSeats } from './utils/dataProcessor'
-import { ElectionData, PartyInfo } from './types'
+import { ELECTIONS, ElectionData, PartyInfo } from './types'
 import ElectionMap from './components/Map/ElectionMap'
 import { Card } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
@@ -37,7 +37,7 @@ function AppContent() {
     const [loading, setLoading] = useState(true)
 
     // Map year to election ID
-    const electionId = year === 2024 ? '2024-parliamentary' : '2020-parliamentary'
+    const electionId = `${year}-parliamentary`
 
     useEffect(() => {
         async function loadData() {
@@ -187,7 +187,7 @@ function AppContent() {
     }
 
     const leadingParty = parties.find(p => p.id === activeData.results[0]?.partyId)
-    const dateString = year === 2024 ? "17. travnja 2024." : "5. srpnja 2020."
+    const dateString = ELECTIONS.find(e => e.year === year)?.date
 
     return (
         <div className="min-h-screen bg-slate-50 text-slate-900 font-sans p-4 md:p-6 lg:p-8">
@@ -203,19 +203,17 @@ function AppContent() {
                     </div>
 
                     <div className="flex items-center gap-2 bg-white p-1.5 rounded-lg border border-slate-200 shadow-sm">
-                        <button
-                            onClick={() => setYear(2020)}
-                            className={cn("px-4 py-1.5 rounded-md text-sm font-medium transition-all", year === 2020 ? 'bg-slate-100 text-slate-900 shadow-sm' : 'text-slate-500 hover:text-slate-900')}
-                        >
-                            2020.
-                        </button>
-                        <div className="w-px h-4 bg-slate-200"></div>
-                        <button
-                            onClick={() => setYear(2024)}
-                            className={cn("px-4 py-1.5 rounded-md text-sm font-medium transition-all", year === 2024 ? 'bg-slate-100 text-slate-900 shadow-sm' : 'text-slate-500 hover:text-slate-900')}
-                        >
-                            2024.
-                        </button>
+                        {ELECTIONS.map((election, i) => (
+                            <div key={election.year} className="flex items-center gap-2">
+                                {i > 0 && <div className="w-px h-4 bg-slate-200"></div>}
+                                <button
+                                    onClick={() => setYear(election.year)}
+                                    className={cn("px-4 py-1.5 rounded-md text-sm font-medium transition-all", year === election.year ? 'bg-slate-100 text-slate-900 shadow-sm' : 'text-slate-500 hover:text-slate-900')}
+                                >
+                                    {election.year}.
+                                </button>
+                            </div>
+                        ))}
                     </div>
                 </header>
 

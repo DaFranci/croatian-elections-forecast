@@ -120,6 +120,36 @@
         "color": "#008080"
     },
     {
+        "id": "STRANKA RADA I SOLIDARNOSTI",
+        "name": "Bandić Milan 365 - Stranka rada i solidarnosti",
+        "shortName": "BM 365",
+        "color": "#C2185B"
+    },
+    {
+        "id": "ODRŽIVI RAZVOJ HRVATSKE",
+        "name": "Održivi razvoj Hrvatske",
+        "shortName": "ORaH",
+        "color": "#7CB342"
+    },
+    {
+        "id": "DOMOVINSKI POKRET",
+        "name": "Domovinski pokret",
+        "shortName": "DP",
+        "color": "#FF6B35"
+    },
+    {
+        "id": "STRANKA S IMENOM I PREZIMENOM",
+        "name": "Stranka s imenom i prezimenom",
+        "shortName": "SIP",
+        "color": "#5D6D7E"
+    },
+    {
+        "id": "UMIROVLJENICI ZAJEDNO",
+        "name": "Umirovljenici zajedno",
+        "shortName": "Umirovljenici",
+        "color": "#7E57C2"
+    },
+    {
         "id": "Other",
         "name": "Other Parties",
         "shortName": "Other",

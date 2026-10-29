@@ -52,7 +52,7 @@ function ElectionMap() {
     } | null>(null);
 
     // Map year to election ID
-    const electionId = year === 2024 ? '2024-parliamentary' : '2020-parliamentary';
+    const electionId = `${year}-parliamentary`;
 
     useEffect(() => {
         async function loadData() {

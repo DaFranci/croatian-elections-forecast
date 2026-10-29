@@ -55,7 +55,15 @@ export interface GeoJSON {
 // Visualization modes
 export type VisualizationMode = 'winner' | 'margin' | 'turnout';
 export type ViewMode = 'district' | 'municipality';
-export type Year = 2020 | 2024;
+
+// Available elections, oldest first
+export const ELECTIONS = [
+    { year: 2015, date: '8. studenoga 2015.' },
+    { year: 2016, date: '11. rujna 2016.' },
+    { year: 2020, date: '5. srpnja 2020.' },
+    { year: 2024, date: '17. travnja 2024.' },
+] as const;
+export type Year = typeof ELECTIONS[number]['year'];
 
 // App state types
 export interface AppState {
