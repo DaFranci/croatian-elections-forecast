@@ -42,6 +42,16 @@ ELECTION_METADATA = {
         'election_id': '2015-parliamentary',
         'date': '2015-11-08',
         'type': 'parliamentary'
+    },
+    '2011': {
+        'election_id': '2011-parliamentary',
+        'date': '2011-12-04',
+        'type': 'parliamentary'
+    },
+    '2007': {
+        'election_id': '2007-parliamentary',
+        'date': '2007-11-25',
+        'type': 'parliamentary'
     }
 }
 
@@ -558,7 +568,7 @@ def main():
         print("Usage: python transform_election_data.py <year>")
         print("\nExample:")
         print("  python transform_election_data.py 2024")
-        print("\nAvailable years: 2024, 2020, 2016, 2015")
+        print("\nAvailable years: 2024, 2020, 2016, 2015, 2011, 2007 (run convert_legacy_csv.py first for 2011, 2007)")
         sys.exit(1)
     
     year = sys.argv[1]

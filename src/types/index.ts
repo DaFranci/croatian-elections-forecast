@@ -58,6 +58,8 @@ export type ViewMode = 'district' | 'municipality';
 
 // Available elections, oldest first
 export const ELECTIONS = [
+    { year: 2007, date: '25. studenoga 2007.' },
+    { year: 2011, date: '4. prosinca 2011.' },
     { year: 2015, date: '8. studenoga 2015.' },
     { year: 2016, date: '11. rujna 2016.' },
     { year: 2020, date: '5. srpnja 2020.' },

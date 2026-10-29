@@ -202,7 +202,7 @@ function AppContent() {
                         </p>
                     </div>
 
-                    <div className="flex items-center gap-2 bg-white p-1.5 rounded-lg border border-slate-200 shadow-sm">
+                    <div className="flex flex-wrap items-center gap-2 bg-white p-1.5 rounded-lg border border-slate-200 shadow-sm">
                         {ELECTIONS.map((election, i) => (
                             <div key={election.year} className="flex items-center gap-2">
                                 {i > 0 && <div className="w-px h-4 bg-slate-200"></div>}

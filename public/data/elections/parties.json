@@ -150,6 +150,24 @@
         "color": "#7E57C2"
     },
     {
+        "id": "HRVATSKI LABURISTI-STRANKA RADA",
+        "name": "Hrvatski laburisti - Stranka rada",
+        "shortName": "Laburisti",
+        "color": "#B71C1C"
+    },
+    {
+        "id": "HSLS",
+        "name": "Hrvatska socijalno-liberalna stranka",
+        "shortName": "HSLS",
+        "color": "#1E88E5"
+    },
+    {
+        "id": "HSU",
+        "name": "Hrvatska stranka umirovljenika",
+        "shortName": "HSU",
+        "color": "#795548"
+    },
+    {
         "id": "Other",
         "name": "Other Parties",
         "shortName": "Other",
