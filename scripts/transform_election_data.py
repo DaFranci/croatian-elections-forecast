@@ -37,6 +37,11 @@ ELECTION_METADATA = {
         'election_id': '2016-parliamentary',
         'date': '2016-09-11',
         'type': 'parliamentary'
+    },
+    '2015': {
+        'election_id': '2015-parliamentary',
+        'date': '2015-11-08',
+        'type': 'parliamentary'
     }
 }
 
@@ -240,8 +245,11 @@ def process_csv_files(year):
         return None
     
     # Get all regular result files (exclude inozemstvo and posebna)
-    result_files = [f for f in csv_dir.glob('*_rezultati.csv') 
-                   if 'inozemstvo' not in f.name and 'posebna' not in f.name]
+    # Constituency XII (national minorities, files *_12_*) is excluded: its voters are
+    # also on the regular rolls in older elections and it has no map geometry
+    result_files = [f for f in csv_dir.glob('*_rezultati.csv')
+                   if 'inozemstvo' not in f.name and 'posebna' not in f.name
+                   and not f.name.endswith('_12_rezultati.csv')]
     
     if not result_files:
         print(f"ERROR: No result files found in {csv_dir}")
@@ -548,7 +556,7 @@ def main():
         print("Usage: python transform_election_data.py <year>")
         print("\nExample:")
         print("  python transform_election_data.py 2024")
-        print("\nAvailable years: 2024, 2020, 2016")
+        print("\nAvailable years: 2024, 2020, 2016, 2015")
         sys.exit(1)
     
     year = sys.argv[1]
