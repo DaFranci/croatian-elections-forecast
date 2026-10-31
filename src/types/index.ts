@@ -56,6 +56,14 @@ export interface GeoJSON {
 export type VisualizationMode = 'winner' | 'margin' | 'turnout';
 export type ViewMode = 'district' | 'municipality';
 
+// Election types shown in the picker; only parliamentary data exists so far
+export const ELECTION_TYPES = [
+    { id: 'parliamentary', label: 'Parlamentarni izbori', available: true },
+    { id: 'presidential', label: 'Predsjednički izbori', available: false },
+    { id: 'local', label: 'Lokalni izbori', available: false },
+    { id: 'eu', label: 'Izbori za Europski parlament', available: false },
+] as const;
+
 // Available elections, oldest first, with the municipality and constituency
 // boundaries in force
 export const ELECTIONS = [

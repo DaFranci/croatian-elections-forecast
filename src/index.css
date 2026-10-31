@@ -70,6 +70,7 @@
   --radius-xl: 1rem;
 }
 
+@layer base {
 html,
 body {
   width: 100%;
@@ -93,6 +94,8 @@ body {
   min-height: 100%;
 }
 
+}
+
 /* Scrollbar Styling */
 ::-webkit-scrollbar {
   width: 8px;
@@ -100,59 +103,19 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-  background: var(--color-secondary);
+  background: transparent;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: var(--color-accent);
+  background: #cbd5e1;
   border-radius: var(--radius-md);
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--color-highlight);
+  background: #94a3b8;
 }
 
-/* Utility Classes */
-.text-center {
-  text-align: center;
-}
-
-.text-bold {
-  font-weight: 600;
-}
-
-.text-muted {
-  color: var(--color-text-secondary);
-}
-
-.flex {
-  display: flex;
-}
-
-.flex-col {
-  flex-direction: column;
-}
-
-.items-center {
-  align-items: center;
-}
-
-.justify-between {
-  justify-content: space-between;
-}
-
-.gap-sm {
-  gap: var(--spacing-sm);
-}
-
-.gap-md {
-  gap: var(--spacing-md);
-}
-
-.gap-lg {
-  gap: var(--spacing-lg);
-}
-
+@layer base {
 /* Button Base Styles */
 button {
   font-family: var(--font-primary);
@@ -176,6 +139,8 @@ a {
 
 a:hover {
   color: var(--color-text);
+}
+
 }
 
 /* Loading Animation */

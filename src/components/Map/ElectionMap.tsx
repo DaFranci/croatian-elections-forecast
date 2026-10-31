@@ -6,13 +6,23 @@ import { loadGeoJSON, loadElectionData, loadPartyData } from '../../utils/dataLo
 import { calculateWinners, getPartyColor, joinElectionWithGeo, NO_DATA_COLOR } from '../../utils/dataProcessor';
 import { ELECTIONS, ElectionData, PartyInfo } from '../../types';
 
-// Fit the whole of Croatia on load, whatever the container size
-const INITIAL_VIEW_STATE = {
-    bounds: [[13.4, 42.35], [19.5, 46.6]] as [[number, number], [number, number]],
-    fitBoundsOptions: { padding: 20 },
-    pitch: 0,
-    bearing: 0,
-};
+const CROATIA_BOUNDS: [[number, number], [number, number]] = [[13.4, 42.35], [19.5, 46.6]];
+
+// Fit the whole of Croatia on load into the space the floating panels leave free:
+// the results sidebar on the right on desktop, controls and bottom sheet on mobile
+function initialViewState() {
+    const desktop = window.matchMedia('(min-width: 1024px)').matches;
+    return {
+        bounds: CROATIA_BOUNDS,
+        fitBoundsOptions: {
+            padding: desktop
+                ? { top: 30, bottom: 70, left: 30, right: 380 }
+                : { top: 240, bottom: 110, left: 12, right: 12 },
+        },
+        pitch: 0,
+        bearing: 0,
+    };
+}
 
 const BASE_MAP_STYLE = {
     version: 8 as const,
@@ -374,7 +384,7 @@ function ElectionMap() {
     return (
         <div className="absolute inset-0 w-full h-full">
             <Map
-                initialViewState={INITIAL_VIEW_STATE}
+                initialViewState={initialViewState()}
                 style={{ width: '100%', height: '100%' }}
                 mapStyle={BASE_MAP_STYLE}
                 interactiveLayerIds={interactiveLayers}
