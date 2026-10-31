@@ -204,7 +204,7 @@ function AppContent() {
 
     return (
         <div className="min-h-screen bg-slate-50 text-slate-900 font-sans p-4 md:p-6 lg:p-8">
-            <div className="max-w-7xl mx-auto space-y-6">
+            <div className="max-w-[1920px] mx-auto space-y-6">
                 {/* Header */}
                 <header className="flex flex-col md:flex-row md:items-center justify-between gap-4">
                     <div>
@@ -268,7 +268,7 @@ function AppContent() {
                 {/* Main Content Grid */}
                 <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
                     {/* Left Column: Map & Controls */}
-                    <div className="lg:col-span-7 xl:col-span-8 space-y-4">
+                    <div className="lg:col-span-8 xl:col-span-9 space-y-4">
                         <Card className="p-1 overflow-hidden bg-slate-50/50">
                             {/* Map Toolbar */}
                             <div className="flex flex-wrap items-center justify-between gap-3 p-2 mb-2 bg-white m-1 rounded-lg border border-slate-100">
@@ -323,7 +323,7 @@ function AppContent() {
                             </div>
 
                             {/* The Map */}
-                            <div className="aspect-[4/3] w-full px-4 md:px-12 py-4 relative">
+                            <div className="h-[65vh] lg:h-[80vh] min-h-[480px] w-full relative">
                                 <ElectionMap />
                             </div>
 
@@ -346,8 +346,8 @@ function AppContent() {
                     </div>
 
                     {/* Right Column: Details Sidebar */}
-                    <div className="lg:col-span-5 xl:col-span-4">
-                        <Card className="h-full max-h-[800px] flex flex-col border-0 shadow-lg ring-1 ring-slate-200">
+                    <div className="lg:col-span-4 xl:col-span-3 relative min-h-[480px]">
+                        <Card className="max-h-[800px] lg:max-h-none lg:absolute lg:inset-0 flex flex-col border-0 shadow-lg ring-1 ring-slate-200">
                             {/* Sidebar Header */}
                             <div className="p-6 border-b border-slate-100 bg-slate-50/80">
                                 <div className="flex items-center justify-between mb-2">

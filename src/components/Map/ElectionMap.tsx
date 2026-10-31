@@ -6,10 +6,10 @@ import { loadGeoJSON, loadElectionData, loadPartyData } from '../../utils/dataLo
 import { calculateWinners, getPartyColor, joinElectionWithGeo, NO_DATA_COLOR } from '../../utils/dataProcessor';
 import { ELECTIONS, ElectionData, PartyInfo } from '../../types';
 
+// Fit the whole of Croatia on load, whatever the container size
 const INITIAL_VIEW_STATE = {
-    longitude: 16.5,
-    latitude: 44.5,
-    zoom: 7,
+    bounds: [[13.4, 42.35], [19.5, 46.6]] as [[number, number], [number, number]],
+    fitBoundsOptions: { padding: 20 },
     pitch: 0,
     bearing: 0,
 };
