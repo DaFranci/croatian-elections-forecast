@@ -220,32 +220,48 @@ def parse_votes(value):
     except ValueError:
         return 0
 
-def resolve_party_ids(party_columns, headers, rows):
+def lead_party_name(clean_name):
+    """Full name of a list's lead party: 'HRVATSKI PRAVAŠI - HP, ...' -> 'HRVATSKI PRAVAŠI - HP'"""
+    return ' '.join(clean_name.split(',')[0].split())
+
+def find_shared_party_ids(file_tables):
     """
-    Assign a unique party ID to each party column of a file.
+    Find party IDs shared by different lists within a file, and pick an owner per year.
     Different lists can share a lead party abbreviation (e.g. 'AUTOHTONA - ... - A - HSP'
-    and the HSP coalition). The list with the most votes in the file keeps the ID;
-    the others are identified by their lead party's full name.
+    and the HSP coalition). The lead party with the most votes across all files keeps
+    the ID in every file, so IDs are consistent between constituencies.
+    file_tables: list of (headers, rows, party_columns)
+    Returns a dict: { party_id: owning lead party name }
+    """
+    totals = defaultdict(lambda: defaultdict(int))  # party_id -> lead name -> votes
+    shared = set()
+    for headers, rows, party_columns in file_tables:
+        names_by_id = defaultdict(set)
+        for col_idx, party_name in party_columns:
+            clean_name = clean_party_name(party_name)
+            party_id = extract_lead_party_id(clean_name) if clean_name else None
+            if party_id and col_idx < len(headers):
+                names_by_id[party_id].add(lead_party_name(clean_name))
+                totals[party_id][lead_party_name(clean_name)] += sum(
+                    parse_votes(row.get(headers[col_idx])) for row in rows)
+        shared |= {pid for pid, names in names_by_id.items() if len(names) > 1}
+
+    return {pid: max(totals[pid], key=totals[pid].get) for pid in shared}
+
+def resolve_party_ids(party_columns, shared_ids):
+    """
+    Assign a party ID to each party column of a file. For IDs shared by several lists,
+    lists other than the owner are identified by their lead party's full name.
     Returns a dict: { col_idx: party_id }
     """
-    by_id = defaultdict(list)
+    party_ids = {}
     for col_idx, party_name in party_columns:
         clean_name = clean_party_name(party_name)
         party_id = extract_lead_party_id(clean_name) if clean_name else None
-        if party_id and col_idx < len(headers):
-            total = sum(parse_votes(row.get(headers[col_idx])) for row in rows)
-            by_id[party_id].append((total, col_idx, clean_name))
-
-    party_ids = {}
-    for party_id, columns in by_id.items():
-        columns.sort(reverse=True)
-        party_ids[columns[0][1]] = party_id
-        for _, col_idx, clean_name in columns[1:]:
-            fallback = ' '.join(clean_name.split(',')[0].split())
-            while fallback in by_id or fallback in party_ids.values():
-                fallback += '*'
-            party_ids[col_idx] = fallback
-            print(f"  Party ID '{party_id}' is shared; using '{fallback}' for {clean_name[:60]}")
+        if party_id in shared_ids and lead_party_name(clean_name) != shared_ids[party_id]:
+            party_id = lead_party_name(clean_name)
+        if party_id:
+            party_ids[col_idx] = party_id
     return party_ids
 
 def extract_party_votes(row, party_columns, headers, party_ids):
@@ -321,7 +337,19 @@ def process_csv_files(year):
     
     total_voters_national = 0
     total_votes_national = 0
-    
+
+    # Read all files first so shared party IDs are resolved the same way in every constituency
+    file_tables = []
+    for csv_file in result_files:
+        encoding = try_read_csv(csv_file)
+        if encoding:
+            with open(csv_file, 'r', encoding=encoding) as f:
+                reader = csv.DictReader(f, delimiter=';')
+                file_tables.append((reader.fieldnames, list(reader), identify_party_columns(reader.fieldnames)))
+    shared_ids = find_shared_party_ids(file_tables)
+    for party_id, owner in shared_ids.items():
+        print(f"Party ID '{party_id}' is shared; kept by '{owner}', other lists use their full name")
+
     for csv_file in result_files:
         print(f"Processing: {csv_file.name}")
         
@@ -340,7 +368,7 @@ def process_csv_files(year):
 
                 # Identify party columns once per file
                 party_columns = identify_party_columns(headers)
-                party_ids = resolve_party_ids(party_columns, headers, rows)
+                party_ids = resolve_party_ids(party_columns, shared_ids)
 
                 # Identify constituency column once per file
                 const_key = None

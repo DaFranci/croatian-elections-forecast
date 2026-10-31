@@ -91,11 +91,11 @@
           "votes": 11,
           "coalition_name": "HRVATSKI NEZAVISNI DEMOKRATI - HND"
         },
-        "HRVATSKI PRAVAŠI - HP": {
+        "HP": {
           "votes": 4,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         },
-        "HP": {
+        "HRVATSKI PROLJEĆARI - HP": {
           "votes": 2,
           "coalition_name": "HRVATSKI PROLJEĆARI - HP"
         },
@@ -256,7 +256,7 @@
           "votes": 17,
           "coalition_name": "HRVATSKI NEZAVISNI DEMOKRATI - HND"
         },
-        "HP": {
+        "HRVATSKI PROLJEĆARI - HP": {
           "votes": 5,
           "coalition_name": "HRVATSKI PROLJEĆARI - HP"
         },
@@ -320,7 +320,7 @@
           "votes": 4,
           "coalition_name": "DOMOVINSKA GRAĐANSKA STRANKA - DGS"
         },
-        "HRVATSKI PRAVAŠI - HP": {
+        "HP": {
           "votes": 3,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         },
@@ -429,7 +429,7 @@
           "votes": 3,
           "coalition_name": "NEOVISNA LISTA - VESNA KANIŽAJ"
         },
-        "HRVATSKI PRAVAŠI - HP": {
+        "HP": {
           "votes": 1,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         },
@@ -570,7 +570,7 @@
           "votes": 8,
           "coalition_name": "HRVATSKA RADNIČKA STRANKA - HRS"
         },
-        "HRVATSKI PRAVAŠI - HP": {
+        "HP": {
           "votes": 5,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         },
@@ -598,7 +598,7 @@
           "votes": 1,
           "coalition_name": "DOMOVINSKA GRAĐANSKA STRANKA - DGS"
         },
-        "HP": {
+        "HRVATSKI PROLJEĆARI - HP": {
           "votes": 2,
           "coalition_name": "HRVATSKI PROLJEĆARI - HP"
         },
@@ -731,7 +731,7 @@
           "votes": 2,
           "coalition_name": "HRVATSKA RADNIČKA STRANKA - HRS"
         },
-        "HP": {
+        "HRVATSKI PROLJEĆARI - HP": {
           "votes": 1,
           "coalition_name": "HRVATSKI PROLJEĆARI - HP"
         },
@@ -1017,7 +1017,7 @@
           "votes": 2,
           "coalition_name": "HRVATSKA EUROPSKA STRANKA - HES"
         },
-        "HRVATSKI PRAVAŠI - HP": {
+        "HP": {
           "votes": 1,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         },
@@ -1037,7 +1037,7 @@
           "votes": 3,
           "coalition_name": "SOCIJALNO-DEMOKRATSKA UNIJA HRVATSKE - SDU"
         },
-        "HP": {
+        "HRVATSKI PROLJEĆARI - HP": {
           "votes": 3,
           "coalition_name": "HRVATSKI PROLJEĆARI - HP"
         },
@@ -1206,7 +1206,7 @@
           "votes": 7,
           "coalition_name": "NEOVISNA LISTA - BOŽIDAR ŠPOLJAR"
         },
-        "HP": {
+        "HRVATSKI PROLJEĆARI - HP": {
           "votes": 4,
           "coalition_name": "HRVATSKI PROLJEĆARI - HP"
         },
@@ -1218,7 +1218,7 @@
           "votes": 7,
           "coalition_name": "SOCIJALNO-DEMOKRATSKA UNIJA HRVATSKE - SDU"
         },
-        "HRVATSKI PRAVAŠI - HP": {
+        "HP": {
           "votes": 8,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         }
@@ -1347,8 +1347,8 @@
           "votes": 377,
           "coalition_name": "HRVATSKA EUROPSKA STRANKA - HES"
         },
-        "HRVATSKI PRAVAŠI - HP": {
-          "votes": 123,
+        "HP": {
+          "votes": 210,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         },
         "POL": {
@@ -1367,8 +1367,8 @@
           "votes": 303,
           "coalition_name": "DOMOVINSKA GRAĐANSKA STRANKA - DGS"
         },
-        "HP": {
-          "votes": 221,
+        "HRVATSKI PROLJEĆARI - HP": {
+          "votes": 134,
           "coalition_name": "HRVATSKI PROLJEĆARI - HP"
         },
         "JOSIP N. KRZNARIĆ": {
@@ -52755,7 +52755,7 @@
           "votes": 2,
           "coalition_name": "ZELENI HRVATSKE - ZELENI HR"
         },
-        "HRVATSKI PRAVAŠI - HP": {
+        "HP": {
           "votes": 2,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         },
@@ -52767,7 +52767,7 @@
           "votes": 7,
           "coalition_name": "HRVATSKA RADNIČKA STRANKA - HRS"
         },
-        "HP": {
+        "HRVATSKI PROLJEĆARI - HP": {
           "votes": 3,
           "coalition_name": "HRVATSKI PROLJEĆARI - HP"
         },
@@ -52872,7 +52872,7 @@
           "votes": 1,
           "coalition_name": "HRVATSKA PUČKA STRANKA - HPS"
         },
-        "HRVATSKI PRAVAŠI - HP": {
+        "HP": {
           "votes": 1,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         },
@@ -52949,7 +52949,7 @@
           "votes": 83,
           "coalition_name": "HRVATSKI ISTINSKI PREPOROD - HIP, HRVATSKI BLOK-POKRET ZA MODERNU HRVATSKU - HRVATSKI BLOK"
         },
-        "HP": {
+        "HRVATSKI PROLJEĆARI - HP": {
           "votes": 10,
           "coalition_name": "HRVATSKI PROLJEĆARI - HP"
         },
@@ -53009,7 +53009,7 @@
           "votes": 9,
           "coalition_name": "NEOVISNA LISTA - STANISLAV ANTIĆ"
         },
-        "HRVATSKI PRAVAŠI - HP": {
+        "HP": {
           "votes": 5,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         },
@@ -53203,7 +53203,7 @@
           "votes": 121,
           "coalition_name": "HRVATSKI ISTINSKI PREPOROD - HIP, HRVATSKI BLOK-POKRET ZA MODERNU HRVATSKU - HRVATSKI BLOK"
         },
-        "HRVATSKI PRAVAŠI - HP": {
+        "HP": {
           "votes": 3,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         },
@@ -53219,7 +53219,7 @@
           "votes": 14,
           "coalition_name": "HRVATSKA PUČKA STRANKA - HPS"
         },
-        "HP": {
+        "HRVATSKI PROLJEĆARI - HP": {
           "votes": 1,
           "coalition_name": "HRVATSKI PROLJEĆARI - HP"
         },
@@ -53360,7 +53360,7 @@
           "votes": 1,
           "coalition_name": "HRVATSKI DALMATINSKI DOM - HDD"
         },
-        "HP": {
+        "HRVATSKI PROLJEĆARI - HP": {
           "votes": 1,
           "coalition_name": "HRVATSKI PROLJEĆARI - HP"
         },
@@ -53376,7 +53376,7 @@
           "votes": 1,
           "coalition_name": "STRANKA HRVATSKIH BRANITELJA - SHB"
         },
-        "HRVATSKI PRAVAŠI - HP": {
+        "HP": {
           "votes": 1,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         },
@@ -53481,7 +53481,7 @@
           "votes": 77,
           "coalition_name": "HRVATSKI ISTINSKI PREPOROD - HIP, HRVATSKI BLOK-POKRET ZA MODERNU HRVATSKU - HRVATSKI BLOK"
         },
-        "HP": {
+        "HRVATSKI PROLJEĆARI - HP": {
           "votes": 3,
           "coalition_name": "HRVATSKI PROLJEĆARI - HP"
         },
@@ -53505,7 +53505,7 @@
           "votes": 21,
           "coalition_name": "DEMOKRATSKA SOCIJALNA UNIJA-SNAGA NARODA - DSU-SN"
         },
-        "HRVATSKI PRAVAŠI - HP": {
+        "HP": {
           "votes": 7,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         },
@@ -53614,11 +53614,11 @@
           "votes": 52,
           "coalition_name": "HRVATSKI ISTINSKI PREPOROD - HIP, HRVATSKI BLOK-POKRET ZA MODERNU HRVATSKU - HRVATSKI BLOK"
         },
-        "HRVATSKI PRAVAŠI - HP": {
+        "HP": {
           "votes": 3,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         },
-        "HP": {
+        "HRVATSKI PROLJEĆARI - HP": {
           "votes": 1,
           "coalition_name": "HRVATSKI PROLJEĆARI - HP"
         },
@@ -53900,11 +53900,11 @@
           "votes": 14,
           "coalition_name": "HRVATSKI ISTINSKI PREPOROD - HIP, HRVATSKI BLOK-POKRET ZA MODERNU HRVATSKU - HRVATSKI BLOK"
         },
-        "HRVATSKI PRAVAŠI - HP": {
+        "HP": {
           "votes": 3,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         },
-        "HP": {
+        "HRVATSKI PROLJEĆARI - HP": {
           "votes": 7,
           "coalition_name": "HRVATSKI PROLJEĆARI - HP"
         },
@@ -54005,7 +54005,7 @@
           "votes": 9,
           "coalition_name": "HRVATSKI ISTINSKI PREPOROD - HIP, HRVATSKI BLOK-POKRET ZA MODERNU HRVATSKU - HRVATSKI BLOK"
         },
-        "HP": {
+        "HRVATSKI PROLJEĆARI - HP": {
           "votes": 1,
           "coalition_name": "HRVATSKI PROLJEĆARI - HP"
         },
@@ -54215,7 +54215,7 @@
           "votes": 50,
           "coalition_name": "HRVATSKI ISTINSKI PREPOROD - HIP, HRVATSKI BLOK-POKRET ZA MODERNU HRVATSKU - HRVATSKI BLOK"
         },
-        "HP": {
+        "HRVATSKI PROLJEĆARI - HP": {
           "votes": 2,
           "coalition_name": "HRVATSKI PROLJEĆARI - HP"
         },
@@ -54287,7 +54287,7 @@
           "votes": 4,
           "coalition_name": "KRŠĆANSKA SOCIJALNA UNIJA - KSU"
         },
-        "HRVATSKI PRAVAŠI - HP": {
+        "HP": {
           "votes": 6,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         }
@@ -54348,7 +54348,7 @@
           "votes": 17,
           "coalition_name": "HRVATSKI ISTINSKI PREPOROD - HIP, HRVATSKI BLOK-POKRET ZA MODERNU HRVATSKU - HRVATSKI BLOK"
         },
-        "HRVATSKI PRAVAŠI - HP": {
+        "HP": {
           "votes": 1,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         },
@@ -54396,7 +54396,7 @@
           "votes": 3,
           "coalition_name": "HRVATSKA RADNIČKA STRANKA - HRS"
         },
-        "HP": {
+        "HRVATSKI PROLJEĆARI - HP": {
           "votes": 1,
           "coalition_name": "HRVATSKI PROLJEĆARI - HP"
         },
@@ -54557,7 +54557,7 @@
           "votes": 6,
           "coalition_name": "HRVATSKA REPUBLIKANSKA ZAJEDNICA - HRZ"
         },
-        "HP": {
+        "HRVATSKI PROLJEĆARI - HP": {
           "votes": 5,
           "coalition_name": "HRVATSKI PROLJEĆARI - HP"
         },
@@ -54763,7 +54763,7 @@
           "votes": 3,
           "coalition_name": "ZELENI HRVATSKE - ZELENI HR"
         },
-        "HP": {
+        "HRVATSKI PROLJEĆARI - HP": {
           "votes": 1,
           "coalition_name": "HRVATSKI PROLJEĆARI - HP"
         },
@@ -54900,7 +54900,7 @@
           "votes": 1,
           "coalition_name": "ZELENI HRVATSKE - ZELENI HR"
         },
-        "HP": {
+        "HRVATSKI PROLJEĆARI - HP": {
           "votes": 1,
           "coalition_name": "HRVATSKI PROLJEĆARI - HP"
         },
@@ -54993,7 +54993,7 @@
           "votes": 3,
           "coalition_name": "HRVATSKI ISTINSKI PREPOROD - HIP, HRVATSKI BLOK-POKRET ZA MODERNU HRVATSKU - HRVATSKI BLOK"
         },
-        "HRVATSKI PRAVAŠI - HP": {
+        "HP": {
           "votes": 3,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         },
@@ -55288,7 +55288,7 @@
           "votes": 1,
           "coalition_name": "HRVATSKA STRANKA UMIROVLJENIKA - HSU"
         },
-        "HP": {
+        "HRVATSKI PROLJEĆARI - HP": {
           "votes": 1,
           "coalition_name": "HRVATSKI PROLJEĆARI - HP"
         },
@@ -55324,7 +55324,7 @@
           "votes": 1,
           "coalition_name": "HRVATSKI ISTINSKI PREPOROD - HIP, HRVATSKI BLOK-POKRET ZA MODERNU HRVATSKU - HRVATSKI BLOK"
         },
-        "HRVATSKI PRAVAŠI - HP": {
+        "HP": {
           "votes": 1,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         },
@@ -55473,7 +55473,7 @@
           "votes": 3,
           "coalition_name": "AKCIJA SOCIJALDEMOKRATA HRVATSKE - ASH"
         },
-        "HP": {
+        "HRVATSKI PROLJEĆARI - HP": {
           "votes": 1,
           "coalition_name": "HRVATSKI PROLJEĆARI - HP"
         }
@@ -55546,7 +55546,7 @@
           "votes": 2,
           "coalition_name": "HRVATSKI ISTINSKI PREPOROD - HIP, HRVATSKI BLOK-POKRET ZA MODERNU HRVATSKU - HRVATSKI BLOK"
         },
-        "HRVATSKI PRAVAŠI - HP": {
+        "HP": {
           "votes": 1,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         },
@@ -55683,7 +55683,7 @@
           "votes": 10,
           "coalition_name": "HRVATSKI ISTINSKI PREPOROD - HIP, HRVATSKI BLOK-POKRET ZA MODERNU HRVATSKU - HRVATSKI BLOK"
         },
-        "HP": {
+        "HRVATSKI PROLJEĆARI - HP": {
           "votes": 4,
           "coalition_name": "HRVATSKI PROLJEĆARI - HP"
         },
@@ -55828,7 +55828,7 @@
           "votes": 40,
           "coalition_name": "HRVATSKI ISTINSKI PREPOROD - HIP, HRVATSKI BLOK-POKRET ZA MODERNU HRVATSKU - HRVATSKI BLOK"
         },
-        "HP": {
+        "HRVATSKI PROLJEĆARI - HP": {
           "votes": 3,
           "coalition_name": "HRVATSKI PROLJEĆARI - HP"
         },
@@ -56146,7 +56146,7 @@
           "votes": 1,
           "coalition_name": "HRVATSKI ISTINSKI PREPOROD - HIP, HRVATSKI BLOK-POKRET ZA MODERNU HRVATSKU - HRVATSKI BLOK"
         },
-        "HP": {
+        "HRVATSKI PROLJEĆARI - HP": {
           "votes": 4,
           "coalition_name": "HRVATSKI PROLJEĆARI - HP"
         },
@@ -56166,7 +56166,7 @@
           "votes": 2,
           "coalition_name": "HRVATSKA REPUBLIKANSKA ZAJEDNICA - HRZ"
         },
-        "HRVATSKI PRAVAŠI - HP": {
+        "HP": {
           "votes": 1,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         },
@@ -56251,7 +56251,7 @@
           "votes": 8,
           "coalition_name": "HRVATSKI ISTINSKI PREPOROD - HIP, HRVATSKI BLOK-POKRET ZA MODERNU HRVATSKU - HRVATSKI BLOK"
         },
-        "HP": {
+        "HRVATSKI PROLJEĆARI - HP": {
           "votes": 1,
           "coalition_name": "HRVATSKI PROLJEĆARI - HP"
         },
@@ -56356,7 +56356,7 @@
           "votes": 23,
           "coalition_name": "HRVATSKI ISTINSKI PREPOROD - HIP, HRVATSKI BLOK-POKRET ZA MODERNU HRVATSKU - HRVATSKI BLOK"
         },
-        "HRVATSKI PRAVAŠI - HP": {
+        "HP": {
           "votes": 4,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         },
@@ -56424,7 +56424,7 @@
           "votes": 3,
           "coalition_name": "STRANKA HRVATSKIH BRANITELJA - SHB"
         },
-        "HP": {
+        "HRVATSKI PROLJEĆARI - HP": {
           "votes": 2,
           "coalition_name": "HRVATSKI PROLJEĆARI - HP"
         },
@@ -56537,7 +56537,7 @@
           "votes": 5,
           "coalition_name": "HRVATSKA REPUBLIKANSKA ZAJEDNICA - HRZ"
         },
-        "HRVATSKI PRAVAŠI - HP": {
+        "HP": {
           "votes": 3,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         },
@@ -56585,7 +56585,7 @@
           "votes": 2,
           "coalition_name": "POKRET ZA LJUDSKA PRAVA-STRANKA EKOLOŠKI SVJESNIH GRAĐANA - POL, ISTARSKA NEZAVISNA STRANKA"
         },
-        "HP": {
+        "HRVATSKI PROLJEĆARI - HP": {
           "votes": 1,
           "coalition_name": "HRVATSKI PROLJEĆARI - HP"
         },
@@ -56751,7 +56751,7 @@
           "votes": 10,
           "coalition_name": "HRVATSKI DALMATINSKI DOM - HDD"
         },
-        "HP": {
+        "HRVATSKI PROLJEĆARI - HP": {
           "votes": 3,
           "coalition_name": "HRVATSKI PROLJEĆARI - HP"
         },
@@ -56839,7 +56839,7 @@
           "votes": 2,
           "coalition_name": "BEBIČ VLADIMIR-TREĆI HRVATSKI BLOK - BV-TREĆI BLOK"
         },
-        "HRVATSKI PRAVAŠI - HP": {
+        "HP": {
           "votes": 2,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         }
@@ -56968,11 +56968,11 @@
           "votes": 8,
           "coalition_name": "ZELENI HRVATSKE - ZELENI HR"
         },
-        "HRVATSKI PRAVAŠI - HP": {
+        "HP": {
           "votes": 1,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         },
-        "HP": {
+        "HRVATSKI PROLJEĆARI - HP": {
           "votes": 1,
           "coalition_name": "HRVATSKI PROLJEĆARI - HP"
         },
@@ -57121,11 +57121,11 @@
           "votes": 2,
           "coalition_name": "HRVATSKI REPUBLIKANCI - HR"
         },
-        "HRVATSKI PRAVAŠI - HP": {
+        "HP": {
           "votes": 3,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         },
-        "HP": {
+        "HRVATSKI PROLJEĆARI - HP": {
           "votes": 1,
           "coalition_name": "HRVATSKI PROLJEĆARI - HP"
         },
@@ -57202,7 +57202,7 @@
           "votes": 5,
           "coalition_name": "HRVATSKI DALMATINSKI DOM - HDD"
         },
-        "HRVATSKI PRAVAŠI - HP": {
+        "HP": {
           "votes": 2,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         },
@@ -57504,7 +57504,7 @@
           "votes": 1,
           "coalition_name": "DEMOKRATSKA SOCIJALNA UNIJA-SNAGA NARODA - DSU-SN"
         },
-        "HRVATSKI PRAVAŠI - HP": {
+        "HP": {
           "votes": 4,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         },
@@ -57589,7 +57589,7 @@
           "votes": 12,
           "coalition_name": "HRVATSKI ISTINSKI PREPOROD - HIP, HRVATSKI BLOK-POKRET ZA MODERNU HRVATSKU - HRVATSKI BLOK"
         },
-        "HRVATSKI PRAVAŠI - HP": {
+        "HP": {
           "votes": 2,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         },
@@ -57629,7 +57629,7 @@
           "votes": 5,
           "coalition_name": "HRVATSKA REPUBLIKANSKA ZAJEDNICA - HRZ"
         },
-        "HP": {
+        "HRVATSKI PROLJEĆARI - HP": {
           "votes": 2,
           "coalition_name": "HRVATSKI PROLJEĆARI - HP"
         },
@@ -57738,7 +57738,7 @@
           "votes": 18,
           "coalition_name": "HRVATSKI ISTINSKI PREPOROD - HIP, HRVATSKI BLOK-POKRET ZA MODERNU HRVATSKU - HRVATSKI BLOK"
         },
-        "HP": {
+        "HRVATSKI PROLJEĆARI - HP": {
           "votes": 2,
           "coalition_name": "HRVATSKI PROLJEĆARI - HP"
         },
@@ -57802,7 +57802,7 @@
           "votes": 3,
           "coalition_name": "HRVATSKA REPUBLIKANSKA ZAJEDNICA - HRZ"
         },
-        "HRVATSKI PRAVAŠI - HP": {
+        "HP": {
           "votes": 3,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         },
@@ -57964,7 +57964,7 @@
           "votes": 3,
           "coalition_name": "HRVATSKI ISTINSKI PREPOROD - HIP, HRVATSKI BLOK-POKRET ZA MODERNU HRVATSKU - HRVATSKI BLOK"
         },
-        "HP": {
+        "HRVATSKI PROLJEĆARI - HP": {
           "votes": 1,
           "coalition_name": "HRVATSKI PROLJEĆARI - HP"
         },
@@ -58274,7 +58274,7 @@
           "votes": 114,
           "coalition_name": "BEBIČ VLADIMIR-TREĆI HRVATSKI BLOK - BV-TREĆI BLOK"
         },
-        "HP": {
+        "HRVATSKI PROLJEĆARI - HP": {
           "votes": 24,
           "coalition_name": "HRVATSKI PROLJEĆARI - HP"
         },
@@ -58282,7 +58282,7 @@
           "votes": 39,
           "coalition_name": "KRŠĆANSKA SOCIJALNA UNIJA - KSU"
         },
-        "HRVATSKI PRAVAŠI - HP": {
+        "HP": {
           "votes": 25,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         },
@@ -58383,7 +58383,7 @@
           "votes": 4,
           "coalition_name": "HRVATSKI ISTINSKI PREPOROD - HIP, HRVATSKI BLOK-POKRET ZA MODERNU HRVATSKU - HRVATSKI BLOK"
         },
-        "HRVATSKI PRAVAŠI - HP": {
+        "HP": {
           "votes": 2,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         },
@@ -58500,7 +58500,7 @@
           "votes": 12,
           "coalition_name": "HRVATSKI ISTINSKI PREPOROD - HIP, HRVATSKI BLOK-POKRET ZA MODERNU HRVATSKU - HRVATSKI BLOK"
         },
-        "HRVATSKI PRAVAŠI - HP": {
+        "HP": {
           "votes": 1,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         },
@@ -58795,11 +58795,11 @@
           "votes": 10,
           "coalition_name": "NEOVISNA LISTA - DAVOR ŽIVKOVIĆ"
         },
-        "HRVATSKI PRAVAŠI - HP": {
+        "HP": {
           "votes": 4,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         },
-        "HP": {
+        "HRVATSKI PROLJEĆARI - HP": {
           "votes": 9,
           "coalition_name": "HRVATSKI PROLJEĆARI - HP"
         },
@@ -59018,7 +59018,7 @@
           "votes": 40,
           "coalition_name": "HRVATSKI ISTINSKI PREPOROD - HIP, HRVATSKI BLOK-POKRET ZA MODERNU HRVATSKU - HRVATSKI BLOK"
         },
-        "HP": {
+        "HRVATSKI PROLJEĆARI - HP": {
           "votes": 1,
           "coalition_name": "HRVATSKI PROLJEĆARI - HP"
         },
@@ -59151,7 +59151,7 @@
           "votes": 9,
           "coalition_name": "HRVATSKA REPUBLIKANSKA ZAJEDNICA - HRZ"
         },
-        "HP": {
+        "HRVATSKI PROLJEĆARI - HP": {
           "votes": 12,
           "coalition_name": "HRVATSKI PROLJEĆARI - HP"
         },
@@ -59203,7 +59203,7 @@
           "votes": 2,
           "coalition_name": "DOMOVINSKA GRAĐANSKA STRANKA - DGS"
         },
-        "HRVATSKI PRAVAŠI - HP": {
+        "HP": {
           "votes": 9,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         },
@@ -59332,7 +59332,7 @@
           "votes": 1,
           "coalition_name": "HRVATSKA PUČKA STRANKA - HPS"
         },
-        "HRVATSKI PRAVAŠI - HP": {
+        "HP": {
           "votes": 1,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         },
@@ -59417,7 +59417,7 @@
           "votes": 5,
           "coalition_name": "HRVATSKI DALMATINSKI DOM - HDD"
         },
-        "HRVATSKI PRAVAŠI - HP": {
+        "HP": {
           "votes": 2,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         },
@@ -59469,7 +59469,7 @@
           "votes": 8,
           "coalition_name": "HRVATSKI ISTINSKI PREPOROD - HIP, HRVATSKI BLOK-POKRET ZA MODERNU HRVATSKU - HRVATSKI BLOK"
         },
-        "HP": {
+        "HRVATSKI PROLJEĆARI - HP": {
           "votes": 1,
           "coalition_name": "HRVATSKI PROLJEĆARI - HP"
         },
@@ -59574,7 +59574,7 @@
           "votes": 6,
           "coalition_name": "HRVATSKI ISTINSKI PREPOROD - HIP, HRVATSKI BLOK-POKRET ZA MODERNU HRVATSKU - HRVATSKI BLOK"
         },
-        "HRVATSKI PRAVAŠI - HP": {
+        "HP": {
           "votes": 17,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         },
@@ -59634,7 +59634,7 @@
           "votes": 1,
           "coalition_name": "DOMOVINSKA GRAĐANSKA STRANKA - DGS"
         },
-        "HP": {
+        "HRVATSKI PROLJEĆARI - HP": {
           "votes": 4,
           "coalition_name": "HRVATSKI PROLJEĆARI - HP"
         },
@@ -59699,7 +59699,7 @@
           "votes": 7,
           "coalition_name": "HRVATSKI ISTINSKI PREPOROD - HIP, HRVATSKI BLOK-POKRET ZA MODERNU HRVATSKU - HRVATSKI BLOK"
         },
-        "HRVATSKI PRAVAŠI - HP": {
+        "HP": {
           "votes": 3,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         },
@@ -59900,7 +59900,7 @@
           "votes": 3,
           "coalition_name": "HRVATSKA REPUBLIKANSKA ZAJEDNICA - HRZ"
         },
-        "HP": {
+        "HRVATSKI PROLJEĆARI - HP": {
           "votes": 4,
           "coalition_name": "HRVATSKI PROLJEĆARI - HP"
         },
@@ -59924,7 +59924,7 @@
           "votes": 2,
           "coalition_name": "HRVATSKA PUČKA STRANKA - HPS"
         },
-        "HRVATSKI PRAVAŠI - HP": {
+        "HP": {
           "votes": 3,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         },
@@ -60037,11 +60037,11 @@
           "votes": 3,
           "coalition_name": "HRVATSKA PUČKA STRANKA - HPS"
         },
-        "HRVATSKI PRAVAŠI - HP": {
+        "HP": {
           "votes": 1,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         },
-        "HP": {
+        "HRVATSKI PROLJEĆARI - HP": {
           "votes": 15,
           "coalition_name": "HRVATSKI PROLJEĆARI - HP"
         },
@@ -60194,11 +60194,11 @@
           "votes": 4,
           "coalition_name": "KRŠĆANSKA SOCIJALNA UNIJA - KSU"
         },
-        "HRVATSKI PRAVAŠI - HP": {
+        "HP": {
           "votes": 1,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         },
-        "HP": {
+        "HRVATSKI PROLJEĆARI - HP": {
           "votes": 2,
           "coalition_name": "HRVATSKI PROLJEĆARI - HP"
         },
@@ -60263,11 +60263,11 @@
           "votes": 928,
           "coalition_name": "HRVATSKA STRANKA UMIROVLJENIKA - HSU"
         },
-        "HRVATSKI PRAVAŠI - HP": {
+        "HP": {
           "votes": 27,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         },
-        "HP": {
+        "HRVATSKI PROLJEĆARI - HP": {
           "votes": 46,
           "coalition_name": "HRVATSKI PROLJEĆARI - HP"
         },
@@ -60492,7 +60492,7 @@
           "votes": 3,
           "coalition_name": "HRVATSKA RADNIČKA STRANKA - HRS"
         },
-        "HRVATSKI PRAVAŠI - HP": {
+        "HP": {
           "votes": 3,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         },
@@ -60500,7 +60500,7 @@
           "votes": 2,
           "coalition_name": "HRVATSKA PUČKA STRANKA - HPS"
         },
-        "HP": {
+        "HRVATSKI PROLJEĆARI - HP": {
           "votes": 1,
           "coalition_name": "HRVATSKI PROLJEĆARI - HP"
         },
@@ -60718,7 +60718,7 @@
           "votes": 15,
           "coalition_name": "AKCIJA SOCIJALDEMOKRATA HRVATSKE - ASH"
         },
-        "HRVATSKI PRAVAŠI - HP": {
+        "HP": {
           "votes": 3,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         },
@@ -60766,7 +60766,7 @@
           "votes": 4,
           "coalition_name": "HRVATSKI REPUBLIKANCI - HR"
         },
-        "HP": {
+        "HRVATSKI PROLJEĆARI - HP": {
           "votes": 5,
           "coalition_name": "HRVATSKI PROLJEĆARI - HP"
         },
@@ -60891,11 +60891,11 @@
           "votes": 1,
           "coalition_name": "HRVATSKA REPUBLIKANSKA ZAJEDNICA - HRZ"
         },
-        "HRVATSKI PRAVAŠI - HP": {
+        "HP": {
           "votes": 1,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         },
-        "HP": {
+        "HRVATSKI PROLJEĆARI - HP": {
           "votes": 1,
           "coalition_name": "HRVATSKI PROLJEĆARI - HP"
         },
@@ -61028,7 +61028,7 @@
           "votes": 1,
           "coalition_name": "HRVATSKA PUČKA STRANKA - HPS"
         },
-        "HP": {
+        "HRVATSKI PROLJEĆARI - HP": {
           "votes": 2,
           "coalition_name": "HRVATSKI PROLJEĆARI - HP"
         },
@@ -61145,7 +61145,7 @@
           "votes": 2,
           "coalition_name": "HRVATSKI DALMATINSKI DOM - HDD"
         },
-        "HP": {
+        "HRVATSKI PROLJEĆARI - HP": {
           "votes": 3,
           "coalition_name": "HRVATSKI PROLJEĆARI - HP"
         },
@@ -61177,7 +61177,7 @@
           "votes": 3,
           "coalition_name": "NEOVISNA LISTA - STANISLAV ANTIĆ"
         },
-        "HRVATSKI PRAVAŠI - HP": {
+        "HP": {
           "votes": 2,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         },
@@ -61274,11 +61274,11 @@
           "votes": 472,
           "coalition_name": "HRVATSKI ISTINSKI PREPOROD - HIP, HRVATSKI BLOK-POKRET ZA MODERNU HRVATSKU - HRVATSKI BLOK"
         },
-        "HRVATSKI PRAVAŠI - HP": {
+        "HP": {
           "votes": 19,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         },
-        "HP": {
+        "HRVATSKI PROLJEĆARI - HP": {
           "votes": 81,
           "coalition_name": "HRVATSKI PROLJEĆARI - HP"
         },
@@ -61447,7 +61447,7 @@
           "votes": 2,
           "coalition_name": "HRVATSKI DALMATINSKI DOM - HDD"
         },
-        "HRVATSKI PRAVAŠI - HP": {
+        "HP": {
           "votes": 3,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         },
@@ -61572,7 +61572,7 @@
           "votes": 4,
           "coalition_name": "HRVATSKA KRŠĆANSKA DEMOKRATSKA STRANKA - HKDS"
         },
-        "HP": {
+        "HRVATSKI PROLJEĆARI - HP": {
           "votes": 1,
           "coalition_name": "HRVATSKI PROLJEĆARI - HP"
         },
@@ -61705,7 +61705,7 @@
           "votes": 22,
           "coalition_name": "HRVATSKA STRANKA PRAVA-1861 - HSP-1861"
         },
-        "HP": {
+        "HRVATSKI PROLJEĆARI - HP": {
           "votes": 8,
           "coalition_name": "HRVATSKI PROLJEĆARI - HP"
         },
@@ -61725,7 +61725,7 @@
           "votes": 5,
           "coalition_name": "HRVATSKI REPUBLIKANCI - HR"
         },
-        "HRVATSKI PRAVAŠI - HP": {
+        "HP": {
           "votes": 2,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         },
@@ -61822,7 +61822,7 @@
           "votes": 15,
           "coalition_name": "HRVATSKI ISTINSKI PREPOROD - HIP, HRVATSKI BLOK-POKRET ZA MODERNU HRVATSKU - HRVATSKI BLOK"
         },
-        "HRVATSKI PRAVAŠI - HP": {
+        "HP": {
           "votes": 5,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         },
@@ -61874,7 +61874,7 @@
           "votes": 2,
           "coalition_name": "POKRET ZA LJUDSKA PRAVA-STRANKA EKOLOŠKI SVJESNIH GRAĐANA - POL, ISTARSKA NEZAVISNA STRANKA"
         },
-        "HP": {
+        "HRVATSKI PROLJEĆARI - HP": {
           "votes": 2,
           "coalition_name": "HRVATSKI PROLJEĆARI - HP"
         },
@@ -61947,7 +61947,7 @@
           "votes": 39,
           "coalition_name": "HRVATSKI ISTINSKI PREPOROD - HIP, HRVATSKI BLOK-POKRET ZA MODERNU HRVATSKU - HRVATSKI BLOK"
         },
-        "HP": {
+        "HRVATSKI PROLJEĆARI - HP": {
           "votes": 2,
           "coalition_name": "HRVATSKI PROLJEĆARI - HP"
         },
@@ -62096,7 +62096,7 @@
           "votes": 32,
           "coalition_name": "HRVATSKI ISTINSKI PREPOROD - HIP, HRVATSKI BLOK-POKRET ZA MODERNU HRVATSKU - HRVATSKI BLOK"
         },
-        "HP": {
+        "HRVATSKI PROLJEĆARI - HP": {
           "votes": 17,
           "coalition_name": "HRVATSKI PROLJEĆARI - HP"
         },
@@ -62152,7 +62152,7 @@
           "votes": 7,
           "coalition_name": "HRVATSKI DALMATINSKI DOM - HDD"
         },
-        "HRVATSKI PRAVAŠI - HP": {
+        "HP": {
           "votes": 2,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         },
@@ -62273,7 +62273,7 @@
           "votes": 1,
           "coalition_name": "HRVATSKA KRŠĆANSKA DEMOKRATSKA STRANKA - HKDS"
         },
-        "HP": {
+        "HRVATSKI PROLJEĆARI - HP": {
           "votes": 3,
           "coalition_name": "HRVATSKI PROLJEĆARI - HP"
         },
@@ -62338,7 +62338,7 @@
           "votes": 5,
           "coalition_name": "HRVATSKI ISTINSKI PREPOROD - HIP, HRVATSKI BLOK-POKRET ZA MODERNU HRVATSKU - HRVATSKI BLOK"
         },
-        "HP": {
+        "HRVATSKI PROLJEĆARI - HP": {
           "votes": 9,
           "coalition_name": "HRVATSKI PROLJEĆARI - HP"
         },
@@ -62419,7 +62419,7 @@
           "votes": 49,
           "coalition_name": "HRVATSKI ISTINSKI PREPOROD - HIP, HRVATSKI BLOK-POKRET ZA MODERNU HRVATSKU - HRVATSKI BLOK"
         },
-        "HP": {
+        "HRVATSKI PROLJEĆARI - HP": {
           "votes": 52,
           "coalition_name": "HRVATSKI PROLJEĆARI - HP"
         },
@@ -62479,7 +62479,7 @@
           "votes": 5,
           "coalition_name": "AKCIJA SOCIJALDEMOKRATA HRVATSKE - ASH"
         },
-        "HRVATSKI PRAVAŠI - HP": {
+        "HP": {
           "votes": 3,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         },
@@ -62584,7 +62584,7 @@
           "votes": 297,
           "coalition_name": "HRVATSKI ISTINSKI PREPOROD - HIP, HRVATSKI BLOK-POKRET ZA MODERNU HRVATSKU - HRVATSKI BLOK"
         },
-        "HP": {
+        "HRVATSKI PROLJEĆARI - HP": {
           "votes": 26,
           "coalition_name": "HRVATSKI PROLJEĆARI - HP"
         },
@@ -62624,7 +62624,7 @@
           "votes": 21,
           "coalition_name": "HRVATSKA PUČKA STRANKA - HPS"
         },
-        "HRVATSKI PRAVAŠI - HP": {
+        "HP": {
           "votes": 7,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         },
@@ -62713,7 +62713,7 @@
           "votes": 9,
           "coalition_name": "HRVATSKI DALMATINSKI DOM - HDD"
         },
-        "HP": {
+        "HRVATSKI PROLJEĆARI - HP": {
           "votes": 14,
           "coalition_name": "HRVATSKI PROLJEĆARI - HP"
         },
@@ -62749,7 +62749,7 @@
           "votes": 97,
           "coalition_name": "HRVATSKI ISTINSKI PREPOROD - HIP, HRVATSKI BLOK-POKRET ZA MODERNU HRVATSKU - HRVATSKI BLOK"
         },
-        "HRVATSKI PRAVAŠI - HP": {
+        "HP": {
           "votes": 15,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         },
@@ -62906,11 +62906,11 @@
           "votes": 49,
           "coalition_name": "HRVATSKI DALMATINSKI DOM - HDD"
         },
-        "HRVATSKI PRAVAŠI - HP": {
+        "HP": {
           "votes": 6,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         },
-        "HP": {
+        "HRVATSKI PROLJEĆARI - HP": {
           "votes": 64,
           "coalition_name": "HRVATSKI PROLJEĆARI - HP"
         },
@@ -63063,7 +63063,7 @@
           "votes": 2,
           "coalition_name": "HRVATSKA REPUBLIKANSKA ZAJEDNICA - HRZ"
         },
-        "HP": {
+        "HRVATSKI PROLJEĆARI - HP": {
           "votes": 3,
           "coalition_name": "HRVATSKI PROLJEĆARI - HP"
         },
@@ -63164,7 +63164,7 @@
           "votes": 21,
           "coalition_name": "HRVATSKI BLOK-POKRET ZA MODERNU HRVATSKU - HRVATSKI BLOK, HRVATSKI ISTINSKI PREPOROD - HIP"
         },
-        "HRVATSKI PRAVAŠI - HP": {
+        "HP": {
           "votes": 1,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         },
@@ -63297,7 +63297,7 @@
           "votes": 1,
           "coalition_name": "HRVATSKI NEZAVISNI DEMOKRATI - HND"
         },
-        "HP": {
+        "HRVATSKI PROLJEĆARI - HP": {
           "votes": 1,
           "coalition_name": "HRVATSKI PROLJEĆARI - HP"
         },
@@ -63555,7 +63555,7 @@
           "votes": 1,
           "coalition_name": "AKCIJA SOCIJALDEMOKRATA HRVATSKE - ASH, JADRANSKA SOCIJALDEMOKRATSKA STRANKA HRVATSKE - JADRANSKI SOCIJALDEMOKRAT"
         },
-        "HP": {
+        "HRVATSKI PROLJEĆARI - HP": {
           "votes": 1,
           "coalition_name": "HRVATSKI PROLJEĆARI - HP"
         },
@@ -63636,7 +63636,7 @@
           "votes": 120,
           "coalition_name": "HRVATSKI BLOK-POKRET ZA MODERNU HRVATSKU - HRVATSKI BLOK, HRVATSKI ISTINSKI PREPOROD - HIP"
         },
-        "HP": {
+        "HRVATSKI PROLJEĆARI - HP": {
           "votes": 8,
           "coalition_name": "HRVATSKI PROLJEĆARI - HP"
         },
@@ -63700,7 +63700,7 @@
           "votes": 7,
           "coalition_name": "HRVATSKA PUČKA STRANKA - HPS"
         },
-        "HRVATSKI PRAVAŠI - HP": {
+        "HP": {
           "votes": 6,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         },
@@ -63773,7 +63773,7 @@
           "votes": 17,
           "coalition_name": "HRVATSKI BLOK-POKRET ZA MODERNU HRVATSKU - HRVATSKI BLOK, HRVATSKI ISTINSKI PREPOROD - HIP"
         },
-        "HP": {
+        "HRVATSKI PROLJEĆARI - HP": {
           "votes": 5,
           "coalition_name": "HRVATSKI PROLJEĆARI - HP"
         },
@@ -63829,7 +63829,7 @@
           "votes": 1,
           "coalition_name": "HRVATSKA PUČKA STRANKA - HPS"
         },
-        "HRVATSKI PRAVAŠI - HP": {
+        "HP": {
           "votes": 1,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         },
@@ -63898,7 +63898,7 @@
           "votes": 6,
           "coalition_name": "HRVATSKI NEZAVISNI DEMOKRATI - HND"
         },
-        "HP": {
+        "HRVATSKI PROLJEĆARI - HP": {
           "votes": 3,
           "coalition_name": "HRVATSKI PROLJEĆARI - HP"
         },
@@ -63970,7 +63970,7 @@
           "votes": 4,
           "coalition_name": "HRVATSKA STRANKA PRAVA-1861 - HSP-1861"
         },
-        "HRVATSKI PRAVAŠI - HP": {
+        "HP": {
           "votes": 1,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         },
@@ -64055,7 +64055,7 @@
           "votes": 5,
           "coalition_name": "HRVATSKI NEZAVISNI DEMOKRATI - HND"
         },
-        "HP": {
+        "HRVATSKI PROLJEĆARI - HP": {
           "votes": 7,
           "coalition_name": "HRVATSKI PROLJEĆARI - HP"
         },
@@ -64115,7 +64115,7 @@
           "votes": 4,
           "coalition_name": "AKCIJA SOCIJALDEMOKRATA HRVATSKE - ASH, JADRANSKA SOCIJALDEMOKRATSKA STRANKA HRVATSKE - JADRANSKI SOCIJALDEMOKRAT"
         },
-        "HRVATSKI PRAVAŠI - HP": {
+        "HP": {
           "votes": 1,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         },
@@ -64200,11 +64200,11 @@
           "votes": 11,
           "coalition_name": "HRVATSKI BLOK-POKRET ZA MODERNU HRVATSKU - HRVATSKI BLOK, HRVATSKI ISTINSKI PREPOROD - HIP"
         },
-        "HRVATSKI PRAVAŠI - HP": {
+        "HP": {
           "votes": 3,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         },
-        "HP": {
+        "HRVATSKI PROLJEĆARI - HP": {
           "votes": 6,
           "coalition_name": "HRVATSKI PROLJEĆARI - HP"
         },
@@ -64325,7 +64325,7 @@
           "votes": 25,
           "coalition_name": "HRVATSKI BLOK-POKRET ZA MODERNU HRVATSKU - HRVATSKI BLOK, HRVATSKI ISTINSKI PREPOROD - HIP"
         },
-        "HP": {
+        "HRVATSKI PROLJEĆARI - HP": {
           "votes": 3,
           "coalition_name": "HRVATSKI PROLJEĆARI - HP"
         },
@@ -64369,7 +64369,7 @@
           "votes": 2,
           "coalition_name": "HRVATSKI NEZAVISNI DEMOKRATI - HND"
         },
-        "HRVATSKI PRAVAŠI - HP": {
+        "HP": {
           "votes": 1,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         },
@@ -64426,7 +64426,7 @@
           "votes": 74,
           "coalition_name": "HRVATSKI BLOK-POKRET ZA MODERNU HRVATSKU - HRVATSKI BLOK, HRVATSKI ISTINSKI PREPOROD - HIP"
         },
-        "HP": {
+        "HRVATSKI PROLJEĆARI - HP": {
           "votes": 1,
           "coalition_name": "HRVATSKI PROLJEĆARI - HP"
         },
@@ -64458,7 +64458,7 @@
           "votes": 1,
           "coalition_name": "NEOVISNA LISTA - DUŠKO MRDULJAŠ"
         },
-        "HRVATSKI PRAVAŠI - HP": {
+        "HP": {
           "votes": 1,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         },
@@ -64539,11 +64539,11 @@
           "votes": 42,
           "coalition_name": "HRVATSKI BLOK-POKRET ZA MODERNU HRVATSKU - HRVATSKI BLOK, HRVATSKI ISTINSKI PREPOROD - HIP"
         },
-        "HRVATSKI PRAVAŠI - HP": {
+        "HP": {
           "votes": 1,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         },
-        "HP": {
+        "HRVATSKI PROLJEĆARI - HP": {
           "votes": 4,
           "coalition_name": "HRVATSKI PROLJEĆARI - HP"
         },
@@ -64632,11 +64632,11 @@
           "votes": 18,
           "coalition_name": "HRVATSKI NEZAVISNI DEMOKRATI - HND"
         },
-        "HRVATSKI PRAVAŠI - HP": {
+        "HP": {
           "votes": 6,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         },
-        "HP": {
+        "HRVATSKI PROLJEĆARI - HP": {
           "votes": 5,
           "coalition_name": "HRVATSKI PROLJEĆARI - HP"
         },
@@ -64769,7 +64769,7 @@
           "votes": 2,
           "coalition_name": "HRVATSKI BLOK-POKRET ZA MODERNU HRVATSKU - HRVATSKI BLOK, HRVATSKI ISTINSKI PREPOROD - HIP"
         },
-        "HRVATSKI PRAVAŠI - HP": {
+        "HP": {
           "votes": 2,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         },
@@ -64886,7 +64886,7 @@
           "votes": 3,
           "coalition_name": "HRVATSKI BLOK-POKRET ZA MODERNU HRVATSKU - HRVATSKI BLOK, HRVATSKI ISTINSKI PREPOROD - HIP"
         },
-        "HRVATSKI PRAVAŠI - HP": {
+        "HP": {
           "votes": 1,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         },
@@ -65003,11 +65003,11 @@
           "votes": 271,
           "coalition_name": "HRVATSKI BLOK-POKRET ZA MODERNU HRVATSKU - HRVATSKI BLOK, HRVATSKI ISTINSKI PREPOROD - HIP"
         },
-        "HRVATSKI PRAVAŠI - HP": {
+        "HP": {
           "votes": 13,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         },
-        "HP": {
+        "HRVATSKI PROLJEĆARI - HP": {
           "votes": 20,
           "coalition_name": "HRVATSKI PROLJEĆARI - HP"
         },
@@ -65156,7 +65156,7 @@
           "votes": 3,
           "coalition_name": "HRVATSKI NEZAVISNI DEMOKRATI - HND"
         },
-        "HRVATSKI PRAVAŠI - HP": {
+        "HP": {
           "votes": 7,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         },
@@ -65349,7 +65349,7 @@
           "votes": 1,
           "coalition_name": "HRVATSKI NEZAVISNI DEMOKRATI - HND"
         },
-        "HP": {
+        "HRVATSKI PROLJEĆARI - HP": {
           "votes": 1,
           "coalition_name": "HRVATSKI PROLJEĆARI - HP"
         },
@@ -65430,7 +65430,7 @@
           "votes": 144,
           "coalition_name": "HRVATSKI BLOK-POKRET ZA MODERNU HRVATSKU - HRVATSKI BLOK, HRVATSKI ISTINSKI PREPOROD - HIP"
         },
-        "HRVATSKI PRAVAŠI - HP": {
+        "HP": {
           "votes": 3,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         },
@@ -65482,7 +65482,7 @@
           "votes": 27,
           "coalition_name": "ZELENI HRVATSKE - ZELENI HR"
         },
-        "HP": {
+        "HRVATSKI PROLJEĆARI - HP": {
           "votes": 3,
           "coalition_name": "HRVATSKI PROLJEĆARI - HP"
         },
@@ -65571,7 +65571,7 @@
           "votes": 2,
           "coalition_name": "HRVATSKI NEZAVISNI DEMOKRATI - HND"
         },
-        "HRVATSKI PRAVAŠI - HP": {
+        "HP": {
           "votes": 1,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         },
@@ -65692,7 +65692,7 @@
           "votes": 5,
           "coalition_name": "HRVATSKA STRANKA PRAVA-1861 - HSP-1861"
         },
-        "HP": {
+        "HRVATSKI PROLJEĆARI - HP": {
           "votes": 1,
           "coalition_name": "HRVATSKI PROLJEĆARI - HP"
         },
@@ -65801,7 +65801,7 @@
           "votes": 3,
           "coalition_name": "HRVATSKI NEZAVISNI DEMOKRATI - HND"
         },
-        "HP": {
+        "HRVATSKI PROLJEĆARI - HP": {
           "votes": 1,
           "coalition_name": "HRVATSKI PROLJEĆARI - HP"
         },
@@ -65857,7 +65857,7 @@
           "votes": 18,
           "coalition_name": "ZELENI HRVATSKE - ZELENI HR"
         },
-        "HRVATSKI PRAVAŠI - HP": {
+        "HP": {
           "votes": 1,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         },
@@ -65922,7 +65922,7 @@
           "votes": 38,
           "coalition_name": "SOCIJALDEMOKRATSKA PARTIJA HRVATSKE - SDP, LIBRA-STRANKA LIBERALNIH DEMOKRATA - LIBRA, LIBERALNA STRANKA - LS"
         },
-        "HRVATSKI PRAVAŠI - HP": {
+        "HP": {
           "votes": 4,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         },
@@ -65970,7 +65970,7 @@
           "votes": 1,
           "coalition_name": "BEBIČ VLADIMIR-TREĆI HRVATSKI BLOK - BV-TREĆI BLOK, STRANKA UMIROVLJENIKA - SU"
         },
-        "HP": {
+        "HRVATSKI PROLJEĆARI - HP": {
           "votes": 1,
           "coalition_name": "HRVATSKI PROLJEĆARI - HP"
         },
@@ -66059,7 +66059,7 @@
           "votes": 16,
           "coalition_name": "HRVATSKI BLOK-POKRET ZA MODERNU HRVATSKU - HRVATSKI BLOK, HRVATSKI ISTINSKI PREPOROD - HIP"
         },
-        "HRVATSKI PRAVAŠI - HP": {
+        "HP": {
           "votes": 2,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         },
@@ -66188,7 +66188,7 @@
           "votes": 8,
           "coalition_name": "HRVATSKI NEZAVISNI DEMOKRATI - HND"
         },
-        "HP": {
+        "HRVATSKI PROLJEĆARI - HP": {
           "votes": 28,
           "coalition_name": "HRVATSKI PROLJEĆARI - HP"
         },
@@ -66236,7 +66236,7 @@
           "votes": 79,
           "coalition_name": "ZELENI HRVATSKE - ZELENI HR"
         },
-        "HRVATSKI PRAVAŠI - HP": {
+        "HP": {
           "votes": 18,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         },
@@ -66329,11 +66329,11 @@
           "votes": 2628,
           "coalition_name": "HRVATSKI BLOK-POKRET ZA MODERNU HRVATSKU - HRVATSKI BLOK, HRVATSKI ISTINSKI PREPOROD - HIP"
         },
-        "HRVATSKI PRAVAŠI - HP": {
+        "HP": {
           "votes": 155,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         },
-        "HP": {
+        "HRVATSKI PROLJEĆARI - HP": {
           "votes": 315,
           "coalition_name": "HRVATSKI PROLJEĆARI - HP"
         },
@@ -66478,7 +66478,7 @@
           "votes": 70,
           "coalition_name": "HRVATSKA STRANKA UMIROVLJENIKA - HSU"
         },
-        "HRVATSKI PRAVAŠI - HP": {
+        "HP": {
           "votes": 4,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         },
@@ -66696,11 +66696,11 @@
           "votes": 8,
           "coalition_name": "HRVATSKI NEZAVISNI DEMOKRATI - HND"
         },
-        "HRVATSKI PRAVAŠI - HP": {
+        "HP": {
           "votes": 3,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         },
-        "HP": {
+        "HRVATSKI PROLJEĆARI - HP": {
           "votes": 1,
           "coalition_name": "HRVATSKI PROLJEĆARI - HP"
         },
@@ -66845,11 +66845,11 @@
           "votes": 1,
           "coalition_name": "HRVATSKI BLOK-POKRET ZA MODERNU HRVATSKU - HRVATSKI BLOK, HRVATSKI ISTINSKI PREPOROD - HIP"
         },
-        "HRVATSKI PRAVAŠI - HP": {
+        "HP": {
           "votes": 1,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         },
-        "HP": {
+        "HRVATSKI PROLJEĆARI - HP": {
           "votes": 1,
           "coalition_name": "HRVATSKI PROLJEĆARI - HP"
         },
@@ -66950,7 +66950,7 @@
           "votes": 3,
           "coalition_name": "DEMOKRATSKA SOCIJALNA UNIJA-SNAGA NARODA - DSU-SN"
         },
-        "HRVATSKI PRAVAŠI - HP": {
+        "HP": {
           "votes": 2,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         },
@@ -66966,7 +66966,7 @@
           "votes": 2,
           "coalition_name": "SOCIJALISTIČKA RADNIČKA PARTIJA HRVATSKE - SRP"
         },
-        "HP": {
+        "HRVATSKI PROLJEĆARI - HP": {
           "votes": 3,
           "coalition_name": "HRVATSKI PROLJEĆARI - HP"
         },
@@ -67087,7 +67087,7 @@
           "votes": 23,
           "coalition_name": "HRVATSKA SOCIJALNO LIBERALNA STRANKA - HSLS, DEMOKRATSKI CENTAR - DC"
         },
-        "HRVATSKI PRAVAŠI - HP": {
+        "HP": {
           "votes": 1,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         },
@@ -67115,7 +67115,7 @@
           "votes": 1,
           "coalition_name": "DEMOKRATSKA SOCIJALNA UNIJA-SNAGA NARODA - DSU-SN"
         },
-        "HP": {
+        "HRVATSKI PROLJEĆARI - HP": {
           "votes": 1,
           "coalition_name": "HRVATSKI PROLJEĆARI - HP"
         },
@@ -67216,11 +67216,11 @@
           "votes": 12,
           "coalition_name": "HRVATSKI BLOK-POKRET ZA MODERNU HRVATSKU - HRVATSKI BLOK, HRVATSKI ISTINSKI PREPOROD - HIP"
         },
-        "HRVATSKI PRAVAŠI - HP": {
+        "HP": {
           "votes": 1,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         },
-        "HP": {
+        "HRVATSKI PROLJEĆARI - HP": {
           "votes": 1,
           "coalition_name": "HRVATSKI PROLJEĆARI - HP"
         },
@@ -67345,7 +67345,7 @@
           "votes": 50,
           "coalition_name": "HRVATSKI BLOK-POKRET ZA MODERNU HRVATSKU - HRVATSKI BLOK, HRVATSKI ISTINSKI PREPOROD - HIP"
         },
-        "HP": {
+        "HRVATSKI PROLJEĆARI - HP": {
           "votes": 1,
           "coalition_name": "HRVATSKI PROLJEĆARI - HP"
         },
@@ -67494,7 +67494,7 @@
           "votes": 49,
           "coalition_name": "HRVATSKI BLOK-POKRET ZA MODERNU HRVATSKU - HRVATSKI BLOK, HRVATSKI ISTINSKI PREPOROD - HIP"
         },
-        "HP": {
+        "HRVATSKI PROLJEĆARI - HP": {
           "votes": 8,
           "coalition_name": "HRVATSKI PROLJEĆARI - HP"
         },
@@ -67546,7 +67546,7 @@
           "votes": 3,
           "coalition_name": "HRVATSKI NEZAVISNI DEMOKRATI - HND"
         },
-        "HRVATSKI PRAVAŠI - HP": {
+        "HP": {
           "votes": 4,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         },
@@ -67688,11 +67688,11 @@
           "votes": 53,
           "coalition_name": "HRVATSKI BLOK-POKRET ZA MODERNU HRVATSKU - HRVATSKI BLOK, HRVATSKI ISTINSKI PREPOROD - HIP"
         },
-        "HRVATSKI PRAVAŠI - HP": {
+        "HP": {
           "votes": 1,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         },
-        "HP": {
+        "HRVATSKI PROLJEĆARI - HP": {
           "votes": 6,
           "coalition_name": "HRVATSKI PROLJEĆARI - HP"
         },
@@ -67813,7 +67813,7 @@
           "votes": 19,
           "coalition_name": "HRVATSKA STRANKA UMIROVLJENIKA - HSU"
         },
-        "HP": {
+        "HRVATSKI PROLJEĆARI - HP": {
           "votes": 1,
           "coalition_name": "HRVATSKI PROLJEĆARI - HP"
         },
@@ -67978,7 +67978,7 @@
           "votes": 8,
           "coalition_name": "HRVATSKA STRANKA PRAVA-1861 - HSP-1861"
         },
-        "HP": {
+        "HRVATSKI PROLJEĆARI - HP": {
           "votes": 1,
           "coalition_name": "HRVATSKI PROLJEĆARI - HP"
         },
@@ -68002,7 +68002,7 @@
           "votes": 1,
           "coalition_name": "STRANKA HRVATSKOG PREPORODA - SHP"
         },
-        "HRVATSKI PRAVAŠI - HP": {
+        "HP": {
           "votes": 1,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         },
@@ -68123,11 +68123,11 @@
           "votes": 2,
           "coalition_name": "STRANKA HRVATSKOG PREPORODA - SHP"
         },
-        "HRVATSKI PRAVAŠI - HP": {
+        "HP": {
           "votes": 2,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         },
-        "HP": {
+        "HRVATSKI PROLJEĆARI - HP": {
           "votes": 3,
           "coalition_name": "HRVATSKI PROLJEĆARI - HP"
         },
@@ -68244,7 +68244,7 @@
           "votes": 232,
           "coalition_name": "ZELENI HRVATSKE - ZELENI HR"
         },
-        "HRVATSKI PRAVAŠI - HP": {
+        "HP": {
           "votes": 32,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         },
@@ -68268,7 +68268,7 @@
           "votes": 27,
           "coalition_name": "HRVATSKI NEZAVISNI DEMOKRATI - HND"
         },
-        "HP": {
+        "HRVATSKI PROLJEĆARI - HP": {
           "votes": 29,
           "coalition_name": "HRVATSKI PROLJEĆARI - HP"
         },
@@ -68381,7 +68381,7 @@
           "votes": 1,
           "coalition_name": "HRVATSKA STRANKA PRAVA-1861 - HSP-1861"
         },
-        "HRVATSKI PRAVAŠI - HP": {
+        "HP": {
           "votes": 1,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         },
@@ -68470,11 +68470,11 @@
           "votes": 5,
           "coalition_name": "HRVATSKI NEZAVISNI DEMOKRATI - HND"
         },
-        "HRVATSKI PRAVAŠI - HP": {
+        "HP": {
           "votes": 12,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         },
-        "HP": {
+        "HRVATSKI PROLJEĆARI - HP": {
           "votes": 5,
           "coalition_name": "HRVATSKI PROLJEĆARI - HP"
         },
@@ -68611,7 +68611,7 @@
           "votes": 2,
           "coalition_name": "HRVATSKI NEZAVISNI DEMOKRATI - HND"
         },
-        "HRVATSKI PRAVAŠI - HP": {
+        "HP": {
           "votes": 4,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         },
@@ -68679,7 +68679,7 @@
           "votes": 4,
           "coalition_name": "DEMOKRATSKA SOCIJALNA UNIJA-SNAGA NARODA - DSU-SN"
         },
-        "HP": {
+        "HRVATSKI PROLJEĆARI - HP": {
           "votes": 1,
           "coalition_name": "HRVATSKI PROLJEĆARI - HP"
         },
@@ -68792,7 +68792,7 @@
           "votes": 3,
           "coalition_name": "AKCIJA SOCIJALDEMOKRATA HRVATSKE - ASH, JADRANSKA SOCIJALDEMOKRATSKA STRANKA HRVATSKE - JADRANSKI SOCIJALDEMOKRAT"
         },
-        "HRVATSKI PRAVAŠI - HP": {
+        "HP": {
           "votes": 1,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         }
@@ -68853,7 +68853,7 @@
           "votes": 5,
           "coalition_name": "HRVATSKI BLOK-POKRET ZA MODERNU HRVATSKU - HRVATSKI BLOK, HRVATSKI ISTINSKI PREPOROD - HIP"
         },
-        "HRVATSKI PRAVAŠI - HP": {
+        "HP": {
           "votes": 1,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         },
@@ -68893,7 +68893,7 @@
           "votes": 3,
           "coalition_name": "HRVATSKA STRANKA PRAVA-1861 - HSP-1861"
         },
-        "HP": {
+        "HRVATSKI PROLJEĆARI - HP": {
           "votes": 1,
           "coalition_name": "HRVATSKI PROLJEĆARI - HP"
         },
@@ -69002,7 +69002,7 @@
           "votes": 2,
           "coalition_name": "HRVATSKI NEZAVISNI DEMOKRATI - HND"
         },
-        "HRVATSKI PRAVAŠI - HP": {
+        "HP": {
           "votes": 4,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         },
@@ -69099,7 +69099,7 @@
           "votes": 5,
           "coalition_name": "HRVATSKI NEZAVISNI DEMOKRATI - HND"
         },
-        "HRVATSKI PRAVAŠI - HP": {
+        "HP": {
           "votes": 11,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         },
@@ -69131,7 +69131,7 @@
           "votes": 3,
           "coalition_name": "NEOVISNA LISTA - JURICA TUCAK"
         },
-        "HP": {
+        "HRVATSKI PROLJEĆARI - HP": {
           "votes": 13,
           "coalition_name": "HRVATSKI PROLJEĆARI - HP"
         },
@@ -69236,7 +69236,7 @@
           "votes": 2,
           "coalition_name": "HRVATSKA GRAĐANSKO SELJAČKA STRANKA - HGSS, HRVATSKA KRŠĆANSKA DEMOKRATSKA STRANKA - HKDS"
         },
-        "HRVATSKI PRAVAŠI - HP": {
+        "HP": {
           "votes": 3,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         },
@@ -69357,7 +69357,7 @@
           "votes": 5,
           "coalition_name": "HRVATSKA PUČKA STRANKA - HPS"
         },
-        "HP": {
+        "HRVATSKI PROLJEĆARI - HP": {
           "votes": 4,
           "coalition_name": "HRVATSKI PROLJEĆARI - HP"
         },
@@ -69385,7 +69385,7 @@
           "votes": 3,
           "coalition_name": "KRŠĆANSKA SOCIJALNA UNIJA - KSU"
         },
-        "HRVATSKI PRAVAŠI - HP": {
+        "HP": {
           "votes": 1,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         },
@@ -69526,7 +69526,7 @@
           "votes": 1,
           "coalition_name": "NEOVISNA LISTA - JURICA TUCAK"
         },
-        "HRVATSKI PRAVAŠI - HP": {
+        "HP": {
           "votes": 1,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         },
@@ -69538,7 +69538,7 @@
           "votes": 3,
           "coalition_name": "POKRET ZA LJUDSKA PRAVA-STRANKA EKOLOŠKI SVJESNIH GRAĐANA - POL, ISTARSKA NEZAVISNA STRANKA"
         },
-        "HP": {
+        "HRVATSKI PROLJEĆARI - HP": {
           "votes": 1,
           "coalition_name": "HRVATSKI PROLJEĆARI - HP"
         }
@@ -69603,7 +69603,7 @@
           "votes": 128,
           "coalition_name": "HRVATSKI BLOK-POKRET ZA MODERNU HRVATSKU - HRVATSKI BLOK, HRVATSKI ISTINSKI PREPOROD - HIP"
         },
-        "HRVATSKI PRAVAŠI - HP": {
+        "HP": {
           "votes": 4,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         },
@@ -69651,7 +69651,7 @@
           "votes": 14,
           "coalition_name": "DEMOKRATSKA SOCIJALNA UNIJA-SNAGA NARODA - DSU-SN"
         },
-        "HP": {
+        "HRVATSKI PROLJEĆARI - HP": {
           "votes": 7,
           "coalition_name": "HRVATSKI PROLJEĆARI - HP"
         },
@@ -69720,7 +69720,7 @@
           "votes": 1,
           "coalition_name": "HRVATSKI BLOK-POKRET ZA MODERNU HRVATSKU - HRVATSKI BLOK, HRVATSKI ISTINSKI PREPOROD - HIP"
         },
-        "HRVATSKI PRAVAŠI - HP": {
+        "HP": {
           "votes": 1,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         },
@@ -69841,7 +69841,7 @@
           "votes": 10,
           "coalition_name": "BEBIČ VLADIMIR-TREĆI HRVATSKI BLOK - BV-TREĆI BLOK, STRANKA UMIROVLJENIKA - SU"
         },
-        "HP": {
+        "HRVATSKI PROLJEĆARI - HP": {
           "votes": 1,
           "coalition_name": "HRVATSKI PROLJEĆARI - HP"
         },
@@ -69857,7 +69857,7 @@
           "votes": 4,
           "coalition_name": "HRVATSKA GRAĐANSKO SELJAČKA STRANKA - HGSS, HRVATSKA KRŠĆANSKA DEMOKRATSKA STRANKA - HKDS"
         },
-        "HRVATSKI PRAVAŠI - HP": {
+        "HP": {
           "votes": 4,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         },
@@ -70075,7 +70075,7 @@
           "votes": 4,
           "coalition_name": "AKCIJA SOCIJALDEMOKRATA HRVATSKE - ASH, JADRANSKA SOCIJALDEMOKRATSKA STRANKA HRVATSKE - JADRANSKI SOCIJALDEMOKRAT"
         },
-        "HP": {
+        "HRVATSKI PROLJEĆARI - HP": {
           "votes": 2,
           "coalition_name": "HRVATSKI PROLJEĆARI - HP"
         },
@@ -70119,7 +70119,7 @@
           "votes": 4,
           "coalition_name": "STRANKA HRVATSKIH BRANITELJA - SHB"
         },
-        "HRVATSKI PRAVAŠI - HP": {
+        "HP": {
           "votes": 4,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         },
@@ -70200,11 +70200,11 @@
           "votes": 1,
           "coalition_name": "HRVATSKI NEZAVISNI DEMOKRATI - HND"
         },
-        "HRVATSKI PRAVAŠI - HP": {
+        "HP": {
           "votes": 1,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         },
-        "HP": {
+        "HRVATSKI PROLJEĆARI - HP": {
           "votes": 1,
           "coalition_name": "HRVATSKI PROLJEĆARI - HP"
         },
@@ -70381,11 +70381,11 @@
           "votes": 1,
           "coalition_name": "STRANKA HRVATSKOG PREPORODA - SHP"
         },
-        "HRVATSKI PRAVAŠI - HP": {
+        "HP": {
           "votes": 1,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         },
-        "HP": {
+        "HRVATSKI PROLJEĆARI - HP": {
           "votes": 2,
           "coalition_name": "HRVATSKI PROLJEĆARI - HP"
         },
@@ -70551,7 +70551,7 @@
           "votes": 3,
           "coalition_name": "HRVATSKI NEZAVISNI DEMOKRATI - HND"
         },
-        "HRVATSKI PRAVAŠI - HP": {
+        "HP": {
           "votes": 3,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         },
@@ -70599,7 +70599,7 @@
           "votes": 9,
           "coalition_name": "POKRET ZA LJUDSKA PRAVA-STRANKA EKOLOŠKI SVJESNIH GRAĐANA - POL, ISTARSKA NEZAVISNA STRANKA"
         },
-        "HP": {
+        "HRVATSKI PROLJEĆARI - HP": {
           "votes": 5,
           "coalition_name": "HRVATSKI PROLJEĆARI - HP"
         },
@@ -72751,11 +72751,11 @@
           "votes": 726,
           "coalition_name": "HRVATSKI NEZAVISNI DEMOKRATI - HND"
         },
-        "HRVATSKI PRAVAŠI - HP": {
+        "HP": {
           "votes": 145,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         },
-        "HP": {
+        "HRVATSKI PROLJEĆARI - HP": {
           "votes": 151,
           "coalition_name": "HRVATSKI PROLJEĆARI - HP"
         },
@@ -73907,7 +73907,7 @@
           "votes": 910,
           "coalition_name": "ZELENI HRVATSKE - ZELENI HR"
         },
-        "HRVATSKI PRAVAŠI - HP": {
+        "HP": {
           "votes": 229,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         },
@@ -73919,7 +73919,7 @@
           "votes": 324,
           "coalition_name": "HRVATSKA RADNIČKA STRANKA - HRS"
         },
-        "HP": {
+        "HRVATSKI PROLJEĆARI - HP": {
           "votes": 476,
           "coalition_name": "HRVATSKI PROLJEĆARI - HP"
         },
@@ -74025,7 +74025,7 @@
           "votes": 6193,
           "coalition_name": "HRVATSKI BLOK-POKRET ZA MODERNU HRVATSKU - HRVATSKI BLOK, HRVATSKI ISTINSKI PREPOROD - HIP"
         },
-        "HRVATSKI PRAVAŠI - HP": {
+        "HP": {
           "votes": 338,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         },
@@ -74093,7 +74093,7 @@
           "votes": 256,
           "coalition_name": "HRVATSKI NEZAVISNI DEMOKRATI - HND"
         },
-        "HP": {
+        "HRVATSKI PROLJEĆARI - HP": {
           "votes": 513,
           "coalition_name": "HRVATSKI PROLJEĆARI - HP"
         },

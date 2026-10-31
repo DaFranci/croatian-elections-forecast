@@ -62,6 +62,9 @@ export function calculateSwing(
     return swing;
 }
 
+// Fill for areas without a result (e.g. municipalities created after that election)
+export const NO_DATA_COLOR = '#CBD5E1';
+
 /**
  * Get party info by ID. Parties not in parties.json (small parties, independent
  * lists) get their list name and the "Other" color.

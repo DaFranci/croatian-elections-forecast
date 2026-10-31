@@ -95,8 +95,8 @@
           "votes": 616,
           "coalition_name": "VOLIM HRVATSKU - VH"
         },
-        "ZS": {
-          "votes": 532,
+        "ZAGORSKA STRANKA - ZS": {
+          "votes": 232,
           "coalition_name": "ZAGORSKA STRANKA - ZS"
         },
         "ZNL": {
@@ -178,6 +178,10 @@
         "BRANKO STOJKOVIĆ": {
           "votes": 20,
           "coalition_name": "NEOVISNA LISTA - BRANKO STOJKOVIĆ"
+        },
+        "ZS": {
+          "votes": 300,
+          "coalition_name": "ZELENA STRANKA - ZS"
         },
         "HDS": {
           "votes": 371,
@@ -312,7 +316,7 @@
           "votes": 22,
           "coalition_name": "VOLIM HRVATSKU - VH"
         },
-        "ZS": {
+        "ZAGORSKA STRANKA - ZS": {
           "votes": 84,
           "coalition_name": "ZAGORSKA STRANKA - ZS"
         },
@@ -473,7 +477,7 @@
           "votes": 14,
           "coalition_name": "ZAGORSKA DEMOKRATSKA STRANKA - ZDS"
         },
-        "ZS": {
+        "ZAGORSKA STRANKA - ZS": {
           "votes": 18,
           "coalition_name": "ZAGORSKA STRANKA - ZS"
         },
@@ -646,7 +650,7 @@
           "votes": 9,
           "coalition_name": "ZAGORSKA DEMOKRATSKA STRANKA - ZDS"
         },
-        "ZS": {
+        "ZAGORSKA STRANKA - ZS": {
           "votes": 15,
           "coalition_name": "ZAGORSKA STRANKA - ZS"
         },
@@ -747,7 +751,7 @@
           "votes": 3,
           "coalition_name": "SOCIJALISTIČKA RADNIČKA PARTIJA HRVATSKE - SRP"
         },
-        "ZS": {
+        "ZAGORSKA STRANKA - ZS": {
           "votes": 5,
           "coalition_name": "ZAGORSKA STRANKA - ZS"
         },
@@ -924,7 +928,7 @@
           "votes": 6,
           "coalition_name": "ZAGORSKA DEMOKRATSKA STRANKA - ZDS"
         },
-        "ZS": {
+        "ZAGORSKA STRANKA - ZS": {
           "votes": 23,
           "coalition_name": "ZAGORSKA STRANKA - ZS"
         },
@@ -1089,7 +1093,7 @@
           "votes": 1,
           "coalition_name": "NEOVISNA LISTA - DAMIR GAŠPAROVIĆ"
         },
-        "ZS": {
+        "ZAGORSKA STRANKA - ZS": {
           "votes": 3,
           "coalition_name": "ZAGORSKA STRANKA - ZS"
         }
@@ -1150,7 +1154,7 @@
           "votes": 536,
           "coalition_name": "SOCIJALDEMOKRATSKA PARTIJA HRVATSKE - SDP, HRVATSKA NARODNA STRANKA - LIBERALNI DEMOKRATI - HNS, ISTARSKI DEMOKRATSKI SABOR - IDS, HRVATSKA STRANKA UMIROVLJENIKA - HSU"
         },
-        "ZS": {
+        "ZAGORSKA STRANKA - ZS": {
           "votes": 5,
           "coalition_name": "ZAGORSKA STRANKA - ZS"
         },
@@ -1339,7 +1343,7 @@
           "votes": 3,
           "coalition_name": "ZAGORSKA DEMOKRATSKA STRANKA - ZDS"
         },
-        "ZS": {
+        "ZAGORSKA STRANKA - ZS": {
           "votes": 18,
           "coalition_name": "ZAGORSKA STRANKA - ZS"
         },
@@ -9274,7 +9278,7 @@
           "votes": 8959,
           "coalition_name": "SOCIJALDEMOKRATSKA PARTIJA HRVATSKE - SDP , HRVATSKA NARODNA STRANKA - LIBERALNI DEMOKRATI - HNS , ISTARSKI DEMOKRATSKI SABOR - IDS , HRVATSKA STRANKA UMIROVLJENIKA - HSU"
         },
-        "ZS": {
+        "ZAGORSKA STRANKA - ZS": {
           "votes": 6,
           "coalition_name": "ZAGORSKA STRANKA - ZS"
         },
@@ -9298,7 +9302,7 @@
           "votes": 7,
           "coalition_name": "STRANKA HRVATSKOG ZAJEDNIŠTVA - SHZ"
         },
-        "ZELENA STRANKA - ZS": {
+        "ZS": {
           "votes": 22,
           "coalition_name": "ZELENA STRANKA - ZS"
         },
@@ -9407,7 +9411,7 @@
           "votes": 1298,
           "coalition_name": "SOCIJALDEMOKRATSKA PARTIJA HRVATSKE - SDP , HRVATSKA NARODNA STRANKA - LIBERALNI DEMOKRATI - HNS , ISTARSKI DEMOKRATSKI SABOR - IDS , HRVATSKA STRANKA UMIROVLJENIKA - HSU"
         },
-        "ZS": {
+        "ZAGORSKA STRANKA - ZS": {
           "votes": 50,
           "coalition_name": "ZAGORSKA STRANKA - ZS"
         },
@@ -9427,7 +9431,7 @@
           "votes": 4,
           "coalition_name": "NOVA HRVATSKA - NH"
         },
-        "ZELENA STRANKA - ZS": {
+        "ZS": {
           "votes": 4,
           "coalition_name": "ZELENA STRANKA - ZS"
         },
@@ -9536,11 +9540,11 @@
           "votes": 4,
           "coalition_name": "STRANKA HRVATSKOG ZAJEDNIŠTVA - SHZ"
         },
-        "ZS": {
+        "ZAGORSKA STRANKA - ZS": {
           "votes": 18,
           "coalition_name": "ZAGORSKA STRANKA - ZS"
         },
-        "ZELENA STRANKA - ZS": {
+        "ZS": {
           "votes": 19,
           "coalition_name": "ZELENA STRANKA - ZS"
         },
@@ -9669,7 +9673,7 @@
           "votes": 747,
           "coalition_name": "SOCIJALDEMOKRATSKA PARTIJA HRVATSKE - SDP , HRVATSKA NARODNA STRANKA - LIBERALNI DEMOKRATI - HNS , ISTARSKI DEMOKRATSKI SABOR - IDS , HRVATSKA STRANKA UMIROVLJENIKA - HSU"
         },
-        "ZS": {
+        "ZAGORSKA STRANKA - ZS": {
           "votes": 25,
           "coalition_name": "ZAGORSKA STRANKA - ZS"
         },
@@ -9705,7 +9709,7 @@
           "votes": 2,
           "coalition_name": "AUTOHTONA-HRVATSKA STRANKA PRAVA - A-HSP"
         },
-        "ZELENA STRANKA - ZS": {
+        "ZS": {
           "votes": 2,
           "coalition_name": "ZELENA STRANKA - ZS"
         }
@@ -9794,7 +9798,7 @@
           "votes": 3470,
           "coalition_name": "SOCIJALDEMOKRATSKA PARTIJA HRVATSKE - SDP , HRVATSKA NARODNA STRANKA - LIBERALNI DEMOKRATI - HNS , ISTARSKI DEMOKRATSKI SABOR - IDS , HRVATSKA STRANKA UMIROVLJENIKA - HSU"
         },
-        "ZS": {
+        "ZAGORSKA STRANKA - ZS": {
           "votes": 85,
           "coalition_name": "ZAGORSKA STRANKA - ZS"
         },
@@ -9802,7 +9806,7 @@
           "votes": 21,
           "coalition_name": "ZELENA LISTA"
         },
-        "ZELENA STRANKA - ZS": {
+        "ZS": {
           "votes": 23,
           "coalition_name": "ZELENA STRANKA - ZS"
         },
@@ -9943,11 +9947,11 @@
           "votes": 15,
           "coalition_name": "ZELENA LISTA"
         },
-        "ZELENA STRANKA - ZS": {
+        "ZS": {
           "votes": 8,
           "coalition_name": "ZELENA STRANKA - ZS"
         },
-        "ZS": {
+        "ZAGORSKA STRANKA - ZS": {
           "votes": 8,
           "coalition_name": "ZAGORSKA STRANKA - ZS"
         },
@@ -10084,7 +10088,7 @@
           "votes": 16,
           "coalition_name": "ZELENA LISTA"
         },
-        "ZELENA STRANKA - ZS": {
+        "ZS": {
           "votes": 11,
           "coalition_name": "ZELENA STRANKA - ZS"
         },
@@ -10092,7 +10096,7 @@
           "votes": 11,
           "coalition_name": "AKCIJA MLADIH - AM"
         },
-        "ZS": {
+        "ZAGORSKA STRANKA - ZS": {
           "votes": 3,
           "coalition_name": "ZAGORSKA STRANKA - ZS"
         },
@@ -10225,7 +10229,7 @@
           "votes": 2,
           "coalition_name": "STRANKA HRVATSKOG ZAJEDNIŠTVA - SHZ"
         },
-        "ZELENA STRANKA - ZS": {
+        "ZS": {
           "votes": 4,
           "coalition_name": "ZELENA STRANKA - ZS"
         },
@@ -10233,7 +10237,7 @@
           "votes": 1,
           "coalition_name": "HRVATSKA EUROPSKA STRANKA - HES"
         },
-        "ZS": {
+        "ZAGORSKA STRANKA - ZS": {
           "votes": 1,
           "coalition_name": "ZAGORSKA STRANKA - ZS"
         }
@@ -10310,7 +10314,7 @@
           "votes": 10,
           "coalition_name": "SOCIJALISTIČKA RADNIČKA PARTIJA HRVATSKE - SRP"
         },
-        "ZS": {
+        "ZAGORSKA STRANKA - ZS": {
           "votes": 25,
           "coalition_name": "ZAGORSKA STRANKA - ZS"
         },
@@ -10318,7 +10322,7 @@
           "votes": 15,
           "coalition_name": "ZELENA LISTA"
         },
-        "ZELENA STRANKA - ZS": {
+        "ZS": {
           "votes": 23,
           "coalition_name": "ZELENA STRANKA - ZS"
         },
@@ -10467,7 +10471,7 @@
           "votes": 1612,
           "coalition_name": "SOCIJALDEMOKRATSKA PARTIJA HRVATSKE - SDP , HRVATSKA NARODNA STRANKA - LIBERALNI DEMOKRATI - HNS , ISTARSKI DEMOKRATSKI SABOR - IDS , HRVATSKA STRANKA UMIROVLJENIKA - HSU"
         },
-        "ZS": {
+        "ZAGORSKA STRANKA - ZS": {
           "votes": 76,
           "coalition_name": "ZAGORSKA STRANKA - ZS"
         },
@@ -10475,7 +10479,7 @@
           "votes": 6,
           "coalition_name": "ZELENA LISTA"
         },
-        "ZELENA STRANKA - ZS": {
+        "ZS": {
           "votes": 13,
           "coalition_name": "ZELENA STRANKA - ZS"
         },
@@ -10612,7 +10616,7 @@
           "votes": 11,
           "coalition_name": "SOCIJALISTIČKA RADNIČKA PARTIJA HRVATSKE - SRP"
         },
-        "ZS": {
+        "ZAGORSKA STRANKA - ZS": {
           "votes": 35,
           "coalition_name": "ZAGORSKA STRANKA - ZS"
         },
@@ -10620,7 +10624,7 @@
           "votes": 6,
           "coalition_name": "ZELENA LISTA"
         },
-        "ZELENA STRANKA - ZS": {
+        "ZS": {
           "votes": 12,
           "coalition_name": "ZELENA STRANKA - ZS"
         },
@@ -10733,7 +10737,7 @@
           "votes": 7,
           "coalition_name": "ZELENA LISTA"
         },
-        "ZELENA STRANKA - ZS": {
+        "ZS": {
           "votes": 8,
           "coalition_name": "ZELENA STRANKA - ZS"
         },
@@ -10761,7 +10765,7 @@
           "votes": 4,
           "coalition_name": "AGENDA MLADIH DEMOKRATA - AMD , HRVATSKA STRANKA MLADIH - HSM"
         },
-        "ZS": {
+        "ZAGORSKA STRANKA - ZS": {
           "votes": 1,
           "coalition_name": "ZAGORSKA STRANKA - ZS"
         }
@@ -10854,7 +10858,7 @@
           "votes": 65,
           "coalition_name": "SOCIJALISTIČKA RADNIČKA PARTIJA HRVATSKE - SRP"
         },
-        "ZS": {
+        "ZAGORSKA STRANKA - ZS": {
           "votes": 66,
           "coalition_name": "ZAGORSKA STRANKA - ZS"
         },
@@ -10862,7 +10866,7 @@
           "votes": 79,
           "coalition_name": "ZELENA LISTA"
         },
-        "ZELENA STRANKA - ZS": {
+        "ZS": {
           "votes": 59,
           "coalition_name": "ZELENA STRANKA - ZS"
         },
@@ -10983,7 +10987,7 @@
           "votes": 1871,
           "coalition_name": "SOCIJALDEMOKRATSKA PARTIJA HRVATSKE - SDP , HRVATSKA NARODNA STRANKA - LIBERALNI DEMOKRATI - HNS , ISTARSKI DEMOKRATSKI SABOR - IDS , HRVATSKA STRANKA UMIROVLJENIKA - HSU"
         },
-        "ZS": {
+        "ZAGORSKA STRANKA - ZS": {
           "votes": 7,
           "coalition_name": "ZAGORSKA STRANKA - ZS"
         },
@@ -11003,7 +11007,7 @@
           "votes": 5,
           "coalition_name": "SOCIJALISTIČKA RADNIČKA PARTIJA HRVATSKE - SRP"
         },
-        "ZELENA STRANKA - ZS": {
+        "ZS": {
           "votes": 10,
           "coalition_name": "ZELENA STRANKA - ZS"
         },
@@ -11120,7 +11124,7 @@
           "votes": 8,
           "coalition_name": "STRANKA HRVATSKOG ZAJEDNIŠTVA - SHZ"
         },
-        "ZS": {
+        "ZAGORSKA STRANKA - ZS": {
           "votes": 136,
           "coalition_name": "ZAGORSKA STRANKA - ZS"
         },
@@ -11128,7 +11132,7 @@
           "votes": 19,
           "coalition_name": "ZELENA LISTA"
         },
-        "ZELENA STRANKA - ZS": {
+        "ZS": {
           "votes": 11,
           "coalition_name": "ZELENA STRANKA - ZS"
         },
@@ -11237,7 +11241,7 @@
           "votes": 86,
           "coalition_name": "HRVATSKI RAST - HRAST"
         },
-        "ZS": {
+        "ZAGORSKA STRANKA - ZS": {
           "votes": 42,
           "coalition_name": "ZAGORSKA STRANKA - ZS"
         },
@@ -11285,7 +11289,7 @@
           "votes": 4,
           "coalition_name": "SOCIJALISTIČKA RADNIČKA PARTIJA HRVATSKE - SRP"
         },
-        "ZELENA STRANKA - ZS": {
+        "ZS": {
           "votes": 1,
           "coalition_name": "ZELENA STRANKA - ZS"
         }
@@ -11390,7 +11394,7 @@
           "votes": 15,
           "coalition_name": "SOCIJALISTIČKA RADNIČKA PARTIJA HRVATSKE - SRP"
         },
-        "ZS": {
+        "ZAGORSKA STRANKA - ZS": {
           "votes": 83,
           "coalition_name": "ZAGORSKA STRANKA - ZS"
         },
@@ -11398,7 +11402,7 @@
           "votes": 11,
           "coalition_name": "ZELENA LISTA"
         },
-        "ZELENA STRANKA - ZS": {
+        "ZS": {
           "votes": 8,
           "coalition_name": "ZELENA STRANKA - ZS"
         },
@@ -11499,11 +11503,11 @@
           "votes": 7,
           "coalition_name": "SOCIJALISTIČKA RADNIČKA PARTIJA HRVATSKE - SRP"
         },
-        "ZS": {
+        "ZAGORSKA STRANKA - ZS": {
           "votes": 6,
           "coalition_name": "ZAGORSKA STRANKA - ZS"
         },
-        "ZELENA STRANKA - ZS": {
+        "ZS": {
           "votes": 7,
           "coalition_name": "ZELENA STRANKA - ZS"
         },
@@ -11644,11 +11648,11 @@
           "votes": 952,
           "coalition_name": "SOCIJALDEMOKRATSKA PARTIJA HRVATSKE - SDP , HRVATSKA NARODNA STRANKA - LIBERALNI DEMOKRATI - HNS , ISTARSKI DEMOKRATSKI SABOR - IDS , HRVATSKA STRANKA UMIROVLJENIKA - HSU"
         },
-        "ZS": {
+        "ZAGORSKA STRANKA - ZS": {
           "votes": 1,
           "coalition_name": "ZAGORSKA STRANKA - ZS"
         },
-        "ZELENA STRANKA - ZS": {
+        "ZS": {
           "votes": 1,
           "coalition_name": "ZELENA STRANKA - ZS"
         },
@@ -11773,7 +11777,7 @@
           "votes": 2,
           "coalition_name": "NACIONALNI DEMOKRATI - ND"
         },
-        "ZS": {
+        "ZAGORSKA STRANKA - ZS": {
           "votes": 2,
           "coalition_name": "ZAGORSKA STRANKA - ZS"
         },
@@ -11793,7 +11797,7 @@
           "votes": 2,
           "coalition_name": "DEMOKRATSKA STRANKA ŽENA - DSŽ"
         },
-        "ZELENA STRANKA - ZS": {
+        "ZS": {
           "votes": 1,
           "coalition_name": "ZELENA STRANKA - ZS"
         },
@@ -11886,11 +11890,11 @@
           "votes": 2,
           "coalition_name": "SOCIJALISTIČKA RADNIČKA PARTIJA HRVATSKE - SRP"
         },
-        "ZS": {
+        "ZAGORSKA STRANKA - ZS": {
           "votes": 4,
           "coalition_name": "ZAGORSKA STRANKA - ZS"
         },
-        "ZELENA STRANKA - ZS": {
+        "ZS": {
           "votes": 5,
           "coalition_name": "ZELENA STRANKA - ZS"
         },
@@ -12003,7 +12007,7 @@
           "votes": 299,
           "coalition_name": "SOCIJALDEMOKRATSKA PARTIJA HRVATSKE - SDP , HRVATSKA NARODNA STRANKA - LIBERALNI DEMOKRATI - HNS , ISTARSKI DEMOKRATSKI SABOR - IDS , HRVATSKA STRANKA UMIROVLJENIKA - HSU"
         },
-        "ZS": {
+        "ZAGORSKA STRANKA - ZS": {
           "votes": 2,
           "coalition_name": "ZAGORSKA STRANKA - ZS"
         },
@@ -12011,7 +12015,7 @@
           "votes": 6,
           "coalition_name": "ZELENA LISTA"
         },
-        "ZELENA STRANKA - ZS": {
+        "ZS": {
           "votes": 1,
           "coalition_name": "ZELENA STRANKA - ZS"
         },
@@ -12112,7 +12116,7 @@
           "votes": 2,
           "coalition_name": "STRANKA HRVATSKOG ZAJEDNIŠTVA - SHZ"
         },
-        "ZS": {
+        "ZAGORSKA STRANKA - ZS": {
           "votes": 18,
           "coalition_name": "ZAGORSKA STRANKA - ZS"
         },
@@ -12269,7 +12273,7 @@
           "votes": 4,
           "coalition_name": "STRANKA HRVATSKOG ZAJEDNIŠTVA - SHZ"
         },
-        "ZS": {
+        "ZAGORSKA STRANKA - ZS": {
           "votes": 8,
           "coalition_name": "ZAGORSKA STRANKA - ZS"
         },
@@ -12277,7 +12281,7 @@
           "votes": 8,
           "coalition_name": "ZELENA LISTA"
         },
-        "ZELENA STRANKA - ZS": {
+        "ZS": {
           "votes": 10,
           "coalition_name": "ZELENA STRANKA - ZS"
         },
@@ -12483,7 +12487,7 @@
           "votes": 4,
           "coalition_name": "SOCIJALISTIČKA RADNIČKA PARTIJA HRVATSKE - SRP"
         },
-        "ZS": {
+        "ZAGORSKA STRANKA - ZS": {
           "votes": 16,
           "coalition_name": "ZAGORSKA STRANKA - ZS"
         },
@@ -12499,7 +12503,7 @@
           "votes": 2,
           "coalition_name": "ZELENA LISTA"
         },
-        "ZELENA STRANKA - ZS": {
+        "ZS": {
           "votes": 2,
           "coalition_name": "ZELENA STRANKA - ZS"
         },
@@ -12632,7 +12636,7 @@
           "votes": 1,
           "coalition_name": "ZELENA LISTA"
         },
-        "ZELENA STRANKA - ZS": {
+        "ZS": {
           "votes": 1,
           "coalition_name": "ZELENA STRANKA - ZS"
         }
@@ -12826,7 +12830,7 @@
           "votes": 10,
           "coalition_name": "HRVATSKA SOCIJALNO-LIBERALNA STRANKA - HSLS , ZAGORSKA DEMOKRATSKA STRANKA - ZDS"
         },
-        "ZELENA STRANKA - ZS": {
+        "ZS": {
           "votes": 1,
           "coalition_name": "ZELENA STRANKA - ZS"
         },
@@ -12838,7 +12842,7 @@
           "votes": 1,
           "coalition_name": "NACIONALNI DEMOKRATI - ND"
         },
-        "ZS": {
+        "ZAGORSKA STRANKA - ZS": {
           "votes": 4,
           "coalition_name": "ZAGORSKA STRANKA - ZS"
         },
@@ -12939,7 +12943,7 @@
           "votes": 7,
           "coalition_name": "SOCIJALISTIČKA RADNIČKA PARTIJA HRVATSKE - SRP"
         },
-        "ZELENA STRANKA - ZS": {
+        "ZS": {
           "votes": 10,
           "coalition_name": "ZELENA STRANKA - ZS"
         },
@@ -13068,7 +13072,7 @@
           "votes": 3,
           "coalition_name": "ZELENA LISTA"
         },
-        "ZELENA STRANKA - ZS": {
+        "ZS": {
           "votes": 3,
           "coalition_name": "ZELENA STRANKA - ZS"
         },
@@ -13189,11 +13193,11 @@
           "votes": 14,
           "coalition_name": "SOCIJALISTIČKA RADNIČKA PARTIJA HRVATSKE - SRP"
         },
-        "ZS": {
+        "ZAGORSKA STRANKA - ZS": {
           "votes": 31,
           "coalition_name": "ZAGORSKA STRANKA - ZS"
         },
-        "ZELENA STRANKA - ZS": {
+        "ZS": {
           "votes": 2,
           "coalition_name": "ZELENA STRANKA - ZS"
         },
@@ -13310,7 +13314,7 @@
           "votes": 2,
           "coalition_name": "ZELENA LISTA"
         },
-        "ZELENA STRANKA - ZS": {
+        "ZS": {
           "votes": 5,
           "coalition_name": "ZELENA STRANKA - ZS"
         },
@@ -13342,7 +13346,7 @@
           "votes": 1,
           "coalition_name": "SOCIJALISTIČKA RADNIČKA PARTIJA HRVATSKE - SRP"
         },
-        "ZS": {
+        "ZAGORSKA STRANKA - ZS": {
           "votes": 2,
           "coalition_name": "ZAGORSKA STRANKA - ZS"
         }
@@ -13439,7 +13443,7 @@
           "votes": 2,
           "coalition_name": "SOCIJALISTIČKA RADNIČKA PARTIJA HRVATSKE - SRP"
         },
-        "ZS": {
+        "ZAGORSKA STRANKA - ZS": {
           "votes": 31,
           "coalition_name": "ZAGORSKA STRANKA - ZS"
         },
@@ -13471,7 +13475,7 @@
           "votes": 8,
           "coalition_name": "ZELENA LISTA"
         },
-        "ZELENA STRANKA - ZS": {
+        "ZS": {
           "votes": 7,
           "coalition_name": "ZELENA STRANKA - ZS"
         }
@@ -13548,11 +13552,11 @@
           "votes": 5,
           "coalition_name": "SOCIJALISTIČKA RADNIČKA PARTIJA HRVATSKE - SRP"
         },
-        "ZS": {
+        "ZAGORSKA STRANKA - ZS": {
           "votes": 4,
           "coalition_name": "ZAGORSKA STRANKA - ZS"
         },
-        "ZELENA STRANKA - ZS": {
+        "ZS": {
           "votes": 7,
           "coalition_name": "ZELENA STRANKA - ZS"
         },
@@ -13713,7 +13717,7 @@
           "votes": 4,
           "coalition_name": "NACIONALNI DEMOKRATI - ND"
         },
-        "ZS": {
+        "ZAGORSKA STRANKA - ZS": {
           "votes": 1,
           "coalition_name": "ZAGORSKA STRANKA - ZS"
         }
@@ -13790,7 +13794,7 @@
           "votes": 254,
           "coalition_name": "SOCIJALDEMOKRATSKA PARTIJA HRVATSKE - SDP , HRVATSKA NARODNA STRANKA - LIBERALNI DEMOKRATI - HNS , ISTARSKI DEMOKRATSKI SABOR - IDS , HRVATSKA STRANKA UMIROVLJENIKA - HSU"
         },
-        "ZS": {
+        "ZAGORSKA STRANKA - ZS": {
           "votes": 8,
           "coalition_name": "ZAGORSKA STRANKA - ZS"
         },
@@ -13834,7 +13838,7 @@
           "votes": 2,
           "coalition_name": "NACIONALNI DEMOKRATI - ND"
         },
-        "ZELENA STRANKA - ZS": {
+        "ZS": {
           "votes": 1,
           "coalition_name": "ZELENA STRANKA - ZS"
         }
@@ -13935,7 +13939,7 @@
           "votes": 7,
           "coalition_name": "SOCIJALISTIČKA RADNIČKA PARTIJA HRVATSKE - SRP"
         },
-        "ZS": {
+        "ZAGORSKA STRANKA - ZS": {
           "votes": 24,
           "coalition_name": "ZAGORSKA STRANKA - ZS"
         },
@@ -13959,7 +13963,7 @@
           "votes": 12,
           "coalition_name": "AKCIJA ZA BOLJU HRVATSKU - ABH , JEDINO HRVATSKA - POKRET ZA HRVATSKU - JEDINO HRVATSKA"
         },
-        "ZELENA STRANKA - ZS": {
+        "ZS": {
           "votes": 5,
           "coalition_name": "ZELENA STRANKA - ZS"
         },
@@ -14056,7 +14060,7 @@
           "votes": 5,
           "coalition_name": "SOCIJALISTIČKA RADNIČKA PARTIJA HRVATSKE - SRP"
         },
-        "ZS": {
+        "ZAGORSKA STRANKA - ZS": {
           "votes": 4,
           "coalition_name": "ZAGORSKA STRANKA - ZS"
         },
@@ -14064,7 +14068,7 @@
           "votes": 4,
           "coalition_name": "ZELENA LISTA"
         },
-        "ZELENA STRANKA - ZS": {
+        "ZS": {
           "votes": 3,
           "coalition_name": "ZELENA STRANKA - ZS"
         },
@@ -14185,7 +14189,7 @@
           "votes": 1,
           "coalition_name": "STRANKA HRVATSKOG ZAJEDNIŠTVA - SHZ"
         },
-        "ZS": {
+        "ZAGORSKA STRANKA - ZS": {
           "votes": 9,
           "coalition_name": "ZAGORSKA STRANKA - ZS"
         },
@@ -14286,7 +14290,7 @@
           "votes": 561,
           "coalition_name": "SOCIJALDEMOKRATSKA PARTIJA HRVATSKE - SDP , HRVATSKA NARODNA STRANKA - LIBERALNI DEMOKRATI - HNS , ISTARSKI DEMOKRATSKI SABOR - IDS , HRVATSKA STRANKA UMIROVLJENIKA - HSU"
         },
-        "ZS": {
+        "ZAGORSKA STRANKA - ZS": {
           "votes": 9,
           "coalition_name": "ZAGORSKA STRANKA - ZS"
         },
@@ -14310,7 +14314,7 @@
           "votes": 10,
           "coalition_name": "HRVATSKA DEMOKRATSKA SELJAČKA STRANKA - HDSS"
         },
-        "ZELENA STRANKA - ZS": {
+        "ZS": {
           "votes": 1,
           "coalition_name": "ZELENA STRANKA - ZS"
         },
@@ -14419,7 +14423,7 @@
           "votes": 1,
           "coalition_name": "STRANKA HRVATSKOG ZAJEDNIŠTVA - SHZ"
         },
-        "ZS": {
+        "ZAGORSKA STRANKA - ZS": {
           "votes": 22,
           "coalition_name": "ZAGORSKA STRANKA - ZS"
         },
@@ -14439,7 +14443,7 @@
           "votes": 3,
           "coalition_name": "HRVATSKA EUROPSKA STRANKA - HES"
         },
-        "ZELENA STRANKA - ZS": {
+        "ZS": {
           "votes": 5,
           "coalition_name": "ZELENA STRANKA - ZS"
         },
@@ -14564,7 +14568,7 @@
           "votes": 1,
           "coalition_name": "ZELENA LISTA"
         },
-        "ZELENA STRANKA - ZS": {
+        "ZS": {
           "votes": 1,
           "coalition_name": "ZELENA STRANKA - ZS"
         },
@@ -14576,7 +14580,7 @@
           "votes": 1,
           "coalition_name": "SOCIJALISTIČKA RADNIČKA PARTIJA HRVATSKE - SRP"
         },
-        "ZS": {
+        "ZAGORSKA STRANKA - ZS": {
           "votes": 1,
           "coalition_name": "ZAGORSKA STRANKA - ZS"
         }
@@ -14661,7 +14665,7 @@
           "votes": 2,
           "coalition_name": "SOCIJALISTIČKA RADNIČKA PARTIJA HRVATSKE - SRP"
         },
-        "ZS": {
+        "ZAGORSKA STRANKA - ZS": {
           "votes": 9,
           "coalition_name": "ZAGORSKA STRANKA - ZS"
         },
@@ -14697,7 +14701,7 @@
           "votes": 1,
           "coalition_name": "NOVA HRVATSKA - NH"
         },
-        "ZELENA STRANKA - ZS": {
+        "ZS": {
           "votes": 2,
           "coalition_name": "ZELENA STRANKA - ZS"
         }
@@ -14774,7 +14778,7 @@
           "votes": 7,
           "coalition_name": "SOCIJALISTIČKA RADNIČKA PARTIJA HRVATSKE - SRP"
         },
-        "ZS": {
+        "ZAGORSKA STRANKA - ZS": {
           "votes": 49,
           "coalition_name": "ZAGORSKA STRANKA - ZS"
         },
@@ -14782,7 +14786,7 @@
           "votes": 7,
           "coalition_name": "ZELENA LISTA"
         },
-        "ZELENA STRANKA - ZS": {
+        "ZS": {
           "votes": 8,
           "coalition_name": "ZELENA STRANKA - ZS"
         },
@@ -14891,7 +14895,7 @@
           "votes": 434,
           "coalition_name": "SOCIJALDEMOKRATSKA PARTIJA HRVATSKE - SDP , HRVATSKA NARODNA STRANKA - LIBERALNI DEMOKRATI - HNS , ISTARSKI DEMOKRATSKI SABOR - IDS , HRVATSKA STRANKA UMIROVLJENIKA - HSU"
         },
-        "ZS": {
+        "ZAGORSKA STRANKA - ZS": {
           "votes": 10,
           "coalition_name": "ZAGORSKA STRANKA - ZS"
         },
@@ -14899,7 +14903,7 @@
           "votes": 3,
           "coalition_name": "ZELENA LISTA"
         },
-        "ZELENA STRANKA - ZS": {
+        "ZS": {
           "votes": 1,
           "coalition_name": "ZELENA STRANKA - ZS"
         },
@@ -15056,7 +15060,7 @@
           "votes": 567,
           "coalition_name": "SOCIJALDEMOKRATSKA PARTIJA HRVATSKE - SDP , HRVATSKA NARODNA STRANKA - LIBERALNI DEMOKRATI - HNS , ISTARSKI DEMOKRATSKI SABOR - IDS , HRVATSKA STRANKA UMIROVLJENIKA - HSU"
         },
-        "ZS": {
+        "ZAGORSKA STRANKA - ZS": {
           "votes": 23,
           "coalition_name": "ZAGORSKA STRANKA - ZS"
         },
@@ -15072,7 +15076,7 @@
           "votes": 6,
           "coalition_name": "HRVATSKA EUROPSKA STRANKA - HES"
         },
-        "ZELENA STRANKA - ZS": {
+        "ZS": {
           "votes": 3,
           "coalition_name": "ZELENA STRANKA - ZS"
         },
@@ -15161,7 +15165,7 @@
           "votes": 451,
           "coalition_name": "SOCIJALDEMOKRATSKA PARTIJA HRVATSKE - SDP , HRVATSKA NARODNA STRANKA - LIBERALNI DEMOKRATI - HNS , ISTARSKI DEMOKRATSKI SABOR - IDS , HRVATSKA STRANKA UMIROVLJENIKA - HSU"
         },
-        "ZS": {
+        "ZAGORSKA STRANKA - ZS": {
           "votes": 2,
           "coalition_name": "ZAGORSKA STRANKA - ZS"
         },
@@ -15189,7 +15193,7 @@
           "votes": 2,
           "coalition_name": "ZELENA LISTA"
         },
-        "ZELENA STRANKA - ZS": {
+        "ZS": {
           "votes": 6,
           "coalition_name": "ZELENA STRANKA - ZS"
         },
@@ -15298,7 +15302,7 @@
           "votes": 570,
           "coalition_name": "SOCIJALDEMOKRATSKA PARTIJA HRVATSKE - SDP , HRVATSKA NARODNA STRANKA - LIBERALNI DEMOKRATI - HNS , ISTARSKI DEMOKRATSKI SABOR - IDS , HRVATSKA STRANKA UMIROVLJENIKA - HSU"
         },
-        "ZS": {
+        "ZAGORSKA STRANKA - ZS": {
           "votes": 25,
           "coalition_name": "ZAGORSKA STRANKA - ZS"
         },
@@ -15306,7 +15310,7 @@
           "votes": 2,
           "coalition_name": "ZELENA LISTA"
         },
-        "ZELENA STRANKA - ZS": {
+        "ZS": {
           "votes": 2,
           "coalition_name": "ZELENA STRANKA - ZS"
         },
@@ -15427,7 +15431,7 @@
           "votes": 4,
           "coalition_name": "SOCIJALISTIČKA RADNIČKA PARTIJA HRVATSKE - SRP"
         },
-        "ZS": {
+        "ZAGORSKA STRANKA - ZS": {
           "votes": 1,
           "coalition_name": "ZAGORSKA STRANKA - ZS"
         },
@@ -15443,7 +15447,7 @@
           "votes": 4,
           "coalition_name": "STRANKA HRVATSKOG ZAJEDNIŠTVA - SHZ"
         },
-        "ZELENA STRANKA - ZS": {
+        "ZS": {
           "votes": 5,
           "coalition_name": "ZELENA STRANKA - ZS"
         },
@@ -15580,7 +15584,7 @@
           "votes": 1,
           "coalition_name": "SOCIJALISTIČKA RADNIČKA PARTIJA HRVATSKE - SRP"
         },
-        "ZELENA STRANKA - ZS": {
+        "ZS": {
           "votes": 1,
           "coalition_name": "ZELENA STRANKA - ZS"
         }
@@ -15693,11 +15697,11 @@
           "votes": 4,
           "coalition_name": "SOCIJALISTIČKA RADNIČKA PARTIJA HRVATSKE - SRP"
         },
-        "ZS": {
+        "ZAGORSKA STRANKA - ZS": {
           "votes": 40,
           "coalition_name": "ZAGORSKA STRANKA - ZS"
         },
-        "ZELENA STRANKA - ZS": {
+        "ZS": {
           "votes": 5,
           "coalition_name": "ZELENA STRANKA - ZS"
         },
@@ -15798,7 +15802,7 @@
           "votes": 6,
           "coalition_name": "ZELENA LISTA"
         },
-        "ZELENA STRANKA - ZS": {
+        "ZS": {
           "votes": 5,
           "coalition_name": "ZELENA STRANKA - ZS"
         },
@@ -15955,7 +15959,7 @@
           "votes": 1,
           "coalition_name": "STRANKA HRVATSKOG ZAJEDNIŠTVA - SHZ"
         },
-        "ZS": {
+        "ZAGORSKA STRANKA - ZS": {
           "votes": 10,
           "coalition_name": "ZAGORSKA STRANKA - ZS"
         },
@@ -15963,7 +15967,7 @@
           "votes": 10,
           "coalition_name": "ZELENA LISTA"
         },
-        "ZELENA STRANKA - ZS": {
+        "ZS": {
           "votes": 13,
           "coalition_name": "ZELENA STRANKA - ZS"
         },
@@ -16072,7 +16076,7 @@
           "votes": 372,
           "coalition_name": "SOCIJALDEMOKRATSKA PARTIJA HRVATSKE - SDP , HRVATSKA NARODNA STRANKA - LIBERALNI DEMOKRATI - HNS , ISTARSKI DEMOKRATSKI SABOR - IDS , HRVATSKA STRANKA UMIROVLJENIKA - HSU"
         },
-        "ZS": {
+        "ZAGORSKA STRANKA - ZS": {
           "votes": 6,
           "coalition_name": "ZAGORSKA STRANKA - ZS"
         },
@@ -16217,7 +16221,7 @@
           "votes": 11,
           "coalition_name": "SOCIJALISTIČKA RADNIČKA PARTIJA HRVATSKE - SRP"
         },
-        "ZS": {
+        "ZAGORSKA STRANKA - ZS": {
           "votes": 9,
           "coalition_name": "ZAGORSKA STRANKA - ZS"
         },
@@ -16225,7 +16229,7 @@
           "votes": 9,
           "coalition_name": "AUTOHTONA-HRVATSKA STRANKA PRAVA - A-HSP"
         },
-        "ZELENA STRANKA - ZS": {
+        "ZS": {
           "votes": 3,
           "coalition_name": "ZELENA STRANKA - ZS"
         }
@@ -16322,7 +16326,7 @@
           "votes": 1,
           "coalition_name": "SOCIJALISTIČKA RADNIČKA PARTIJA HRVATSKE - SRP"
         },
-        "ZS": {
+        "ZAGORSKA STRANKA - ZS": {
           "votes": 5,
           "coalition_name": "ZAGORSKA STRANKA - ZS"
         },
@@ -16330,7 +16334,7 @@
           "votes": 1,
           "coalition_name": "ZELENA LISTA"
         },
-        "ZELENA STRANKA - ZS": {
+        "ZS": {
           "votes": 1,
           "coalition_name": "ZELENA STRANKA - ZS"
         },
@@ -16447,7 +16451,7 @@
           "votes": 1,
           "coalition_name": "NOVA HRVATSKA - NH"
         },
-        "ZELENA STRANKA - ZS": {
+        "ZS": {
           "votes": 1,
           "coalition_name": "ZELENA STRANKA - ZS"
         },
@@ -16544,7 +16548,7 @@
           "votes": 1431,
           "coalition_name": "SOCIJALDEMOKRATSKA PARTIJA HRVATSKE - SDP , HRVATSKA NARODNA STRANKA - LIBERALNI DEMOKRATI - HNS , ISTARSKI DEMOKRATSKI SABOR - IDS , HRVATSKA STRANKA UMIROVLJENIKA - HSU"
         },
-        "ZS": {
+        "ZAGORSKA STRANKA - ZS": {
           "votes": 7,
           "coalition_name": "ZAGORSKA STRANKA - ZS"
         },
@@ -16552,7 +16556,7 @@
           "votes": 11,
           "coalition_name": "ZELENA LISTA"
         },
-        "ZELENA STRANKA - ZS": {
+        "ZS": {
           "votes": 5,
           "coalition_name": "ZELENA STRANKA - ZS"
         },
@@ -16677,11 +16681,11 @@
           "votes": 3,
           "coalition_name": "SOCIJALISTIČKA RADNIČKA PARTIJA HRVATSKE - SRP"
         },
-        "ZS": {
+        "ZAGORSKA STRANKA - ZS": {
           "votes": 15,
           "coalition_name": "ZAGORSKA STRANKA - ZS"
         },
-        "ZELENA STRANKA - ZS": {
+        "ZS": {
           "votes": 5,
           "coalition_name": "ZELENA STRANKA - ZS"
         },
@@ -16826,7 +16830,7 @@
           "votes": 3,
           "coalition_name": "SOCIJALISTIČKA RADNIČKA PARTIJA HRVATSKE - SRP"
         },
-        "ZS": {
+        "ZAGORSKA STRANKA - ZS": {
           "votes": 3,
           "coalition_name": "ZAGORSKA STRANKA - ZS"
         },
@@ -16850,7 +16854,7 @@
           "votes": 2,
           "coalition_name": "STRANKA HRVATSKOG ZAJEDNIŠTVA - SHZ"
         },
-        "ZELENA STRANKA - ZS": {
+        "ZS": {
           "votes": 4,
           "coalition_name": "ZELENA STRANKA - ZS"
         },
@@ -16963,7 +16967,7 @@
           "votes": 2,
           "coalition_name": "ZELENA LISTA"
         },
-        "ZELENA STRANKA - ZS": {
+        "ZS": {
           "votes": 1,
           "coalition_name": "ZELENA STRANKA - ZS"
         },
@@ -17060,11 +17064,11 @@
           "votes": 25,
           "coalition_name": "NEOVISNA LISTA - IVAN FIOLIĆ FIO"
         },
-        "ZS": {
+        "ZAGORSKA STRANKA - ZS": {
           "votes": 13,
           "coalition_name": "ZAGORSKA STRANKA - ZS"
         },
-        "ZELENA STRANKA - ZS": {
+        "ZS": {
           "votes": 2,
           "coalition_name": "ZELENA STRANKA - ZS"
         },
@@ -17330,7 +17334,7 @@
           "votes": 4,
           "coalition_name": "SOCIJALISTIČKA RADNIČKA PARTIJA HRVATSKE - SRP"
         },
-        "ZS": {
+        "ZAGORSKA STRANKA - ZS": {
           "votes": 7,
           "coalition_name": "ZAGORSKA STRANKA - ZS"
         },
@@ -17338,7 +17342,7 @@
           "votes": 3,
           "coalition_name": "ZELENA LISTA"
         },
-        "ZELENA STRANKA - ZS": {
+        "ZS": {
           "votes": 4,
           "coalition_name": "ZELENA STRANKA - ZS"
         },
@@ -17443,7 +17447,7 @@
           "votes": 3,
           "coalition_name": "SOCIJALISTIČKA RADNIČKA PARTIJA HRVATSKE - SRP"
         },
-        "ZELENA STRANKA - ZS": {
+        "ZS": {
           "votes": 1,
           "coalition_name": "ZELENA STRANKA - ZS"
         },
@@ -17572,7 +17576,7 @@
           "votes": 5,
           "coalition_name": "SOCIJALISTIČKA RADNIČKA PARTIJA HRVATSKE - SRP"
         },
-        "ZS": {
+        "ZAGORSKA STRANKA - ZS": {
           "votes": 25,
           "coalition_name": "ZAGORSKA STRANKA - ZS"
         },
@@ -17580,7 +17584,7 @@
           "votes": 8,
           "coalition_name": "ZELENA LISTA"
         },
-        "ZELENA STRANKA - ZS": {
+        "ZS": {
           "votes": 4,
           "coalition_name": "ZELENA STRANKA - ZS"
         },
@@ -17677,7 +17681,7 @@
           "votes": 1,
           "coalition_name": "STRANKA HRVATSKOG ZAJEDNIŠTVA - SHZ"
         },
-        "ZELENA STRANKA - ZS": {
+        "ZS": {
           "votes": 2,
           "coalition_name": "ZELENA STRANKA - ZS"
         },
@@ -17709,7 +17713,7 @@
           "votes": 1,
           "coalition_name": "AKCIJA MLADIH - AM"
         },
-        "ZS": {
+        "ZAGORSKA STRANKA - ZS": {
           "votes": 1,
           "coalition_name": "ZAGORSKA STRANKA - ZS"
         }
@@ -17802,7 +17806,7 @@
           "votes": 9,
           "coalition_name": "NEOVISNA LISTA - IVAN GRUBIŠIĆ"
         },
-        "ZELENA STRANKA - ZS": {
+        "ZS": {
           "votes": 6,
           "coalition_name": "ZELENA STRANKA - ZS"
         },
@@ -17826,7 +17830,7 @@
           "votes": 2,
           "coalition_name": "NOVA HRVATSKA - NH"
         },
-        "ZS": {
+        "ZAGORSKA STRANKA - ZS": {
           "votes": 1,
           "coalition_name": "ZAGORSKA STRANKA - ZS"
         },
@@ -17943,7 +17947,7 @@
           "votes": 2,
           "coalition_name": "STRANKA HRVATSKOG ZAJEDNIŠTVA - SHZ"
         },
-        "ZS": {
+        "ZAGORSKA STRANKA - ZS": {
           "votes": 5,
           "coalition_name": "ZAGORSKA STRANKA - ZS"
         },
@@ -17951,7 +17955,7 @@
           "votes": 6,
           "coalition_name": "ZELENA LISTA"
         },
-        "ZELENA STRANKA - ZS": {
+        "ZS": {
           "votes": 8,
           "coalition_name": "ZELENA STRANKA - ZS"
         },
@@ -18064,7 +18068,7 @@
           "votes": 9,
           "coalition_name": "SOCIJALISTIČKA RADNIČKA PARTIJA HRVATSKE - SRP"
         },
-        "ZELENA STRANKA - ZS": {
+        "ZS": {
           "votes": 3,
           "coalition_name": "ZELENA STRANKA - ZS"
         },
@@ -18084,7 +18088,7 @@
           "votes": 3,
           "coalition_name": "ABECEDA DEMOKRACIJE - ABECEDA"
         },
-        "ZS": {
+        "ZAGORSKA STRANKA - ZS": {
           "votes": 1,
           "coalition_name": "ZAGORSKA STRANKA - ZS"
         },
@@ -18193,11 +18197,11 @@
           "votes": 7,
           "coalition_name": "SOCIJALISTIČKA RADNIČKA PARTIJA HRVATSKE - SRP"
         },
-        "ZS": {
+        "ZAGORSKA STRANKA - ZS": {
           "votes": 72,
           "coalition_name": "ZAGORSKA STRANKA - ZS"
         },
-        "ZELENA STRANKA - ZS": {
+        "ZS": {
           "votes": 9,
           "coalition_name": "ZELENA STRANKA - ZS"
         },
@@ -18346,11 +18350,11 @@
           "votes": 1,
           "coalition_name": "ZELENA LISTA"
         },
-        "ZELENA STRANKA - ZS": {
+        "ZS": {
           "votes": 5,
           "coalition_name": "ZELENA STRANKA - ZS"
         },
-        "ZS": {
+        "ZAGORSKA STRANKA - ZS": {
           "votes": 1,
           "coalition_name": "ZAGORSKA STRANKA - ZS"
         }
@@ -18439,7 +18443,7 @@
           "votes": 945,
           "coalition_name": "SOCIJALDEMOKRATSKA PARTIJA HRVATSKE - SDP , HRVATSKA NARODNA STRANKA - LIBERALNI DEMOKRATI - HNS , ISTARSKI DEMOKRATSKI SABOR - IDS , HRVATSKA STRANKA UMIROVLJENIKA - HSU"
         },
-        "ZELENA STRANKA - ZS": {
+        "ZS": {
           "votes": 4,
           "coalition_name": "ZELENA STRANKA - ZS"
         },
@@ -18568,7 +18572,7 @@
           "votes": 2,
           "coalition_name": "SOCIJALISTIČKA RADNIČKA PARTIJA HRVATSKE - SRP"
         },
-        "ZELENA STRANKA - ZS": {
+        "ZS": {
           "votes": 2,
           "coalition_name": "ZELENA STRANKA - ZS"
         },
@@ -18697,11 +18701,11 @@
           "votes": 2,
           "coalition_name": "NOVA HRVATSKA - NH"
         },
-        "ZS": {
+        "ZAGORSKA STRANKA - ZS": {
           "votes": 5,
           "coalition_name": "ZAGORSKA STRANKA - ZS"
         },
-        "ZELENA STRANKA - ZS": {
+        "ZS": {
           "votes": 4,
           "coalition_name": "ZELENA STRANKA - ZS"
         },
@@ -18766,7 +18770,7 @@
           "votes": 447,
           "coalition_name": "SOCIJALDEMOKRATSKA PARTIJA HRVATSKE - SDP , HRVATSKA NARODNA STRANKA - LIBERALNI DEMOKRATI - HNS , ISTARSKI DEMOKRATSKI SABOR - IDS , HRVATSKA STRANKA UMIROVLJENIKA - HSU"
         },
-        "ZS": {
+        "ZAGORSKA STRANKA - ZS": {
           "votes": 10,
           "coalition_name": "ZAGORSKA STRANKA - ZS"
         },
@@ -18790,7 +18794,7 @@
           "votes": 10,
           "coalition_name": "NEOVISNA LISTA - IVAN GRUBIŠIĆ"
         },
-        "ZELENA STRANKA - ZS": {
+        "ZS": {
           "votes": 1,
           "coalition_name": "ZELENA STRANKA - ZS"
         },
@@ -18927,7 +18931,7 @@
           "votes": 1,
           "coalition_name": "STRANKA HRVATSKOG ZAJEDNIŠTVA - SHZ"
         },
-        "ZELENA STRANKA - ZS": {
+        "ZS": {
           "votes": 2,
           "coalition_name": "ZELENA STRANKA - ZS"
         },
@@ -19060,7 +19064,7 @@
           "votes": 963,
           "coalition_name": "SOCIJALDEMOKRATSKA PARTIJA HRVATSKE - SDP , HRVATSKA NARODNA STRANKA - LIBERALNI DEMOKRATI - HNS , ISTARSKI DEMOKRATSKI SABOR - IDS , HRVATSKA STRANKA UMIROVLJENIKA - HSU"
         },
-        "ZS": {
+        "ZAGORSKA STRANKA - ZS": {
           "votes": 35,
           "coalition_name": "ZAGORSKA STRANKA - ZS"
         },
@@ -19068,7 +19072,7 @@
           "votes": 8,
           "coalition_name": "ZELENA LISTA"
         },
-        "ZELENA STRANKA - ZS": {
+        "ZS": {
           "votes": 8,
           "coalition_name": "ZELENA STRANKA - ZS"
         },
@@ -19189,7 +19193,7 @@
           "votes": 5,
           "coalition_name": "SOCIJALISTIČKA RADNIČKA PARTIJA HRVATSKE - SRP"
         },
-        "ZS": {
+        "ZAGORSKA STRANKA - ZS": {
           "votes": 9,
           "coalition_name": "ZAGORSKA STRANKA - ZS"
         },
@@ -19197,7 +19201,7 @@
           "votes": 9,
           "coalition_name": "ZELENA LISTA"
         },
-        "ZELENA STRANKA - ZS": {
+        "ZS": {
           "votes": 7,
           "coalition_name": "ZELENA STRANKA - ZS"
         },
@@ -19318,7 +19322,7 @@
           "votes": 3,
           "coalition_name": "SOCIJALISTIČKA RADNIČKA PARTIJA HRVATSKE - SRP"
         },
-        "ZS": {
+        "ZAGORSKA STRANKA - ZS": {
           "votes": 10,
           "coalition_name": "ZAGORSKA STRANKA - ZS"
         },
@@ -19334,7 +19338,7 @@
           "votes": 1,
           "coalition_name": "AUTOHTONA-HRVATSKA STRANKA PRAVA - A-HSP"
         },
-        "ZELENA STRANKA - ZS": {
+        "ZS": {
           "votes": 5,
           "coalition_name": "ZELENA STRANKA - ZS"
         },
@@ -19439,11 +19443,11 @@
           "votes": 6,
           "coalition_name": "NEOVISNA LISTA - IVAN FIOLIĆ FIO"
         },
-        "ZS": {
+        "ZAGORSKA STRANKA - ZS": {
           "votes": 4,
           "coalition_name": "ZAGORSKA STRANKA - ZS"
         },
-        "ZELENA STRANKA - ZS": {
+        "ZS": {
           "votes": 2,
           "coalition_name": "ZELENA STRANKA - ZS"
         },
@@ -19572,7 +19576,7 @@
           "votes": 2,
           "coalition_name": "ZELENA LISTA"
         },
-        "ZELENA STRANKA - ZS": {
+        "ZS": {
           "votes": 1,
           "coalition_name": "ZELENA STRANKA - ZS"
         },
@@ -19637,7 +19641,7 @@
           "votes": 1,
           "coalition_name": "SOCIJALISTIČKA RADNIČKA PARTIJA HRVATSKE - SRP"
         },
-        "ZS": {
+        "ZAGORSKA STRANKA - ZS": {
           "votes": 8,
           "coalition_name": "ZAGORSKA STRANKA - ZS"
         },
@@ -19677,7 +19681,7 @@
           "votes": 1,
           "coalition_name": "ZELENA LISTA"
         },
-        "ZELENA STRANKA - ZS": {
+        "ZS": {
           "votes": 1,
           "coalition_name": "ZELENA STRANKA - ZS"
         },
@@ -19798,11 +19802,11 @@
           "votes": 3,
           "coalition_name": "SOCIJALISTIČKA RADNIČKA PARTIJA HRVATSKE - SRP"
         },
-        "ZS": {
+        "ZAGORSKA STRANKA - ZS": {
           "votes": 14,
           "coalition_name": "ZAGORSKA STRANKA - ZS"
         },
-        "ZELENA STRANKA - ZS": {
+        "ZS": {
           "votes": 2,
           "coalition_name": "ZELENA STRANKA - ZS"
         },
@@ -65106,7 +65110,7 @@
           "votes": 404,
           "coalition_name": "VOLIM HRVATSKU - VH"
         },
-        "ZS": {
+        "ZAGORSKA STRANKA - ZS": {
           "votes": 403,
           "coalition_name": "ZAGORSKA STRANKA - ZS"
         },
@@ -65430,7 +65434,7 @@
           "votes": 120566,
           "coalition_name": "SOCIJALDEMOKRATSKA PARTIJA HRVATSKE - SDP , HRVATSKA NARODNA STRANKA - LIBERALNI DEMOKRATI - HNS , ISTARSKI DEMOKRATSKI SABOR - IDS , HRVATSKA STRANKA UMIROVLJENIKA - HSU"
         },
-        "ZS": {
+        "ZAGORSKA STRANKA - ZS": {
           "votes": 1309,
           "coalition_name": "ZAGORSKA STRANKA - ZS"
         },
@@ -65454,7 +65458,7 @@
           "votes": 118,
           "coalition_name": "STRANKA HRVATSKOG ZAJEDNIŠTVA - SHZ"
         },
-        "ZELENA STRANKA - ZS": {
+        "ZS": {
           "votes": 471,
           "coalition_name": "ZELENA STRANKA - ZS"
         },

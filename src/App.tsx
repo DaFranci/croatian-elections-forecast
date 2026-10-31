@@ -1,7 +1,7 @@
 import { useState, useEffect, useMemo } from 'react'
 import { AppProvider, useAppContext } from './context/AppContext'
 import { loadElectionData, loadPartyData } from './utils/dataLoader'
-import { calculateWinners, calculateSeats, getPartyInfo } from './utils/dataProcessor'
+import { calculateWinners, calculateSeats, getPartyInfo, NO_DATA_COLOR } from './utils/dataProcessor'
 import { ELECTIONS, ElectionData, PartyInfo } from './types'
 import ElectionMap from './components/Map/ElectionMap'
 import { Card } from '@/components/ui/card'
@@ -336,6 +336,10 @@ function AppContent() {
                                             <span className="text-xs font-medium text-slate-600">{p.shortName}</span>
                                         </div>
                                     ))}
+                                    <div className="flex items-center gap-2">
+                                        <span className="w-2.5 h-2.5 rounded-full" style={{ backgroundColor: NO_DATA_COLOR }}></span>
+                                        <span className="text-xs font-medium text-slate-600">Nema podataka</span>
+                                    </div>
                                 </div>
                             )}
                         </Card>

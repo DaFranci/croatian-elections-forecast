@@ -3,7 +3,7 @@ import Map, { Source, Layer, MapLayerMouseEvent, Popup } from 'react-map-gl/mapl
 import type { FillLayer, LineLayer } from 'react-map-gl/maplibre';
 import { useAppContext } from '../../context/AppContext';
 import { loadGeoJSON, loadElectionData, loadPartyData } from '../../utils/dataLoader';
-import { calculateWinners, getPartyColor, joinElectionWithGeo } from '../../utils/dataProcessor';
+import { calculateWinners, getPartyColor, joinElectionWithGeo, NO_DATA_COLOR } from '../../utils/dataProcessor';
 import { ELECTIONS, ElectionData, PartyInfo } from '../../types';
 
 const INITIAL_VIEW_STATE = {
@@ -168,17 +168,22 @@ function ElectionMap() {
                     }
                 });
 
-                colorExpression.push('#404040');
+                colorExpression.push(NO_DATA_COLOR);
                 return colorExpression;
             }
 
             case 'turnout': {
                 return [
-                    'interpolate',
-                    ['linear'],
-                    ['get', ['get', 'id'], ['literal', turnoutMap]],
-                    0, '#FFFFFF',
-                    1, '#276e27ff',
+                    'case',
+                    ['==', ['typeof', ['get', ['get', 'id'], ['literal', turnoutMap]]], 'number'],
+                    [
+                        'interpolate',
+                        ['linear'],
+                        ['get', ['get', 'id'], ['literal', turnoutMap]],
+                        0, '#FFFFFF',
+                        1, '#276e27ff',
+                    ],
+                    NO_DATA_COLOR,
                 ];
             }
 
@@ -201,7 +206,7 @@ function ElectionMap() {
                     }
                 });
 
-                colorExpression.push('#404040');
+                colorExpression.push(NO_DATA_COLOR);
                 return colorExpression;
             }
 
@@ -216,11 +221,16 @@ function ElectionMap() {
 
         if (visualizationMode === 'turnout') {
             return [
-                'interpolate',
-                ['linear'],
-                ['get', ['get', 'id'], ['literal', constituencyTurnoutMap]],
-                0, '#FFFFFF',
-                1, '#276e27ff',
+                'case',
+                ['==', ['typeof', ['get', ['get', 'id'], ['literal', constituencyTurnoutMap]]], 'number'],
+                [
+                    'interpolate',
+                    ['linear'],
+                    ['get', ['get', 'id'], ['literal', constituencyTurnoutMap]],
+                    0, '#FFFFFF',
+                    1, '#276e27ff',
+                ],
+                NO_DATA_COLOR,
             ];
         }
 
@@ -230,15 +240,12 @@ function ElectionMap() {
             Object.entries(electionData.constituencies).forEach(([constId, constData]) => {
                 const winnerId = constData.winner;
                 if (winnerId) {
-                    const party = parties.find(p => p.id === winnerId);
-                    if (party) {
-                        colorExpression.push(constId, party.color);
-                    }
+                    colorExpression.push(constId, getPartyColor(winnerId, parties));
                 }
             });
         }
 
-        colorExpression.push('#404040');
+        colorExpression.push(NO_DATA_COLOR);
         return colorExpression;
     }, [electionData, parties, visualizationMode, constituencyTurnoutMap]);
 
