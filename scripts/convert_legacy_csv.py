@@ -4,11 +4,19 @@ Convert pre-2015 DIP polling station CSVs (2003, 2007, 2011) to the modern layou
 DIP's archive files for 2007 and 2011 differ from 2015+ ones: party columns are
 named "LIST, Nositelj liste: NAME", there is a second header row of list numbers,
 there is no county column, and 2007 has no constituency column. This script
-rewrites the regular polling station files (constituencies I-XI) into the
-2015+ layout so transform_election_data.py can process them unchanged.
+rewrites the polling station files into the 2015+ layout so
+transform_election_data.py can process them unchanged:
 
-Input:  public/data/elections/csvs/<year>/source/ (regular polling station CSVs from DIP)
-Output: public/data/elections/csvs/<year>/<NN>_00_rezultati.csv
+  constituencies I-XI, regular stations   -> <NN>_00_rezultati.csv
+  stations abroad for I-X                 -> <NN>_00_rezultati_inozemstvo.csv
+  special stations, diaspora voting in RH -> <NN>_00_rezultati_posebna.csv
+  minority constituency XII, group <G>    -> <G>3_12_rezultati.csv (all stations)
+
+2003 has no separate files: each constituency file has one combined row for
+diaspora and mixed stations (and V. one for displaced persons), which goes to
+the _posebna file.
+
+Input:  public/data/elections/csvs/<year>/source/ (polling station CSVs from DIP)
 
 Usage:
     python scripts/convert_legacy_csv.py <year>
@@ -39,6 +47,22 @@ MODERN_HEADERS = [
 
 # transform_election_data.py expects each party column to be followed by 14 candidate columns
 CANDIDATE_COLUMNS = 14
+
+# Source file kinds -> output file suffix
+#   2007: Redovita_BM, Posebna_BM, BM_u_inozemstvu, BM_u_RH (XI voting in Croatia)
+#   2011: REDOVITA_BM, POSEBNA_BM, BM_INOZEMSTVO, DIJASPORA_U_RH
+#   2003: "I izborna jedinica_IJ01 po BM.csv", "XII izborna jedinica - 1_IJ12-1 po BM.csv"
+FILE_KINDS = {
+    'redovita_bm': '',
+    'posebna_bm': '_posebna',
+    'bm_u_inozemstvu': '_inozemstvo',
+    'bm_inozemstvo': '_inozemstvo',
+    'bm_u_rh': '_posebna',
+    'dijaspora_u_rh': '_posebna',
+}
+
+# 2003 rows not tied to a municipality: combined diaspora/mixed stations, displaced persons
+NON_MUNICIPAL_ROWS = ('DIJASPORA I MJEŠOVITA', 'DIJASPORA  I MJEŠOVITA', 'PROGNANICI')
 
 
 def name_keys(name):
@@ -105,6 +129,16 @@ def clean_party_header(header):
     return lists
 
 
+def clean_candidate_header(header):
+    """Minority candidate column -> candidate name, as in 2015+ files.
+
+    2007/2011: 'Kandidat: JOVAN AJDUKOVIĆ, dipl. pravnik, Zamjenik: ..., Predlagatelj: ...'
+    2003:      'kandidat:   KSENIJA ALEKSIĆ-AMBROZICH, zamjenik: ..., SRPSKA NARODNA STRANKA - SNS'
+    """
+    match = re.search(r'kandidat:\s*([^,]+)', header, flags=re.IGNORECASE)
+    return ' '.join((match.group(1) if match else header).split())
+
+
 def has_uppercase_word(text):
     """True if text contains an all-caps word, i.e. a name rather than a title like 'dipl.ing.'"""
     return any(w.isupper() and sum(c.isalpha() for c in w) > 1 for w in text.split())
@@ -124,9 +158,14 @@ def find_column(headers, *candidates):
     return None
 
 
-def convert_file(src, const_num, county_lookup):
-    """Convert one regular polling station file. Returns (rows, unmatched municipality names)."""
-    roman = ROMAN[const_num - 1]
+def convert_file(src, const_num, county_lookup, minority=False, regular=True):
+    """
+    Convert one polling station file.
+    Returns (rows, non-municipal rows, unmatched municipality names). Minority files keep
+    every row and have one column per candidate instead of party + candidate columns.
+    Only regular stations get a county; special and abroad stations aren't on the map.
+    """
+    roman = 'XII' if minority else ROMAN[const_num - 1]
     with open(src, encoding='cp1250', newline='') as fh:
         rows = list(csv.reader(fh, delimiter=';'))
 
@@ -138,40 +177,45 @@ def convert_file(src, const_num, county_lookup):
     bm_addr_col = find_column(headers, 'bm adresa')
     voters_col = find_column(headers, 'ukupno birača', 'broj birača')
     cast_col = find_column(headers, 'glasovalo ukupno', 'glasovalo birača')
-    ballots_col = find_column(headers, 'glasovalo (prema')
+    ballots_col = find_column(headers, 'glasovalo (prema', 'listići ukupno')
     if ballots_col is None:
         ballots_col = cast_col  # 2003 has no separate ballot count
     valid_col = find_column(headers, 'listići važeći', 'važećih listića')
     invalid_col = find_column(headers, 'listići nevažeći', 'nevažećih listića')
 
-    party_cols = [(i, clean_party_header(h)) for i, h in enumerate(headers)
+    clean_header = clean_candidate_header if minority else clean_party_header
+    padding = 0 if minority else CANDIDATE_COLUMNS
+    party_cols = [(i, clean_header(h)) for i, h in enumerate(headers)
                   if i > invalid_col and h.strip()]
 
     out_headers = list(MODERN_HEADERS)
     for _, party in party_cols:
         out_headers.append(party)
-        out_headers.extend([''] * CANDIDATE_COLUMNS)
+        out_headers.extend([''] * padding)
 
     def cell(row, i):
         return row[i].strip() if i is not None and i < len(row) else ''
 
     out_rows = []
+    non_municipal = []
     unmatched = set()
     for row in rows[1:]:
         muni = ' '.join(cell(row, muni_col).split())
         if not muni:
             continue  # list number row and blank separator rows
-        if re.search(r'\bZA [IVX]+\. ?IJ', muni):
-            continue  # 2007 per-constituency total rows ("UKUPNO ZA I. IJ", "POSEBNA BM ZA I. IJ")
-        if muni.endswith('Total') or muni.startswith(('DIJASPORA I MJEŠOVITA', 'PROGNANICI')):
-            continue  # 2003 subtotal rows, combined diaspora/mixed and displaced persons' stations
+        if muni.upper().startswith('UKUPNO') or re.search(r'\bZA [IVX]+\. ?IJ', muni):
+            continue  # total rows ("UKUPNO ZA I. IJ", "UKUPNO INOZEMSTVO ZA I. IJ.")
+        if muni.endswith('Total'):
+            continue  # 2003 subtotal rows
 
-        county = find_county(county_lookup, roman, muni)
-        if not county and roman != 'XI':
+        is_municipal = not muni.startswith(NON_MUNICIPAL_ROWS)
+        needs_county = regular and is_municipal and not minority
+        county = find_county(county_lookup, roman, muni) if needs_county else ''
+        if needs_county and not county and roman != 'XI':
             unmatched.add(muni)
 
         out = [
-            f'{const_num:03d}', f'{roman}. IZBORNA JEDINICA', '', county, '', muni,
+            f'{12 if minority else const_num:03d}', f'{roman}. IZBORNA JEDINICA', '', county, '', muni,
             cell(row, bm_col), cell(row, bm_name_col), cell(row, bm_loc_col), cell(row, bm_addr_col),
             parse_int(cell(row, voters_col)), parse_int(cell(row, cast_col)),
             parse_int(cell(row, ballots_col)), parse_int(cell(row, valid_col)),
@@ -179,10 +223,10 @@ def convert_file(src, const_num, county_lookup):
         ]
         for i, _ in party_cols:
             out.append(parse_int(cell(row, i)))
-            out.extend([''] * CANDIDATE_COLUMNS)
-        out_rows.append(out)
+            out.extend([''] * padding)
+        (out_rows if is_municipal or minority else non_municipal).append(out)
 
-    return [out_headers] + out_rows, unmatched
+    return [out_headers] + out_rows, [out_headers] + non_municipal, unmatched
 
 
 def main():
@@ -196,24 +240,41 @@ def main():
 
     county_lookup = load_county_lookup()
 
+    outputs = {}  # output file name -> rows (special stations can come from several sources)
     for src in sorted(source_dir.glob('*.csv')):
-        # Regular polling stations of constituencies I-XI:
-        # 2007/2011 "01_I_izborna_jedinica_Redovita_BM.csv", 2003 "I izborna jedinica_IJ01 po BM.csv"
-        match = (re.match(r'(\d{2})_[IVX]+_izborna_jedinica_redovita_bm\.csv$', src.name, re.IGNORECASE)
-                 or re.match(r'[IVX]+ izborna jedinica_IJ(\d{2}) po BM\s*\.csv$', src.name))
-        if not match or int(match.group(1)) > 11:
+        match = (re.match(r'(\d{2})_[IVX]+_izborna_jedinica_(\w+?)\.csv$', src.name)
+                 or re.match(r'12_XII_nm(\d)_izborna_jedinica_(\w+?)\.csv$', src.name)
+                 or re.match(r'[IVX]+ izborna jedinica_IJ(\d{2}) po BM\s*\.csv$', src.name)
+                 or re.match(r'XII izborna jedinica - (\d)_IJ12-\d po BM\s*\.csv$', src.name))
+        if not match:
             continue
+        kind = match.group(2).lower() if match.lastindex == 2 else 'redovita_bm'
+        if kind not in FILE_KINDS:
+            continue  # per-municipality and per-country summaries ("Gradovi-opcine", "DRZAVE")
 
-        const_num = int(match.group(1))
-        rows, unmatched = convert_file(src, const_num, county_lookup)
+        minority = src.name.startswith(('12_XII', 'XII '))
+        num = int(match.group(1))
+        if not minority and num > 11:
+            continue
+        rows, non_municipal, unmatched = convert_file(src, num, county_lookup, minority, FILE_KINDS[kind] == '')
 
-        out_file = out_dir / f'{const_num:02d}_00_rezultati.csv'
-        with open(out_file, 'w', encoding='cp1250', newline='') as fh:
-            csv.writer(fh, delimiter=';').writerows(rows)
+        if minority:
+            # One file per minority group; regular, special and abroad stations all count
+            name = f'{num}3_12_rezultati.csv'
+        else:
+            name = f'{num:02d}_00_rezultati{FILE_KINDS[kind]}.csv'
+            if len(non_municipal) > 1:
+                outputs.setdefault(f'{num:02d}_00_rezultati_posebna.csv', [non_municipal[0]]).extend(non_municipal[1:])
+        outputs.setdefault(name, [rows[0]]).extend(rows[1:])
 
-        print(f"{src.name} -> {out_file.name}: {len(rows) - 1} polling stations")
+        print(f"{src.name} -> {name}: {len(rows) - 1} polling stations"
+              + (f", {len(non_municipal) - 1} non-municipal rows" if len(non_municipal) > 1 else ''))
         if unmatched:
             print(f"  No county found for: {', '.join(sorted(unmatched))}")
+
+    for name, rows in outputs.items():
+        with open(out_dir / name, 'w', encoding='cp1250', newline='') as fh:
+            csv.writer(fh, delimiter=';').writerows(rows)
 
 
 if __name__ == '__main__':

@@ -5,6 +5,7 @@ import { useAppContext } from '../../context/AppContext';
 import { loadGeoJSON, loadElectionData, loadPartyData } from '../../utils/dataLoader';
 import { calculateWinners, getPartyColor, joinElectionWithGeo, NO_DATA_COLOR } from '../../utils/dataProcessor';
 import { ElectionData, PartyInfo, findElection } from '../../types';
+import MapInsets from './MapInsets';
 
 const CROATIA_BOUNDS: [[number, number], [number, number]] = [[13.4, 42.35], [19.5, 46.6]];
 
@@ -411,6 +412,8 @@ function ElectionMap() {
                         {viewMode === 'municipality' && <Layer {...municipalityOutlineLayer} />}
                     </Source>
                 )}
+
+                {electionData && <MapInsets electionData={electionData} parties={parties} />}
 
                 {hoverInfo && (
                     <Popup

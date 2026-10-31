@@ -60,6 +60,73 @@ ELECTION_METADATA = {
     }
 }
 
+SEATS_PER_CONSTITUENCY = 14
+
+# Constituency XI (diaspora) seats: set from turnout under the 1999 law, fixed at 3 since 2011
+DIASPORA_SEATS = {'2003': 4, '2007': 5, '2011': 3, '2015': 3, '2016': 3, '2020': 3, '2024': 3}
+
+# Constituency XII: national minority groups in the order DIP numbers them, with seats.
+# The candidates with the most votes in each group are elected.
+MINORITY_GROUPS = {
+    1: ('Srpska', 3),
+    2: ('Mađarska', 1),
+    3: ('Talijanska', 1),
+    4: ('Češka i slovačka', 1),
+    5: ('Austrijska, bugarska, njemačka, poljska, romska, rumunjska, rusinska, ruska, '
+        'turska, ukrajinska, vlaška i židovska', 1),
+    6: ('Albanska, bošnjačka, crnogorska, makedonska i slovenska', 1),
+}
+
+def minority_group(path):
+    """Minority group number of a constituency XII file ('13_12_rezultati.csv', 2016 '012_13_rezultati.csv')."""
+    match = re.match(r'(?:(\d)3_12|012_(\d)3)_rezultati', path.name)
+    return int(match.group(1) or match.group(2)) if match else None
+
+def process_minority_files(csv_dir):
+    """
+    Candidate results per minority group from the constituency XII files (regular,
+    abroad and special stations). Each candidate column holds that candidate's votes.
+    """
+    groups = defaultdict(lambda: {'total_voters': 0, 'votes_cast': 0, 'candidates': defaultdict(int)})
+    for path in sorted(csv_dir.glob('*_rezultati*.csv')):
+        number = minority_group(path)
+        if number is None:
+            continue
+        with open(path, encoding='cp1250', newline='') as f:
+            reader = csv.reader(f, delimiter=';')
+            headers = next(reader, None)
+            if not headers:
+                continue
+            first_candidate = headers.index('Nevažeći listići') + 1
+            voters_col = headers.index('Ukupno birača')
+            cast_col = headers.index('Glasovalo birača')
+            group = groups[number]
+            for row in reader:
+                if len(row) < len(headers):
+                    continue
+                group['total_voters'] += parse_votes(row[voters_col])
+                group['votes_cast'] += parse_votes(row[cast_col])
+                for i in range(first_candidate, len(headers)):
+                    if headers[i].strip():
+                        group['candidates'][' '.join(headers[i].split())] += parse_votes(row[i])
+
+    minorities = []
+    for number in sorted(groups):
+        name, seats = MINORITY_GROUPS[number]
+        group = groups[number]
+        ranked = sorted(group['candidates'].items(), key=lambda c: -c[1])
+        minorities.append({
+            'id': str(number),
+            'name': name,
+            'seats': seats,
+            'total_voters': group['total_voters'],
+            'votes_cast': group['votes_cast'],
+            'turnout': round(group['votes_cast'] / group['total_voters'], 4) if group['total_voters'] else 0,
+            'candidates': [{'name': candidate, 'votes': votes, 'elected': rank < seats}
+                           for rank, (candidate, votes) in enumerate(ranked)],
+        })
+    return minorities
+
 def normalize_municipality_name(name):
     """
     Normalize municipality name to create URL-friendly ID.
@@ -162,12 +229,8 @@ def clean_party_name(party_name):
     
     # Remove extra whitespace
     party_name = ' '.join(party_name.split())
-    
-    # Skip if it's a candidate name (usually shorter and has specific patterns)
-    if len(party_name) < 5:
-        return None
-    
-    return party_name
+
+    return party_name or None
 
 def parse_coalition_name(coalition_name):
     """
@@ -225,36 +288,55 @@ def extract_lead_party_id(coalition_name):
 
     return party_id
 
-def identify_party_columns(headers):
+def header_kind(header):
+    """'list', 'candidate', or None when the header text alone doesn't tell."""
+    header = ' '.join(header.split())
+    if ' - ' in header:
+        return 'list'  # 'HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ'
+    if re.search(r',\s*[a-zčćžšđ]', header) or re.match(r'(dr|mr|prof|doc)\.', header):
+        return 'candidate'  # 'IVANA BUNTIĆ, mag. iur.', 'dr. sc. ŽELJKO POROBIJA'
+    return None
+
+def identify_party_columns(headers, rows):
     """
-    Identify which columns contain party vote totals.
-    Party columns are followed by 14 candidate columns.
-    Pattern: Party column at index i, candidates at i+1 to i+14, next party at i+15
+    Identify which columns contain party list vote totals.
+    Columns 0-14 are metadata (Rbr IJ, Naziv IJ, ..., Važeći listići, Nevažeći listići).
+    Each list column is followed by its candidates' preference votes. Lists in
+    constituencies I-X always have 14 candidates (converted pre-2015 files have 14 blank
+    columns instead), so the next list is 15 columns on.
+
+    Diaspora (XI) lists often have fewer candidates. A voter gives at most one preference,
+    so the candidates of a list together never have more votes than the list in any row;
+    that decides headers whose text could be a list or a person ('HRVATSKO BILO', 'ANA ANDRIĆ').
     """
     party_columns = []
-    
-    # Start from column 15 (index 15, which is the 16th column)
-    # Columns 0-14 are metadata (Rbr IJ, Naziv IJ, ..., Važeći listići, Nevažeći listići)
+    diaspora = any((row.get('Naziv izborne jedinice') or '').startswith('XI.') for row in rows)
     i = 15
-    
     while i < len(headers):
         header = headers[i].strip()
-        
-        # Skip if empty
         if not header:
             i += 1
             continue
-            
-        # Check if this looks like a party name
-        # It shouldn't be a candidate name (candidates are usually Name Surname)
-        # Parties usually have uppercase, hyphens, or specific keywords
-        
-        # Add to list
         party_columns.append((i, header))
-        
-        # Skip the next 14 columns (candidates) and move to next party
-        i += 15
-    
+        if not diaspora:
+            i += 15
+            continue
+        list_votes = [parse_votes(row.get(headers[i])) for row in rows]
+        preferences = [0] * len(rows)
+
+        i += 1
+        while i < len(headers):
+            header = headers[i].strip()
+            if header:
+                kind = header_kind(header)
+                if kind == 'list':
+                    break
+                with_candidate = [p + parse_votes(row.get(headers[i])) for p, row in zip(preferences, rows)]
+                if kind is None and any(p > v for p, v in zip(with_candidate, list_votes)):
+                    break
+                preferences = with_candidate
+            i += 1
+
     return party_columns
 
 def parse_votes(value):
@@ -352,10 +434,12 @@ def process_csv_files(year):
         print(f"ERROR: Directory not found: {csv_dir}")
         return None
     
-    # Get all regular result files (exclude inozemstvo and posebna)
-    result_files = [f for f in csv_dir.glob('*_rezultati.csv')
-                   if 'inozemstvo' not in f.name and 'posebna' not in f.name]
-    
+    # Party list files of constituencies I-XI. Stations abroad (_inozemstvo) and special
+    # stations (_posebna: hospitals, prisons, ships, diaspora voting in Croatia) count
+    # for their constituency but aren't part of any municipality.
+    result_files = [f for f in sorted(csv_dir.glob('*_rezultati*.csv')) if minority_group(f) is None]
+    station_kind = {f: 'regular' if f.name.endswith('_rezultati.csv') else 'extra' for f in result_files}
+
     if not result_files:
         print(f"ERROR: No result files found in {csv_dir}")
         return None
@@ -388,7 +472,8 @@ def process_csv_files(year):
         if encoding:
             with open(csv_file, 'r', encoding=encoding) as f:
                 reader = csv.DictReader(f, delimiter=';')
-                file_tables.append((reader.fieldnames, list(reader), identify_party_columns(reader.fieldnames)))
+                rows = list(reader)
+                file_tables.append((reader.fieldnames, rows, identify_party_columns(reader.fieldnames, rows)))
     shared_ids = find_shared_party_ids(file_tables)
     for party_id, owner in shared_ids.items():
         print(f"Party ID '{party_id}' is shared; kept by '{owner}', other lists use their full name")
@@ -410,7 +495,7 @@ def process_csv_files(year):
                 rows = list(reader)
 
                 # Identify party columns once per file
-                party_columns = identify_party_columns(headers)
+                party_columns = identify_party_columns(headers, rows)
                 party_ids = resolve_party_ids(party_columns, shared_ids)
 
                 # Identify constituency column once per file
@@ -474,37 +559,38 @@ def process_csv_files(year):
                              
                     except (ValueError, AttributeError):
                         continue
-                    
-                    if total_voters == 0:
+
+                    # Stations abroad have no voter register count, so keep rows with votes
+                    if total_voters == 0 and votes_cast == 0:
                         continue
-                    
+
                     # Extract constituency name
                     const_name = ''
                     if const_key:
                         const_name = row.get(const_key, '').strip()
 
-                    # Constituency XII (national minorities) is excluded: in older elections
-                    # its voters are also on the regular rolls, and it has no map geometry
+                    # Constituency XII (national minorities) is processed separately
                     if const_name.startswith('XII.'):
                         continue
 
                     # Extract party votes
                     party_votes = extract_party_votes(row, party_columns, headers, party_ids)
-                    
-                    # Aggregate data - Municipality
-                    muni = municipalities[muni_id]
-                    muni['name'] = muni_name
-                    muni['constituency'] = const_name
-                    muni['total_voters'] += total_voters
-                    muni['votes_cast'] += votes_cast
-                    
-                    for party_id, data in party_votes.items():
-                        if party_id not in muni['parties']:
-                            muni['parties'][party_id] = {
-                                'votes': 0,
-                                'coalition_name': data['coalition_name']
-                            }
-                        muni['parties'][party_id]['votes'] += data['votes']
+
+                    # Aggregate data - Municipality (regular stations only)
+                    if station_kind[csv_file] == 'regular':
+                        muni = municipalities[muni_id]
+                        muni['name'] = muni_name
+                        muni['constituency'] = const_name
+                        muni['total_voters'] += total_voters
+                        muni['votes_cast'] += votes_cast
+
+                        for party_id, data in party_votes.items():
+                            if party_id not in muni['parties']:
+                                muni['parties'][party_id] = {
+                                    'votes': 0,
+                                    'coalition_name': data['coalition_name']
+                                }
+                            muni['parties'][party_id]['votes'] += data['votes']
 
                     # Aggregate data - Constituency
                     if const_name:
@@ -550,10 +636,6 @@ def process_csv_files(year):
         # Assuming name format "I. IZBORNA JEDINICA"
         const_id = const_name.split('.')[0].strip() if '.' in const_name else const_name
 
-        # Constituency XI (diaspora) has no map geometry and is excluded
-        if const_id == 'XI':
-            continue
-
         # Calculate winner and margin
         winner = None
         margin = 0
@@ -578,6 +660,7 @@ def process_csv_files(year):
         
         constituency_results[const_id] = {
             'name': const_data['name'],
+            'seats': DIASPORA_SEATS[year] if const_id == 'XI' else SEATS_PER_CONSTITUENCY,
             'total_voters': const_data['total_voters'],
             'votes_cast': const_data['votes_cast'],
             'turnout': round(turnout, 4),
@@ -601,9 +684,10 @@ def process_csv_files(year):
         **metadata,
         'turnout_national': round(turnout_national, 4),
         'results': results,
-        'constituencies': constituency_results
+        'constituencies': constituency_results,
+        'minorities': process_minority_files(csv_dir)
     }
-    
+
     return output
 
 def save_json(data, year):

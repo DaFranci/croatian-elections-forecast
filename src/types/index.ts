@@ -14,6 +14,7 @@ export interface ElectionResult {
     parties: Record<string, PartyVotes>;
     constituency?: string;
     county?: string;
+    seats?: number; // constituencies only
     winner?: string;
     margin?: number;
 }
@@ -24,8 +25,24 @@ export interface ElectionData {
     turnout_national: number;
     seats?: number; // elections with a single national constituency
     results: Record<string, ElectionResult>;
-    constituencies?: Record<string, ElectionResult>;
+    constituencies?: Record<string, ElectionResult>; // I-X on the map, XI = diaspora
+    minorities?: MinorityGroup[]; // constituency XII
 }
+
+// Constituency XII: each national minority group elects its candidates with the most votes
+export interface MinorityGroup {
+    id: string;
+    name: string;
+    seats: number;
+    total_voters: number;
+    votes_cast: number;
+    turnout: number;
+    candidates: { name: string; votes: number; elected: boolean }[];
+}
+
+// Selections for the units drawn as map insets rather than areas
+export const DIASPORA_ID = 'XI';
+export const MINORITIES_ID = 'XII';
 
 export interface PartyInfo {
     id: string;

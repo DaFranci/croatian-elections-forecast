@@ -2,7 +2,7 @@
   "election_id": "2003-parliamentary",
   "date": "2003-11-23",
   "type": "parliamentary",
-  "turnout_national": 0.6093,
+  "turnout_national": 0.6207,
   "results": {
     "bistra": {
       "name": "BISTRA",
@@ -72665,402 +72665,405 @@
   "constituencies": {
     "I": {
       "name": "I. IZBORNA JEDINICA",
+      "seats": 14,
       "total_voters": 358461,
-      "votes_cast": 248653,
-      "turnout": 0.6937,
+      "votes_cast": 254138,
+      "turnout": 0.709,
       "winner": "SDP",
-      "margin": 4.61,
+      "margin": 3.66,
       "parties": {
         "ASH": {
-          "votes": 1383,
+          "votes": 1398,
           "coalition_name": "AKCIJA SOCIJALDEMOKRATA HRVATSKE - ASH"
         },
         "BV-TREĆI BLOK": {
-          "votes": 782,
+          "votes": 787,
           "coalition_name": "BEBIČ VLADIMIR-TREĆI HRVATSKI BLOK - BV-TREĆI BLOK"
         },
         "DSU-SN": {
-          "votes": 1077,
+          "votes": 1089,
           "coalition_name": "DEMOKRATSKA SOCIJALNA UNIJA-SNAGA NARODA - DSU-SN"
         },
         "DGS": {
-          "votes": 125,
+          "votes": 130,
           "coalition_name": "DOMOVINSKA GRAĐANSKA STRANKA - DGS"
         },
         "HČSP": {
-          "votes": 1274,
+          "votes": 1333,
           "coalition_name": "HRVATSKA ČISTA STRANKA PRAVA - HČSP, HRVATSKA KRŠĆANSKA DEMOKRATSKA UNIJA - HKDU"
         },
         "HDZ": {
-          "votes": 62010,
+          "votes": 64919,
           "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ"
         },
         "HES": {
-          "votes": 192,
+          "votes": 213,
           "coalition_name": "HRVATSKA EUROPSKA STRANKA - HES"
         },
         "HKDS": {
-          "votes": 674,
+          "votes": 710,
           "coalition_name": "HRVATSKA KRŠĆANSKA DEMOKRATSKA STRANKA - HKDS, HRVATSKA GRAĐANSKO SELJAČKA STRANKA - HGSS"
         },
         "HNS": {
-          "votes": 26622,
+          "votes": 27031,
           "coalition_name": "HRVATSKA NARODNA STRANKA - HNS"
         },
         "HPSS-1904": {
-          "votes": 306,
+          "votes": 318,
           "coalition_name": "HRVATSKA PUČKA SELJAČKA STRANKA-1904 - HPSS-1904"
         },
         "HPS": {
-          "votes": 545,
+          "votes": 555,
           "coalition_name": "HRVATSKA PUČKA STRANKA - HPS"
         },
         "HRS": {
-          "votes": 354,
+          "votes": 357,
           "coalition_name": "HRVATSKA RADNIČKA STRANKA - HRS"
         },
         "HSS": {
-          "votes": 10046,
+          "votes": 10211,
           "coalition_name": "HRVATSKA SELJAČKA STRANKA - HSS"
         },
         "HSLS": {
-          "votes": 8410,
+          "votes": 8607,
           "coalition_name": "HRVATSKA SOCIJALNO LIBERALNA STRANKA - HSLS, DEMOKRATSKI CENTAR - DC"
         },
         "HSP": {
-          "votes": 17605,
+          "votes": 17831,
           "coalition_name": "HRVATSKA STRANKA PRAVA - HSP, ZAGORSKA DEMOKRATSKA STRANKA - ZDS"
         },
         "HSP-1861": {
-          "votes": 2385,
+          "votes": 2460,
           "coalition_name": "HRVATSKA STRANKA PRAVA-1861 - HSP-1861"
         },
         "HSU": {
-          "votes": 11048,
+          "votes": 11076,
           "coalition_name": "HRVATSKA STRANKA UMIROVLJENIKA - HSU"
         },
         "DEMOKRŠĆANI": {
-          "votes": 1792,
+          "votes": 1815,
           "coalition_name": "HRVATSKI DEMOKRŠĆANI - DEMOKRŠĆANI, HRVATSKA DEMOKRATSKA REPUBLIKANSKA STRANKA - HDRS"
         },
         "HIP": {
-          "votes": 4020,
+          "votes": 4267,
           "coalition_name": "HRVATSKI ISTINSKI PREPOROD - HIP, HRVATSKI BLOK-POKRET ZA MODERNU HRVATSKU - HRVATSKI BLOK"
         },
         "HND": {
-          "votes": 726,
+          "votes": 739,
           "coalition_name": "HRVATSKI NEZAVISNI DEMOKRATI - HND"
         },
         "HP": {
-          "votes": 145,
+          "votes": 154,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         },
         "HRVATSKI PROLJEĆARI - HP": {
-          "votes": 151,
+          "votes": 152,
           "coalition_name": "HRVATSKI PROLJEĆARI - HP"
         },
         "VESNA KANIŽAJ": {
-          "votes": 334,
+          "votes": 338,
           "coalition_name": "NEOVISNA LISTA - VESNA KANIŽAJ"
         },
         "JOSIP N. KRZNARIĆ": {
-          "votes": 142,
+          "votes": 143,
           "coalition_name": "NEOVISNA LISTA - JOSIP N. KRZNARIĆ"
         },
         "BORIS MIKŠIĆ": {
-          "votes": 4590,
+          "votes": 4609,
           "coalition_name": "NEOVISNA LISTA - BORIS MIKŠIĆ"
         },
         "ROBERT PESSERL": {
-          "votes": 178,
+          "votes": 180,
           "coalition_name": "NEOVISNA LISTA - ROBERT PESSERL"
         },
         "ĐULA RUŠINOVIĆ-SUNARA": {
-          "votes": 674,
+          "votes": 681,
           "coalition_name": "NEOVISNA LISTA - ĐULA RUŠINOVIĆ-SUNARA"
         },
         "BOŽIDAR ŠPOLJAR": {
-          "votes": 249,
+          "votes": 251,
           "coalition_name": "NEOVISNA LISTA - BOŽIDAR ŠPOLJAR"
         },
         "ZDRAVKO TOMAC": {
-          "votes": 5264,
+          "votes": 5310,
           "coalition_name": "NEOVISNA LISTA - ZDRAVKO TOMAC"
         },
         "POL": {
-          "votes": 383,
+          "votes": 422,
           "coalition_name": "POKRET ZA LJUDSKA PRAVA-STRANKA EKOLOŠKI SVJESNIH GRAĐANA - POL, ISTARSKA NEZAVISNA STRANKA"
         },
         "SDP": {
-          "votes": 73484,
+          "votes": 74208,
           "coalition_name": "SOCIJALDEMOKRATSKA PARTIJA HRVATSKE - SDP"
         },
         "SHB": {
-          "votes": 651,
+          "votes": 669,
           "coalition_name": "STRANKA HRVATSKIH BRANITELJA - SHB"
         },
         "ZS": {
-          "votes": 2577,
+          "votes": 2600,
           "coalition_name": "ZELENA STRANKA - ZS, ZELENI-STRANKA NOVOG DOBA - ZELENI-SND, STRANKA NOVE ALTERNATIVE-POKRET ZELENIH - SNA-POKRET ZELENIH"
         },
         "ZELENI HR": {
-          "votes": 1997,
+          "votes": 2017,
           "coalition_name": "ZELENI HRVATSKE - ZELENI HR"
         },
         "ALIJANSA": {
-          "votes": 655,
+          "votes": 672,
           "coalition_name": "ALIJANSA ZA PRAVNU DRŽAVU - ALIJANSA"
         },
         "ANTE GRABOVAC": {
-          "votes": 93,
+          "votes": 97,
           "coalition_name": "NEOVISNA LISTA - ANTE GRABOVAC"
         },
         "HRZ": {
-          "votes": 208,
+          "votes": 219,
           "coalition_name": "HRVATSKA REPUBLIKANSKA ZAJEDNICA - HRZ"
         },
         "SRP": {
-          "votes": 1584,
+          "votes": 1618,
           "coalition_name": "SOCIJALISTIČKA RADNIČKA PARTIJA HRVATSKE - SRP"
         },
         "HR": {
-          "votes": 102,
+          "votes": 103,
           "coalition_name": "HRVATSKI REPUBLIKANCI - HR"
         },
         "SDU": {
-          "votes": 117,
+          "votes": 119,
           "coalition_name": "SOCIJALNO-DEMOKRATSKA UNIJA HRVATSKE - SDU"
         }
       }
     },
     "II": {
       "name": "II. IZBORNA JEDINICA",
+      "seats": 14,
       "total_voters": 388713,
-      "votes_cast": 257335,
-      "turnout": 0.662,
+      "votes_cast": 261633,
+      "turnout": 0.6731,
       "winner": "HDZ",
-      "margin": 10.01,
+      "margin": 10.74,
       "parties": {
         "ASH": {
-          "votes": 924,
+          "votes": 930,
           "coalition_name": "AKCIJA SOCIJALDEMOKRATA HRVATSKE - ASH"
         },
         "BV-TREĆI BLOK": {
-          "votes": 1001,
+          "votes": 1006,
           "coalition_name": "BEBIČ VLADIMIR-TREĆI HRVATSKI BLOK - BV-TREĆI BLOK"
         },
         "HDSS": {
-          "votes": 3614,
+          "votes": 3653,
           "coalition_name": "HRVATSKA DEMOKRATSKA SELJAČKA STRANKA - HDSS, HRVATSKI DEMOKRATSKI CENTAR - HDC, DEMOKRATSKA PRIGORSKO-ZAGREBAČKA STRANKA - DPS"
         },
         "HDZ": {
-          "votes": 79363,
+          "votes": 82030,
           "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ"
         },
         "HKDS": {
-          "votes": 1615,
+          "votes": 1640,
           "coalition_name": "HRVATSKA KRŠĆANSKA DEMOKRATSKA STRANKA - HKDS, HRVATSKI DEMOKRŠĆANI - DEMOKRŠĆANI, HRVATSKA GRAĐANSKO SELJAČKA STRANKA - HGSS"
         },
         "HNS": {
-          "votes": 11883,
+          "votes": 11952,
           "coalition_name": "HRVATSKA NARODNA STRANKA - HNS"
         },
         "HPSS-1904": {
-          "votes": 722,
+          "votes": 728,
           "coalition_name": "HRVATSKA PUČKA SELJAČKA STRANKA-1904 - HPSS-1904"
         },
         "HPS": {
-          "votes": 832,
+          "votes": 837,
           "coalition_name": "HRVATSKA PUČKA STRANKA - HPS"
         },
         "HRS": {
-          "votes": 583,
+          "votes": 586,
           "coalition_name": "HRVATSKA RADNIČKA STRANKA - HRS"
         },
         "HSS": {
-          "votes": 35328,
+          "votes": 35456,
           "coalition_name": "HRVATSKA SELJAČKA STRANKA - HSS"
         },
         "HSLS": {
-          "votes": 15228,
+          "votes": 15342,
           "coalition_name": "HRVATSKA SOCIJALNO LIBERALNA STRANKA - HSLS, DEMOKRATSKI CENTAR - DC"
         },
         "HSP": {
-          "votes": 16354,
+          "votes": 16658,
           "coalition_name": "HRVATSKA STRANKA PRAVA - HSP"
         },
         "HSP-1861": {
-          "votes": 2935,
+          "votes": 3004,
           "coalition_name": "HRVATSKA STRANKA PRAVA-1861 - HSP-1861"
         },
         "HSU": {
-          "votes": 10290,
+          "votes": 10300,
           "coalition_name": "HRVATSKA STRANKA UMIROVLJENIKA - HSU"
         },
         "HND": {
-          "votes": 724,
+          "votes": 752,
           "coalition_name": "HRVATSKI NEZAVISNI DEMOKRATI - HND"
         },
         "JASMINKA PETTER": {
-          "votes": 299,
+          "votes": 302,
           "coalition_name": "NEOVISNA LISTA - JASMINKA PETTER"
         },
         "ĐULA RUŠINOVIĆ-SUNARA": {
-          "votes": 748,
+          "votes": 751,
           "coalition_name": "NEOVISNA LISTA - ĐULA RUŠINOVIĆ-SUNARA"
         },
         "SDP": {
-          "votes": 53591,
+          "votes": 53928,
           "coalition_name": "SOCIJALDEMOKRATSKA PARTIJA HRVATSKE - SDP, LIBRA-STRANKA LIBERALNIH DEMOKRATA - LIBRA"
         },
         "SDU": {
-          "votes": 258,
+          "votes": 260,
           "coalition_name": "SOCIJALNO-DEMOKRATSKA UNIJA HRVATSKE - SDU"
         },
         "ZS": {
-          "votes": 1397,
+          "votes": 1407,
           "coalition_name": "ZELENA STRANKA - ZS, ZELENI-STRANKA NOVOG DOBA - ZELENI-SND, STRANKA NOVE ALTERNATIVE-POKRET ZELENIH - SNA-POKRET ZELENIH"
         },
         "ZELENI HR": {
-          "votes": 1454,
+          "votes": 1458,
           "coalition_name": "ZELENI HRVATSKE - ZELENI HR"
         },
         "DSU-SN": {
-          "votes": 1429,
+          "votes": 1464,
           "coalition_name": "DEMOKRATSKA SOCIJALNA UNIJA-SNAGA NARODA - DSU-SN"
         },
         "ZELENI": {
-          "votes": 1303,
+          "votes": 1313,
           "coalition_name": "DEMOKRATSKI SAVEZ ZELENIH - ZELENI"
         },
         "HČSP": {
-          "votes": 1151,
+          "votes": 1255,
           "coalition_name": "HRVATSKA ČISTA STRANKA PRAVA - HČSP, HRVATSKA KRŠĆANSKA DEMOKRATSKA UNIJA - HKDU"
         },
         "BRANKO STOJKOVIĆ": {
-          "votes": 240,
+          "votes": 247,
           "coalition_name": "NEOVISNA LISTA - BRANKO STOJKOVIĆ"
         },
         "POL": {
-          "votes": 281,
+          "votes": 288,
           "coalition_name": "POKRET ZA LJUDSKA PRAVA-STRANKA EKOLOŠKI SVJESNIH GRAĐANA - POL, ISTARSKA NEZAVISNA STRANKA"
         },
         "HRZ": {
-          "votes": 438,
+          "votes": 455,
           "coalition_name": "HRVATSKA REPUBLIKANSKA ZAJEDNICA - HRZ"
         },
         "HRVATSKI BLOK": {
-          "votes": 2920,
+          "votes": 3102,
           "coalition_name": "HRVATSKI BLOK-POKRET ZA MODERNU HRVATSKU - HRVATSKI BLOK, HRVATSKI ISTINSKI PREPOROD - HIP"
         },
         "HP": {
-          "votes": 529,
+          "votes": 532,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         },
         "SRP": {
-          "votes": 1452,
+          "votes": 1465,
           "coalition_name": "SOCIJALISTIČKA RADNIČKA PARTIJA HRVATSKE - SRP"
         },
         "SHB": {
-          "votes": 577,
+          "votes": 581,
           "coalition_name": "STRANKA HRVATSKIH BRANITELJA - SHB"
         },
         "ALIJANSA": {
-          "votes": 454,
+          "votes": 457,
           "coalition_name": "ALIJANSA ZA PRAVNU DRŽAVU - ALIJANSA"
         },
         "DGS": {
-          "votes": 275,
+          "votes": 292,
           "coalition_name": "DOMOVINSKA GRAĐANSKA STRANKA - DGS"
         },
         "HES": {
-          "votes": 300,
+          "votes": 308,
           "coalition_name": "HRVATSKA EUROPSKA STRANKA - HES"
         },
         "HR": {
-          "votes": 138,
+          "votes": 140,
           "coalition_name": "HRVATSKI REPUBLIKANCI - HR"
         },
         "JURAJ MATIĆ": {
-          "votes": 353,
+          "votes": 357,
           "coalition_name": "NEOVISNA LISTA - JURAJ MATIĆ"
         }
       }
     },
     "III": {
       "name": "III. IZBORNA JEDINICA",
+      "seats": 14,
       "total_voters": 365042,
-      "votes_cast": 246016,
-      "turnout": 0.6739,
+      "votes_cast": 247749,
+      "turnout": 0.6787,
       "winner": "HDZ",
-      "margin": 3.94,
+      "margin": 4.22,
       "parties": {
         "BV-TREĆI BLOK": {
-          "votes": 933,
+          "votes": 935,
           "coalition_name": "BEBIČ VLADIMIR-TREĆI HRVATSKI BLOK - BV-TREĆI BLOK"
         },
         "DGS": {
-          "votes": 168,
+          "votes": 170,
           "coalition_name": "DOMOVINSKA GRAĐANSKA STRANKA - DGS"
         },
         "HDSS": {
-          "votes": 13416,
+          "votes": 13448,
           "coalition_name": "HRVATSKA DEMOKRATSKA SELJAČKA STRANKA - HDSS"
         },
         "HDZ": {
-          "votes": 60994,
+          "votes": 61955,
           "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ"
         },
         "HGSS": {
-          "votes": 941,
+          "votes": 953,
           "coalition_name": "HRVATSKA GRAĐANSKO SELJAČKA STRANKA - HGSS, HRVATSKA KRŠĆANSKA DEMOKRATSKA STRANKA - HKDS"
         },
         "HNS": {
-          "votes": 36759,
+          "votes": 36869,
           "coalition_name": "HRVATSKA NARODNA STRANKA - HNS"
         },
         "HPSS-1904": {
-          "votes": 592,
+          "votes": 595,
           "coalition_name": "HRVATSKA PUČKA SELJAČKA STRANKA-1904 - HPSS-1904"
         },
         "HRS": {
-          "votes": 729,
+          "votes": 733,
           "coalition_name": "HRVATSKA RADNIČKA STRANKA - HRS"
         },
         "HSS": {
-          "votes": 21262,
+          "votes": 21357,
           "coalition_name": "HRVATSKA SELJAČKA STRANKA - HSS"
         },
         "HSLS": {
-          "votes": 14343,
+          "votes": 14399,
           "coalition_name": "HRVATSKA SOCIJALNO LIBERALNA STRANKA - HSLS, DEMOKRATSKI CENTAR - DC"
         },
         "HSP": {
-          "votes": 8220,
+          "votes": 8313,
           "coalition_name": "HRVATSKA STRANKA PRAVA - HSP, ZAGORSKA DEMOKRATSKA STRANKA - ZDS, MEĐIMURSKA STRANKA - MS"
         },
         "HSP-1861": {
-          "votes": 1662,
+          "votes": 1684,
           "coalition_name": "HRVATSKA STRANKA PRAVA-1861 - HSP-1861"
         },
         "HSU": {
-          "votes": 14757,
+          "votes": 14767,
           "coalition_name": "HRVATSKA STRANKA UMIROVLJENIKA - HSU"
         },
         "HRVATSKI BLOK": {
-          "votes": 1021,
+          "votes": 1052,
           "coalition_name": "HRVATSKI BLOK-POKRET ZA MODERNU HRVATSKU - HRVATSKI BLOK, HRVATSKI ISTINSKI PREPOROD - HIP"
         },
         "DEMOKRŠĆANI": {
-          "votes": 1298,
+          "votes": 1301,
           "coalition_name": "HRVATSKI DEMOKRŠĆANI - DEMOKRŠĆANI"
         },
         "HND": {
-          "votes": 645,
+          "votes": 650,
           "coalition_name": "HRVATSKI NEZAVISNI DEMOKRATI - HND"
         },
         "HP": {
-          "votes": 288,
+          "votes": 289,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         },
         "HR": {
@@ -73072,161 +73075,162 @@
           "coalition_name": "NEOVISNA LISTA - ĐULA RUŠINOVIĆ-SUNARA"
         },
         "ZDRAVKO TOMAC": {
-          "votes": 1391,
+          "votes": 1400,
           "coalition_name": "NEOVISNA LISTA - ZDRAVKO TOMAC"
         },
         "SDP": {
-          "votes": 51312,
+          "votes": 51512,
           "coalition_name": "SOCIJALDEMOKRATSKA PARTIJA HRVATSKE - SDP, LIBRA-STRANKA LIBERALNIH DEMOKRATA - LIBRA"
         },
         "SRP": {
-          "votes": 681,
+          "votes": 692,
           "coalition_name": "SOCIJALISTIČKA RADNIČKA PARTIJA HRVATSKE - SRP"
         },
         "SDU": {
-          "votes": 117,
+          "votes": 121,
           "coalition_name": "SOCIJALNO-DEMOKRATSKA UNIJA HRVATSKE - SDU"
         },
         "ZS": {
-          "votes": 2222,
+          "votes": 2226,
           "coalition_name": "ZELENA STRANKA - ZS, STRANKA NOVE ALTERNATIVE-POKRET ZELENIH - SNA-POKRET ZELENIH, ZELENI-STRANKA NOVOG DOBA - ZELENI-SND"
         },
         "ALIJANSA": {
-          "votes": 631,
+          "votes": 633,
           "coalition_name": "ALIJANSA ZA PRAVNU DRŽAVU - ALIJANSA"
         },
         "DSU-SN": {
-          "votes": 868,
+          "votes": 887,
           "coalition_name": "DEMOKRATSKA SOCIJALNA UNIJA-SNAGA NARODA - DSU-SN"
         },
         "HČSP": {
-          "votes": 1022,
+          "votes": 1036,
           "coalition_name": "HRVATSKA ČISTA STRANKA PRAVA - HČSP, HRVATSKA KRŠĆANSKA DEMOKRATSKA UNIJA - HKDU"
         },
         "POL": {
-          "votes": 291,
+          "votes": 294,
           "coalition_name": "POKRET ZA LJUDSKA PRAVA-STRANKA EKOLOŠKI SVJESNIH GRAĐANA - POL, ISTARSKA NEZAVISNA STRANKA"
         },
         "BRANKO ZAJEC": {
-          "votes": 517,
+          "votes": 519,
           "coalition_name": "NEOVISNA LISTA - BRANKO ZAJEC"
         },
         "HPS": {
-          "votes": 407,
+          "votes": 411,
           "coalition_name": "HRVATSKA PUČKA STRANKA - HPS"
         },
         "SHB": {
-          "votes": 466,
+          "votes": 470,
           "coalition_name": "STRANKA HRVATSKIH BRANITELJA - SHB"
         }
       }
     },
     "IV": {
       "name": "IV. IZBORNA JEDINICA",
+      "seats": 14,
       "total_voters": 328076,
-      "votes_cast": 212106,
-      "turnout": 0.6465,
+      "votes_cast": 214859,
+      "turnout": 0.6549,
       "winner": "HDZ",
-      "margin": 16.55,
+      "margin": 16.94,
       "parties": {
         "ALIJANSA": {
-          "votes": 653,
+          "votes": 657,
           "coalition_name": "ALIJANSA ZA PRAVNU DRŽAVU - ALIJANSA"
         },
         "BV-TREĆI BLOK": {
-          "votes": 902,
+          "votes": 907,
           "coalition_name": "BEBIČ VLADIMIR-TREĆI HRVATSKI BLOK - BV-TREĆI BLOK"
         },
         "HČSP": {
-          "votes": 935,
+          "votes": 966,
           "coalition_name": "HRVATSKA ČISTA STRANKA PRAVA - HČSP, HRVATSKA KRŠĆANSKA DEMOKRATSKA UNIJA - HKDU"
         },
         "HDSS": {
-          "votes": 2919,
+          "votes": 2939,
           "coalition_name": "HRVATSKA DEMOKRATSKA SELJAČKA STRANKA - HDSS, HRVATSKI DEMOKRATSKI CENTAR - HDC, DEMOKRATSKA PRIGORSKO-ZAGREBAČKA STRANKA - DPS"
         },
         "HDZ": {
-          "votes": 73324,
+          "votes": 74900,
           "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ"
         },
         "HNS": {
-          "votes": 13424,
+          "votes": 13561,
           "coalition_name": "HRVATSKA NARODNA STRANKA - HNS, SLAVONSKO-BARANJSKA HRVATSKA STRANKA - SBHS"
         },
         "HSS": {
-          "votes": 17709,
+          "votes": 17820,
           "coalition_name": "HRVATSKA SELJAČKA STRANKA - HSS"
         },
         "HSLS": {
-          "votes": 9395,
+          "votes": 9477,
           "coalition_name": "HRVATSKA SOCIJALNO LIBERALNA STRANKA - HSLS, DEMOKRATSKI CENTAR - DC"
         },
         "HSP": {
-          "votes": 18705,
+          "votes": 18972,
           "coalition_name": "HRVATSKA STRANKA PRAVA - HSP"
         },
         "HSP-1861": {
-          "votes": 1427,
+          "votes": 1447,
           "coalition_name": "HRVATSKA STRANKA PRAVA-1861 - HSP-1861"
         },
         "HSU": {
-          "votes": 11882,
+          "votes": 11895,
           "coalition_name": "HRVATSKA STRANKA UMIROVLJENIKA - HSU"
         },
         "DEMOKRŠĆANI": {
-          "votes": 1832,
+          "votes": 1846,
           "coalition_name": "HRVATSKI DEMOKRŠĆANI - DEMOKRŠĆANI, HRVATSKA KRŠĆANSKA DEMOKRATSKA STRANKA - HKDS, HRVATSKA GRAĐANSKO SELJAČKA STRANKA - HGSS"
         },
         "HND": {
-          "votes": 356,
+          "votes": 362,
           "coalition_name": "HRVATSKI NEZAVISNI DEMOKRATI - HND"
         },
         "FRANJO HOCENSKI": {
-          "votes": 1525,
+          "votes": 1526,
           "coalition_name": "NEOVISNA LISTA - FRANJO HOCENSKI"
         },
         "MATIJA ŠKULAC": {
-          "votes": 1725,
+          "votes": 1729,
           "coalition_name": "NEOVISNA LISTA - MATIJA ŠKULAC"
         },
         "POL": {
-          "votes": 364,
+          "votes": 370,
           "coalition_name": "POKRET ZA LJUDSKA PRAVA-STRANKA EKOLOŠKI SVJESNIH GRAĐANA - POL, ISTARSKA NEZAVISNA STRANKA"
         },
         "SDP": {
-          "votes": 38227,
+          "votes": 38508,
           "coalition_name": "SOCIJALDEMOKRATSKA PARTIJA HRVATSKE - SDP, LIBRA-STRANKA LIBERALNIH DEMOKRATA - LIBRA"
         },
         "SRP": {
-          "votes": 1069,
+          "votes": 1078,
           "coalition_name": "SOCIJALISTIČKA RADNIČKA PARTIJA HRVATSKE - SRP"
         },
         "SHR": {
-          "votes": 2419,
+          "votes": 2430,
           "coalition_name": "STRANKA HRVATSKE RAVNICE - SHR"
         },
         "ZELENI HR": {
-          "votes": 1764,
+          "votes": 1778,
           "coalition_name": "ZELENI HRVATSKE - ZELENI HR"
         },
         "DSU-SN": {
-          "votes": 1004,
+          "votes": 1020,
           "coalition_name": "DEMOKRATSKA SOCIJALNA UNIJA-SNAGA NARODA - DSU-SN"
         },
         "HPS": {
-          "votes": 995,
+          "votes": 1004,
           "coalition_name": "HRVATSKA PUČKA STRANKA - HPS"
         },
         "HRZ": {
-          "votes": 393,
+          "votes": 408,
           "coalition_name": "HRVATSKA REPUBLIKANSKA ZAJEDNICA - HRZ"
         },
         "HRVATSKI BLOK": {
-          "votes": 1639,
+          "votes": 1692,
           "coalition_name": "HRVATSKI BLOK-POKRET ZA MODERNU HRVATSKU - HRVATSKI BLOK, HRVATSKI ISTINSKI PREPOROD - HIP"
         },
         "HP": {
-          "votes": 162,
+          "votes": 169,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         },
         "HR": {
@@ -73234,211 +73238,213 @@
           "coalition_name": "HRVATSKI REPUBLIKANCI - HR"
         },
         "MIROSLAV LEVAKOVIĆ": {
-          "votes": 365,
+          "votes": 368,
           "coalition_name": "NEOVISNA LISTA - MIROSLAV LEVAKOVIĆ"
         },
         "HRS": {
-          "votes": 470,
+          "votes": 472,
           "coalition_name": "HRVATSKA RADNIČKA STRANKA - HRS"
         },
         "SHB": {
-          "votes": 596,
+          "votes": 603,
           "coalition_name": "STRANKA HRVATSKIH BRANITELJA - SHB"
         },
         "ĐULA RUŠINOVIĆ-SUNARA": {
-          "votes": 608,
+          "votes": 612,
           "coalition_name": "NEOVISNA LISTA - ĐULA RUŠINOVIĆ-SUNARA"
         }
       }
     },
     "V": {
       "name": "V. IZBORNA JEDINICA",
+      "seats": 14,
       "total_voters": 360242,
-      "votes_cast": 214340,
-      "turnout": 0.595,
+      "votes_cast": 220421,
+      "turnout": 0.6119,
       "winner": "HDZ",
-      "margin": 25.08,
+      "margin": 25.67,
       "parties": {
         "ASH": {
-          "votes": 568,
+          "votes": 581,
           "coalition_name": "AKCIJA SOCIJALDEMOKRATA HRVATSKE - ASH"
         },
         "BV-TREĆI BLOK": {
-          "votes": 747,
+          "votes": 753,
           "coalition_name": "BEBIČ VLADIMIR-TREĆI HRVATSKI BLOK - BV-TREĆI BLOK"
         },
         "HČSP": {
-          "votes": 1728,
+          "votes": 1766,
           "coalition_name": "HRVATSKA ČISTA STRANKA PRAVA - HČSP, HRVATSKA KRŠĆANSKA DEMOKRATSKA UNIJA - HKDU"
         },
         "HDRS": {
-          "votes": 1048,
+          "votes": 1064,
           "coalition_name": "HRVATSKA DEMOKRATSKA REPUBLIKANSKA STRANKA - HDRS"
         },
         "HDSS": {
-          "votes": 1887,
+          "votes": 1924,
           "coalition_name": "HRVATSKA DEMOKRATSKA SELJAČKA STRANKA - HDSS, HRVATSKI DEMOKRATSKI CENTAR - HDC, DEMOKRATSKA PRIGORSKO-ZAGREBAČKA STRANKA - DPS"
         },
         "HDZ": {
-          "votes": 84735,
+          "votes": 88247,
           "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ"
         },
         "HGSS": {
-          "votes": 795,
+          "votes": 826,
           "coalition_name": "HRVATSKA GRAĐANSKO SELJAČKA STRANKA - HGSS, HRVATSKA KRŠĆANSKA DEMOKRATSKA STRANKA - HKDS"
         },
         "HNS": {
-          "votes": 8346,
+          "votes": 8523,
           "coalition_name": "HRVATSKA NARODNA STRANKA - HNS, SLAVONSKO-BARANJSKA HRVATSKA STRANKA - SBHS"
         },
         "HPS": {
-          "votes": 1743,
+          "votes": 1812,
           "coalition_name": "HRVATSKA PUČKA STRANKA - HPS"
         },
         "HSS": {
-          "votes": 19525,
+          "votes": 19726,
           "coalition_name": "HRVATSKA SELJAČKA STRANKA - HSS"
         },
         "HSLS": {
-          "votes": 10598,
+          "votes": 10769,
           "coalition_name": "HRVATSKA SOCIJALNO LIBERALNA STRANKA - HSLS, DEMOKRATSKI CENTAR - DC"
         },
         "HSP": {
-          "votes": 13615,
+          "votes": 14183,
           "coalition_name": "HRVATSKA STRANKA PRAVA - HSP"
         },
         "HSP-1861": {
-          "votes": 1534,
+          "votes": 1599,
           "coalition_name": "HRVATSKA STRANKA PRAVA-1861 - HSP-1861"
         },
         "HSU": {
-          "votes": 7003,
+          "votes": 7051,
           "coalition_name": "HRVATSKA STRANKA UMIROVLJENIKA - HSU"
         },
         "HRVATSKI BLOK": {
-          "votes": 3775,
+          "votes": 3899,
           "coalition_name": "HRVATSKI BLOK-POKRET ZA MODERNU HRVATSKU - HRVATSKI BLOK, HRVATSKI ISTINSKI PREPOROD - HIP"
         },
         "JOSIP KOKIĆ": {
-          "votes": 153,
+          "votes": 166,
           "coalition_name": "NEOVISNA LISTA - JOSIP KOKIĆ"
         },
         "VLADO ZEC": {
-          "votes": 7150,
+          "votes": 7180,
           "coalition_name": "NEOVISNA LISTA - VLADO ZEC"
         },
         "JERKO ZOVAK": {
-          "votes": 1603,
+          "votes": 1609,
           "coalition_name": "NEOVISNA LISTA - JERKO ZOVAK"
         },
         "SDP": {
-          "votes": 30986,
+          "votes": 31659,
           "coalition_name": "SOCIJALDEMOKRATSKA PARTIJA HRVATSKE - SDP"
         },
         "SRP": {
-          "votes": 1130,
+          "votes": 1154,
           "coalition_name": "SOCIJALISTIČKA RADNIČKA PARTIJA HRVATSKE - SRP"
         },
         "SHR": {
-          "votes": 851,
+          "votes": 865,
           "coalition_name": "STRANKA HRVATSKE RAVNICE - SHR"
         },
         "ZS": {
-          "votes": 1067,
+          "votes": 1095,
           "coalition_name": "ZELENA STRANKA - ZS, STRANKA NOVE ALTERNATIVE-POKRET ZELENIH - SNA-POKRET ZELENIH, ZELENI-STRANKA NOVOG DOBA - ZELENI-SND"
         },
         "DEMOKRŠĆANI": {
-          "votes": 1487,
+          "votes": 1519,
           "coalition_name": "HRVATSKI DEMOKRŠĆANI - DEMOKRŠĆANI"
         },
         "DSU-SN": {
-          "votes": 654,
+          "votes": 681,
           "coalition_name": "DEMOKRATSKA SOCIJALNA UNIJA-SNAGA NARODA - DSU-SN"
         },
         "FRANJO ODOBAŠIĆ": {
-          "votes": 721,
+          "votes": 725,
           "coalition_name": "NEOVISNA LISTA - FRANJO ODOBAŠIĆ"
         },
         "MARIJAN ŽIVKOVIĆ": {
-          "votes": 1715,
+          "votes": 1725,
           "coalition_name": "NEOVISNA LISTA - MARIJAN ŽIVKOVIĆ"
         },
         "SHB": {
-          "votes": 593,
+          "votes": 612,
           "coalition_name": "STRANKA HRVATSKIH BRANITELJA - SHB"
         },
         "ZELENI HR": {
-          "votes": 1001,
+          "votes": 1016,
           "coalition_name": "ZELENI HRVATSKE - ZELENI HR"
         },
         "HRZ": {
-          "votes": 402,
+          "votes": 427,
           "coalition_name": "HRVATSKA REPUBLIKANSKA ZAJEDNICA - HRZ"
         },
         "POL": {
-          "votes": 270,
+          "votes": 282,
           "coalition_name": "POKRET ZA LJUDSKA PRAVA-STRANKA EKOLOŠKI SVJESNIH GRAĐANA - POL, ISTARSKA NEZAVISNA STRANKA"
         },
         "HP": {
-          "votes": 150,
+          "votes": 154,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         },
         "HR": {
-          "votes": 146,
+          "votes": 149,
           "coalition_name": "HRVATSKI REPUBLIKANCI - HR"
         },
         "MIRKO BREKALO": {
-          "votes": 175,
+          "votes": 178,
           "coalition_name": "NEOVISNA LISTA - MIRKO BREKALO"
         },
         "STJEPAN BRAJKOVIĆ": {
-          "votes": 406,
+          "votes": 408,
           "coalition_name": "NEOVISNA LISTA - STJEPAN BRAJKOVIĆ"
         }
       }
     },
     "VI": {
       "name": "VI. IZBORNA JEDINICA",
+      "seats": 14,
       "total_voters": 343857,
-      "votes_cast": 231351,
-      "turnout": 0.6728,
+      "votes_cast": 234614,
+      "turnout": 0.6823,
       "winner": "HDZ",
-      "margin": 5.97,
+      "margin": 6.55,
       "parties": {
         "ASH": {
-          "votes": 1163,
+          "votes": 1173,
           "coalition_name": "AKCIJA SOCIJALDEMOKRATA HRVATSKE - ASH"
         },
         "DSU-SN": {
-          "votes": 1310,
+          "votes": 1334,
           "coalition_name": "DEMOKRATSKA SOCIJALNA UNIJA-SNAGA NARODA - DSU-SN"
         },
         "DSU": {
-          "votes": 3730,
+          "votes": 3739,
           "coalition_name": "DEMOKRATSKA STRANKA UMIROVLJENIKA - DSU"
         },
         "DGS": {
-          "votes": 262,
+          "votes": 273,
           "coalition_name": "DOMOVINSKA GRAĐANSKA STRANKA - DGS"
         },
         "HČSP": {
-          "votes": 1200,
+          "votes": 1257,
           "coalition_name": "HRVATSKA ČISTA STRANKA PRAVA - HČSP, HRVATSKA KRŠĆANSKA DEMOKRATSKA UNIJA - HKDU"
         },
         "HDZ": {
-          "votes": 71659,
+          "votes": 73578,
           "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ"
         },
         "HGSS": {
-          "votes": 1018,
+          "votes": 1043,
           "coalition_name": "HRVATSKA GRAĐANSKO SELJAČKA STRANKA - HGSS, HRVATSKA KRŠĆANSKA DEMOKRATSKA STRANKA - HKDS"
         },
         "HNS": {
-          "votes": 19013,
+          "votes": 19174,
           "coalition_name": "HRVATSKA NARODNA STRANKA - HNS"
         },
         "HPS": {
-          "votes": 1175,
+          "votes": 1183,
           "coalition_name": "HRVATSKA PUČKA STRANKA - HPS, HRVATSKI PRAVAŠI - HP"
         },
         "HRS": {
@@ -73446,79 +73452,79 @@
           "coalition_name": "HRVATSKA RADNIČKA STRANKA - HRS"
         },
         "HSS": {
-          "votes": 16565,
+          "votes": 16678,
           "coalition_name": "HRVATSKA SELJAČKA STRANKA - HSS"
         },
         "HSLS": {
-          "votes": 7986,
+          "votes": 8050,
           "coalition_name": "HRVATSKA SOCIJALNO LIBERALNA STRANKA - HSLS, DEMOKRATSKI CENTAR - DC"
         },
         "HSP": {
-          "votes": 19319,
+          "votes": 19545,
           "coalition_name": "HRVATSKA STRANKA PRAVA - HSP"
         },
         "HSP-1861": {
-          "votes": 2194,
+          "votes": 2225,
           "coalition_name": "HRVATSKA STRANKA PRAVA-1861 - HSP-1861"
         },
         "HSU": {
-          "votes": 6836,
+          "votes": 6850,
           "coalition_name": "HRVATSKA STRANKA UMIROVLJENIKA - HSU"
         },
         "HIP": {
-          "votes": 2889,
+          "votes": 2974,
           "coalition_name": "HRVATSKI ISTINSKI PREPOROD - HIP, HRVATSKI BLOK-POKRET ZA MODERNU HRVATSKU - HRVATSKI BLOK"
         },
         "ĐULA RUŠINOVIĆ-SUNARA": {
-          "votes": 1087,
+          "votes": 1094,
           "coalition_name": "NEOVISNA LISTA - ĐULA RUŠINOVIĆ-SUNARA"
         },
         "POL": {
-          "votes": 406,
+          "votes": 415,
           "coalition_name": "POKRET ZA LJUDSKA PRAVA-STRANKA EKOLOŠKI SVJESNIH GRAĐANA - POL, ISTARSKA NEZAVISNA STRANKA"
         },
         "SDP": {
-          "votes": 57849,
+          "votes": 58202,
           "coalition_name": "SOCIJALDEMOKRATSKA PARTIJA HRVATSKE - SDP, LIBERALNA STRANKA - LS"
         },
         "SHB": {
-          "votes": 898,
+          "votes": 904,
           "coalition_name": "STRANKA HRVATSKIH BRANITELJA - SHB"
         },
         "ZS": {
-          "votes": 2223,
+          "votes": 2235,
           "coalition_name": "ZELENA STRANKA - ZS, ZELENI-STRANKA NOVOG DOBA - ZELENI-SND, STRANKA NOVE ALTERNATIVE-POKRET ZELENIH - SNA-POKRET ZELENIH"
         },
         "ZELENI HR": {
-          "votes": 1729,
+          "votes": 1737,
           "coalition_name": "ZELENI HRVATSKE - ZELENI HR"
         },
         "ALIJANSA": {
-          "votes": 508,
+          "votes": 521,
           "coalition_name": "ALIJANSA ZA PRAVNU DRŽAVU - ALIJANSA"
         },
         "BV-TREĆI BLOK": {
-          "votes": 1048,
+          "votes": 1053,
           "coalition_name": "BEBIČ VLADIMIR-TREĆI HRVATSKI BLOK - BV-TREĆI BLOK"
         },
         "JULA ADAMOVIĆ": {
-          "votes": 377,
+          "votes": 384,
           "coalition_name": "NEOVISNA LISTA - JULA ADAMOVIĆ"
         },
         "SRP": {
-          "votes": 1852,
+          "votes": 1888,
           "coalition_name": "SOCIJALISTIČKA RADNIČKA PARTIJA HRVATSKE - SRP"
         },
         "HES": {
-          "votes": 272,
+          "votes": 274,
           "coalition_name": "HRVATSKA EUROPSKA STRANKA - HES"
         },
         "HR": {
-          "votes": 180,
+          "votes": 185,
           "coalition_name": "HRVATSKI REPUBLIKANCI - HR"
         },
         "HND": {
-          "votes": 607,
+          "votes": 612,
           "coalition_name": "HRVATSKI NEZAVISNI DEMOKRATI - HND"
         },
         "SDU": {
@@ -73529,583 +73535,1017 @@
     },
     "VII": {
       "name": "VII. IZBORNA JEDINICA",
+      "seats": 14,
       "total_voters": 382084,
-      "votes_cast": 259377,
-      "turnout": 0.6788,
+      "votes_cast": 263437,
+      "turnout": 0.6895,
       "winner": "HDZ",
-      "margin": 8.75,
+      "margin": 9.43,
       "parties": {
         "HČSP": {
-          "votes": 1643,
+          "votes": 1685,
           "coalition_name": "HRVATSKA ČISTA STRANKA PRAVA - HČSP, HRVATSKA KRŠĆANSKA DEMOKRATSKA UNIJA - HKDU"
         },
         "HDSS": {
-          "votes": 1725,
+          "votes": 1823,
           "coalition_name": "HRVATSKA DEMOKRATSKA SELJAČKA STRANKA - HDSS, HRVATSKI DEMOKRATSKI CENTAR - HDC, DEMOKRATSKA PRIGORSKO-ZAGREBAČKA STRANKA - DPS"
         },
         "HDZ": {
-          "votes": 82445,
+          "votes": 84943,
           "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ"
         },
         "HNS": {
-          "votes": 19846,
+          "votes": 20003,
           "coalition_name": "HRVATSKA NARODNA STRANKA - HNS, PRIMORSKO GORANSKI SAVEZ - PGS"
         },
         "HSS": {
-          "votes": 18232,
+          "votes": 18340,
           "coalition_name": "HRVATSKA SELJAČKA STRANKA - HSS"
         },
         "HSLS": {
-          "votes": 9497,
+          "votes": 9613,
           "coalition_name": "HRVATSKA SOCIJALNO LIBERALNA STRANKA - HSLS, DEMOKRATSKI CENTAR - DC"
         },
         "HSP": {
-          "votes": 20287,
+          "votes": 20570,
           "coalition_name": "HRVATSKA STRANKA PRAVA - HSP"
         },
         "HSP-1861": {
-          "votes": 2174,
+          "votes": 2215,
           "coalition_name": "HRVATSKA STRANKA PRAVA-1861 - HSP-1861"
         },
         "HSU": {
-          "votes": 10425,
+          "votes": 10445,
           "coalition_name": "HRVATSKA STRANKA UMIROVLJENIKA - HSU"
         },
         "BORIS MIKŠIĆ": {
-          "votes": 5291,
+          "votes": 5309,
           "coalition_name": "NEOVISNA LISTA - BORIS MIKŠIĆ"
         },
         "ĐULA RUŠINOVIĆ-SUNARA": {
-          "votes": 965,
+          "votes": 979,
           "coalition_name": "NEOVISNA LISTA - ĐULA RUŠINOVIĆ-SUNARA"
         },
         "SDP": {
-          "votes": 59758,
+          "votes": 60107,
           "coalition_name": "SOCIJALDEMOKRATSKA PARTIJA HRVATSKE - SDP"
         },
         "ASH": {
-          "votes": 1078,
+          "votes": 1087,
           "coalition_name": "AKCIJA SOCIJALDEMOKRATA HRVATSKE - ASH"
         },
         "ALIJANSA": {
-          "votes": 573,
+          "votes": 579,
           "coalition_name": "ALIJANSA ZA PRAVNU DRŽAVU - ALIJANSA"
         },
         "BV-TREĆI BLOK": {
-          "votes": 1931,
+          "votes": 1940,
           "coalition_name": "BEBIČ VLADIMIR-TREĆI HRVATSKI BLOK - BV-TREĆI BLOK"
         },
         "HES": {
-          "votes": 401,
+          "votes": 406,
           "coalition_name": "HRVATSKA EUROPSKA STRANKA - HES"
         },
         "HGSS": {
-          "votes": 988,
+          "votes": 996,
           "coalition_name": "HRVATSKA GRAĐANSKO SELJAČKA STRANKA - HGSS, HRVATSKA KRŠĆANSKA DEMOKRATSKA STRANKA - HKDS"
         },
         "HPS": {
-          "votes": 752,
+          "votes": 759,
           "coalition_name": "HRVATSKA PUČKA STRANKA - HPS"
         },
         "HRS": {
-          "votes": 699,
+          "votes": 703,
           "coalition_name": "HRVATSKA RADNIČKA STRANKA - HRS"
         },
         "DEMOKRŠĆANI": {
-          "votes": 1914,
+          "votes": 1934,
           "coalition_name": "HRVATSKI DEMOKRŠĆANI - DEMOKRŠĆANI, HRVATSKA DEMOKRATSKA REPUBLIKANSKA STRANKA - HDRS"
         },
         "HIP": {
-          "votes": 2277,
+          "votes": 2371,
           "coalition_name": "HRVATSKI ISTINSKI PREPOROD - HIP, HRVATSKI BLOK-POKRET ZA MODERNU HRVATSKU - HRVATSKI BLOK"
         },
         "POL": {
-          "votes": 418,
+          "votes": 425,
           "coalition_name": "POKRET ZA LJUDSKA PRAVA-STRANKA EKOLOŠKI SVJESNIH GRAĐANA - POL, ISTARSKA NEZAVISNA STRANKA"
         },
         "SHB": {
-          "votes": 728,
+          "votes": 739,
           "coalition_name": "STRANKA HRVATSKIH BRANITELJA - SHB"
         },
         "ZS": {
-          "votes": 2307,
+          "votes": 2320,
           "coalition_name": "ZELENA STRANKA - ZS, STRANKA NOVE ALTERNATIVE-POKRET ZELENIH - SNA-POKRET ZELENIH, PRIMORSKO GORANSKA STRANKA UMIROVLJENIKA - PGSU, ZELENI-STRANKA NOVOG DOBA - ZELENI-SND"
         },
         "ZELENI HR": {
-          "votes": 2374,
+          "votes": 2390,
           "coalition_name": "ZELENI HRVATSKE - ZELENI HR"
         },
         "DSU-SN": {
-          "votes": 1314,
+          "votes": 1336,
           "coalition_name": "DEMOKRATSKA SOCIJALNA UNIJA-SNAGA NARODA - DSU-SN"
         },
         "SRP": {
-          "votes": 1573,
+          "votes": 1593,
           "coalition_name": "SOCIJALISTIČKA RADNIČKA PARTIJA HRVATSKE - SRP"
         },
         "HR": {
-          "votes": 255,
+          "votes": 257,
           "coalition_name": "HRVATSKI REPUBLIKANCI - HR"
         },
         "HND": {
-          "votes": 508,
+          "votes": 513,
           "coalition_name": "HRVATSKI NEZAVISNI DEMOKRATI - HND"
         },
         "HP": {
-          "votes": 234,
+          "votes": 238,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         },
         "DGS": {
-          "votes": 240,
+          "votes": 244,
           "coalition_name": "DOMOVINSKA GRAĐANSKA STRANKA - DGS"
         },
         "DAMIR PAVLEK": {
-          "votes": 459,
+          "votes": 460,
           "coalition_name": "NEOVISNA LISTA - DAMIR PAVLEK"
         },
         "SDU": {
-          "votes": 214,
+          "votes": 217,
           "coalition_name": "SOCIJALNO-DEMOKRATSKA UNIJA HRVATSKE - SDU"
         }
       }
     },
     "VIII": {
       "name": "VIII. IZBORNA JEDINICA",
+      "seats": 14,
       "total_voters": 374678,
-      "votes_cast": 236654,
-      "turnout": 0.6316,
+      "votes_cast": 239851,
+      "turnout": 0.6402,
       "winner": "SDP",
-      "margin": 22.31,
+      "margin": 21.58,
       "parties": {
         "ASH": {
-          "votes": 930,
+          "votes": 938,
           "coalition_name": "AKCIJA SOCIJALDEMOKRATA HRVATSKE - ASH"
         },
         "ALIJANSA": {
-          "votes": 748,
+          "votes": 762,
           "coalition_name": "ALIJANSA ZA PRAVNU DRŽAVU - ALIJANSA"
         },
         "BV-TREĆI BLOK": {
-          "votes": 4746,
+          "votes": 4787,
           "coalition_name": "BEBIČ VLADIMIR-TREĆI HRVATSKI BLOK - BV-TREĆI BLOK"
         },
         "DAN": {
-          "votes": 375,
+          "votes": 377,
           "coalition_name": "DEMOKRATSKA AKCIJA NARODA HRVATSKE - DAN"
         },
         "DSU-SN": {
-          "votes": 1161,
+          "votes": 1179,
           "coalition_name": "DEMOKRATSKA SOCIJALNA UNIJA-SNAGA NARODA - DSU-SN"
         },
         "ZELENI": {
-          "votes": 1634,
+          "votes": 1652,
           "coalition_name": "DEMOKRATSKI SAVEZ ZELENIH - ZELENI"
         },
         "HČSP": {
-          "votes": 1049,
+          "votes": 1085,
           "coalition_name": "HRVATSKA ČISTA STRANKA PRAVA - HČSP, HRVATSKA KRŠĆANSKA DEMOKRATSKA UNIJA - HKDU, HRVATSKA DEMOKRATSKA SELJAČKA STRANKA - HDSS"
         },
         "HDZ": {
-          "votes": 41795,
+          "votes": 43384,
           "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ"
         },
         "HGSS": {
-          "votes": 717,
+          "votes": 721,
           "coalition_name": "HRVATSKA GRAĐANSKO SELJAČKA STRANKA - HGSS, HRVATSKA KRŠĆANSKA DEMOKRATSKA STRANKA - HKDS"
         },
         "HNS": {
-          "votes": 26624,
+          "votes": 26861,
           "coalition_name": "HRVATSKA NARODNA STRANKA - HNS, PRIMORSKO GORANSKI SAVEZ - PGS"
         },
         "HSS": {
-          "votes": 6910,
+          "votes": 7004,
           "coalition_name": "HRVATSKA SELJAČKA STRANKA - HSS"
         },
         "HSLS": {
-          "votes": 6435,
+          "votes": 6495,
           "coalition_name": "HRVATSKA SOCIJALNO LIBERALNA STRANKA - HSLS, DEMOKRATSKI CENTAR - DC"
         },
         "HSP": {
-          "votes": 8182,
+          "votes": 8382,
           "coalition_name": "HRVATSKA STRANKA PRAVA - HSP"
         },
         "HSP-1861": {
-          "votes": 1363,
+          "votes": 1389,
           "coalition_name": "HRVATSKA STRANKA PRAVA-1861 - HSP-1861"
         },
         "HSU": {
-          "votes": 11841,
+          "votes": 11869,
           "coalition_name": "HRVATSKA STRANKA UMIROVLJENIKA - HSU"
         },
         "HRVATSKI BLOK": {
-          "votes": 1161,
+          "votes": 1218,
           "coalition_name": "HRVATSKI BLOK-POKRET ZA MODERNU HRVATSKU - HRVATSKI BLOK, HRVATSKI ISTINSKI PREPOROD - HIP"
         },
         "DEMOKRŠĆANI": {
-          "votes": 1325,
+          "votes": 1335,
           "coalition_name": "HRVATSKI DEMOKRŠĆANI - DEMOKRŠĆANI"
         },
         "IDF-FDI": {
-          "votes": 5631,
+          "votes": 5685,
           "coalition_name": "ISTARSKI DEMOKRATSKI FORUM-FORO DEMOCRATICO ISTRIANO - IDF-FDI"
         },
         "PETAR CIGANOVIĆ": {
-          "votes": 971,
+          "votes": 980,
           "coalition_name": "NEOVISNA LISTA - PETAR CIGANOVIĆ"
         },
         "ĐULA RUŠINOVIĆ SUNARA": {
-          "votes": 1019,
+          "votes": 1025,
           "coalition_name": "NEOVISNA LISTA - ĐULA RUŠINOVIĆ SUNARA"
         },
         "POL": {
-          "votes": 1098,
+          "votes": 1118,
           "coalition_name": "POKRET ZA LJUDSKA PRAVA-STRANKA EKOLOŠKI SVJESNIH GRAĐANA - POL, ISTARSKA NEZAVISNA STRANKA"
         },
         "SDP": {
-          "votes": 94593,
+          "votes": 95144,
           "coalition_name": "SOCIJALDEMOKRATSKA PARTIJA HRVATSKE - SDP, ISTARSKI DEMOKRATSKI SABOR - IDS"
         },
         "SRP": {
-          "votes": 3271,
+          "votes": 3290,
           "coalition_name": "SOCIJALISTIČKA RADNIČKA PARTIJA HRVATSKE - SRP"
         },
         "SHB": {
-          "votes": 397,
+          "votes": 399,
           "coalition_name": "STRANKA HRVATSKIH BRANITELJA - SHB"
         },
         "ZS": {
-          "votes": 3265,
+          "votes": 3287,
           "coalition_name": "ZELENA STRANKA - ZS, STRANKA NOVE ALTERNATIVE-POKRET ZELENIH - SNA-POKRET ZELENIH, PRIMORSKO GORANSKA STRANKA UMIROVLJENIKA - PGSU, ZELENI-STRANKA NOVOG DOBA - ZELENI-SND"
         },
         "DGS": {
-          "votes": 191,
+          "votes": 214,
           "coalition_name": "DOMOVINSKA GRAĐANSKA STRANKA - DGS"
         },
         "HPS": {
-          "votes": 449,
+          "votes": 452,
           "coalition_name": "HRVATSKA PUČKA STRANKA - HPS"
         },
         "ZELENI HR": {
-          "votes": 1810,
+          "votes": 1827,
           "coalition_name": "ZELENI HRVATSKE - ZELENI HR"
         },
         "HP": {
-          "votes": 380,
+          "votes": 383,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         },
         "SDU": {
-          "votes": 261,
+          "votes": 263,
           "coalition_name": "SOCIJALNO-DEMOKRATSKA UNIJA HRVATSKE - SDU"
         },
         "HR": {
-          "votes": 163,
+          "votes": 165,
           "coalition_name": "HRVATSKI REPUBLIKANCI - HR"
         }
       }
     },
     "IX": {
       "name": "IX. IZBORNA JEDINICA",
+      "seats": 14,
       "total_voters": 388450,
-      "votes_cast": 247356,
-      "turnout": 0.6368,
+      "votes_cast": 255218,
+      "turnout": 0.657,
       "winner": "HDZ",
-      "margin": 31.77,
+      "margin": 32.54,
       "parties": {
         "BV-TREĆI BLOK": {
-          "votes": 869,
+          "votes": 877,
           "coalition_name": "BEBIČ VLADIMIR-TREĆI HRVATSKI BLOK - BV-TREĆI BLOK"
         },
         "HČSP": {
-          "votes": 5499,
+          "votes": 5618,
           "coalition_name": "HRVATSKA ČISTA STRANKA PRAVA - HČSP, HRVATSKA KRŠĆANSKA DEMOKRATSKA UNIJA - HKDU"
         },
         "HDRS": {
-          "votes": 2267,
+          "votes": 2336,
           "coalition_name": "HRVATSKA DEMOKRATSKA REPUBLIKANSKA STRANKA - HDRS, HRVATSKI DEMOKRŠĆANI - DEMOKRŠĆANI, JUŽNOHRVATSKA STRANKA - JHS"
         },
         "HDZ": {
-          "votes": 115967,
+          "votes": 121078,
           "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ"
         },
         "HGSS": {
-          "votes": 739,
+          "votes": 760,
           "coalition_name": "HRVATSKA GRAĐANSKO SELJAČKA STRANKA - HGSS"
         },
         "HKDS": {
-          "votes": 945,
+          "votes": 998,
           "coalition_name": "HRVATSKA KRŠĆANSKA DEMOKRATSKA STRANKA - HKDS"
         },
         "HNS": {
-          "votes": 14878,
+          "votes": 15081,
           "coalition_name": "HRVATSKA NARODNA STRANKA - HNS"
         },
         "HPS": {
-          "votes": 497,
+          "votes": 509,
           "coalition_name": "HRVATSKA PUČKA STRANKA - HPS"
         },
         "HRZ": {
-          "votes": 561,
+          "votes": 589,
           "coalition_name": "HRVATSKA REPUBLIKANSKA ZAJEDNICA - HRZ"
         },
         "HSS": {
-          "votes": 12706,
+          "votes": 12888,
           "coalition_name": "HRVATSKA SELJAČKA STRANKA - HSS"
         },
         "HSLS": {
-          "votes": 7873,
+          "votes": 8074,
           "coalition_name": "HRVATSKA SOCIJALNO LIBERALNA STRANKA - HSLS, DEMOKRATSKI CENTAR - DC"
         },
         "HSP": {
-          "votes": 13886,
+          "votes": 14372,
           "coalition_name": "HRVATSKA STRANKA PRAVA - HSP"
         },
         "HSP-1861": {
-          "votes": 1242,
+          "votes": 1293,
           "coalition_name": "HRVATSKA STRANKA PRAVA-1861 - HSP-1861"
         },
         "HSU": {
-          "votes": 6515,
+          "votes": 6533,
           "coalition_name": "HRVATSKA STRANKA UMIROVLJENIKA - HSU"
         },
         "HIP": {
-          "votes": 3934,
+          "votes": 4135,
           "coalition_name": "HRVATSKI ISTINSKI PREPOROD - HIP, HRVATSKI BLOK-POKRET ZA MODERNU HRVATSKU - HRVATSKI BLOK"
         },
         "STANISLAV ANTIĆ": {
-          "votes": 4953,
+          "votes": 5002,
           "coalition_name": "NEOVISNA LISTA - STANISLAV ANTIĆ"
         },
         "KARLO PEKAS": {
-          "votes": 257,
+          "votes": 266,
           "coalition_name": "NEOVISNA LISTA - KARLO PEKAS"
         },
         "ĐULA RUŠINOVIĆ-SUNARA": {
-          "votes": 1056,
+          "votes": 1070,
           "coalition_name": "NEOVISNA LISTA - ĐULA RUŠINOVIĆ-SUNARA"
         },
         "SINIŠA VUCO": {
-          "votes": 1007,
+          "votes": 1021,
           "coalition_name": "NEOVISNA LISTA - SINIŠA VUCO"
         },
         "DAVOR ŽIVKOVIĆ": {
-          "votes": 321,
+          "votes": 327,
           "coalition_name": "NEOVISNA LISTA - DAVOR ŽIVKOVIĆ"
         },
         "SDP": {
-          "votes": 37390,
+          "votes": 38039,
           "coalition_name": "SOCIJALDEMOKRATSKA PARTIJA HRVATSKE - SDP"
         },
         "SRP": {
-          "votes": 1157,
+          "votes": 1220,
           "coalition_name": "SOCIJALISTIČKA RADNIČKA PARTIJA HRVATSKE - SRP"
         },
         "ZS": {
-          "votes": 1202,
+          "votes": 1231,
           "coalition_name": "ZELENA STRANKA - ZS, ZELENI-STRANKA NOVOG DOBA - ZELENI-SND, STRANKA NOVE ALTERNATIVE-POKRET ZELENIH - SNA-POKRET ZELENIH"
         },
         "ZELENI HR": {
-          "votes": 910,
+          "votes": 926,
           "coalition_name": "ZELENI HRVATSKE - ZELENI HR"
         },
         "HP": {
-          "votes": 229,
+          "votes": 235,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         },
         "DGS": {
-          "votes": 150,
+          "votes": 153,
           "coalition_name": "DOMOVINSKA GRAĐANSKA STRANKA - DGS"
         },
         "HRS": {
-          "votes": 324,
+          "votes": 332,
           "coalition_name": "HRVATSKA RADNIČKA STRANKA - HRS"
         },
         "HRVATSKI PROLJEĆARI - HP": {
-          "votes": 476,
+          "votes": 482,
           "coalition_name": "HRVATSKI PROLJEĆARI - HP"
         },
         "SHB": {
-          "votes": 551,
+          "votes": 561,
           "coalition_name": "STRANKA HRVATSKIH BRANITELJA - SHB"
         },
         "DSU-SN": {
-          "votes": 788,
+          "votes": 803,
           "coalition_name": "DEMOKRATSKA SOCIJALNA UNIJA-SNAGA NARODA - DSU-SN"
         },
         "HDD": {
-          "votes": 527,
+          "votes": 551,
           "coalition_name": "HRVATSKI DALMATINSKI DOM - HDD"
         },
         "HR": {
-          "votes": 136,
+          "votes": 139,
           "coalition_name": "HRVATSKI REPUBLIKANCI - HR"
         },
         "KSU": {
-          "votes": 230,
+          "votes": 234,
           "coalition_name": "KRŠĆANSKA SOCIJALNA UNIJA - KSU"
         },
         "ASH": {
-          "votes": 695,
+          "votes": 712,
           "coalition_name": "AKCIJA SOCIJALDEMOKRATA HRVATSKE - ASH"
         },
         "POL": {
-          "votes": 239,
+          "votes": 255,
           "coalition_name": "POKRET ZA LJUDSKA PRAVA-STRANKA EKOLOŠKI SVJESNIH GRAĐANA - POL, ISTARSKA NEZAVISNA STRANKA"
         },
         "MASLINA": {
-          "votes": 614,
+          "votes": 632,
           "coalition_name": "NEOVISNA LISTA MASLINA - MASLINA"
         }
       }
     },
     "X": {
       "name": "X. IZBORNA JEDINICA",
+      "seats": 14,
       "total_voters": 401333,
-      "votes_cast": 266822,
-      "turnout": 0.6648,
+      "votes_cast": 274561,
+      "turnout": 0.6841,
       "winner": "HDZ",
-      "margin": 15.84,
+      "margin": 16.82,
       "parties": {
         "ASH": {
-          "votes": 1270,
+          "votes": 1304,
           "coalition_name": "AKCIJA SOCIJALDEMOKRATA HRVATSKE - ASH, JADRANSKA SOCIJALDEMOKRATSKA STRANKA HRVATSKE - JADRANSKI SOCIJALDEMOKRAT"
         },
         "BV-TREĆI BLOK": {
-          "votes": 2432,
+          "votes": 2452,
           "coalition_name": "BEBIČ VLADIMIR-TREĆI HRVATSKI BLOK - BV-TREĆI BLOK, STRANKA UMIROVLJENIKA - SU"
         },
         "DSU-SN": {
-          "votes": 608,
+          "votes": 621,
           "coalition_name": "DEMOKRATSKA SOCIJALNA UNIJA-SNAGA NARODA - DSU-SN"
         },
         "HČSP": {
-          "votes": 6366,
+          "votes": 6454,
           "coalition_name": "HRVATSKA ČISTA STRANKA PRAVA - HČSP, HRVATSKA KRŠĆANSKA DEMOKRATSKA UNIJA - HKDU"
         },
         "HDRS": {
-          "votes": 3257,
+          "votes": 3292,
           "coalition_name": "HRVATSKA DEMOKRATSKA REPUBLIKANSKA STRANKA - HDRS, HRVATSKI DEMOKRŠĆANI - DEMOKRŠĆANI, JUŽNOHRVATSKA STRANKA - JHS"
         },
         "HDZ": {
-          "votes": 100747,
+          "votes": 105469,
           "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ"
         },
         "HGSS": {
-          "votes": 594,
+          "votes": 654,
           "coalition_name": "HRVATSKA GRAĐANSKO SELJAČKA STRANKA - HGSS, HRVATSKA KRŠĆANSKA DEMOKRATSKA STRANKA - HKDS"
         },
         "HNS": {
-          "votes": 19360,
+          "votes": 19726,
           "coalition_name": "HRVATSKA NARODNA STRANKA - HNS"
         },
         "HPS": {
-          "votes": 408,
+          "votes": 420,
           "coalition_name": "HRVATSKA PUČKA STRANKA - HPS"
         },
         "HSS": {
-          "votes": 15296,
+          "votes": 15480,
           "coalition_name": "HRVATSKA SELJAČKA STRANKA - HSS"
         },
         "HSLS": {
-          "votes": 8414,
+          "votes": 8641,
           "coalition_name": "HRVATSKA SOCIJALNO LIBERALNA STRANKA - HSLS, DEMOKRATSKI CENTAR - DC"
         },
         "HSP": {
-          "votes": 16313,
+          "votes": 16762,
           "coalition_name": "HRVATSKA STRANKA PRAVA - HSP"
         },
         "HSP-1861": {
-          "votes": 1235,
+          "votes": 1301,
           "coalition_name": "HRVATSKA STRANKA PRAVA-1861 - HSP-1861"
         },
         "HSU": {
-          "votes": 7472,
+          "votes": 7513,
           "coalition_name": "HRVATSKA STRANKA UMIROVLJENIKA - HSU"
         },
         "HRVATSKI BLOK": {
-          "votes": 6193,
+          "votes": 6461,
           "coalition_name": "HRVATSKI BLOK-POKRET ZA MODERNU HRVATSKU - HRVATSKI BLOK, HRVATSKI ISTINSKI PREPOROD - HIP"
         },
         "HP": {
-          "votes": 338,
+          "votes": 345,
           "coalition_name": "HRVATSKI PRAVAŠI - HP"
         },
         "HR": {
-          "votes": 104,
+          "votes": 111,
           "coalition_name": "HRVATSKI REPUBLIKANCI - HR"
         },
         "KSU": {
-          "votes": 431,
+          "votes": 442,
           "coalition_name": "KRŠĆANSKA SOCIJALNA UNIJA - KSU"
         },
         "ŽELJKO ČOTIĆ": {
-          "votes": 161,
+          "votes": 163,
           "coalition_name": "NEOVISNA LISTA - ŽELJKO ČOTIĆ"
         },
         "DUŠKO MRDULJAŠ": {
-          "votes": 650,
+          "votes": 658,
           "coalition_name": "NEOVISNA LISTA - DUŠKO MRDULJAŠ"
         },
         "MIRJANA NAZOR": {
-          "votes": 2403,
+          "votes": 2415,
           "coalition_name": "NEOVISNA LISTA - MIRJANA NAZOR"
         },
         "ĐULA RUŠINOVIĆ-SUNARA": {
-          "votes": 1305,
+          "votes": 1310,
           "coalition_name": "NEOVISNA LISTA - ĐULA RUŠINOVIĆ-SUNARA"
         },
         "MASLINA": {
-          "votes": 856,
+          "votes": 877,
           "coalition_name": "NEOVISNA LISTA MASLINA - MASLINA"
         },
         "POL": {
-          "votes": 361,
+          "votes": 380,
           "coalition_name": "POKRET ZA LJUDSKA PRAVA-STRANKA EKOLOŠKI SVJESNIH GRAĐANA - POL, ISTARSKA NEZAVISNA STRANKA"
         },
         "SDP": {
-          "votes": 58488,
+          "votes": 59286,
           "coalition_name": "SOCIJALDEMOKRATSKA PARTIJA HRVATSKE - SDP, LIBRA-STRANKA LIBERALNIH DEMOKRATA - LIBRA, LIBERALNA STRANKA - LS"
         },
         "SRP": {
-          "votes": 1474,
+          "votes": 1517,
           "coalition_name": "SOCIJALISTIČKA RADNIČKA PARTIJA HRVATSKE - SRP"
         },
         "SHB": {
-          "votes": 705,
+          "votes": 742,
           "coalition_name": "STRANKA HRVATSKIH BRANITELJA - SHB"
         },
         "ZELENI HR": {
-          "votes": 1886,
+          "votes": 1941,
           "coalition_name": "ZELENI HRVATSKE - ZELENI HR"
         },
         "STIPE ČIZMIĆ": {
-          "votes": 284,
+          "votes": 285,
           "coalition_name": "NEOVISNA LISTA - STIPE ČIZMIĆ"
         },
         "BORIS ANZULOVIĆ": {
-          "votes": 857,
+          "votes": 866,
           "coalition_name": "NEOVISNA LISTA - BORIS ANZULOVIĆ"
         },
         "SHP": {
-          "votes": 137,
+          "votes": 138,
           "coalition_name": "STRANKA HRVATSKOG PREPORODA - SHP"
         },
         "HND": {
-          "votes": 256,
+          "votes": 272,
           "coalition_name": "HRVATSKI NEZAVISNI DEMOKRATI - HND"
         },
         "HRVATSKI PROLJEĆARI - HP": {
-          "votes": 513,
+          "votes": 537,
           "coalition_name": "HRVATSKI PROLJEĆARI - HP"
         },
         "IVICA ANČIĆ": {
-          "votes": 252,
+          "votes": 256,
           "coalition_name": "NEOVISNA LISTA - IVICA ANČIĆ"
         },
         "JURICA TUCAK": {
-          "votes": 191,
+          "votes": 195,
           "coalition_name": "NEOVISNA LISTA - JURICA TUCAK"
         }
       }
+    },
+    "XI": {
+      "name": "XI. IZBORNA JEDINICA",
+      "seats": 4,
+      "total_voters": 396617,
+      "votes_cast": 70527,
+      "turnout": 0.1778,
+      "winner": "HDZ",
+      "margin": 47.37,
+      "parties": {
+        "DGS": {
+          "votes": 58,
+          "coalition_name": "DOMOVINSKA GRAĐANSKA STRANKA - DGS"
+        },
+        "HDZ": {
+          "votes": 40189,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ"
+        },
+        "ALIJANSA": {
+          "votes": 243,
+          "coalition_name": "ALIJANSA ZA PRAVNU DRŽAVU - ALIJANSA"
+        },
+        "DSU-SN": {
+          "votes": 250,
+          "coalition_name": "DEMOKRATSKA SOCIJALNA UNIJA-SNAGA NARODA - DSU-SN"
+        },
+        "HČSP": {
+          "votes": 2177,
+          "coalition_name": "HRVATSKA ČISTA STRANKA PRAVA - HČSP, HRVATSKA KRŠĆANSKA DEMOKRATSKA UNIJA - HKDU"
+        },
+        "HKDS": {
+          "votes": 248,
+          "coalition_name": "HRVATSKA KRŠĆANSKA DEMOKRATSKA STRANKA - HKDS, HRVATSKA GRAĐANSKO SELJAČKA STRANKA - HGSS"
+        },
+        "HPS": {
+          "votes": 106,
+          "coalition_name": "HRVATSKA PUČKA STRANKA - HPS"
+        },
+        "HRZ": {
+          "votes": 171,
+          "coalition_name": "HRVATSKA REPUBLIKANSKA ZAJEDNICA - HRZ"
+        },
+        "HSS": {
+          "votes": 2399,
+          "coalition_name": "HRVATSKA SELJAČKA STRANKA - HSS"
+        },
+        "HSLS": {
+          "votes": 868,
+          "coalition_name": "HRVATSKA SOCIJALNO LIBERALNA STRANKA - HSLS, DEMOKRATSKI CENTAR - DC"
+        },
+        "HSP": {
+          "votes": 2485,
+          "coalition_name": "HRVATSKA STRANKA PRAVA - HSP"
+        },
+        "HRVATSKI BLOK": {
+          "votes": 6783,
+          "coalition_name": "HRVATSKI BLOK-POKRET ZA MODERNU HRVATSKU - HRVATSKI BLOK, HRVATSKI ISTINSKI PREPOROD - HIP"
+        },
+        "POL": {
+          "votes": 107,
+          "coalition_name": "POKRET ZA LJUDSKA PRAVA-STRANKA EKOLOŠKI SVJESNIH GRAĐANA - POL, ISTARSKA NEZAVISNA STRANKA"
+        },
+        "HSP-1861": {
+          "votes": 258,
+          "coalition_name": "HRVATSKA STRANKA PRAVA-1861 - HSP-1861"
+        },
+        "BV-TREĆI BLOK": {
+          "votes": 94,
+          "coalition_name": "BEBIČ VLADIMIR-TREĆI HRVATSKI BLOK - BV-TREĆI BLOK"
+        },
+        "HDRS": {
+          "votes": 290,
+          "coalition_name": "HRVATSKA DEMOKRATSKA REPUBLIKANSKA STRANKA - HDRS"
+        },
+        "HSU": {
+          "votes": 238,
+          "coalition_name": "HRVATSKA STRANKA UMIROVLJENIKA - HSU"
+        },
+        "LJUBO ĆESIĆ": {
+          "votes": 4913,
+          "coalition_name": "NEOVISNA LISTA - LJUBO ĆESIĆ"
+        },
+        "JERKO IVANKOVIĆ-LIJANOVIĆ": {
+          "votes": 6670,
+          "coalition_name": "NEOVISNA LISTA - JERKO IVANKOVIĆ-LIJANOVIĆ"
+        },
+        "PETAR MILIĆ": {
+          "votes": 261,
+          "coalition_name": "NEOVISNA LISTA - PETAR MILIĆ"
+        },
+        "SNS": {
+          "votes": 350,
+          "coalition_name": "SRPSKA NARODNA STRANKA - SNS"
+        },
+        "BRANKO BAKULA": {
+          "votes": 313,
+          "coalition_name": "NEOVISNA LISTA - BRANKO BAKULA"
+        },
+        "SDSS": {
+          "votes": 256,
+          "coalition_name": "SAMOSTALNA DEMOKRATSKA SRPSKA STRANKA - SDSS"
+        }
+      }
     }
-  }
+  },
+  "minorities": [
+    {
+      "id": "1",
+      "name": "Srpska",
+      "seats": 3,
+      "total_voters": 222769,
+      "votes_cast": 47610,
+      "turnout": 0.2137,
+      "candidates": [
+        {
+          "name": "VOJISLAV STANIMIROVIĆ",
+          "votes": 25773,
+          "elected": true
+        },
+        {
+          "name": "dr.sc. MILORAD PUPOVAC",
+          "votes": 25210,
+          "elected": true
+        },
+        {
+          "name": "RATKO GAJICA",
+          "votes": 16092,
+          "elected": true
+        },
+        {
+          "name": "MILAN ĐUKIĆ",
+          "votes": 15661,
+          "elected": false
+        },
+        {
+          "name": "KSENIJA ALEKSIĆ-AMBROZICH",
+          "votes": 4551,
+          "elected": false
+        },
+        {
+          "name": "MILAN UZELAC",
+          "votes": 4517,
+          "elected": false
+        },
+        {
+          "name": "RADIVOJ-RADE LESKOVAC",
+          "votes": 3899,
+          "elected": false
+        },
+        {
+          "name": "LJUBICA JAVORINA-ŠOLAJA",
+          "votes": 3655,
+          "elected": false
+        },
+        {
+          "name": "MILAN ČUPIĆ",
+          "votes": 2797,
+          "elected": false
+        },
+        {
+          "name": "BORIVOJ BUKVA",
+          "votes": 2536,
+          "elected": false
+        },
+        {
+          "name": "MILIVOJ TRANDAFILOVIĆ",
+          "votes": 2532,
+          "elected": false
+        },
+        {
+          "name": "PETAR VUČINIĆ",
+          "votes": 2113,
+          "elected": false
+        },
+        {
+          "name": "NINKO MIRIĆ",
+          "votes": 1673,
+          "elected": false
+        },
+        {
+          "name": "MILAN LABUS",
+          "votes": 1636,
+          "elected": false
+        },
+        {
+          "name": "TATJANA OLUIĆ-MUSIĆ",
+          "votes": 1376,
+          "elected": false
+        },
+        {
+          "name": "VASO VUJNOVIĆ",
+          "votes": 1201,
+          "elected": false
+        },
+        {
+          "name": "VIDOJE JOVANOVIĆ",
+          "votes": 1100,
+          "elected": false
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Mađarska",
+      "seats": 1,
+      "total_voters": 10366,
+      "votes_cast": 4204,
+      "turnout": 0.4056,
+      "candidates": [
+        {
+          "name": "JENE ADAM",
+          "votes": 1714,
+          "elected": true
+        },
+        {
+          "name": "mr.sc. DENEŠ ŠOJA",
+          "votes": 1627,
+          "elected": false
+        },
+        {
+          "name": "BANDI KUČERA",
+          "votes": 381,
+          "elected": false
+        },
+        {
+          "name": "EMMA RAUCHER",
+          "votes": 358,
+          "elected": false
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Talijanska",
+      "seats": 1,
+      "total_voters": 12520,
+      "votes_cast": 6051,
+      "turnout": 0.4833,
+      "candidates": [
+        {
+          "name": "FURIO RADIN",
+          "votes": 4669,
+          "elected": true
+        },
+        {
+          "name": "dr.sc. TULLIO PERSI",
+          "votes": 469,
+          "elected": false
+        },
+        {
+          "name": "DARIO BOGNOLO",
+          "votes": 329,
+          "elected": false
+        },
+        {
+          "name": "NADIA POROPAT",
+          "votes": 237,
+          "elected": false
+        },
+        {
+          "name": "SANDRO SURAN",
+          "votes": 145,
+          "elected": false
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Češka i slovačka",
+      "seats": 1,
+      "total_voters": 7386,
+      "votes_cast": 3357,
+      "turnout": 0.4545,
+      "candidates": [
+        {
+          "name": "mr.sc. ZDENKA ČUHNIL",
+          "votes": 1277,
+          "elected": true
+        },
+        {
+          "name": "ANDRIJA KURIC",
+          "votes": 645,
+          "elected": false
+        },
+        {
+          "name": "ZLATKO VAVRA",
+          "votes": 433,
+          "elected": false
+        },
+        {
+          "name": "VELIMIR LALIĆ",
+          "votes": 414,
+          "elected": false
+        },
+        {
+          "name": "ANTE ZADRO",
+          "votes": 282,
+          "elected": false
+        },
+        {
+          "name": "NJEGOVAN STAREK",
+          "votes": 141,
+          "elected": false
+        },
+        {
+          "name": "ZDENKA RAMBOUSEK",
+          "votes": 65,
+          "elected": false
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Austrijska, bugarska, njemačka, poljska, romska, rumunjska, rusinska, ruska, turska, ukrajinska, vlaška i židovska",
+      "seats": 1,
+      "total_voters": 8908,
+      "votes_cast": 1933,
+      "turnout": 0.217,
+      "candidates": [
+        {
+          "name": "NIKOLA MAK",
+          "votes": 265,
+          "elected": true
+        },
+        {
+          "name": "BORISLAV GRALJUK",
+          "votes": 251,
+          "elected": false
+        },
+        {
+          "name": "mr.sc. NADA BAJIĆ",
+          "votes": 222,
+          "elected": false
+        },
+        {
+          "name": "IVAN RUMBAK",
+          "votes": 214,
+          "elected": false
+        },
+        {
+          "name": "NAZIF MEMEDI",
+          "votes": 210,
+          "elected": false
+        },
+        {
+          "name": "GABRIJEL TAKAČ",
+          "votes": 163,
+          "elected": false
+        },
+        {
+          "name": "mr.sc. IRINEJ MUDRI",
+          "votes": 152,
+          "elected": false
+        },
+        {
+          "name": "SLAVKO BURDA",
+          "votes": 121,
+          "elected": false
+        },
+        {
+          "name": "NIKOLA ZASTRIŽNI",
+          "votes": 80,
+          "elected": false
+        },
+        {
+          "name": "MIROSLAV ĐITKO",
+          "votes": 74,
+          "elected": false
+        },
+        {
+          "name": "VALTER NEUGEBAUER",
+          "votes": 58,
+          "elected": false
+        },
+        {
+          "name": "SEAD HASANOVIĆ",
+          "votes": 44,
+          "elected": false
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Albanska, bošnjačka, crnogorska, makedonska i slovenska",
+      "seats": 1,
+      "total_voters": 21930,
+      "votes_cast": 4726,
+      "turnout": 0.2155,
+      "candidates": [
+        {
+          "name": "prof.dr.sc. ŠEMSO TANKOVIĆ",
+          "votes": 2711,
+          "elected": true
+        },
+        {
+          "name": "DARKO ŠONC",
+          "votes": 630,
+          "elected": false
+        },
+        {
+          "name": "SULEJMAN TABAKOVIĆ",
+          "votes": 311,
+          "elected": false
+        },
+        {
+          "name": "SIMON KUZHNINI",
+          "votes": 278,
+          "elected": false
+        },
+        {
+          "name": "IBRAHIM RUŽNIĆ",
+          "votes": 214,
+          "elected": false
+        },
+        {
+          "name": "ENVER REÇICA",
+          "votes": 178,
+          "elected": false
+        },
+        {
+          "name": "SANJA BAKULA",
+          "votes": 165,
+          "elected": false
+        },
+        {
+          "name": "MATEO PEROLI",
+          "votes": 100,
+          "elected": false
+        }
+      ]
+    }
+  ]
 }

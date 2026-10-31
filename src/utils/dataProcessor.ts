@@ -65,6 +65,9 @@ export function calculateSwing(
 // Fill for areas without a result (e.g. municipalities created after that election)
 export const NO_DATA_COLOR = '#CBD5E1';
 
+// National minority representatives (constituency XII) are not party seats
+export const MINORITY_COLOR = '#A78BFA';
+
 /**
  * Get party info by ID. Parties not in parties.json (small parties, independent
  * lists) get their list name and the "Other" color.
@@ -131,9 +134,10 @@ export function allocateDHondt(
  * Calculate total seats by party: D'Hondt per constituency, or on national totals
  * for elections with a single national constituency (European elections)
  */
+export const SEATS_PER_CONSTITUENCY = 14;
+export const THRESHOLD_PERCENTAGE = 5;
+
 export function calculateSeats(electionData: ElectionData): Record<string, number> {
-    const SEATS_PER_CONSTITUENCY = 14;
-    const THRESHOLD_PERCENTAGE = 5;
 
     if (!electionData.constituencies) {
         if (!electionData.seats) {
@@ -150,9 +154,9 @@ export function calculateSeats(electionData: ElectionData): Record<string, numbe
     }
 
     const seats: Record<string, number> = {};
-    Object.entries(electionData.constituencies).forEach(([constId, constituency]) => {
-        // XI (Diaspora) has 3 seats, others have 14
-        const seatsToAllocate = constId === 'XI' ? 3 : SEATS_PER_CONSTITUENCY;
+    Object.values(electionData.constituencies).forEach(constituency => {
+        // 14 seats in I-X; the diaspora (XI) seat count varies by election
+        const seatsToAllocate = constituency.seats ?? SEATS_PER_CONSTITUENCY;
         Object.entries(allocateDHondt(constituency.parties, seatsToAllocate, THRESHOLD_PERCENTAGE)).forEach(([partyId, n]) => {
             seats[partyId] = (seats[partyId] || 0) + n;
         });

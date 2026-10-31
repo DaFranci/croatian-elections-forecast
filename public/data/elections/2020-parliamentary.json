@@ -2,7 +2,7 @@
   "election_id": "2020-parliamentary",
   "date": "2020-07-05",
   "type": "parliamentary",
-  "turnout_national": 0.4598,
+  "turnout_national": 0.4644,
   "results": {
     "zagreb": {
       "name": "ZAGREB-JUŽNI DIO",
@@ -40998,7 +40998,12 @@
       "total_voters": 4,
       "votes_cast": 4,
       "turnout": 1.0,
-      "parties": {}
+      "parties": {
+        "ŽELJKO GLASNOVIĆ": {
+          "votes": 4,
+          "coalition_name": "NEOVISNA LISTA - ŽELJKO GLASNOVIĆ"
+        }
+      }
     },
     "argentina": {
       "name": "ARGENTINA",
@@ -41007,13 +41012,33 @@
       "votes_cast": 37,
       "turnout": 1.0,
       "parties": {
-        "HUGO EMANUEL ESTIGARRIBIA VILLASANTI": {
-          "votes": 1,
-          "coalition_name": "HUGO EMANUEL ESTIGARRIBIA VILLASANTI"
+        "MOST": {
+          "votes": 3,
+          "coalition_name": "MOST NEZAVISNIH LISTA - MOST"
         },
-        "INA VUKIĆ": {
+        "NHR": {
+          "votes": 1,
+          "coalition_name": "NEOVISNI ZA HRVATSKU - NHR, HRVATSKA STRANKA PRAVA - HSP, GENERACIJA OBNOVE - GO"
+        },
+        "DEMOKRATI": {
           "votes": 2,
-          "coalition_name": "INA VUKIĆ"
+          "coalition_name": "DEMOKRATI, HRVATSKI LABURISTI - STRANKA RADA, LISTA ZA RIJEKU, ZELENI SAVEZ - ZELENI"
+        },
+        "HDZ": {
+          "votes": 11,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ"
+        },
+        "MVH": {
+          "votes": 3,
+          "coalition_name": "MOJA VOLJENA HRVATSKA - MVH"
+        },
+        "ŽELJKO GLASNOVIĆ": {
+          "votes": 16,
+          "coalition_name": "NEOVISNA LISTA - ŽELJKO GLASNOVIĆ"
+        },
+        "ŽIVI ZID": {
+          "votes": 1,
+          "coalition_name": "ŽIVI ZID, STRANKA IVANA PERNARA - SIP, PROMIJENIMO HRVATSKU - PH, HRVATSKA SELJAČKA STRANKA - STJEPAN RADIĆ - HSS - SR"
         }
       }
     },
@@ -41024,17 +41049,49 @@
       "votes_cast": 771,
       "turnout": 1.0,
       "parties": {
-        "INA VUKIĆ": {
-          "votes": 33,
-          "coalition_name": "INA VUKIĆ"
+        "MOST": {
+          "votes": 18,
+          "coalition_name": "MOST NEZAVISNIH LISTA - MOST"
+        },
+        "POLITIČKA PLATFORMA": {
+          "votes": 11,
+          "coalition_name": "MOŽEMO! - POLITIČKA PLATFORMA, NOVA LJEVICA - NL, RADNIČKA FRONTA - RF, ODRŽIVI RAZVOJ HRVATSKE - ORAH, ZAGREB JE NAŠ!, ZA GRAD"
+        },
+        "HDZ": {
+          "votes": 194,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ"
+        },
+        "MVH": {
+          "votes": 5,
+          "coalition_name": "MOJA VOLJENA HRVATSKA - MVH"
+        },
+        "REFORMISTI": {
+          "votes": 6,
+          "coalition_name": "NARODNA STRANKA - REFORMISTI - REFORMISTI, HRVATSKA SELJAČKA STRANKA BRAĆE RADIĆ - HSS BRAĆE RADIĆ, STRANKA HRVATSKIH UMIROVLJENIKA - UMIROVLJENICI - UMIROVLJENICI"
+        },
+        "ŽELJKO GLASNOVIĆ": {
+          "votes": 514,
+          "coalition_name": "NEOVISNA LISTA - ŽELJKO GLASNOVIĆ"
+        },
+        "ŽIVI ZID": {
+          "votes": 9,
+          "coalition_name": "ŽIVI ZID, STRANKA IVANA PERNARA - SIP, PROMIJENIMO HRVATSKU - PH, HRVATSKA SELJAČKA STRANKA - STJEPAN RADIĆ - HSS - SR"
         },
         "HSP": {
           "votes": 1,
           "coalition_name": "AUTOHTONA - HRVATSKA STRANKA PRAVA - A - HSP"
         },
-        "STANA BURIĆ": {
+        "NHR": {
           "votes": 1,
-          "coalition_name": "STANA BURIĆ"
+          "coalition_name": "NEOVISNI ZA HRVATSKU - NHR, HRVATSKA STRANKA PRAVA - HSP, GENERACIJA OBNOVE - GO"
+        },
+        "STRANKA S IMENOM I PREZIMENOM": {
+          "votes": 2,
+          "coalition_name": "STRANKA S IMENOM I PREZIMENOM, PAMETNO, FOKUS"
+        },
+        "DEMOKRATI": {
+          "votes": 1,
+          "coalition_name": "DEMOKRATI, HRVATSKI LABURISTI - STRANKA RADA, LISTA ZA RIJEKU, ZELENI SAVEZ - ZELENI"
         }
       }
     },
@@ -41045,13 +41102,41 @@
       "votes_cast": 395,
       "turnout": 1.0,
       "parties": {
-        "IVA KVAKIĆ": {
-          "votes": 1,
-          "coalition_name": "IVA KVAKIĆ"
+        "MOST": {
+          "votes": 16,
+          "coalition_name": "MOST NEZAVISNIH LISTA - MOST"
         },
-        "INA VUKIĆ": {
-          "votes": 1,
-          "coalition_name": "INA VUKIĆ"
+        "POLITIČKA PLATFORMA": {
+          "votes": 22,
+          "coalition_name": "MOŽEMO! - POLITIČKA PLATFORMA, NOVA LJEVICA - NL, RADNIČKA FRONTA - RF, ODRŽIVI RAZVOJ HRVATSKE - ORAH, ZAGREB JE NAŠ!, ZA GRAD"
+        },
+        "NHR": {
+          "votes": 3,
+          "coalition_name": "NEOVISNI ZA HRVATSKU - NHR, HRVATSKA STRANKA PRAVA - HSP, GENERACIJA OBNOVE - GO"
+        },
+        "STRANKA S IMENOM I PREZIMENOM": {
+          "votes": 10,
+          "coalition_name": "STRANKA S IMENOM I PREZIMENOM, PAMETNO, FOKUS"
+        },
+        "DEMOKRATI": {
+          "votes": 4,
+          "coalition_name": "DEMOKRATI, HRVATSKI LABURISTI - STRANKA RADA, LISTA ZA RIJEKU, ZELENI SAVEZ - ZELENI"
+        },
+        "HDZ": {
+          "votes": 149,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ"
+        },
+        "MVH": {
+          "votes": 3,
+          "coalition_name": "MOJA VOLJENA HRVATSKA - MVH"
+        },
+        "ŽELJKO GLASNOVIĆ": {
+          "votes": 181,
+          "coalition_name": "NEOVISNA LISTA - ŽELJKO GLASNOVIĆ"
+        },
+        "ŽIVI ZID": {
+          "votes": 7,
+          "coalition_name": "ŽIVI ZID, STRANKA IVANA PERNARA - SIP, PROMIJENIMO HRVATSKU - PH, HRVATSKA SELJAČKA STRANKA - STJEPAN RADIĆ - HSS - SR"
         }
       }
     },
@@ -41061,7 +41146,32 @@
       "total_voters": 31,
       "votes_cast": 31,
       "turnout": 1.0,
-      "parties": {}
+      "parties": {
+        "MOST": {
+          "votes": 1,
+          "coalition_name": "MOST NEZAVISNIH LISTA - MOST"
+        },
+        "POLITIČKA PLATFORMA": {
+          "votes": 11,
+          "coalition_name": "MOŽEMO! - POLITIČKA PLATFORMA, NOVA LJEVICA - NL, RADNIČKA FRONTA - RF, ODRŽIVI RAZVOJ HRVATSKE - ORAH, ZAGREB JE NAŠ!, ZA GRAD"
+        },
+        "STRANKA S IMENOM I PREZIMENOM": {
+          "votes": 4,
+          "coalition_name": "STRANKA S IMENOM I PREZIMENOM, PAMETNO, FOKUS"
+        },
+        "DEMOKRATI": {
+          "votes": 4,
+          "coalition_name": "DEMOKRATI, HRVATSKI LABURISTI - STRANKA RADA, LISTA ZA RIJEKU, ZELENI SAVEZ - ZELENI"
+        },
+        "HDZ": {
+          "votes": 8,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ"
+        },
+        "ŽELJKO GLASNOVIĆ": {
+          "votes": 3,
+          "coalition_name": "NEOVISNA LISTA - ŽELJKO GLASNOVIĆ"
+        }
+      }
     },
     "bosna-i-hercegovina": {
       "name": "BOSNA I HERCEGOVINA",
@@ -41074,29 +41184,45 @@
           "votes": 22,
           "coalition_name": "AUTOHTONA - HRVATSKA STRANKA PRAVA - A - HSP"
         },
-        "KRISTINA MANDIĆ": {
+        "MOST": {
+          "votes": 2592,
+          "coalition_name": "MOST NEZAVISNIH LISTA - MOST"
+        },
+        "POLITIČKA PLATFORMA": {
+          "votes": 154,
+          "coalition_name": "MOŽEMO! - POLITIČKA PLATFORMA, NOVA LJEVICA - NL, RADNIČKA FRONTA - RF, ODRŽIVI RAZVOJ HRVATSKE - ORAH, ZAGREB JE NAŠ!, ZA GRAD"
+        },
+        "NHR": {
+          "votes": 23,
+          "coalition_name": "NEOVISNI ZA HRVATSKU - NHR, HRVATSKA STRANKA PRAVA - HSP, GENERACIJA OBNOVE - GO"
+        },
+        "STRANKA S IMENOM I PREZIMENOM": {
+          "votes": 32,
+          "coalition_name": "STRANKA S IMENOM I PREZIMENOM, PAMETNO, FOKUS"
+        },
+        "DEMOKRATI": {
           "votes": 52,
-          "coalition_name": "KRISTINA MANDIĆ"
+          "coalition_name": "DEMOKRATI, HRVATSKI LABURISTI - STRANKA RADA, LISTA ZA RIJEKU, ZELENI SAVEZ - ZELENI"
         },
-        "STANA BURIĆ": {
-          "votes": 578,
-          "coalition_name": "STANA BURIĆ"
+        "HDZ": {
+          "votes": 15517,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ"
         },
-        "INA VUKIĆ": {
-          "votes": 2,
-          "coalition_name": "INA VUKIĆ"
+        "REFORMISTI": {
+          "votes": 40,
+          "coalition_name": "NARODNA STRANKA - REFORMISTI - REFORMISTI, HRVATSKA SELJAČKA STRANKA BRAĆE RADIĆ - HSS BRAĆE RADIĆ, STRANKA HRVATSKIH UMIROVLJENIKA - UMIROVLJENICI - UMIROVLJENICI"
         },
-        "IVANA ŽAJA": {
-          "votes": 2,
-          "coalition_name": "IVANA ŽAJA"
+        "ŽELJKO GLASNOVIĆ": {
+          "votes": 3091,
+          "coalition_name": "NEOVISNA LISTA - ŽELJKO GLASNOVIĆ"
         },
-        "IVA KVAKIĆ": {
-          "votes": 1,
-          "coalition_name": "IVA KVAKIĆ"
+        "ŽIVI ZID": {
+          "votes": 126,
+          "coalition_name": "ŽIVI ZID, STRANKA IVANA PERNARA - SIP, PROMIJENIMO HRVATSKU - PH, HRVATSKA SELJAČKA STRANKA - STJEPAN RADIĆ - HSS - SR"
         },
-        "IGOR MURKOVIĆ": {
-          "votes": 3,
-          "coalition_name": "IGOR MURKOVIĆ"
+        "MVH": {
+          "votes": 30,
+          "coalition_name": "MOJA VOLJENA HRVATSKA - MVH"
         }
       }
     },
@@ -41106,7 +41232,20 @@
       "total_voters": 5,
       "votes_cast": 5,
       "turnout": 1.0,
-      "parties": {}
+      "parties": {
+        "POLITIČKA PLATFORMA": {
+          "votes": 1,
+          "coalition_name": "MOŽEMO! - POLITIČKA PLATFORMA, NOVA LJEVICA - NL, RADNIČKA FRONTA - RF, ODRŽIVI RAZVOJ HRVATSKE - ORAH, ZAGREB JE NAŠ!, ZA GRAD"
+        },
+        "DEMOKRATI": {
+          "votes": 1,
+          "coalition_name": "DEMOKRATI, HRVATSKI LABURISTI - STRANKA RADA, LISTA ZA RIJEKU, ZELENI SAVEZ - ZELENI"
+        },
+        "HDZ": {
+          "votes": 3,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ"
+        }
+      }
     },
     "crna-gora": {
       "name": "CRNA GORA",
@@ -41115,13 +41254,45 @@
       "votes_cast": 127,
       "turnout": 1.0,
       "parties": {
+        "POLITIČKA PLATFORMA": {
+          "votes": 8,
+          "coalition_name": "MOŽEMO! - POLITIČKA PLATFORMA, NOVA LJEVICA - NL, RADNIČKA FRONTA - RF, ODRŽIVI RAZVOJ HRVATSKE - ORAH, ZAGREB JE NAŠ!, ZA GRAD"
+        },
+        "NHR": {
+          "votes": 3,
+          "coalition_name": "NEOVISNI ZA HRVATSKU - NHR, HRVATSKA STRANKA PRAVA - HSP, GENERACIJA OBNOVE - GO"
+        },
+        "HDZ": {
+          "votes": 68,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ"
+        },
+        "MVH": {
+          "votes": 2,
+          "coalition_name": "MOJA VOLJENA HRVATSKA - MVH"
+        },
+        "REFORMISTI": {
+          "votes": 4,
+          "coalition_name": "NARODNA STRANKA - REFORMISTI - REFORMISTI, HRVATSKA SELJAČKA STRANKA BRAĆE RADIĆ - HSS BRAĆE RADIĆ, STRANKA HRVATSKIH UMIROVLJENIKA - UMIROVLJENICI - UMIROVLJENICI"
+        },
+        "ŽELJKO GLASNOVIĆ": {
+          "votes": 15,
+          "coalition_name": "NEOVISNA LISTA - ŽELJKO GLASNOVIĆ"
+        },
+        "ŽIVI ZID": {
+          "votes": 5,
+          "coalition_name": "ŽIVI ZID, STRANKA IVANA PERNARA - SIP, PROMIJENIMO HRVATSKU - PH, HRVATSKA SELJAČKA STRANKA - STJEPAN RADIĆ - HSS - SR"
+        },
         "HSP": {
           "votes": 1,
           "coalition_name": "AUTOHTONA - HRVATSKA STRANKA PRAVA - A - HSP"
         },
-        "INA VUKIĆ": {
+        "MOST": {
+          "votes": 17,
+          "coalition_name": "MOST NEZAVISNIH LISTA - MOST"
+        },
+        "DEMOKRATI": {
           "votes": 1,
-          "coalition_name": "INA VUKIĆ"
+          "coalition_name": "DEMOKRATI, HRVATSKI LABURISTI - STRANKA RADA, LISTA ZA RIJEKU, ZELENI SAVEZ - ZELENI"
         }
       }
     },
@@ -41131,7 +41302,32 @@
       "total_voters": 16,
       "votes_cast": 16,
       "turnout": 1.0,
-      "parties": {}
+      "parties": {
+        "MOST": {
+          "votes": 1,
+          "coalition_name": "MOST NEZAVISNIH LISTA - MOST"
+        },
+        "POLITIČKA PLATFORMA": {
+          "votes": 4,
+          "coalition_name": "MOŽEMO! - POLITIČKA PLATFORMA, NOVA LJEVICA - NL, RADNIČKA FRONTA - RF, ODRŽIVI RAZVOJ HRVATSKE - ORAH, ZAGREB JE NAŠ!, ZA GRAD"
+        },
+        "STRANKA S IMENOM I PREZIMENOM": {
+          "votes": 1,
+          "coalition_name": "STRANKA S IMENOM I PREZIMENOM, PAMETNO, FOKUS"
+        },
+        "HDZ": {
+          "votes": 3,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ"
+        },
+        "ŽELJKO GLASNOVIĆ": {
+          "votes": 3,
+          "coalition_name": "NEOVISNA LISTA - ŽELJKO GLASNOVIĆ"
+        },
+        "ŽIVI ZID": {
+          "votes": 2,
+          "coalition_name": "ŽIVI ZID, STRANKA IVANA PERNARA - SIP, PROMIJENIMO HRVATSKU - PH, HRVATSKA SELJAČKA STRANKA - STJEPAN RADIĆ - HSS - SR"
+        }
+      }
     },
     "danska": {
       "name": "DANSKA",
@@ -41139,7 +41335,36 @@
       "total_voters": 21,
       "votes_cast": 21,
       "turnout": 1.0,
-      "parties": {}
+      "parties": {
+        "MOST": {
+          "votes": 2,
+          "coalition_name": "MOST NEZAVISNIH LISTA - MOST"
+        },
+        "POLITIČKA PLATFORMA": {
+          "votes": 10,
+          "coalition_name": "MOŽEMO! - POLITIČKA PLATFORMA, NOVA LJEVICA - NL, RADNIČKA FRONTA - RF, ODRŽIVI RAZVOJ HRVATSKE - ORAH, ZAGREB JE NAŠ!, ZA GRAD"
+        },
+        "NHR": {
+          "votes": 1,
+          "coalition_name": "NEOVISNI ZA HRVATSKU - NHR, HRVATSKA STRANKA PRAVA - HSP, GENERACIJA OBNOVE - GO"
+        },
+        "HDZ": {
+          "votes": 3,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ"
+        },
+        "MVH": {
+          "votes": 1,
+          "coalition_name": "MOJA VOLJENA HRVATSKA - MVH"
+        },
+        "ŽELJKO GLASNOVIĆ": {
+          "votes": 3,
+          "coalition_name": "NEOVISNA LISTA - ŽELJKO GLASNOVIĆ"
+        },
+        "ŽIVI ZID": {
+          "votes": 1,
+          "coalition_name": "ŽIVI ZID, STRANKA IVANA PERNARA - SIP, PROMIJENIMO HRVATSKU - PH, HRVATSKA SELJAČKA STRANKA - STJEPAN RADIĆ - HSS - SR"
+        }
+      }
     },
     "egipat": {
       "name": "EGIPAT",
@@ -41147,7 +41372,12 @@
       "total_voters": 3,
       "votes_cast": 3,
       "turnout": 1.0,
-      "parties": {}
+      "parties": {
+        "ŽELJKO GLASNOVIĆ": {
+          "votes": 3,
+          "coalition_name": "NEOVISNA LISTA - ŽELJKO GLASNOVIĆ"
+        }
+      }
     },
     "finska": {
       "name": "FINSKA",
@@ -41155,7 +41385,16 @@
       "total_voters": 3,
       "votes_cast": 3,
       "turnout": 1.0,
-      "parties": {}
+      "parties": {
+        "POLITIČKA PLATFORMA": {
+          "votes": 1,
+          "coalition_name": "MOŽEMO! - POLITIČKA PLATFORMA, NOVA LJEVICA - NL, RADNIČKA FRONTA - RF, ODRŽIVI RAZVOJ HRVATSKE - ORAH, ZAGREB JE NAŠ!, ZA GRAD"
+        },
+        "HDZ": {
+          "votes": 2,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ"
+        }
+      }
     },
     "francuska": {
       "name": "FRANCUSKA",
@@ -41167,6 +41406,34 @@
         "HSP": {
           "votes": 1,
           "coalition_name": "AUTOHTONA - HRVATSKA STRANKA PRAVA - A - HSP"
+        },
+        "MOST": {
+          "votes": 2,
+          "coalition_name": "MOST NEZAVISNIH LISTA - MOST"
+        },
+        "POLITIČKA PLATFORMA": {
+          "votes": 5,
+          "coalition_name": "MOŽEMO! - POLITIČKA PLATFORMA, NOVA LJEVICA - NL, RADNIČKA FRONTA - RF, ODRŽIVI RAZVOJ HRVATSKE - ORAH, ZAGREB JE NAŠ!, ZA GRAD"
+        },
+        "STRANKA S IMENOM I PREZIMENOM": {
+          "votes": 1,
+          "coalition_name": "STRANKA S IMENOM I PREZIMENOM, PAMETNO, FOKUS"
+        },
+        "HDZ": {
+          "votes": 17,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ"
+        },
+        "REFORMISTI": {
+          "votes": 1,
+          "coalition_name": "NARODNA STRANKA - REFORMISTI - REFORMISTI, HRVATSKA SELJAČKA STRANKA BRAĆE RADIĆ - HSS BRAĆE RADIĆ, STRANKA HRVATSKIH UMIROVLJENIKA - UMIROVLJENICI - UMIROVLJENICI"
+        },
+        "ŽELJKO GLASNOVIĆ": {
+          "votes": 13,
+          "coalition_name": "NEOVISNA LISTA - ŽELJKO GLASNOVIĆ"
+        },
+        "ŽIVI ZID": {
+          "votes": 1,
+          "coalition_name": "ŽIVI ZID, STRANKA IVANA PERNARA - SIP, PROMIJENIMO HRVATSKU - PH, HRVATSKA SELJAČKA STRANKA - STJEPAN RADIĆ - HSS - SR"
         }
       }
     },
@@ -41176,7 +41443,24 @@
       "total_voters": 7,
       "votes_cast": 7,
       "turnout": 1.0,
-      "parties": {}
+      "parties": {
+        "POLITIČKA PLATFORMA": {
+          "votes": 3,
+          "coalition_name": "MOŽEMO! - POLITIČKA PLATFORMA, NOVA LJEVICA - NL, RADNIČKA FRONTA - RF, ODRŽIVI RAZVOJ HRVATSKE - ORAH, ZAGREB JE NAŠ!, ZA GRAD"
+        },
+        "STRANKA S IMENOM I PREZIMENOM": {
+          "votes": 1,
+          "coalition_name": "STRANKA S IMENOM I PREZIMENOM, PAMETNO, FOKUS"
+        },
+        "DEMOKRATI": {
+          "votes": 1,
+          "coalition_name": "DEMOKRATI, HRVATSKI LABURISTI - STRANKA RADA, LISTA ZA RIJEKU, ZELENI SAVEZ - ZELENI"
+        },
+        "HDZ": {
+          "votes": 2,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ"
+        }
+      }
     },
     "irska": {
       "name": "IRSKA",
@@ -41184,7 +41468,32 @@
       "total_voters": 14,
       "votes_cast": 14,
       "turnout": 1.0,
-      "parties": {}
+      "parties": {
+        "MOST": {
+          "votes": 5,
+          "coalition_name": "MOST NEZAVISNIH LISTA - MOST"
+        },
+        "POLITIČKA PLATFORMA": {
+          "votes": 4,
+          "coalition_name": "MOŽEMO! - POLITIČKA PLATFORMA, NOVA LJEVICA - NL, RADNIČKA FRONTA - RF, ODRŽIVI RAZVOJ HRVATSKE - ORAH, ZAGREB JE NAŠ!, ZA GRAD"
+        },
+        "DEMOKRATI": {
+          "votes": 1,
+          "coalition_name": "DEMOKRATI, HRVATSKI LABURISTI - STRANKA RADA, LISTA ZA RIJEKU, ZELENI SAVEZ - ZELENI"
+        },
+        "HDZ": {
+          "votes": 1,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ"
+        },
+        "ŽELJKO GLASNOVIĆ": {
+          "votes": 2,
+          "coalition_name": "NEOVISNA LISTA - ŽELJKO GLASNOVIĆ"
+        },
+        "ŽIVI ZID": {
+          "votes": 1,
+          "coalition_name": "ŽIVI ZID, STRANKA IVANA PERNARA - SIP, PROMIJENIMO HRVATSKU - PH, HRVATSKA SELJAČKA STRANKA - STJEPAN RADIĆ - HSS - SR"
+        }
+      }
     },
     "italija": {
       "name": "ITALIJA",
@@ -41193,9 +41502,41 @@
       "votes_cast": 70,
       "turnout": 1.0,
       "parties": {
+        "MOST": {
+          "votes": 5,
+          "coalition_name": "MOST NEZAVISNIH LISTA - MOST"
+        },
+        "POLITIČKA PLATFORMA": {
+          "votes": 14,
+          "coalition_name": "MOŽEMO! - POLITIČKA PLATFORMA, NOVA LJEVICA - NL, RADNIČKA FRONTA - RF, ODRŽIVI RAZVOJ HRVATSKE - ORAH, ZAGREB JE NAŠ!, ZA GRAD"
+        },
+        "STRANKA S IMENOM I PREZIMENOM": {
+          "votes": 5,
+          "coalition_name": "STRANKA S IMENOM I PREZIMENOM, PAMETNO, FOKUS"
+        },
+        "DEMOKRATI": {
+          "votes": 6,
+          "coalition_name": "DEMOKRATI, HRVATSKI LABURISTI - STRANKA RADA, LISTA ZA RIJEKU, ZELENI SAVEZ - ZELENI"
+        },
+        "HDZ": {
+          "votes": 26,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ"
+        },
         "HSP": {
           "votes": 1,
           "coalition_name": "AUTOHTONA - HRVATSKA STRANKA PRAVA - A - HSP"
+        },
+        "ŽELJKO GLASNOVIĆ": {
+          "votes": 6,
+          "coalition_name": "NEOVISNA LISTA - ŽELJKO GLASNOVIĆ"
+        },
+        "ŽIVI ZID": {
+          "votes": 2,
+          "coalition_name": "ŽIVI ZID, STRANKA IVANA PERNARA - SIP, PROMIJENIMO HRVATSKU - PH, HRVATSKA SELJAČKA STRANKA - STJEPAN RADIĆ - HSS - SR"
+        },
+        "MVH": {
+          "votes": 1,
+          "coalition_name": "MOJA VOLJENA HRVATSKA - MVH"
         }
       }
     },
@@ -41205,7 +41546,12 @@
       "total_voters": 1,
       "votes_cast": 1,
       "turnout": 1.0,
-      "parties": {}
+      "parties": {
+        "HDZ": {
+          "votes": 1,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ"
+        }
+      }
     },
     "japan": {
       "name": "JAPAN",
@@ -41213,7 +41559,24 @@
       "total_voters": 6,
       "votes_cast": 6,
       "turnout": 1.0,
-      "parties": {}
+      "parties": {
+        "MOST": {
+          "votes": 1,
+          "coalition_name": "MOST NEZAVISNIH LISTA - MOST"
+        },
+        "STRANKA S IMENOM I PREZIMENOM": {
+          "votes": 2,
+          "coalition_name": "STRANKA S IMENOM I PREZIMENOM, PAMETNO, FOKUS"
+        },
+        "DEMOKRATI": {
+          "votes": 1,
+          "coalition_name": "DEMOKRATI, HRVATSKI LABURISTI - STRANKA RADA, LISTA ZA RIJEKU, ZELENI SAVEZ - ZELENI"
+        },
+        "HDZ": {
+          "votes": 2,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ"
+        }
+      }
     },
     "kanada": {
       "name": "KANADA",
@@ -41222,13 +41585,49 @@
       "votes_cast": 518,
       "turnout": 1.0,
       "parties": {
+        "MOST": {
+          "votes": 5,
+          "coalition_name": "MOST NEZAVISNIH LISTA - MOST"
+        },
+        "HDZ": {
+          "votes": 106,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ"
+        },
+        "ŽELJKO GLASNOVIĆ": {
+          "votes": 384,
+          "coalition_name": "NEOVISNA LISTA - ŽELJKO GLASNOVIĆ"
+        },
         "HSP": {
           "votes": 2,
           "coalition_name": "AUTOHTONA - HRVATSKA STRANKA PRAVA - A - HSP"
         },
-        "STANA BURIĆ": {
+        "POLITIČKA PLATFORMA": {
+          "votes": 6,
+          "coalition_name": "MOŽEMO! - POLITIČKA PLATFORMA, NOVA LJEVICA - NL, RADNIČKA FRONTA - RF, ODRŽIVI RAZVOJ HRVATSKE - ORAH, ZAGREB JE NAŠ!, ZA GRAD"
+        },
+        "NHR": {
+          "votes": 2,
+          "coalition_name": "NEOVISNI ZA HRVATSKU - NHR, HRVATSKA STRANKA PRAVA - HSP, GENERACIJA OBNOVE - GO"
+        },
+        "STRANKA S IMENOM I PREZIMENOM": {
+          "votes": 2,
+          "coalition_name": "STRANKA S IMENOM I PREZIMENOM, PAMETNO, FOKUS"
+        },
+        "DEMOKRATI": {
+          "votes": 3,
+          "coalition_name": "DEMOKRATI, HRVATSKI LABURISTI - STRANKA RADA, LISTA ZA RIJEKU, ZELENI SAVEZ - ZELENI"
+        },
+        "MVH": {
           "votes": 1,
-          "coalition_name": "STANA BURIĆ"
+          "coalition_name": "MOJA VOLJENA HRVATSKA - MVH"
+        },
+        "REFORMISTI": {
+          "votes": 1,
+          "coalition_name": "NARODNA STRANKA - REFORMISTI - REFORMISTI, HRVATSKA SELJAČKA STRANKA BRAĆE RADIĆ - HSS BRAĆE RADIĆ, STRANKA HRVATSKIH UMIROVLJENIKA - UMIROVLJENICI - UMIROVLJENICI"
+        },
+        "ŽIVI ZID": {
+          "votes": 3,
+          "coalition_name": "ŽIVI ZID, STRANKA IVANA PERNARA - SIP, PROMIJENIMO HRVATSKU - PH, HRVATSKA SELJAČKA STRANKA - STJEPAN RADIĆ - HSS - SR"
         }
       }
     },
@@ -41238,7 +41637,16 @@
       "total_voters": 2,
       "votes_cast": 2,
       "turnout": 1.0,
-      "parties": {}
+      "parties": {
+        "HDZ": {
+          "votes": 1,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ"
+        },
+        "ŽIVI ZID": {
+          "votes": 1,
+          "coalition_name": "ŽIVI ZID, STRANKA IVANA PERNARA - SIP, PROMIJENIMO HRVATSKU - PH, HRVATSKA SELJAČKA STRANKA - STJEPAN RADIĆ - HSS - SR"
+        }
+      }
     },
     "kosovo": {
       "name": "KOSOVO",
@@ -41250,6 +41658,22 @@
         "HSP": {
           "votes": 1,
           "coalition_name": "AUTOHTONA - HRVATSKA STRANKA PRAVA - A - HSP"
+        },
+        "POLITIČKA PLATFORMA": {
+          "votes": 2,
+          "coalition_name": "MOŽEMO! - POLITIČKA PLATFORMA, NOVA LJEVICA - NL, RADNIČKA FRONTA - RF, ODRŽIVI RAZVOJ HRVATSKE - ORAH, ZAGREB JE NAŠ!, ZA GRAD"
+        },
+        "HDZ": {
+          "votes": 6,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ"
+        },
+        "REFORMISTI": {
+          "votes": 2,
+          "coalition_name": "NARODNA STRANKA - REFORMISTI - REFORMISTI, HRVATSKA SELJAČKA STRANKA BRAĆE RADIĆ - HSS BRAĆE RADIĆ, STRANKA HRVATSKIH UMIROVLJENIKA - UMIROVLJENICI - UMIROVLJENICI"
+        },
+        "ŽIVI ZID": {
+          "votes": 1,
+          "coalition_name": "ŽIVI ZID, STRANKA IVANA PERNARA - SIP, PROMIJENIMO HRVATSKU - PH, HRVATSKA SELJAČKA STRANKA - STJEPAN RADIĆ - HSS - SR"
         }
       }
     },
@@ -41260,9 +41684,25 @@
       "votes_cast": 30,
       "turnout": 1.0,
       "parties": {
-        "KRISTINA MANDIĆ": {
+        "MOST": {
           "votes": 1,
-          "coalition_name": "KRISTINA MANDIĆ"
+          "coalition_name": "MOST NEZAVISNIH LISTA - MOST"
+        },
+        "POLITIČKA PLATFORMA": {
+          "votes": 4,
+          "coalition_name": "MOŽEMO! - POLITIČKA PLATFORMA, NOVA LJEVICA - NL, RADNIČKA FRONTA - RF, ODRŽIVI RAZVOJ HRVATSKE - ORAH, ZAGREB JE NAŠ!, ZA GRAD"
+        },
+        "STRANKA S IMENOM I PREZIMENOM": {
+          "votes": 2,
+          "coalition_name": "STRANKA S IMENOM I PREZIMENOM, PAMETNO, FOKUS"
+        },
+        "HDZ": {
+          "votes": 18,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ"
+        },
+        "ŽELJKO GLASNOVIĆ": {
+          "votes": 3,
+          "coalition_name": "NEOVISNA LISTA - ŽELJKO GLASNOVIĆ"
         }
       }
     },
@@ -41272,7 +41712,36 @@
       "total_voters": 33,
       "votes_cast": 33,
       "turnout": 1.0,
-      "parties": {}
+      "parties": {
+        "MOST": {
+          "votes": 1,
+          "coalition_name": "MOST NEZAVISNIH LISTA - MOST"
+        },
+        "POLITIČKA PLATFORMA": {
+          "votes": 12,
+          "coalition_name": "MOŽEMO! - POLITIČKA PLATFORMA, NOVA LJEVICA - NL, RADNIČKA FRONTA - RF, ODRŽIVI RAZVOJ HRVATSKE - ORAH, ZAGREB JE NAŠ!, ZA GRAD"
+        },
+        "STRANKA S IMENOM I PREZIMENOM": {
+          "votes": 4,
+          "coalition_name": "STRANKA S IMENOM I PREZIMENOM, PAMETNO, FOKUS"
+        },
+        "HDZ": {
+          "votes": 5,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ"
+        },
+        "REFORMISTI": {
+          "votes": 1,
+          "coalition_name": "NARODNA STRANKA - REFORMISTI - REFORMISTI, HRVATSKA SELJAČKA STRANKA BRAĆE RADIĆ - HSS BRAĆE RADIĆ, STRANKA HRVATSKIH UMIROVLJENIKA - UMIROVLJENICI - UMIROVLJENICI"
+        },
+        "ŽELJKO GLASNOVIĆ": {
+          "votes": 8,
+          "coalition_name": "NEOVISNA LISTA - ŽELJKO GLASNOVIĆ"
+        },
+        "ŽIVI ZID": {
+          "votes": 1,
+          "coalition_name": "ŽIVI ZID, STRANKA IVANA PERNARA - SIP, PROMIJENIMO HRVATSKU - PH, HRVATSKA SELJAČKA STRANKA - STJEPAN RADIĆ - HSS - SR"
+        }
+      }
     },
     "norveska": {
       "name": "NORVEŠKA",
@@ -41280,7 +41749,24 @@
       "total_voters": 15,
       "votes_cast": 15,
       "turnout": 1.0,
-      "parties": {}
+      "parties": {
+        "POLITIČKA PLATFORMA": {
+          "votes": 9,
+          "coalition_name": "MOŽEMO! - POLITIČKA PLATFORMA, NOVA LJEVICA - NL, RADNIČKA FRONTA - RF, ODRŽIVI RAZVOJ HRVATSKE - ORAH, ZAGREB JE NAŠ!, ZA GRAD"
+        },
+        "HDZ": {
+          "votes": 2,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ"
+        },
+        "MVH": {
+          "votes": 2,
+          "coalition_name": "MOJA VOLJENA HRVATSKA - MVH"
+        },
+        "ŽIVI ZID": {
+          "votes": 1,
+          "coalition_name": "ŽIVI ZID, STRANKA IVANA PERNARA - SIP, PROMIJENIMO HRVATSKU - PH, HRVATSKA SELJAČKA STRANKA - STJEPAN RADIĆ - HSS - SR"
+        }
+      }
     },
     "njemacka": {
       "name": "NJEMAČKA",
@@ -41289,25 +41775,49 @@
       "votes_cast": 2639,
       "turnout": 0.9932,
       "parties": {
-        "KRISTINA MANDIĆ": {
-          "votes": 3,
-          "coalition_name": "KRISTINA MANDIĆ"
+        "MOST": {
+          "votes": 254,
+          "coalition_name": "MOST NEZAVISNIH LISTA - MOST"
+        },
+        "POLITIČKA PLATFORMA": {
+          "votes": 89,
+          "coalition_name": "MOŽEMO! - POLITIČKA PLATFORMA, NOVA LJEVICA - NL, RADNIČKA FRONTA - RF, ODRŽIVI RAZVOJ HRVATSKE - ORAH, ZAGREB JE NAŠ!, ZA GRAD"
+        },
+        "NHR": {
+          "votes": 15,
+          "coalition_name": "NEOVISNI ZA HRVATSKU - NHR, HRVATSKA STRANKA PRAVA - HSP, GENERACIJA OBNOVE - GO"
+        },
+        "STRANKA S IMENOM I PREZIMENOM": {
+          "votes": 15,
+          "coalition_name": "STRANKA S IMENOM I PREZIMENOM, PAMETNO, FOKUS"
+        },
+        "DEMOKRATI": {
+          "votes": 10,
+          "coalition_name": "DEMOKRATI, HRVATSKI LABURISTI - STRANKA RADA, LISTA ZA RIJEKU, ZELENI SAVEZ - ZELENI"
+        },
+        "HDZ": {
+          "votes": 899,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ"
+        },
+        "REFORMISTI": {
+          "votes": 18,
+          "coalition_name": "NARODNA STRANKA - REFORMISTI - REFORMISTI, HRVATSKA SELJAČKA STRANKA BRAĆE RADIĆ - HSS BRAĆE RADIĆ, STRANKA HRVATSKIH UMIROVLJENIKA - UMIROVLJENICI - UMIROVLJENICI"
+        },
+        "ŽELJKO GLASNOVIĆ": {
+          "votes": 1202,
+          "coalition_name": "NEOVISNA LISTA - ŽELJKO GLASNOVIĆ"
+        },
+        "ŽIVI ZID": {
+          "votes": 47,
+          "coalition_name": "ŽIVI ZID, STRANKA IVANA PERNARA - SIP, PROMIJENIMO HRVATSKU - PH, HRVATSKA SELJAČKA STRANKA - STJEPAN RADIĆ - HSS - SR"
+        },
+        "MVH": {
+          "votes": 26,
+          "coalition_name": "MOJA VOLJENA HRVATSKA - MVH"
         },
         "HSP": {
           "votes": 12,
           "coalition_name": "AUTOHTONA - HRVATSKA STRANKA PRAVA - A - HSP"
-        },
-        "STANA BURIĆ": {
-          "votes": 5,
-          "coalition_name": "STANA BURIĆ"
-        },
-        "INA VUKIĆ": {
-          "votes": 3,
-          "coalition_name": "INA VUKIĆ"
-        },
-        "HUGO EMANUEL ESTIGARRIBIA VILLASANTI": {
-          "votes": 1,
-          "coalition_name": "HUGO EMANUEL ESTIGARRIBIA VILLASANTI"
         }
       }
     },
@@ -41317,7 +41827,12 @@
       "total_voters": 2,
       "votes_cast": 2,
       "turnout": 1.0,
-      "parties": {}
+      "parties": {
+        "HDZ": {
+          "votes": 1,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ"
+        }
+      }
     },
     "portugal": {
       "name": "PORTUGAL",
@@ -41325,7 +41840,28 @@
       "total_voters": 8,
       "votes_cast": 8,
       "turnout": 1.0,
-      "parties": {}
+      "parties": {
+        "POLITIČKA PLATFORMA": {
+          "votes": 3,
+          "coalition_name": "MOŽEMO! - POLITIČKA PLATFORMA, NOVA LJEVICA - NL, RADNIČKA FRONTA - RF, ODRŽIVI RAZVOJ HRVATSKE - ORAH, ZAGREB JE NAŠ!, ZA GRAD"
+        },
+        "DEMOKRATI": {
+          "votes": 2,
+          "coalition_name": "DEMOKRATI, HRVATSKI LABURISTI - STRANKA RADA, LISTA ZA RIJEKU, ZELENI SAVEZ - ZELENI"
+        },
+        "HDZ": {
+          "votes": 1,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ"
+        },
+        "REFORMISTI": {
+          "votes": 1,
+          "coalition_name": "NARODNA STRANKA - REFORMISTI - REFORMISTI, HRVATSKA SELJAČKA STRANKA BRAĆE RADIĆ - HSS BRAĆE RADIĆ, STRANKA HRVATSKIH UMIROVLJENIKA - UMIROVLJENICI - UMIROVLJENICI"
+        },
+        "ŽELJKO GLASNOVIĆ": {
+          "votes": 1,
+          "coalition_name": "NEOVISNA LISTA - ŽELJKO GLASNOVIĆ"
+        }
+      }
     },
     "republika-sjeverna-makedonija": {
       "name": "REPUBLIKA SJEVERNA MAKEDONIJA",
@@ -41337,6 +41873,42 @@
         "HSP": {
           "votes": 1,
           "coalition_name": "AUTOHTONA - HRVATSKA STRANKA PRAVA - A - HSP"
+        },
+        "MOST": {
+          "votes": 6,
+          "coalition_name": "MOST NEZAVISNIH LISTA - MOST"
+        },
+        "POLITIČKA PLATFORMA": {
+          "votes": 9,
+          "coalition_name": "MOŽEMO! - POLITIČKA PLATFORMA, NOVA LJEVICA - NL, RADNIČKA FRONTA - RF, ODRŽIVI RAZVOJ HRVATSKE - ORAH, ZAGREB JE NAŠ!, ZA GRAD"
+        },
+        "NHR": {
+          "votes": 1,
+          "coalition_name": "NEOVISNI ZA HRVATSKU - NHR, HRVATSKA STRANKA PRAVA - HSP, GENERACIJA OBNOVE - GO"
+        },
+        "DEMOKRATI": {
+          "votes": 2,
+          "coalition_name": "DEMOKRATI, HRVATSKI LABURISTI - STRANKA RADA, LISTA ZA RIJEKU, ZELENI SAVEZ - ZELENI"
+        },
+        "HDZ": {
+          "votes": 48,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ"
+        },
+        "MVH": {
+          "votes": 1,
+          "coalition_name": "MOJA VOLJENA HRVATSKA - MVH"
+        },
+        "REFORMISTI": {
+          "votes": 3,
+          "coalition_name": "NARODNA STRANKA - REFORMISTI - REFORMISTI, HRVATSKA SELJAČKA STRANKA BRAĆE RADIĆ - HSS BRAĆE RADIĆ, STRANKA HRVATSKIH UMIROVLJENIKA - UMIROVLJENICI - UMIROVLJENICI"
+        },
+        "ŽELJKO GLASNOVIĆ": {
+          "votes": 1,
+          "coalition_name": "NEOVISNA LISTA - ŽELJKO GLASNOVIĆ"
+        },
+        "ŽIVI ZID": {
+          "votes": 8,
+          "coalition_name": "ŽIVI ZID, STRANKA IVANA PERNARA - SIP, PROMIJENIMO HRVATSKU - PH, HRVATSKA SELJAČKA STRANKA - STJEPAN RADIĆ - HSS - SR"
         }
       }
     },
@@ -41346,7 +41918,20 @@
       "total_voters": 5,
       "votes_cast": 5,
       "turnout": 1.0,
-      "parties": {}
+      "parties": {
+        "MOST": {
+          "votes": 2,
+          "coalition_name": "MOST NEZAVISNIH LISTA - MOST"
+        },
+        "POLITIČKA PLATFORMA": {
+          "votes": 1,
+          "coalition_name": "MOŽEMO! - POLITIČKA PLATFORMA, NOVA LJEVICA - NL, RADNIČKA FRONTA - RF, ODRŽIVI RAZVOJ HRVATSKE - ORAH, ZAGREB JE NAŠ!, ZA GRAD"
+        },
+        "HDZ": {
+          "votes": 1,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ"
+        }
+      }
     },
     "rusija": {
       "name": "RUSIJA",
@@ -41354,7 +41939,16 @@
       "total_voters": 3,
       "votes_cast": 3,
       "turnout": 1.0,
-      "parties": {}
+      "parties": {
+        "MOST": {
+          "votes": 1,
+          "coalition_name": "MOST NEZAVISNIH LISTA - MOST"
+        },
+        "HDZ": {
+          "votes": 2,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ"
+        }
+      }
     },
     "sad": {
       "name": "SAD",
@@ -41363,17 +41957,41 @@
       "votes_cast": 131,
       "turnout": 1.0,
       "parties": {
-        "KRISTINA MANDIĆ": {
-          "votes": 1,
-          "coalition_name": "KRISTINA MANDIĆ"
+        "HDZ": {
+          "votes": 37,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ"
         },
-        "HUGO EMANUEL ESTIGARRIBIA VILLASANTI": {
-          "votes": 1,
-          "coalition_name": "HUGO EMANUEL ESTIGARRIBIA VILLASANTI"
+        "ŽELJKO GLASNOVIĆ": {
+          "votes": 66,
+          "coalition_name": "NEOVISNA LISTA - ŽELJKO GLASNOVIĆ"
         },
-        "INA VUKIĆ": {
-          "votes": 3,
-          "coalition_name": "INA VUKIĆ"
+        "MOST": {
+          "votes": 7,
+          "coalition_name": "MOST NEZAVISNIH LISTA - MOST"
+        },
+        "POLITIČKA PLATFORMA": {
+          "votes": 7,
+          "coalition_name": "MOŽEMO! - POLITIČKA PLATFORMA, NOVA LJEVICA - NL, RADNIČKA FRONTA - RF, ODRŽIVI RAZVOJ HRVATSKE - ORAH, ZAGREB JE NAŠ!, ZA GRAD"
+        },
+        "STRANKA S IMENOM I PREZIMENOM": {
+          "votes": 1,
+          "coalition_name": "STRANKA S IMENOM I PREZIMENOM, PAMETNO, FOKUS"
+        },
+        "DEMOKRATI": {
+          "votes": 1,
+          "coalition_name": "DEMOKRATI, HRVATSKI LABURISTI - STRANKA RADA, LISTA ZA RIJEKU, ZELENI SAVEZ - ZELENI"
+        },
+        "MVH": {
+          "votes": 7,
+          "coalition_name": "MOJA VOLJENA HRVATSKA - MVH"
+        },
+        "ŽIVI ZID": {
+          "votes": 1,
+          "coalition_name": "ŽIVI ZID, STRANKA IVANA PERNARA - SIP, PROMIJENIMO HRVATSKU - PH, HRVATSKA SELJAČKA STRANKA - STJEPAN RADIĆ - HSS - SR"
+        },
+        "REFORMISTI": {
+          "votes": 1,
+          "coalition_name": "NARODNA STRANKA - REFORMISTI - REFORMISTI, HRVATSKA SELJAČKA STRANKA BRAĆE RADIĆ - HSS BRAĆE RADIĆ, STRANKA HRVATSKIH UMIROVLJENIKA - UMIROVLJENICI - UMIROVLJENICI"
         }
       }
     },
@@ -41383,7 +42001,16 @@
       "total_voters": 2,
       "votes_cast": 2,
       "turnout": 1.0,
-      "parties": {}
+      "parties": {
+        "POLITIČKA PLATFORMA": {
+          "votes": 1,
+          "coalition_name": "MOŽEMO! - POLITIČKA PLATFORMA, NOVA LJEVICA - NL, RADNIČKA FRONTA - RF, ODRŽIVI RAZVOJ HRVATSKE - ORAH, ZAGREB JE NAŠ!, ZA GRAD"
+        },
+        "HDZ": {
+          "votes": 1,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ"
+        }
+      }
     },
     "slovenija": {
       "name": "SLOVENIJA",
@@ -41391,7 +42018,48 @@
       "total_voters": 68,
       "votes_cast": 68,
       "turnout": 1.0,
-      "parties": {}
+      "parties": {
+        "MOST": {
+          "votes": 3,
+          "coalition_name": "MOST NEZAVISNIH LISTA - MOST"
+        },
+        "POLITIČKA PLATFORMA": {
+          "votes": 10,
+          "coalition_name": "MOŽEMO! - POLITIČKA PLATFORMA, NOVA LJEVICA - NL, RADNIČKA FRONTA - RF, ODRŽIVI RAZVOJ HRVATSKE - ORAH, ZAGREB JE NAŠ!, ZA GRAD"
+        },
+        "NHR": {
+          "votes": 1,
+          "coalition_name": "NEOVISNI ZA HRVATSKU - NHR, HRVATSKA STRANKA PRAVA - HSP, GENERACIJA OBNOVE - GO"
+        },
+        "STRANKA S IMENOM I PREZIMENOM": {
+          "votes": 4,
+          "coalition_name": "STRANKA S IMENOM I PREZIMENOM, PAMETNO, FOKUS"
+        },
+        "DEMOKRATI": {
+          "votes": 3,
+          "coalition_name": "DEMOKRATI, HRVATSKI LABURISTI - STRANKA RADA, LISTA ZA RIJEKU, ZELENI SAVEZ - ZELENI"
+        },
+        "HDZ": {
+          "votes": 30,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ"
+        },
+        "MVH": {
+          "votes": 1,
+          "coalition_name": "MOJA VOLJENA HRVATSKA - MVH"
+        },
+        "REFORMISTI": {
+          "votes": 1,
+          "coalition_name": "NARODNA STRANKA - REFORMISTI - REFORMISTI, HRVATSKA SELJAČKA STRANKA BRAĆE RADIĆ - HSS BRAĆE RADIĆ, STRANKA HRVATSKIH UMIROVLJENIKA - UMIROVLJENICI - UMIROVLJENICI"
+        },
+        "ŽELJKO GLASNOVIĆ": {
+          "votes": 9,
+          "coalition_name": "NEOVISNA LISTA - ŽELJKO GLASNOVIĆ"
+        },
+        "ŽIVI ZID": {
+          "votes": 5,
+          "coalition_name": "ŽIVI ZID, STRANKA IVANA PERNARA - SIP, PROMIJENIMO HRVATSKU - PH, HRVATSKA SELJAČKA STRANKA - STJEPAN RADIĆ - HSS - SR"
+        }
+      }
     },
     "srbija": {
       "name": "SRBIJA",
@@ -41404,13 +42072,45 @@
           "votes": 6,
           "coalition_name": "AUTOHTONA - HRVATSKA STRANKA PRAVA - A - HSP"
         },
-        "KRISTINA MANDIĆ": {
-          "votes": 1,
-          "coalition_name": "KRISTINA MANDIĆ"
+        "MOST": {
+          "votes": 44,
+          "coalition_name": "MOST NEZAVISNIH LISTA - MOST"
         },
-        "STANA BURIĆ": {
-          "votes": 2,
-          "coalition_name": "STANA BURIĆ"
+        "POLITIČKA PLATFORMA": {
+          "votes": 42,
+          "coalition_name": "MOŽEMO! - POLITIČKA PLATFORMA, NOVA LJEVICA - NL, RADNIČKA FRONTA - RF, ODRŽIVI RAZVOJ HRVATSKE - ORAH, ZAGREB JE NAŠ!, ZA GRAD"
+        },
+        "NHR": {
+          "votes": 7,
+          "coalition_name": "NEOVISNI ZA HRVATSKU - NHR, HRVATSKA STRANKA PRAVA - HSP, GENERACIJA OBNOVE - GO"
+        },
+        "STRANKA S IMENOM I PREZIMENOM": {
+          "votes": 15,
+          "coalition_name": "STRANKA S IMENOM I PREZIMENOM, PAMETNO, FOKUS"
+        },
+        "DEMOKRATI": {
+          "votes": 23,
+          "coalition_name": "DEMOKRATI, HRVATSKI LABURISTI - STRANKA RADA, LISTA ZA RIJEKU, ZELENI SAVEZ - ZELENI"
+        },
+        "HDZ": {
+          "votes": 191,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ"
+        },
+        "MVH": {
+          "votes": 14,
+          "coalition_name": "MOJA VOLJENA HRVATSKA - MVH"
+        },
+        "REFORMISTI": {
+          "votes": 14,
+          "coalition_name": "NARODNA STRANKA - REFORMISTI - REFORMISTI, HRVATSKA SELJAČKA STRANKA BRAĆE RADIĆ - HSS BRAĆE RADIĆ, STRANKA HRVATSKIH UMIROVLJENIKA - UMIROVLJENICI - UMIROVLJENICI"
+        },
+        "ŽELJKO GLASNOVIĆ": {
+          "votes": 35,
+          "coalition_name": "NEOVISNA LISTA - ŽELJKO GLASNOVIĆ"
+        },
+        "ŽIVI ZID": {
+          "votes": 25,
+          "coalition_name": "ŽIVI ZID, STRANKA IVANA PERNARA - SIP, PROMIJENIMO HRVATSKU - PH, HRVATSKA SELJAČKA STRANKA - STJEPAN RADIĆ - HSS - SR"
         }
       }
     },
@@ -41420,7 +42120,28 @@
       "total_voters": 7,
       "votes_cast": 7,
       "turnout": 1.0,
-      "parties": {}
+      "parties": {
+        "POLITIČKA PLATFORMA": {
+          "votes": 1,
+          "coalition_name": "MOŽEMO! - POLITIČKA PLATFORMA, NOVA LJEVICA - NL, RADNIČKA FRONTA - RF, ODRŽIVI RAZVOJ HRVATSKE - ORAH, ZAGREB JE NAŠ!, ZA GRAD"
+        },
+        "HDZ": {
+          "votes": 1,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ"
+        },
+        "MVH": {
+          "votes": 3,
+          "coalition_name": "MOJA VOLJENA HRVATSKA - MVH"
+        },
+        "ŽELJKO GLASNOVIĆ": {
+          "votes": 1,
+          "coalition_name": "NEOVISNA LISTA - ŽELJKO GLASNOVIĆ"
+        },
+        "ŽIVI ZID": {
+          "votes": 1,
+          "coalition_name": "ŽIVI ZID, STRANKA IVANA PERNARA - SIP, PROMIJENIMO HRVATSKU - PH, HRVATSKA SELJAČKA STRANKA - STJEPAN RADIĆ - HSS - SR"
+        }
+      }
     },
     "svedska": {
       "name": "ŠVEDSKA",
@@ -41429,9 +42150,37 @@
       "votes_cast": 23,
       "turnout": 1.0,
       "parties": {
-        "IVA KVAKIĆ": {
+        "MOST": {
+          "votes": 2,
+          "coalition_name": "MOST NEZAVISNIH LISTA - MOST"
+        },
+        "POLITIČKA PLATFORMA": {
+          "votes": 4,
+          "coalition_name": "MOŽEMO! - POLITIČKA PLATFORMA, NOVA LJEVICA - NL, RADNIČKA FRONTA - RF, ODRŽIVI RAZVOJ HRVATSKE - ORAH, ZAGREB JE NAŠ!, ZA GRAD"
+        },
+        "STRANKA S IMENOM I PREZIMENOM": {
           "votes": 1,
-          "coalition_name": "IVA KVAKIĆ"
+          "coalition_name": "STRANKA S IMENOM I PREZIMENOM, PAMETNO, FOKUS"
+        },
+        "DEMOKRATI": {
+          "votes": 1,
+          "coalition_name": "DEMOKRATI, HRVATSKI LABURISTI - STRANKA RADA, LISTA ZA RIJEKU, ZELENI SAVEZ - ZELENI"
+        },
+        "HDZ": {
+          "votes": 4,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ"
+        },
+        "REFORMISTI": {
+          "votes": 1,
+          "coalition_name": "NARODNA STRANKA - REFORMISTI - REFORMISTI, HRVATSKA SELJAČKA STRANKA BRAĆE RADIĆ - HSS BRAĆE RADIĆ, STRANKA HRVATSKIH UMIROVLJENIKA - UMIROVLJENICI - UMIROVLJENICI"
+        },
+        "ŽELJKO GLASNOVIĆ": {
+          "votes": 9,
+          "coalition_name": "NEOVISNA LISTA - ŽELJKO GLASNOVIĆ"
+        },
+        "ŽIVI ZID": {
+          "votes": 1,
+          "coalition_name": "ŽIVI ZID, STRANKA IVANA PERNARA - SIP, PROMIJENIMO HRVATSKU - PH, HRVATSKA SELJAČKA STRANKA - STJEPAN RADIĆ - HSS - SR"
         }
       }
     },
@@ -41446,17 +42195,45 @@
           "votes": 1,
           "coalition_name": "AUTOHTONA - HRVATSKA STRANKA PRAVA - A - HSP"
         },
-        "INA VUKIĆ": {
+        "MOST": {
+          "votes": 34,
+          "coalition_name": "MOST NEZAVISNIH LISTA - MOST"
+        },
+        "POLITIČKA PLATFORMA": {
+          "votes": 8,
+          "coalition_name": "MOŽEMO! - POLITIČKA PLATFORMA, NOVA LJEVICA - NL, RADNIČKA FRONTA - RF, ODRŽIVI RAZVOJ HRVATSKE - ORAH, ZAGREB JE NAŠ!, ZA GRAD"
+        },
+        "STRANKA S IMENOM I PREZIMENOM": {
+          "votes": 11,
+          "coalition_name": "STRANKA S IMENOM I PREZIMENOM, PAMETNO, FOKUS"
+        },
+        "DEMOKRATI": {
           "votes": 2,
-          "coalition_name": "INA VUKIĆ"
+          "coalition_name": "DEMOKRATI, HRVATSKI LABURISTI - STRANKA RADA, LISTA ZA RIJEKU, ZELENI SAVEZ - ZELENI"
         },
-        "STANA BURIĆ": {
-          "votes": 1,
-          "coalition_name": "STANA BURIĆ"
+        "HDZ": {
+          "votes": 149,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ"
         },
-        "HUGO EMANUEL ESTIGARRIBIA VILLASANTI": {
+        "MVH": {
+          "votes": 16,
+          "coalition_name": "MOJA VOLJENA HRVATSKA - MVH"
+        },
+        "REFORMISTI": {
           "votes": 1,
-          "coalition_name": "HUGO EMANUEL ESTIGARRIBIA VILLASANTI"
+          "coalition_name": "NARODNA STRANKA - REFORMISTI - REFORMISTI, HRVATSKA SELJAČKA STRANKA BRAĆE RADIĆ - HSS BRAĆE RADIĆ, STRANKA HRVATSKIH UMIROVLJENIKA - UMIROVLJENICI - UMIROVLJENICI"
+        },
+        "ŽELJKO GLASNOVIĆ": {
+          "votes": 245,
+          "coalition_name": "NEOVISNA LISTA - ŽELJKO GLASNOVIĆ"
+        },
+        "ŽIVI ZID": {
+          "votes": 14,
+          "coalition_name": "ŽIVI ZID, STRANKA IVANA PERNARA - SIP, PROMIJENIMO HRVATSKU - PH, HRVATSKA SELJAČKA STRANKA - STJEPAN RADIĆ - HSS - SR"
+        },
+        "NHR": {
+          "votes": 9,
+          "coalition_name": "NEOVISNI ZA HRVATSKU - NHR, HRVATSKA STRANKA PRAVA - HSP, GENERACIJA OBNOVE - GO"
         }
       }
     },
@@ -41466,7 +42243,12 @@
       "total_voters": 1,
       "votes_cast": 1,
       "turnout": 1.0,
-      "parties": {}
+      "parties": {
+        "HDZ": {
+          "votes": 1,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ"
+        }
+      }
     },
     "ukrajina": {
       "name": "UKRAJINA",
@@ -41474,7 +42256,16 @@
       "total_voters": 2,
       "votes_cast": 2,
       "turnout": 1.0,
-      "parties": {}
+      "parties": {
+        "HDZ": {
+          "votes": 1,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ"
+        },
+        "ŽELJKO GLASNOVIĆ": {
+          "votes": 1,
+          "coalition_name": "NEOVISNA LISTA - ŽELJKO GLASNOVIĆ"
+        }
+      }
     },
     "velika-britanija": {
       "name": "VELIKA BRITANIJA",
@@ -41482,833 +42273,1094 @@
       "total_voters": 26,
       "votes_cast": 26,
       "turnout": 1.0,
-      "parties": {}
+      "parties": {
+        "MOST": {
+          "votes": 3,
+          "coalition_name": "MOST NEZAVISNIH LISTA - MOST"
+        },
+        "POLITIČKA PLATFORMA": {
+          "votes": 8,
+          "coalition_name": "MOŽEMO! - POLITIČKA PLATFORMA, NOVA LJEVICA - NL, RADNIČKA FRONTA - RF, ODRŽIVI RAZVOJ HRVATSKE - ORAH, ZAGREB JE NAŠ!, ZA GRAD"
+        },
+        "STRANKA S IMENOM I PREZIMENOM": {
+          "votes": 1,
+          "coalition_name": "STRANKA S IMENOM I PREZIMENOM, PAMETNO, FOKUS"
+        },
+        "DEMOKRATI": {
+          "votes": 1,
+          "coalition_name": "DEMOKRATI, HRVATSKI LABURISTI - STRANKA RADA, LISTA ZA RIJEKU, ZELENI SAVEZ - ZELENI"
+        },
+        "HDZ": {
+          "votes": 7,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ"
+        },
+        "MVH": {
+          "votes": 1,
+          "coalition_name": "MOJA VOLJENA HRVATSKA - MVH"
+        },
+        "ŽELJKO GLASNOVIĆ": {
+          "votes": 4,
+          "coalition_name": "NEOVISNA LISTA - ŽELJKO GLASNOVIĆ"
+        }
+      }
     }
   },
   "constituencies": {
     "I": {
       "name": "I. IZBORNA JEDINICA",
-      "total_voters": 332496,
-      "votes_cast": 168505,
-      "turnout": 0.5068,
+      "seats": 14,
+      "total_voters": 341787,
+      "votes_cast": 176407,
+      "turnout": 0.5161,
       "winner": "HDZ",
-      "margin": 5.61,
+      "margin": 5.95,
       "parties": {
         "HSP": {
-          "votes": 272,
+          "votes": 297,
           "coalition_name": "AUTOHTONA - HRVATSKA STRANKA PRAVA - A - HSP"
         },
         "MOST": {
-          "votes": 13581,
+          "votes": 14134,
           "coalition_name": "MOST NEZAVISNIH LISTA - MOST"
         },
         "POLITIČKA PLATFORMA": {
-          "votes": 35244,
+          "votes": 36702,
           "coalition_name": "MOŽEMO! - POLITIČKA PLATFORMA, ZAGREB JE NAŠ!, NOVA LJEVICA - NL, RADNIČKA FRONTA - RF, ODRŽIVI RAZVOJ HRVATSKE - ORAH, ZA GRAD"
         },
         "STRANKA S IMENOM I PREZIMENOM": {
-          "votes": 10623,
+          "votes": 11029,
           "coalition_name": "STRANKA S IMENOM I PREZIMENOM, PAMETNO, FOKUS"
         },
         "365 STRANKA RADA I SOLIDARNOSTI": {
-          "votes": 1696,
+          "votes": 1760,
           "coalition_name": "\"BANDIĆ MILAN 365 - STRANKA RADA I SOLIDARNOSTI\" - \"365 STRANKA RADA I SOLIDARNOSTI\""
         },
         "BUZ": {
-          "votes": 385,
+          "votes": 413,
           "coalition_name": "BLOK UMIROVLJENICI ZAJEDNO - BUZ"
         },
         "DOMOVINSKI POKRET": {
-          "votes": 14717,
+          "votes": 15586,
           "coalition_name": "DOMOVINSKI POKRET MIROSLAVA ŠKORE - DOMOVINSKI POKRET, HRVATSKI SUVERENISTI, BLOK ZA HRVATSKU - BLOK, HRVATSKA KONZERVATIVNA STRANKA - HKS, HRAST - POKRET ZA USPJEŠNU HRVATSKU, STRANKA UMIROVLJENIKA - SU, ZELENA LISTA"
         },
         "HDS": {
-          "votes": 276,
+          "votes": 292,
           "coalition_name": "HRVATSKA DEMOKRATSKA STRANKA - HDS"
         },
         "HDZ": {
-          "votes": 46575,
+          "votes": 49202,
           "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ, HRVATSKA SOCIJALNO - LIBERALNA STRANKA - HSLS"
         },
         "HNS": {
-          "votes": 322,
+          "votes": 334,
           "coalition_name": "HRVATSKA NARODNA STRANKA - LIBERALNI DEMOKRATI - HNS"
         },
         "MVH": {
-          "votes": 198,
+          "votes": 201,
           "coalition_name": "MOJA VOLJENA HRVATSKA - MVH"
         },
         "REFORMISTI": {
-          "votes": 295,
+          "votes": 311,
           "coalition_name": "NARODNA STRANKA - REFORMISTI - REFORMISTI, HRVATSKA SELJAČKA STRANKA BRAĆE RADIĆ - HSS BRAĆE RADIĆ, STRANKA HRVATSKIH UMIROVLJENIKA - UMIROVLJENICI - UMIROVLJENICI"
         },
         "POKRET ZA MODERNU HRVATSKU": {
-          "votes": 640,
+          "votes": 658,
           "coalition_name": "POKRET ZA MODERNU HRVATSKU"
         },
         "SDP": {
-          "votes": 37123,
+          "votes": 38701,
           "coalition_name": "SOCIJALDEMOKRATSKA PARTIJA HRVATSKE - SDP, HRVATSKA SELJAČKA STRANKA - HSS, HRVATSKA STRANKA UMIROVLJENIKA - HSU, SNAGA - STRANKA NARODNOG I GRAĐANSKOG AKTIVIZMA - SNAGA, GRAĐANSKO-LIBERALNI SAVEZ - GLAS, ISTARSKI DEMOKRATSKI SABOR - IDS, PRIMORSKO GORANSKI SAVEZ - PGS"
         },
         "ŽIVI ZID": {
-          "votes": 2766,
+          "votes": 2849,
           "coalition_name": "ŽIVI ZID, PROMIJENIMO HRVATSKU - PH, HRVATSKA SELJAČKA STRANKA - STJEPAN RADIĆ - HSS - SR, STRANKA IVANA PERNARA - SIP, HRVATSKA STRANKA SVIH ČAKAVACA KAJKAVACA I ŠTOKAVACA - HSSČKŠ, ZAGORSKA STRANKA ZA ZAGREB - ZSZ, NEZAVISNA LISTA STIPE PETRINA - NLSP"
         },
         "ABECEDA": {
-          "votes": 95,
+          "votes": 96,
           "coalition_name": "ABECEDA DEMOKRACIJE - ABECEDA"
         },
         "DEMOKRATI": {
-          "votes": 308,
+          "votes": 318,
           "coalition_name": "DEMOKRATI, HRVATSKI LABURISTI - STRANKA RADA"
         },
         "SRP": {
-          "votes": 309,
+          "votes": 331,
           "coalition_name": "SOCIJALISTIČKA RADNIČKA PARTIJA HRVATSKE - SRP"
         },
         "BDSH": {
-          "votes": 120,
+          "votes": 132,
           "coalition_name": "BRANITELJSKO DOMOLJUBNA STRANKA HRVATSKE - BDSH, HRVATSKA BRANITELJSKA PUČKA STRANKA - HBPS"
         },
         "NHR": {
-          "votes": 356,
+          "votes": 372,
           "coalition_name": "NEOVISNI ZA HRVATSKU - NHR, HRVATSKA STRANKA PRAVA - HSP, GENERACIJA OBNOVE - GO"
         }
       }
     },
     "II": {
       "name": "II. IZBORNA JEDINICA",
-      "total_voters": 384115,
-      "votes_cast": 170073,
-      "turnout": 0.4428,
+      "seats": 14,
+      "total_voters": 387890,
+      "votes_cast": 173254,
+      "turnout": 0.4467,
       "winner": "HDZ",
-      "margin": 9.33,
+      "margin": 9.48,
       "parties": {
         "HSP": {
-          "votes": 695,
+          "votes": 708,
           "coalition_name": "AUTOHTONA - HRVATSKA STRANKA PRAVA - A - HSP"
         },
         "MOST": {
-          "votes": 13135,
+          "votes": 13395,
           "coalition_name": "MOST NEZAVISNIH LISTA - MOST"
         },
         "POLITIČKA PLATFORMA": {
-          "votes": 9086,
+          "votes": 9388,
           "coalition_name": "MOŽEMO! - POLITIČKA PLATFORMA, ZAGREB JE NAŠ!, NOVA LJEVICA - NL, RADNIČKA FRONTA - RF, ODRŽIVI RAZVOJ HRVATSKE - ORAH, ZA GRAD"
         },
         "STRANKA S IMENOM I PREZIMENOM": {
-          "votes": 5829,
+          "votes": 5970,
           "coalition_name": "STRANKA S IMENOM I PREZIMENOM, PAMETNO, FOKUS"
         },
         "BUZ": {
-          "votes": 617,
+          "votes": 628,
           "coalition_name": "BLOK UMIROVLJENICI ZAJEDNO - BUZ"
         },
         "DEMOKRATI": {
-          "votes": 559,
+          "votes": 569,
           "coalition_name": "DEMOKRATI, HRVATSKI LABURISTI - STRANKA RADA"
         },
         "DOMOVINSKI POKRET": {
-          "votes": 22260,
+          "votes": 22865,
           "coalition_name": "DOMOVINSKI POKRET MIROSLAVA ŠKORE - DOMOVINSKI POKRET, HRVATSKI SUVERENISTI, BLOK ZA HRVATSKU - BLOK, HRVATSKA KONZERVATIVNA STRANKA - HKS, HRAST - POKRET ZA USPJEŠNU HRVATSKU, STRANKA UMIROVLJENIKA - SU, ZELENA LISTA"
         },
         "HDZ": {
-          "votes": 56964,
+          "votes": 58046,
           "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ, HRVATSKA SOCIJALNO - LIBERALNA STRANKA - HSLS"
         },
         "HNS": {
-          "votes": 937,
+          "votes": 951,
           "coalition_name": "HRVATSKA NARODNA STRANKA - LIBERALNI DEMOKRATI - HNS"
         },
         "SDP": {
-          "votes": 41091,
+          "votes": 41619,
           "coalition_name": "SOCIJALDEMOKRATSKA PARTIJA HRVATSKE - SDP, HRVATSKA SELJAČKA STRANKA - HSS, HRVATSKA STRANKA UMIROVLJENIKA - HSU, SNAGA - STRANKA NARODNOG I GRAĐANSKOG AKTIVIZMA - SNAGA, GRAĐANSKO-LIBERALNI SAVEZ - GLAS, ISTARSKI DEMOKRATSKI SABOR - IDS, PRIMORSKO GORANSKI SAVEZ - PGS"
         },
         "NEZAVISNE LISTE": {
-          "votes": 5452,
+          "votes": 5475,
           "coalition_name": "ŽELJKO LACKOVIĆ - NEZAVISNE LISTE, NARODNA STRANKA - REFORMISTI - REFORMISTI, HRVATSKA SELJAČKA STRANKA BRAĆE RADIĆ - HSS BRAĆE RADIĆ, NEZAVISNI SELJACI HRVATSKE - NSH, HRVATSKA DEMOKRŠĆANSKA STRANKA - HDS"
         },
         "ŽIVI ZID": {
-          "votes": 3858,
+          "votes": 3908,
           "coalition_name": "ŽIVI ZID, PROMIJENIMO HRVATSKU - PH, HRVATSKA SELJAČKA STRANKA - STJEPAN RADIĆ - HSS - SR, STRANKA IVANA PERNARA - SIP, HRVATSKA STRANKA SVIH ČAKAVACA KAJKAVACA I ŠTOKAVACA - HSSČKŠ, ZAGORSKA STRANKA ZA ZAGREB - ZSZ, NEZAVISNA LISTA STIPE PETRINA - NLSP"
         },
         "HSR": {
-          "votes": 202,
+          "votes": 207,
           "coalition_name": "HRVATSKA STRANKA REDA - HSR"
         },
         "HDS": {
-          "votes": 618,
+          "votes": 644,
           "coalition_name": "HRVATSKA DEMOKRATSKA STRANKA - HDS"
         },
         "HSGO": {
-          "votes": 196,
+          "votes": 199,
           "coalition_name": "HRVATSKA STRANKA GRAĐANSKOG OTPORA - HSGO"
         },
         "365 STRANKA RADA I SOLIDARNOSTI": {
-          "votes": 3769,
+          "votes": 3804,
           "coalition_name": "\"BANDIĆ MILAN 365 - STRANKA RADA I SOLIDARNOSTI\" - \"365 STRANKA RADA I SOLIDARNOSTI\""
         },
         "SHV": {
-          "votes": 176,
+          "votes": 179,
           "coalition_name": "STRANKA HRVATSKI VIDIK - SHV"
         },
         "BDSH": {
-          "votes": 228,
+          "votes": 234,
           "coalition_name": "BRANITELJSKO DOMOLJUBNA STRANKA HRVATSKE - BDSH, HRVATSKA BRANITELJSKA PUČKA STRANKA - HBPS"
         },
         "NHR": {
-          "votes": 454,
+          "votes": 463,
           "coalition_name": "NEOVISNI ZA HRVATSKU - NHR, HRVATSKA STRANKA PRAVA - HSP, GENERACIJA OBNOVE - GO"
         }
       }
     },
     "III": {
       "name": "III. IZBORNA JEDINICA",
-      "total_voters": 344994,
-      "votes_cast": 155214,
-      "turnout": 0.4499,
+      "seats": 14,
+      "total_voters": 347415,
+      "votes_cast": 157183,
+      "turnout": 0.4524,
       "winner": "SDP",
-      "margin": 8.05,
+      "margin": 7.96,
       "parties": {
         "HSP": {
-          "votes": 539,
+          "votes": 560,
           "coalition_name": "AUTOHTONA - HRVATSKA STRANKA PRAVA - A - HSP"
         },
         "MOST": {
-          "votes": 4156,
+          "votes": 4234,
           "coalition_name": "MOST NEZAVISNIH LISTA - MOST"
         },
         "POLITIČKA PLATFORMA": {
-          "votes": 4876,
+          "votes": 5124,
           "coalition_name": "MOŽEMO! - POLITIČKA PLATFORMA, NOVA LJEVICA - NL, RADNIČKA FRONTA - RF, ODRŽIVI RAZVOJ HRVATSKE - ORAH, ZAGREB JE NAŠ!, ZA GRAD"
         },
         "STRANKA S IMENOM I PREZIMENOM": {
-          "votes": 5535,
+          "votes": 5642,
           "coalition_name": "STRANKA S IMENOM I PREZIMENOM, PAMETNO, FOKUS"
         },
         "365 STRANKA RADA I SOLIDARNOSTI": {
-          "votes": 694,
+          "votes": 711,
           "coalition_name": "\"BANDIĆ MILAN 365 - STRANKA RADA I SOLIDARNOSTI\" - \"365 STRANKA RADA I SOLIDARNOSTI\""
         },
         "BUZ": {
-          "votes": 596,
+          "votes": 606,
           "coalition_name": "BLOK UMIROVLJENICI ZAJEDNO - BUZ"
         },
         "DEMOKRATI": {
-          "votes": 508,
+          "votes": 514,
           "coalition_name": "DEMOKRATI, HRVATSKI LABURISTI - STRANKA RADA"
         },
         "DOMOVINSKI POKRET": {
-          "votes": 9341,
+          "votes": 9528,
           "coalition_name": "DOMOVINSKI POKRET MIROSLAVA ŠKORE - DOMOVINSKI POKRET, HRVATSKI SUVERENISTI, BLOK ZA HRVATSKU - BLOK, HRVATSKA KONZERVATIVNA STRANKA - HKS, HRAST - POKRET ZA USPJEŠNU HRVATSKU, STRANKA UMIROVLJENIKA - SU, ZELENA LISTA"
         },
         "HDZ": {
-          "votes": 44524,
+          "votes": 45038,
           "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ"
         },
         "HNS": {
-          "votes": 8795,
+          "votes": 8835,
           "coalition_name": "HRVATSKA NARODNA STRANKA - LIBERALNI DEMOKRATI - HNS"
         },
         "HSB": {
-          "votes": 474,
+          "votes": 483,
           "coalition_name": "HRVATSKA STRANKA BUDUĆNOSTI - HSB"
         },
         "HSGO": {
-          "votes": 302,
+          "votes": 307,
           "coalition_name": "HRVATSKA STRANKA GRAĐANSKOG OTPORA - HSGO"
         },
         "REFORMISTI": {
-          "votes": 8269,
+          "votes": 8355,
           "coalition_name": "NARODNA STRANKA - REFORMISTI - REFORMISTI, HRVATSKA SELJAČKA STRANKA BRAĆE RADIĆ - HSS BRAĆE RADIĆ, STRANKA HRVATSKIH UMIROVLJENIKA - UMIROVLJENICI - UMIROVLJENICI"
         },
         "SLOBODNA HRVATSKA": {
-          "votes": 598,
+          "votes": 605,
           "coalition_name": "SLOBODNA HRVATSKA"
         },
         "SDP": {
-          "votes": 57021,
+          "votes": 57557,
           "coalition_name": "SOCIJALDEMOKRATSKA PARTIJA HRVATSKE - SDP, HRVATSKA SELJAČKA STRANKA - HSS, HRVATSKA STRANKA UMIROVLJENIKA - HSU, SNAGA - STRANKA NARODNOG I GRAĐANSKOG AKTIVIZMA - SNAGA, GRAĐANSKO-LIBERALNI SAVEZ - GLAS, ISTARSKI DEMOKRATSKI SABOR - IDS, PRIMORSKO GORANSKI SAVEZ - PGS"
         },
         "ŽIVI ZID": {
-          "votes": 3595,
+          "votes": 3619,
           "coalition_name": "ŽIVI ZID, PROMIJENIMO HRVATSKU - PH, HRVATSKA SELJAČKA STRANKA - STJEPAN RADIĆ - HSS - SR, STRANKA IVANA PERNARA - SIP, HRVATSKA STRANKA SVIH ČAKAVACA KAJKAVACA I ŠTOKAVACA - HSSČKŠ, ZAGORSKA STRANKA ZA ZAGREB - ZSZ, NEZAVISNA LISTA STIPE PETRINA - NLSP"
         },
         "NHR": {
-          "votes": 289,
+          "votes": 294,
           "coalition_name": "NEOVISNI ZA HRVATSKU - NHR, HRVATSKA STRANKA PRAVA - HSP, GENERACIJA OBNOVE - GO"
         },
         "HDS": {
-          "votes": 742,
+          "votes": 762,
           "coalition_name": "HRVATSKA DEMOKRATSKA STRANKA - HDS"
         }
       }
     },
     "IV": {
       "name": "IV. IZBORNA JEDINICA",
-      "total_voters": 309447,
-      "votes_cast": 139961,
-      "turnout": 0.4523,
+      "seats": 14,
+      "total_voters": 312592,
+      "votes_cast": 142358,
+      "turnout": 0.4554,
       "winner": "HDZ",
-      "margin": 23.05,
+      "margin": 22.99,
       "parties": {
         "MOST": {
-          "votes": 6565,
+          "votes": 6705,
           "coalition_name": "MOST NEZAVISNIH LISTA - MOST"
         },
         "POLITIČKA PLATFORMA": {
-          "votes": 2822,
+          "votes": 3020,
           "coalition_name": "MOŽEMO! - POLITIČKA PLATFORMA, NOVA LJEVICA - NL, RADNIČKA FRONTA - RF, ODRŽIVI RAZVOJ HRVATSKE - ORAH, ZAGREB JE NAŠ!, ZA GRAD"
         },
         "STRANKA S IMENOM I PREZIMENOM": {
-          "votes": 2837,
+          "votes": 2961,
           "coalition_name": "STRANKA S IMENOM I PREZIMENOM, PAMETNO, FOKUS"
         },
         "BDSH": {
-          "votes": 222,
+          "votes": 232,
           "coalition_name": "BRANITELJSKO DOMOLJUBNA STRANKA HRVATSKE - BDSH, HRVATSKA BRANITELJSKA PUČKA STRANKA - HBPS"
         },
         "DOMOVINSKI POKRET": {
-          "votes": 22482,
+          "votes": 23020,
           "coalition_name": "DOMOVINSKI POKRET MIROSLAVA ŠKORE - DOMOVINSKI POKRET, HRVATSKI SUVERENISTI, BLOK ZA HRVATSKU - BLOK, HRVATSKA KONZERVATIVNA STRANKA - HKS, HRAST - POKRET ZA USPJEŠNU HRVATSKU, STRANKA UMIROVLJENIKA - SU, ZELENA LISTA"
         },
         "HDZ": {
-          "votes": 60382,
+          "votes": 61204,
           "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ"
         },
         "HNS": {
-          "votes": 6391,
+          "votes": 6423,
           "coalition_name": "HRVATSKA NARODNA STRANKA - LIBERALNI DEMOKRATI - HNS, HRVATSKA SELJAČKA STRANKA BRAĆE RADIĆ - HSS BRAĆE RADIĆ"
         },
         "SNAGA SLAVONIJE I BARANJE": {
-          "votes": 1455,
+          "votes": 1474,
           "coalition_name": "SNAGA SLAVONIJE I BARANJE - Snaga SiB"
         },
         "SDP": {
-          "votes": 28119,
+          "votes": 28479,
           "coalition_name": "SOCIJALDEMOKRATSKA PARTIJA HRVATSKE - SDP, HRVATSKA SELJAČKA STRANKA - HSS, HRVATSKA STRANKA UMIROVLJENIKA - HSU, SNAGA - STRANKA NARODNOG I GRAĐANSKOG AKTIVIZMA - SNAGA, GRAĐANSKO-LIBERALNI SAVEZ - GLAS, ISTARSKI DEMOKRATSKI SABOR - IDS, PRIMORSKO GORANSKI SAVEZ - PGS"
         },
         "ŽIVI ZID": {
-          "votes": 2731,
+          "votes": 2779,
           "coalition_name": "ŽIVI ZID, PROMIJENIMO HRVATSKU - PH, HRVATSKA SELJAČKA STRANKA - STJEPAN RADIĆ - HSS - SR, STRANKA IVANA PERNARA - SIP, HRVATSKA STRANKA SVIH ČAKAVACA KAJKAVACA I ŠTOKAVACA - HSSČKŠ, ZAGORSKA STRANKA ZA ZAGREB - ZSZ, NEZAVISNA LISTA STIPE PETRINA - NLSP"
         },
         "HSP": {
-          "votes": 491,
+          "votes": 505,
           "coalition_name": "AUTOHTONA - HRVATSKA STRANKA PRAVA - A - HSP"
         },
         "HSR": {
-          "votes": 130,
+          "votes": 131,
           "coalition_name": "HRVATSKA STRANKA REDA - HSR"
         },
         "BUZ": {
-          "votes": 535,
+          "votes": 543,
           "coalition_name": "BLOK UMIROVLJENICI ZAJEDNO - BUZ"
         },
         "SHV": {
-          "votes": 148,
+          "votes": 152,
           "coalition_name": "STRANKA HRVATSKI VIDIK - SHV"
         },
         "DEMOKRATI": {
-          "votes": 373,
+          "votes": 378,
           "coalition_name": "DEMOKRATI, HRVATSKI LABURISTI - STRANKA RADA"
         },
         "REFORMISTI": {
-          "votes": 341,
+          "votes": 346,
           "coalition_name": "NARODNA STRANKA - REFORMISTI - REFORMISTI"
         },
         "NHR": {
-          "votes": 620,
+          "votes": 641,
           "coalition_name": "NEOVISNI ZA HRVATSKU - NHR, HRVATSKA STRANKA PRAVA - HSP, GENERACIJA OBNOVE - GO"
         }
       }
     },
     "V": {
       "name": "V. IZBORNA JEDINICA",
-      "total_voters": 333442,
-      "votes_cast": 141361,
-      "turnout": 0.4239,
+      "seats": 14,
+      "total_voters": 337321,
+      "votes_cast": 144560,
+      "turnout": 0.4286,
       "winner": "HDZ",
-      "margin": 27.67,
+      "margin": 27.3,
       "parties": {
         "HSP": {
-          "votes": 580,
+          "votes": 594,
           "coalition_name": "AUTOHTONA - HRVATSKA STRANKA PRAVA - A - HSP"
         },
         "MOST": {
-          "votes": 7913,
+          "votes": 8145,
           "coalition_name": "MOST NEZAVISNIH LISTA - MOST"
         },
         "POLITIČKA PLATFORMA": {
-          "votes": 1933,
+          "votes": 2097,
           "coalition_name": "MOŽEMO! - POLITIČKA PLATFORMA, NOVA LJEVICA - NL, RADNIČKA FRONTA - RF, ODRŽIVI RAZVOJ HRVATSKE - ORAH, ZAGREB JE NAŠ!, ZA GRAD"
         },
         "NHR": {
-          "votes": 447,
+          "votes": 470,
           "coalition_name": "NEOVISNI ZA HRVATSKU - NHR, HRVATSKA STRANKA PRAVA - HSP, GENERACIJA OBNOVE - GO"
         },
         "STRANKA S IMENOM I PREZIMENOM": {
-          "votes": 2172,
+          "votes": 2305,
           "coalition_name": "STRANKA S IMENOM I PREZIMENOM, PAMETNO, FOKUS"
         },
         "DEMOKRATI": {
-          "votes": 395,
+          "votes": 405,
           "coalition_name": "DEMOKRATI, HRVATSKI LABURISTI - STRANKA RADA"
         },
         "DOMOVINSKI POKRET": {
-          "votes": 27010,
+          "votes": 27878,
           "coalition_name": "DOMOVINSKI POKRET MIROSLAVA ŠKORE - DOMOVINSKI POKRET, HRVATSKI SUVERENISTI, BLOK ZA HRVATSKU - BLOK, HRVATSKA KONZERVATIVNA STRANKA - HKS, HRAST - POKRET ZA USPJEŠNU HRVATSKU, STRANKA UMIROVLJENIKA - SU, ZELENA LISTA"
         },
         "HDZ": {
-          "votes": 66120,
+          "votes": 67345,
           "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ"
         },
         "REFORMISTI": {
-          "votes": 523,
+          "votes": 537,
           "coalition_name": "NARODNA STRANKA - REFORMISTI - REFORMISTI, HRVATSKA SELJAČKA STRANKA BRAĆE RADIĆ - HSS BRAĆE RADIĆ, STRANKA HRVATSKIH UMIROVLJENIKA - UMIROVLJENICI - UMIROVLJENICI"
         },
         "SNAGA SLAVONIJE I BARANJE": {
-          "votes": 805,
+          "votes": 820,
           "coalition_name": "SNAGA SLAVONIJE I BARANJE - Snaga SiB"
         },
         "SDP": {
-          "votes": 26701,
+          "votes": 27079,
           "coalition_name": "SOCIJALDEMOKRATSKA PARTIJA HRVATSKE - SDP, HRVATSKA SELJAČKA STRANKA - HSS, HRVATSKA STRANKA UMIROVLJENIKA - HSU, SNAGA - STRANKA NARODNOG I GRAĐANSKOG AKTIVIZMA - SNAGA, GRAĐANSKO-LIBERALNI SAVEZ - GLAS, ISTARSKI DEMOKRATSKI SABOR - IDS, PRIMORSKO GORANSKI SAVEZ - PGS"
         },
         "ŽIVI ZID": {
-          "votes": 2535,
+          "votes": 2590,
           "coalition_name": "ŽIVI ZID, PROMIJENIMO HRVATSKU - PH, HRVATSKA SELJAČKA STRANKA - STJEPAN RADIĆ - HSS - SR, STRANKA IVANA PERNARA - SIP, HRVATSKA STRANKA SVIH ČAKAVACA KAJKAVACA I ŠTOKAVACA - HSSČKŠ, ZAGORSKA STRANKA ZA ZAGREB - ZSZ, NEZAVISNA LISTA STIPE PETRINA - NLSP"
         },
         "HNS": {
-          "votes": 557,
+          "votes": 567,
           "coalition_name": "HRVATSKA NARODNA STRANKA - LIBERALNI DEMOKRATI - HNS"
         }
       }
     },
     "VI": {
       "name": "VI. IZBORNA JEDINICA",
-      "total_voters": 324393,
-      "votes_cast": 146919,
-      "turnout": 0.4529,
+      "seats": 14,
+      "total_voters": 328499,
+      "votes_cast": 150335,
+      "turnout": 0.4576,
       "winner": "HDZ",
-      "margin": 13.22,
+      "margin": 13.31,
       "parties": {
         "HSP": {
-          "votes": 419,
+          "votes": 430,
           "coalition_name": "AUTOHTONA - HRVATSKA STRANKA PRAVA - A - HSP"
         },
         "MOST": {
-          "votes": 10039,
+          "votes": 10267,
           "coalition_name": "MOST NEZAVISNIH LISTA - MOST"
         },
         "POLITIČKA PLATFORMA": {
-          "votes": 13512,
+          "votes": 13915,
           "coalition_name": "MOŽEMO! - POLITIČKA PLATFORMA, ZAGREB JE NAŠ!, NOVA LJEVICA - NL, RADNIČKA FRONTA - RF, ODRŽIVI RAZVOJ HRVATSKE - ORAH, ZA GRAD"
         },
         "STRANKA S IMENOM I PREZIMENOM": {
-          "votes": 5298,
+          "votes": 5426,
           "coalition_name": "STRANKA S IMENOM I PREZIMENOM, PAMETNO, FOKUS"
         },
         "365 STRANKA RADA I SOLIDARNOSTI": {
-          "votes": 1661,
+          "votes": 1691,
           "coalition_name": "\"BANDIĆ MILAN 365 - STRANKA RADA I SOLIDARNOSTI\" - \"365 STRANKA RADA I SOLIDARNOSTI\""
         },
         "BUZ": {
-          "votes": 517,
+          "votes": 534,
           "coalition_name": "BLOK UMIROVLJENICI ZAJEDNO - BUZ"
         },
         "DOMOVINSKI POKRET": {
-          "votes": 15705,
+          "votes": 16193,
           "coalition_name": "DOMOVINSKI POKRET MIROSLAVA ŠKORE - DOMOVINSKI POKRET, HRVATSKI SUVERENISTI, BLOK ZA HRVATSKU - BLOK, HRVATSKA KONZERVATIVNA STRANKA - HKS, HRAST - POKRET ZA USPJEŠNU HRVATSKU, STRANKA UMIROVLJENIKA - SU, ZELENA LISTA"
         },
         "HDS": {
-          "votes": 352,
+          "votes": 358,
           "coalition_name": "HRVATSKA DEMOKRATSKA STRANKA - HDS"
         },
         "HDZ": {
-          "votes": 54323,
+          "votes": 55574,
           "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ"
         },
         "HNS": {
-          "votes": 777,
+          "votes": 792,
           "coalition_name": "HRVATSKA NARODNA STRANKA - LIBERALNI DEMOKRATI - HNS"
         },
         "MVH": {
-          "votes": 207,
+          "votes": 210,
           "coalition_name": "MOJA VOLJENA HRVATSKA - MVH"
         },
         "POKRET ZA MODERNU HRVATSKU": {
-          "votes": 635,
+          "votes": 649,
           "coalition_name": "POKRET ZA MODERNU HRVATSKU"
         },
         "SDP": {
-          "votes": 34907,
+          "votes": 35565,
           "coalition_name": "SOCIJALDEMOKRATSKA PARTIJA HRVATSKE - SDP, HRVATSKA SELJAČKA STRANKA - HSS, HRVATSKA STRANKA UMIROVLJENIKA - HSU, SNAGA - STRANKA NARODNOG I GRAĐANSKOG AKTIVIZMA - SNAGA, GRAĐANSKO-LIBERALNI SAVEZ - GLAS, ISTARSKI DEMOKRATSKI SABOR - IDS, PRIMORSKO GORANSKI SAVEZ - PGS, NARODNA STRANKA - REFORMISTI - REFORMISTI"
         },
         "ŽIVI ZID": {
-          "votes": 2790,
+          "votes": 2827,
           "coalition_name": "ŽIVI ZID, PROMIJENIMO HRVATSKU - PH, HRVATSKA SELJAČKA STRANKA - STJEPAN RADIĆ - HSS - SR, STRANKA IVANA PERNARA - SIP, HRVATSKA STRANKA SVIH ČAKAVACA KAJKAVACA I ŠTOKAVACA - HSSČKŠ, ZAGORSKA STRANKA ZA ZAGREB - ZSZ, NEZAVISNA LISTA STIPE PETRINA - NLSP"
         },
         "NHR": {
-          "votes": 765,
+          "votes": 783,
           "coalition_name": "NEOVISNI ZA HRVATSKU - NHR, HRVATSKA STRANKA PRAVA - HSP, GENERACIJA OBNOVE - GO"
         },
         "HSS": {
-          "votes": 413,
+          "votes": 429,
           "coalition_name": "AUTOHTONA - HRVATSKA SELJAČKA STRANKA - A - HSS"
         },
         "DEMOKRATI": {
-          "votes": 458,
+          "votes": 467,
           "coalition_name": "DEMOKRATI, HRVATSKI LABURISTI - STRANKA RADA"
         },
         "BDSH": {
-          "votes": 164,
+          "votes": 170,
           "coalition_name": "BRANITELJSKO DOMOLJUBNA STRANKA HRVATSKE - BDSH, HRVATSKA BRANITELJSKA PUČKA STRANKA - HBPS"
         },
         "SRP": {
-          "votes": 473,
+          "votes": 486,
           "coalition_name": "SOCIJALISTIČKA RADNIČKA PARTIJA HRVATSKE - SRP"
         }
       }
     },
     "VII": {
       "name": "VII. IZBORNA JEDINICA",
-      "total_voters": 403523,
-      "votes_cast": 190751,
-      "turnout": 0.4727,
+      "seats": 14,
+      "total_voters": 408297,
+      "votes_cast": 194719,
+      "turnout": 0.4769,
       "winner": "HDZ",
-      "margin": 11.05,
+      "margin": 11.13,
       "parties": {
         "HSP": {
-          "votes": 495,
+          "votes": 506,
           "coalition_name": "AUTOHTONA - HRVATSKA STRANKA PRAVA - A - HSP"
         },
         "MOST": {
-          "votes": 12714,
+          "votes": 12997,
           "coalition_name": "MOST NEZAVISNIH LISTA - MOST"
         },
         "POLITIČKA PLATFORMA": {
-          "votes": 19354,
+          "votes": 19949,
           "coalition_name": "MOŽEMO! - POLITIČKA PLATFORMA, NOVA LJEVICA - NL, RADNIČKA FRONTA - RF, ODRŽIVI RAZVOJ HRVATSKE - ORAH, ZAGREB JE NAŠ!, ZA GRAD"
         },
         "STRANKA S IMENOM I PREZIMENOM": {
-          "votes": 12016,
+          "votes": 12228,
           "coalition_name": "STRANKA S IMENOM I PREZIMENOM, PAMETNO, FOKUS"
         },
         "HSS": {
-          "votes": 516,
+          "votes": 529,
           "coalition_name": "AUTOHTONA - HRVATSKA SELJAČKA STRANKA - A - HSS"
         },
         "BUZ": {
-          "votes": 612,
+          "votes": 639,
           "coalition_name": "BLOK UMIROVLJENICI ZAJEDNO - BUZ"
         },
         "DEMOKRATI": {
-          "votes": 660,
+          "votes": 674,
           "coalition_name": "DEMOKRATI, HRVATSKI LABURISTI - STRANKA RADA, LISTA ZA RIJEKU, ZELENI SAVEZ - ZELENI"
         },
         "DOMOVINSKI POKRET": {
-          "votes": 17457,
+          "votes": 18086,
           "coalition_name": "DOMOVINSKI POKRET MIROSLAVA ŠKORE - DOMOVINSKI POKRET, HRVATSKI SUVERENISTI, BLOK ZA HRVATSKU - BLOK, HRVATSKA KONZERVATIVNA STRANKA - HKS, HRAST - POKRET ZA USPJEŠNU HRVATSKU, STRANKA UMIROVLJENIKA - SU, ZELENA LISTA"
         },
         "HDZ": {
-          "votes": 67107,
+          "votes": 68401,
           "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ"
         },
         "HNS": {
-          "votes": 843,
+          "votes": 847,
           "coalition_name": "HRVATSKA NARODNA STRANKA - LIBERALNI DEMOKRATI - HNS"
         },
         "REFORMISTI": {
-          "votes": 561,
+          "votes": 568,
           "coalition_name": "NARODNA STRANKA - REFORMISTI - REFORMISTI, HRVATSKA SELJAČKA STRANKA BRAĆE RADIĆ - HSS BRAĆE RADIĆ, STRANKA HRVATSKIH UMIROVLJENIKA - UMIROVLJENICI - UMIROVLJENICI"
         },
         "IRENA FRANCEKOVIĆ": {
-          "votes": 705,
+          "votes": 716,
           "coalition_name": "NEOVISNA LISTA - IRENA FRANCEKOVIĆ"
         },
         "SDP": {
-          "votes": 46023,
+          "votes": 46722,
           "coalition_name": "SOCIJALDEMOKRATSKA PARTIJA HRVATSKE - SDP, HRVATSKA SELJAČKA STRANKA - HSS, HRVATSKA STRANKA UMIROVLJENIKA - HSU, SNAGA - STRANKA NARODNOG I GRAĐANSKOG AKTIVIZMA - SNAGA, GRAĐANSKO-LIBERALNI SAVEZ - GLAS, ISTARSKI DEMOKRATSKI SABOR - IDS, PRIMORSKO GORANSKI SAVEZ - PGS"
         },
         "ŽIVI ZID": {
-          "votes": 4301,
+          "votes": 4349,
           "coalition_name": "ŽIVI ZID, PROMIJENIMO HRVATSKU - PH, HRVATSKA SELJAČKA STRANKA - STJEPAN RADIĆ - HSS - SR, STRANKA IVANA PERNARA - SIP, HRVATSKA STRANKA SVIH ČAKAVACA KAJKAVACA I ŠTOKAVACA - HSSČKŠ, ZAGORSKA STRANKA ZA ZAGREB - ZSZ, NEZAVISNA LISTA STIPE PETRINA - NLSP"
         },
         "NHR": {
-          "votes": 637,
+          "votes": 654,
           "coalition_name": "NEOVISNI ZA HRVATSKU - NHR, HRVATSKA STRANKA PRAVA - HSP, GENERACIJA OBNOVE - GO"
         },
         "ABECEDA": {
-          "votes": 121,
+          "votes": 123,
           "coalition_name": "ABECEDA DEMOKRACIJE - ABECEDA"
         },
         "MVH": {
-          "votes": 245,
+          "votes": 252,
           "coalition_name": "MOJA VOLJENA HRVATSKA - MVH"
         },
         "365 STRANKA RADA I SOLIDARNOSTI": {
-          "votes": 1455,
+          "votes": 1477,
           "coalition_name": "\"BANDIĆ MILAN 365 - STRANKA RADA I SOLIDARNOSTI\" - \"365 STRANKA RADA I SOLIDARNOSTI\""
         },
         "SHZ": {
-          "votes": 83,
+          "votes": 85,
           "coalition_name": "STRANKA HRVATSKOG ZAJEDNIŠTVA - SHZ"
         },
         "HDS": {
-          "votes": 400,
+          "votes": 409,
           "coalition_name": "HRVATSKA DEMOKRATSKA STRANKA - HDS"
         },
         "HSGO": {
-          "votes": 205,
+          "votes": 208,
           "coalition_name": "HRVATSKA STRANKA GRAĐANSKOG OTPORA - HSGO"
         },
         "SHV": {
-          "votes": 51,
+          "votes": 52,
           "coalition_name": "STRANKA HRVATSKI VIDIK - SHV"
         }
       }
     },
     "VIII": {
       "name": "VIII. IZBORNA JEDINICA",
-      "total_voters": 369509,
-      "votes_cast": 155709,
-      "turnout": 0.4214,
+      "seats": 14,
+      "total_voters": 372573,
+      "votes_cast": 158230,
+      "turnout": 0.4247,
       "winner": "SDP",
-      "margin": 21.73,
+      "margin": 21.5,
       "parties": {
         "HSP": {
-          "votes": 462,
+          "votes": 480,
           "coalition_name": "AUTOHTONA - HRVATSKA STRANKA PRAVA - A - HSP"
         },
         "MOST": {
-          "votes": 8856,
+          "votes": 8999,
           "coalition_name": "MOST NEZAVISNIH LISTA - MOST"
         },
         "POLITIČKA PLATFORMA": {
-          "votes": 12781,
+          "votes": 13130,
           "coalition_name": "MOŽEMO! - POLITIČKA PLATFORMA, RADNIČKA FRONTA - RF, NOVA LJEVICA - NL, ODRŽIVI RAZVOJ HRVATSKE - ORAH, ZAGREB JE NAŠ!, ZA GRAD"
         },
         "STRANKA S IMENOM I PREZIMENOM": {
-          "votes": 5447,
+          "votes": 5592,
           "coalition_name": "STRANKA S IMENOM I PREZIMENOM, PAMETNO, FOKUS"
         },
         "BUZ": {
-          "votes": 775,
+          "votes": 788,
           "coalition_name": "BLOK UMIROVLJENICI ZAJEDNO - BUZ"
         },
         "DEMOKRATI": {
-          "votes": 2534,
+          "votes": 2569,
           "coalition_name": "DEMOKRATI, HRVATSKI LABURISTI - STRANKA RADA, LISTA ZA RIJEKU"
         },
         "DOMOVINSKI POKRET": {
-          "votes": 7012,
+          "votes": 7244,
           "coalition_name": "DOMOVINSKI POKRET MIROSLAVA ŠKORE - DOMOVINSKI POKRET, HRVATSKI SUVERENISTI, BLOK ZA HRVATSKU - BLOK, HRVATSKA KONZERVATIVNA STRANKA - HKS, HRAST - POKRET ZA USPJEŠNU HRVATSKU, STRANKA UMIROVLJENIKA - SU, ZELENA LISTA"
         },
         "HDZ": {
-          "votes": 34195,
+          "votes": 34794,
           "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ"
         },
         "REFORMISTI": {
-          "votes": 369,
+          "votes": 375,
           "coalition_name": "NARODNA STRANKA - REFORMISTI - REFORMISTI, HRVATSKA SELJAČKA STRANKA BRAĆE RADIĆ - HSS BRAĆE RADIĆ, STRANKA HRVATSKIH UMIROVLJENIKA - UMIROVLJENICI - UMIROVLJENICI"
         },
         "DINO DEBELJUH": {
-          "votes": 563,
+          "votes": 575,
           "coalition_name": "NEOVISNA LISTA - DINO DEBELJUH"
         },
         "DAMIR GRÜNBAUM": {
-          "votes": 292,
+          "votes": 300,
           "coalition_name": "NEOVISNA LISTA - DAMIR GRÜNBAUM"
         },
         "MARIN ŠKIBOLA": {
-          "votes": 968,
+          "votes": 975,
           "coalition_name": "NEOVISNA LISTA - MARIN ŠKIBOLA"
         },
         "SDP": {
-          "votes": 68038,
+          "votes": 68808,
           "coalition_name": "SOCIJALDEMOKRATSKA PARTIJA HRVATSKE - SDP, ISTARSKI DEMOKRATSKI SABOR - IDS, PRIMORSKO GORANSKI SAVEZ - PGS, HRVATSKA SELJAČKA STRANKA - HSS, HRVATSKA STRANKA UMIROVLJENIKA - HSU, SNAGA - STRANKA NARODNOG I GRAĐANSKOG AKTIVIZMA - SNAGA, GRAĐANSKO-LIBERALNI SAVEZ - GLAS"
         },
         "SRP": {
-          "votes": 807,
+          "votes": 814,
           "coalition_name": "SOCIJALISTIČKA RADNIČKA PARTIJA HRVATSKE - SRP"
         },
         "ŽIVI ZID": {
-          "votes": 5009,
+          "votes": 5060,
           "coalition_name": "ŽIVI ZID, PROMIJENIMO HRVATSKU - PH, HRVATSKA SELJAČKA STRANKA - STJEPAN RADIĆ - HSS - SR, STRANKA IVANA PERNARA - SIP, HRVATSKA STRANKA SVIH ČAKAVACA KAJKAVACA I ŠTOKAVACA - HSSČKŠ, ZAGORSKA STRANKA ZA ZAGREB - ZSZ, NEZAVISNA LISTA STIPE PETRINA - NLSP"
         },
         "NHR": {
-          "votes": 427,
+          "votes": 437,
           "coalition_name": "NEOVISNI ZA HRVATSKU - NHR, HRVATSKA STRANKA PRAVA - HSP, GENERACIJA OBNOVE - GO"
         },
         "HNS": {
-          "votes": 703,
+          "votes": 713,
           "coalition_name": "HRVATSKA NARODNA STRANKA - LIBERALNI DEMOKRATI - HNS"
         },
         "BURA": {
-          "votes": 607,
+          "votes": 626,
           "coalition_name": "NEZAVISNA LISTA BURA - BURA"
         },
         "UNIJA": {
-          "votes": 2025,
+          "votes": 2044,
           "coalition_name": "UNIJA KVARNERA - UNIJA"
         },
         "MVH": {
-          "votes": 187,
+          "votes": 195,
           "coalition_name": "MOJA VOLJENA HRVATSKA - MVH"
         }
       }
     },
     "IX": {
       "name": "IX. IZBORNA JEDINICA",
-      "total_voters": 405424,
-      "votes_cast": 179943,
-      "turnout": 0.4438,
+      "seats": 14,
+      "total_voters": 409883,
+      "votes_cast": 183814,
+      "turnout": 0.4485,
       "winner": "HDZ",
-      "margin": 29.58,
+      "margin": 29.51,
       "parties": {
         "HSP": {
-          "votes": 752,
+          "votes": 775,
           "coalition_name": "AUTOHTONA - HRVATSKA STRANKA PRAVA - A - HSP"
         },
         "MOST": {
-          "votes": 17685,
+          "votes": 18028,
           "coalition_name": "MOST NEZAVISNIH LISTA - MOST"
         },
         "POLITIČKA PLATFORMA": {
-          "votes": 4072,
+          "votes": 4388,
           "coalition_name": "MOŽEMO! - POLITIČKA PLATFORMA, NOVA LJEVICA - NL, RADNIČKA FRONTA - RF, ODRŽIVI RAZVOJ HRVATSKE - ORAH, ZAGREB JE NAŠ!, ZA GRAD"
         },
         "NHR": {
-          "votes": 1987,
+          "votes": 2032,
           "coalition_name": "NEOVISNI ZA HRVATSKU - NHR, HRVATSKA STRANKA PRAVA - HSP, GENERACIJA OBNOVE - GO"
         },
         "STRANKA S IMENOM I PREZIMENOM": {
-          "votes": 4572,
+          "votes": 4761,
           "coalition_name": "STRANKA S IMENOM I PREZIMENOM, PAMETNO, FOKUS"
         },
         "BUZ": {
-          "votes": 620,
+          "votes": 645,
           "coalition_name": "BLOK UMIROVLJENICI ZAJEDNO - BUZ"
         },
         "DEMOKRATI": {
-          "votes": 330,
+          "votes": 338,
           "coalition_name": "DEMOKRATI, HRVATSKI LABURISTI - STRANKA RADA"
         },
         "DOMOVINSKI POKRET": {
-          "votes": 20504,
+          "votes": 21353,
           "coalition_name": "DOMOVINSKI POKRET MIROSLAVA ŠKORE - DOMOVINSKI POKRET, HRVATSKI SUVERENISTI, BLOK ZA HRVATSKU - BLOK, HRVATSKA KONZERVATIVNA STRANKA - HKS, HRAST - POKRET ZA USPJEŠNU HRVATSKU, STRANKA UMIROVLJENIKA - SU, ZELENA LISTA"
         },
         "HDZ": {
-          "votes": 83665,
+          "votes": 85075,
           "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ"
         },
         "REFORMISTI": {
-          "votes": 521,
+          "votes": 532,
           "coalition_name": "NARODNA STRANKA - REFORMISTI - REFORMISTI, HRVATSKA SELJAČKA STRANKA BRAĆE RADIĆ - HSS BRAĆE RADIĆ, STRANKA HRVATSKIH UMIROVLJENIKA - UMIROVLJENICI - UMIROVLJENICI"
         },
         "NLSP": {
-          "votes": 6829,
+          "votes": 6906,
           "coalition_name": "NEZAVISNA LISTA STIPE PETRINA - NLSP, AKCIJA MLADIH - AM, ŽIVI ZID, PROMIJENIMO HRVATSKU - PH, STRANKA IVANA PERNARA - SIP"
         },
         "SDP": {
-          "votes": 30445,
+          "votes": 30823,
           "coalition_name": "SOCIJALDEMOKRATSKA PARTIJA HRVATSKE - SDP, HRVATSKA SELJAČKA STRANKA - HSS, HRVATSKA STRANKA UMIROVLJENIKA - HSU, SNAGA - STRANKA NARODNOG I GRAĐANSKOG AKTIVIZMA - SNAGA, GRAĐANSKO-LIBERALNI SAVEZ - GLAS, ISTARSKI DEMOKRATSKI SABOR - IDS, PRIMORSKO GORANSKI SAVEZ - PGS"
         },
         "HNS": {
-          "votes": 769,
+          "votes": 779,
           "coalition_name": "HRVATSKA NARODNA STRANKA - LIBERALNI DEMOKRATI - HNS"
         },
         "SHZ": {
-          "votes": 312,
+          "votes": 320,
           "coalition_name": "STRANKA HRVATSKOG ZAJEDNIŠTVA - SHZ"
         },
         "365 STRANKA RADA I SOLIDARNOSTI": {
-          "votes": 430,
+          "votes": 454,
           "coalition_name": "\"BANDIĆ MILAN 365 - STRANKA RADA I SOLIDARNOSTI\" - \"365 STRANKA RADA I SOLIDARNOSTI\""
         },
         "HRVATSKA GRAĐANSKA STRANKA": {
-          "votes": 1795,
+          "votes": 1840,
           "coalition_name": "ŽELJKO KERUM - HRVATSKA GRAĐANSKA STRANKA"
         },
         "SHV": {
-          "votes": 186,
+          "votes": 193,
           "coalition_name": "STRANKA HRVATSKI VIDIK - SHV"
         }
       }
     },
     "X": {
       "name": "X. IZBORNA JEDINICA",
-      "total_voters": 392664,
-      "votes_cast": 191854,
-      "turnout": 0.4886,
+      "seats": 14,
+      "total_voters": 397508,
+      "votes_cast": 196058,
+      "turnout": 0.4932,
       "winner": "HDZ",
-      "margin": 19.86,
+      "margin": 19.97,
       "parties": {
         "MOST": {
-          "votes": 22653,
+          "votes": 23149,
           "coalition_name": "MOST NEZAVISNIH LISTA - MOST"
         },
         "POLITIČKA PLATFORMA": {
-          "votes": 7852,
+          "votes": 8251,
           "coalition_name": "MOŽEMO! - POLITIČKA PLATFORMA, NOVA LJEVICA - NL, RADNIČKA FRONTA - RF, ODRŽIVI RAZVOJ HRVATSKE - ORAH, ZAGREB JE NAŠ!, ZA GRAD"
         },
         "STRANKA S IMENOM I PREZIMENOM": {
-          "votes": 10052,
+          "votes": 10356,
           "coalition_name": "STRANKA S IMENOM I PREZIMENOM, PAMETNO, FOKUS"
         },
         "DOMOVINSKI POKRET": {
-          "votes": 18961,
+          "votes": 19740,
           "coalition_name": "DOMOVINSKI POKRET MIROSLAVA ŠKORE - DOMOVINSKI POKRET, HRVATSKI SUVERENISTI, BLOK ZA HRVATSKU - BLOK, HRVATSKA KONZERVATIVNA STRANKA - HKS, HRAST - POKRET ZA USPJEŠNU HRVATSKU, STRANKA UMIROVLJENIKA - SU, ZELENA LISTA"
         },
         "HDZ": {
-          "votes": 76954,
+          "votes": 78451,
           "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ, HRVATSKA DEMOKRŠĆANSKA STRANKA - HDS"
         },
         "SDP": {
-          "votes": 38846,
+          "votes": 39292,
           "coalition_name": "SOCIJALDEMOKRATSKA PARTIJA HRVATSKE - SDP, HRVATSKA SELJAČKA STRANKA - HSS, HRVATSKA STRANKA UMIROVLJENIKA - HSU, SNAGA - STRANKA NARODNOG I GRAĐANSKOG AKTIVIZMA - SNAGA, GRAĐANSKO-LIBERALNI SAVEZ - GLAS, ISTARSKI DEMOKRATSKI SABOR - IDS, PRIMORSKO GORANSKI SAVEZ - PGS"
         },
         "ŽIVI ZID": {
-          "votes": 2431,
+          "votes": 2458,
           "coalition_name": "ŽIVI ZID, PROMIJENIMO HRVATSKU - PH, HRVATSKA SELJAČKA STRANKA - STJEPAN RADIĆ - HSS - SR, STRANKA IVANA PERNARA - SIP, HRVATSKA STRANKA SVIH ČAKAVACA KAJKAVACA I ŠTOKAVACA - HSSČKŠ, ZAGORSKA STRANKA ZA ZAGREB - ZSZ, NEZAVISNA LISTA STIPE PETRINA - NLSP"
         },
         "HSP": {
-          "votes": 416,
+          "votes": 434,
           "coalition_name": "AUTOHTONA - HRVATSKA STRANKA PRAVA - A - HSP"
         },
         "NHR": {
-          "votes": 1027,
+          "votes": 1051,
           "coalition_name": "NEOVISNI ZA HRVATSKU - NHR, HRVATSKA STRANKA PRAVA - HSP, GENERACIJA OBNOVE - GO"
         },
         "DEMOKRATI": {
-          "votes": 224,
+          "votes": 232,
           "coalition_name": "DEMOKRATI, HRVATSKI LABURISTI - STRANKA RADA"
         },
         "HNS": {
-          "votes": 1460,
+          "votes": 1486,
           "coalition_name": "HRVATSKA NARODNA STRANKA - LIBERALNI DEMOKRATI - HNS"
         },
         "REFORMISTI": {
-          "votes": 295,
+          "votes": 299,
           "coalition_name": "NARODNA STRANKA - REFORMISTI - REFORMISTI, HRVATSKA SELJAČKA STRANKA BRAĆE RADIĆ - HSS BRAĆE RADIĆ, STRANKA HRVATSKIH UMIROVLJENIKA - UMIROVLJENICI - UMIROVLJENICI"
         },
         "SRP": {
-          "votes": 509,
+          "votes": 518,
           "coalition_name": "SOCIJALISTIČKA RADNIČKA PARTIJA HRVATSKE - SRP"
         },
         "HRVATSKA GRAĐANSKA STRANKA": {
-          "votes": 5482,
+          "votes": 5559,
           "coalition_name": "ŽELJKO KERUM - HRVATSKA GRAĐANSKA STRANKA"
         },
         "HSB": {
-          "votes": 245,
+          "votes": 249,
           "coalition_name": "HRVATSKA STRANKA BUDUĆNOSTI - HSB"
         },
         "BUZ": {
-          "votes": 466,
+          "votes": 472,
           "coalition_name": "BLOK UMIROVLJENICI ZAJEDNO - BUZ"
         }
       }
+    },
+    "XI": {
+      "name": "XI. IZBORNA JEDINICA",
+      "seats": 3,
+      "total_voters": 28790,
+      "votes_cast": 28768,
+      "turnout": 0.9992,
+      "winner": "HDZ",
+      "margin": 41.53,
+      "parties": {
+        "ŽELJKO GLASNOVIĆ": {
+          "votes": 5958,
+          "coalition_name": "NEOVISNA LISTA - ŽELJKO GLASNOVIĆ"
+        },
+        "MOST": {
+          "votes": 3141,
+          "coalition_name": "MOST NEZAVISNIH LISTA - MOST"
+        },
+        "NHR": {
+          "votes": 69,
+          "coalition_name": "NEOVISNI ZA HRVATSKU - NHR, HRVATSKA STRANKA PRAVA - HSP, GENERACIJA OBNOVE - GO"
+        },
+        "DEMOKRATI": {
+          "votes": 130,
+          "coalition_name": "DEMOKRATI, HRVATSKI LABURISTI - STRANKA RADA, LISTA ZA RIJEKU, ZELENI SAVEZ - ZELENI"
+        },
+        "HDZ": {
+          "votes": 17905,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ"
+        },
+        "MVH": {
+          "votes": 120,
+          "coalition_name": "MOJA VOLJENA HRVATSKA - MVH"
+        },
+        "ŽIVI ZID": {
+          "votes": 283,
+          "coalition_name": "ŽIVI ZID, STRANKA IVANA PERNARA - SIP, PROMIJENIMO HRVATSKU - PH, HRVATSKA SELJAČKA STRANKA - STJEPAN RADIĆ - HSS - SR"
+        },
+        "POLITIČKA PLATFORMA": {
+          "votes": 519,
+          "coalition_name": "MOŽEMO! - POLITIČKA PLATFORMA, NOVA LJEVICA - NL, RADNIČKA FRONTA - RF, ODRŽIVI RAZVOJ HRVATSKE - ORAH, ZAGREB JE NAŠ!, ZA GRAD"
+        },
+        "REFORMISTI": {
+          "votes": 102,
+          "coalition_name": "NARODNA STRANKA - REFORMISTI - REFORMISTI, HRVATSKA SELJAČKA STRANKA BRAĆE RADIĆ - HSS BRAĆE RADIĆ, STRANKA HRVATSKIH UMIROVLJENIKA - UMIROVLJENICI - UMIROVLJENICI"
+        },
+        "HSP": {
+          "votes": 54,
+          "coalition_name": "AUTOHTONA - HRVATSKA STRANKA PRAVA - A - HSP"
+        },
+        "STRANKA S IMENOM I PREZIMENOM": {
+          "votes": 129,
+          "coalition_name": "STRANKA S IMENOM I PREZIMENOM, PAMETNO, FOKUS"
+        }
+      }
     }
-  }
+  },
+  "minorities": [
+    {
+      "id": "1",
+      "name": "Srpska",
+      "seats": 3,
+      "total_voters": 13565,
+      "votes_cast": 13565,
+      "turnout": 1.0,
+      "candidates": [
+        {
+          "name": "MILORAD PUPOVAC",
+          "votes": 10733,
+          "elected": true
+        },
+        {
+          "name": "DRAGANA JECKOV",
+          "votes": 8376,
+          "elected": true
+        },
+        {
+          "name": "BORIS MILOŠEVIĆ",
+          "votes": 7715,
+          "elected": true
+        },
+        {
+          "name": "SRĐAN MILAKOVIĆ",
+          "votes": 2010,
+          "elected": false
+        },
+        {
+          "name": "SINIŠA LJUBOJEVIĆ",
+          "votes": 1196,
+          "elected": false
+        },
+        {
+          "name": "JOVICA RADMANOVIĆ",
+          "votes": 1178,
+          "elected": false
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Mađarska",
+      "seats": 1,
+      "total_voters": 2843,
+      "votes_cast": 2843,
+      "turnout": 1.0,
+      "candidates": [
+        {
+          "name": "RÓBERT JANKOVICS",
+          "votes": 2807,
+          "elected": true
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Talijanska",
+      "seats": 1,
+      "total_voters": 950,
+      "votes_cast": 950,
+      "turnout": 1.0,
+      "candidates": [
+        {
+          "name": "FURIO RADIN",
+          "votes": 890,
+          "elected": true
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Češka i slovačka",
+      "seats": 1,
+      "total_voters": 1705,
+      "votes_cast": 1705,
+      "turnout": 1.0,
+      "candidates": [
+        {
+          "name": "VLADIMIR BILEK",
+          "votes": 1514,
+          "elected": true
+        },
+        {
+          "name": "IVAN KOMAK",
+          "votes": 180,
+          "elected": false
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Austrijska, bugarska, njemačka, poljska, romska, rumunjska, rusinska, ruska, turska, ukrajinska, vlaška i židovska",
+      "seats": 1,
+      "total_voters": 4825,
+      "votes_cast": 4825,
+      "turnout": 1.0,
+      "candidates": [
+        {
+          "name": "VELJKO KAJTAZI",
+          "votes": 3745,
+          "elected": true
+        },
+        {
+          "name": "FRANJO HORVAT",
+          "votes": 673,
+          "elected": false
+        },
+        {
+          "name": "ROBERT BOSAK",
+          "votes": 305,
+          "elected": false
+        },
+        {
+          "name": "BARI AHMEDI",
+          "votes": 49,
+          "elected": false
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Albanska, bošnjačka, crnogorska, makedonska i slovenska",
+      "seats": 1,
+      "total_voters": 5481,
+      "votes_cast": 5481,
+      "turnout": 1.0,
+      "candidates": [
+        {
+          "name": "ERMINA LEKAJ PRLJASKAJ",
+          "votes": 1725,
+          "elected": true
+        },
+        {
+          "name": "BERMIN MEŠKIĆ",
+          "votes": 1152,
+          "elected": false
+        },
+        {
+          "name": "IDRIS SULEJMANI",
+          "votes": 1026,
+          "elected": false
+        },
+        {
+          "name": "ARMIN HODŽIĆ",
+          "votes": 861,
+          "elected": false
+        },
+        {
+          "name": "NEDŽAD HODŽIĆ",
+          "votes": 498,
+          "elected": false
+        },
+        {
+          "name": "MENSUR FERHATOVIĆ",
+          "votes": 113,
+          "elected": false
+        },
+        {
+          "name": "HABIB TAHIRI",
+          "votes": 46,
+          "elected": false
+        }
+      ]
+    }
+  ]
 }

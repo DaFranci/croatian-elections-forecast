@@ -2,7 +2,7 @@
   "election_id": "2024-parliamentary",
   "date": "2024-04-17",
   "type": "parliamentary",
-  "turnout_national": 0.6146,
+  "turnout_national": 0.619,
   "results": {
     "velika-gorica": {
       "name": "VELIKA GORICA",
@@ -38294,7 +38294,12 @@
       "total_voters": 1,
       "votes_cast": 1,
       "turnout": 1.0,
-      "parties": {}
+      "parties": {
+        "POLITIČKA PLATFORMA": {
+          "votes": 1,
+          "coalition_name": "MOŽEMO! - POLITIČKA PLATFORMA"
+        }
+      }
     },
     "argentina": {
       "name": "ARGENTINA",
@@ -38311,9 +38316,29 @@
           "votes": 2,
           "coalition_name": "FOKUS, REPUBLIKA"
         },
-        "VLATKA MARTINOVIĆ": {
-          "votes": 4,
-          "coalition_name": "VLATKA MARTINOVIĆ"
+        "OIP": {
+          "votes": 5,
+          "coalition_name": "ODLUČNOST I PRAVEDNOST - OIP"
+        },
+        "STRANKA IVANA PERNARA": {
+          "votes": 2,
+          "coalition_name": "STRANKA IVANA PERNARA"
+        },
+        "HDZ": {
+          "votes": 59,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ"
+        },
+        "HRVATSKO BILO": {
+          "votes": 5,
+          "coalition_name": "HRVATSKO BILO"
+        },
+        "MOST": {
+          "votes": 11,
+          "coalition_name": "MOST"
+        },
+        "POLITIČKA PLATFORMA": {
+          "votes": 2,
+          "coalition_name": "MOŽEMO! - POLITIČKA PLATFORMA"
         }
       }
     },
@@ -38327,6 +38352,30 @@
         "AUTOHTONA - HRVATSKA STRANKA PRAVA - DRAŽEN KELEMINEC - A - HSP - Dražen Keleminec": {
           "votes": 27,
           "coalition_name": "AUTOHTONA - HRVATSKA STRANKA PRAVA - DRAŽEN KELEMINEC - A - HSP - Dražen Keleminec"
+        },
+        "OIP": {
+          "votes": 124,
+          "coalition_name": "ODLUČNOST I PRAVEDNOST - OIP"
+        },
+        "STRANKA IVANA PERNARA": {
+          "votes": 25,
+          "coalition_name": "STRANKA IVANA PERNARA"
+        },
+        "HDZ": {
+          "votes": 164,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ"
+        },
+        "HRVATSKO BILO": {
+          "votes": 48,
+          "coalition_name": "HRVATSKO BILO"
+        },
+        "MOST": {
+          "votes": 23,
+          "coalition_name": "MOST"
+        },
+        "POLITIČKA PLATFORMA": {
+          "votes": 14,
+          "coalition_name": "MOŽEMO! - POLITIČKA PLATFORMA"
         },
         "FOKUS": {
           "votes": 2,
@@ -38349,9 +38398,29 @@
           "votes": 4,
           "coalition_name": "FOKUS, REPUBLIKA"
         },
-        "VLATKA MARTINOVIĆ": {
-          "votes": 1,
-          "coalition_name": "VLATKA MARTINOVIĆ"
+        "OIP": {
+          "votes": 31,
+          "coalition_name": "ODLUČNOST I PRAVEDNOST - OIP"
+        },
+        "STRANKA IVANA PERNARA": {
+          "votes": 12,
+          "coalition_name": "STRANKA IVANA PERNARA"
+        },
+        "HDZ": {
+          "votes": 163,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ"
+        },
+        "HRVATSKO BILO": {
+          "votes": 39,
+          "coalition_name": "HRVATSKO BILO"
+        },
+        "MOST": {
+          "votes": 40,
+          "coalition_name": "MOST"
+        },
+        "POLITIČKA PLATFORMA": {
+          "votes": 80,
+          "coalition_name": "MOŽEMO! - POLITIČKA PLATFORMA"
         }
       }
     },
@@ -38370,13 +38439,25 @@
           "votes": 3,
           "coalition_name": "FOKUS, REPUBLIKA"
         },
-        "VLATKA MARTINOVIĆ": {
-          "votes": 1,
-          "coalition_name": "VLATKA MARTINOVIĆ"
+        "OIP": {
+          "votes": 2,
+          "coalition_name": "ODLUČNOST I PRAVEDNOST - OIP"
         },
-        "MARKO ČAKTAŠ": {
+        "HDZ": {
+          "votes": 18,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ"
+        },
+        "HRVATSKO BILO": {
           "votes": 1,
-          "coalition_name": "MARKO ČAKTAŠ"
+          "coalition_name": "HRVATSKO BILO"
+        },
+        "MOST": {
+          "votes": 2,
+          "coalition_name": "MOST"
+        },
+        "POLITIČKA PLATFORMA": {
+          "votes": 42,
+          "coalition_name": "MOŽEMO! - POLITIČKA PLATFORMA"
         }
       }
     },
@@ -38395,21 +38476,29 @@
           "votes": 36,
           "coalition_name": "FOKUS, REPUBLIKA"
         },
-        "VLATKA MARTINOVIĆ": {
-          "votes": 1577,
-          "coalition_name": "VLATKA MARTINOVIĆ"
+        "OIP": {
+          "votes": 280,
+          "coalition_name": "ODLUČNOST I PRAVEDNOST - OIP"
         },
-        "RUŽICA ALVIR": {
-          "votes": 20,
-          "coalition_name": "RUŽICA ALVIR"
+        "STRANKA IVANA PERNARA": {
+          "votes": 205,
+          "coalition_name": "STRANKA IVANA PERNARA"
         },
-        "ŽARKO PAVLOVIĆ": {
-          "votes": 20,
-          "coalition_name": "ŽARKO PAVLOVIĆ"
+        "HDZ": {
+          "votes": 28451,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ"
         },
-        "MARKO ČAKTAŠ": {
-          "votes": 12,
-          "coalition_name": "MARKO ČAKTAŠ"
+        "HRVATSKO BILO": {
+          "votes": 1884,
+          "coalition_name": "HRVATSKO BILO"
+        },
+        "MOST": {
+          "votes": 1954,
+          "coalition_name": "MOST"
+        },
+        "POLITIČKA PLATFORMA": {
+          "votes": 293,
+          "coalition_name": "MOŽEMO! - POLITIČKA PLATFORMA"
         }
       }
     },
@@ -38419,7 +38508,16 @@
       "total_voters": 5,
       "votes_cast": 5,
       "turnout": 1.0,
-      "parties": {}
+      "parties": {
+        "HDZ": {
+          "votes": 4,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ"
+        },
+        "MOST": {
+          "votes": 1,
+          "coalition_name": "MOST"
+        }
+      }
     },
     "crna-gora": {
       "name": "CRNA GORA",
@@ -38436,13 +38534,29 @@
           "votes": 3,
           "coalition_name": "FOKUS, REPUBLIKA"
         },
-        "VLATKA MARTINOVIĆ": {
-          "votes": 10,
-          "coalition_name": "VLATKA MARTINOVIĆ"
+        "OIP": {
+          "votes": 16,
+          "coalition_name": "ODLUČNOST I PRAVEDNOST - OIP"
         },
-        "ŽARKO PAVLOVIĆ": {
-          "votes": 1,
-          "coalition_name": "ŽARKO PAVLOVIĆ"
+        "HDZ": {
+          "votes": 170,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ"
+        },
+        "MOST": {
+          "votes": 22,
+          "coalition_name": "MOST"
+        },
+        "POLITIČKA PLATFORMA": {
+          "votes": 20,
+          "coalition_name": "MOŽEMO! - POLITIČKA PLATFORMA"
+        },
+        "STRANKA IVANA PERNARA": {
+          "votes": 3,
+          "coalition_name": "STRANKA IVANA PERNARA"
+        },
+        "HRVATSKO BILO": {
+          "votes": 21,
+          "coalition_name": "HRVATSKO BILO"
         }
       }
     },
@@ -38456,6 +38570,22 @@
         "AUTOHTONA - HRVATSKA STRANKA PRAVA - DRAŽEN KELEMINEC - A - HSP - Dražen Keleminec": {
           "votes": 1,
           "coalition_name": "AUTOHTONA - HRVATSKA STRANKA PRAVA - DRAŽEN KELEMINEC - A - HSP - Dražen Keleminec"
+        },
+        "OIP": {
+          "votes": 1,
+          "coalition_name": "ODLUČNOST I PRAVEDNOST - OIP"
+        },
+        "HDZ": {
+          "votes": 3,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ"
+        },
+        "MOST": {
+          "votes": 1,
+          "coalition_name": "MOST"
+        },
+        "POLITIČKA PLATFORMA": {
+          "votes": 17,
+          "coalition_name": "MOŽEMO! - POLITIČKA PLATFORMA"
         }
       }
     },
@@ -38469,6 +38599,26 @@
         "AUTOHTONA - HRVATSKA STRANKA PRAVA - DRAŽEN KELEMINEC - A - HSP - Dražen Keleminec": {
           "votes": 2,
           "coalition_name": "AUTOHTONA - HRVATSKA STRANKA PRAVA - DRAŽEN KELEMINEC - A - HSP - Dražen Keleminec"
+        },
+        "OIP": {
+          "votes": 9,
+          "coalition_name": "ODLUČNOST I PRAVEDNOST - OIP"
+        },
+        "HDZ": {
+          "votes": 34,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ"
+        },
+        "HRVATSKO BILO": {
+          "votes": 1,
+          "coalition_name": "HRVATSKO BILO"
+        },
+        "MOST": {
+          "votes": 2,
+          "coalition_name": "MOST"
+        },
+        "POLITIČKA PLATFORMA": {
+          "votes": 4,
+          "coalition_name": "MOŽEMO! - POLITIČKA PLATFORMA"
         }
       }
     },
@@ -38482,6 +38632,22 @@
         "FOKUS": {
           "votes": 1,
           "coalition_name": "FOKUS, REPUBLIKA"
+        },
+        "HDZ": {
+          "votes": 2,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ"
+        },
+        "HRVATSKO BILO": {
+          "votes": 1,
+          "coalition_name": "HRVATSKO BILO"
+        },
+        "MOST": {
+          "votes": 4,
+          "coalition_name": "MOST"
+        },
+        "POLITIČKA PLATFORMA": {
+          "votes": 24,
+          "coalition_name": "MOŽEMO! - POLITIČKA PLATFORMA"
         }
       }
     },
@@ -38495,6 +38661,10 @@
         "AUTOHTONA - HRVATSKA STRANKA PRAVA - DRAŽEN KELEMINEC - A - HSP - Dražen Keleminec": {
           "votes": 1,
           "coalition_name": "AUTOHTONA - HRVATSKA STRANKA PRAVA - DRAŽEN KELEMINEC - A - HSP - Dražen Keleminec"
+        },
+        "HDZ": {
+          "votes": 1,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ"
         }
       }
     },
@@ -38508,6 +38678,18 @@
         "AUTOHTONA - HRVATSKA STRANKA PRAVA - DRAŽEN KELEMINEC - A - HSP - Dražen Keleminec": {
           "votes": 4,
           "coalition_name": "AUTOHTONA - HRVATSKA STRANKA PRAVA - DRAŽEN KELEMINEC - A - HSP - Dražen Keleminec"
+        },
+        "HDZ": {
+          "votes": 16,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ"
+        },
+        "HRVATSKO BILO": {
+          "votes": 5,
+          "coalition_name": "HRVATSKO BILO"
+        },
+        "POLITIČKA PLATFORMA": {
+          "votes": 8,
+          "coalition_name": "MOŽEMO! - POLITIČKA PLATFORMA"
         }
       }
     },
@@ -38517,7 +38699,57 @@
       "total_voters": 10,
       "votes_cast": 10,
       "turnout": 1.0,
-      "parties": {}
+      "parties": {
+        "HDZ": {
+          "votes": 4,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ"
+        },
+        "POLITIČKA PLATFORMA": {
+          "votes": 6,
+          "coalition_name": "MOŽEMO! - POLITIČKA PLATFORMA"
+        }
+      }
+    },
+    "hrvatska": {
+      "name": "HRVATSKA",
+      "constituency": "XI. IZBORNA JEDINICA",
+      "total_voters": 0,
+      "votes_cast": 1049,
+      "turnout": 0,
+      "parties": {
+        "OIP": {
+          "votes": 28,
+          "coalition_name": "ODLUČNOST I PRAVEDNOST - OIP"
+        },
+        "HDZ": {
+          "votes": 568,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ"
+        },
+        "HRVATSKO BILO": {
+          "votes": 57,
+          "coalition_name": "HRVATSKO BILO"
+        },
+        "MOST": {
+          "votes": 155,
+          "coalition_name": "MOST"
+        },
+        "POLITIČKA PLATFORMA": {
+          "votes": 156,
+          "coalition_name": "MOŽEMO! - POLITIČKA PLATFORMA"
+        },
+        "STRANKA IVANA PERNARA": {
+          "votes": 15,
+          "coalition_name": "STRANKA IVANA PERNARA"
+        },
+        "AUTOHTONA - HRVATSKA STRANKA PRAVA - DRAŽEN KELEMINEC - A - HSP - Dražen Keleminec": {
+          "votes": 19,
+          "coalition_name": "AUTOHTONA - HRVATSKA STRANKA PRAVA - DRAŽEN KELEMINEC - A - HSP - Dražen Keleminec"
+        },
+        "FOKUS": {
+          "votes": 16,
+          "coalition_name": "FOKUS, REPUBLIKA"
+        }
+      }
     },
     "indonezija": {
       "name": "INDONEZIJA",
@@ -38525,7 +38757,12 @@
       "total_voters": 1,
       "votes_cast": 1,
       "turnout": 1.0,
-      "parties": {}
+      "parties": {
+        "MOST": {
+          "votes": 1,
+          "coalition_name": "MOST"
+        }
+      }
     },
     "irska": {
       "name": "IRSKA",
@@ -38538,9 +38775,25 @@
           "votes": 2,
           "coalition_name": "AUTOHTONA - HRVATSKA STRANKA PRAVA - DRAŽEN KELEMINEC - A - HSP - Dražen Keleminec"
         },
-        "RUŽICA ALVIR": {
+        "OIP": {
+          "votes": 4,
+          "coalition_name": "ODLUČNOST I PRAVEDNOST - OIP"
+        },
+        "STRANKA IVANA PERNARA": {
           "votes": 1,
-          "coalition_name": "RUŽICA ALVIR"
+          "coalition_name": "STRANKA IVANA PERNARA"
+        },
+        "HDZ": {
+          "votes": 1,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ"
+        },
+        "MOST": {
+          "votes": 4,
+          "coalition_name": "MOST"
+        },
+        "POLITIČKA PLATFORMA": {
+          "votes": 20,
+          "coalition_name": "MOŽEMO! - POLITIČKA PLATFORMA"
         }
       }
     },
@@ -38555,9 +38808,25 @@
           "votes": 5,
           "coalition_name": "FOKUS, REPUBLIKA"
         },
-        "VLATKA MARTINOVIĆ": {
-          "votes": 2,
-          "coalition_name": "VLATKA MARTINOVIĆ"
+        "STRANKA IVANA PERNARA": {
+          "votes": 1,
+          "coalition_name": "STRANKA IVANA PERNARA"
+        },
+        "HDZ": {
+          "votes": 38,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ"
+        },
+        "MOST": {
+          "votes": 9,
+          "coalition_name": "MOST"
+        },
+        "POLITIČKA PLATFORMA": {
+          "votes": 27,
+          "coalition_name": "MOŽEMO! - POLITIČKA PLATFORMA"
+        },
+        "OIP": {
+          "votes": 4,
+          "coalition_name": "ODLUČNOST I PRAVEDNOST - OIP"
         }
       }
     },
@@ -38572,9 +38841,29 @@
           "votes": 1,
           "coalition_name": "AUTOHTONA - HRVATSKA STRANKA PRAVA - DRAŽEN KELEMINEC - A - HSP - Dražen Keleminec"
         },
-        "RUŽICA ALVIR": {
+        "OIP": {
+          "votes": 4,
+          "coalition_name": "ODLUČNOST I PRAVEDNOST - OIP"
+        },
+        "STRANKA IVANA PERNARA": {
+          "votes": 2,
+          "coalition_name": "STRANKA IVANA PERNARA"
+        },
+        "HDZ": {
+          "votes": 4,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ"
+        },
+        "HRVATSKO BILO": {
           "votes": 1,
-          "coalition_name": "RUŽICA ALVIR"
+          "coalition_name": "HRVATSKO BILO"
+        },
+        "MOST": {
+          "votes": 4,
+          "coalition_name": "MOST"
+        },
+        "POLITIČKA PLATFORMA": {
+          "votes": 1,
+          "coalition_name": "MOŽEMO! - POLITIČKA PLATFORMA"
         }
       }
     },
@@ -38589,9 +38878,29 @@
           "votes": 19,
           "coalition_name": "AUTOHTONA - HRVATSKA STRANKA PRAVA - DRAŽEN KELEMINEC - A - HSP - Dražen Keleminec"
         },
-        "VLATKA MARTINOVIĆ": {
-          "votes": 1,
-          "coalition_name": "VLATKA MARTINOVIĆ"
+        "OIP": {
+          "votes": 46,
+          "coalition_name": "ODLUČNOST I PRAVEDNOST - OIP"
+        },
+        "STRANKA IVANA PERNARA": {
+          "votes": 15,
+          "coalition_name": "STRANKA IVANA PERNARA"
+        },
+        "HDZ": {
+          "votes": 104,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ"
+        },
+        "HRVATSKO BILO": {
+          "votes": 67,
+          "coalition_name": "HRVATSKO BILO"
+        },
+        "MOST": {
+          "votes": 22,
+          "coalition_name": "MOST"
+        },
+        "POLITIČKA PLATFORMA": {
+          "votes": 5,
+          "coalition_name": "MOŽEMO! - POLITIČKA PLATFORMA"
         }
       }
     },
@@ -38601,7 +38910,16 @@
       "total_voters": 6,
       "votes_cast": 6,
       "turnout": 1.0,
-      "parties": {}
+      "parties": {
+        "HDZ": {
+          "votes": 3,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ"
+        },
+        "POLITIČKA PLATFORMA": {
+          "votes": 3,
+          "coalition_name": "MOŽEMO! - POLITIČKA PLATFORMA"
+        }
+      }
     },
     "kina": {
       "name": "KINA",
@@ -38609,7 +38927,16 @@
       "total_voters": 2,
       "votes_cast": 2,
       "turnout": 1.0,
-      "parties": {}
+      "parties": {
+        "STRANKA IVANA PERNARA": {
+          "votes": 1,
+          "coalition_name": "STRANKA IVANA PERNARA"
+        },
+        "HDZ": {
+          "votes": 1,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ"
+        }
+      }
     },
     "kosovo": {
       "name": "KOSOVO",
@@ -38621,6 +38948,18 @@
         "FOKUS": {
           "votes": 1,
           "coalition_name": "FOKUS, REPUBLIKA"
+        },
+        "HDZ": {
+          "votes": 13,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ"
+        },
+        "MOST": {
+          "votes": 1,
+          "coalition_name": "MOST"
+        },
+        "POLITIČKA PLATFORMA": {
+          "votes": 2,
+          "coalition_name": "MOŽEMO! - POLITIČKA PLATFORMA"
         }
       }
     },
@@ -38630,7 +38969,24 @@
       "total_voters": 32,
       "votes_cast": 32,
       "turnout": 1.0,
-      "parties": {}
+      "parties": {
+        "HDZ": {
+          "votes": 24,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ"
+        },
+        "HRVATSKO BILO": {
+          "votes": 1,
+          "coalition_name": "HRVATSKO BILO"
+        },
+        "MOST": {
+          "votes": 1,
+          "coalition_name": "MOST"
+        },
+        "POLITIČKA PLATFORMA": {
+          "votes": 3,
+          "coalition_name": "MOŽEMO! - POLITIČKA PLATFORMA"
+        }
+      }
     },
     "nizozemska": {
       "name": "NIZOZEMSKA",
@@ -38643,9 +38999,25 @@
           "votes": 4,
           "coalition_name": "FOKUS, REPUBLIKA"
         },
-        "VLATKA MARTINOVIĆ": {
+        "OIP": {
+          "votes": 2,
+          "coalition_name": "ODLUČNOST I PRAVEDNOST - OIP"
+        },
+        "HDZ": {
+          "votes": 9,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ"
+        },
+        "HRVATSKO BILO": {
           "votes": 1,
-          "coalition_name": "VLATKA MARTINOVIĆ"
+          "coalition_name": "HRVATSKO BILO"
+        },
+        "MOST": {
+          "votes": 3,
+          "coalition_name": "MOST"
+        },
+        "POLITIČKA PLATFORMA": {
+          "votes": 33,
+          "coalition_name": "MOŽEMO! - POLITIČKA PLATFORMA"
         }
       }
     },
@@ -38659,6 +39031,30 @@
         "FOKUS": {
           "votes": 1,
           "coalition_name": "FOKUS, REPUBLIKA"
+        },
+        "OIP": {
+          "votes": 1,
+          "coalition_name": "ODLUČNOST I PRAVEDNOST - OIP"
+        },
+        "STRANKA IVANA PERNARA": {
+          "votes": 1,
+          "coalition_name": "STRANKA IVANA PERNARA"
+        },
+        "HDZ": {
+          "votes": 12,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ"
+        },
+        "HRVATSKO BILO": {
+          "votes": 2,
+          "coalition_name": "HRVATSKO BILO"
+        },
+        "MOST": {
+          "votes": 2,
+          "coalition_name": "MOST"
+        },
+        "POLITIČKA PLATFORMA": {
+          "votes": 18,
+          "coalition_name": "MOŽEMO! - POLITIČKA PLATFORMA"
         }
       }
     },
@@ -38677,21 +39073,29 @@
           "votes": 17,
           "coalition_name": "FOKUS, REPUBLIKA"
         },
-        "RUŽICA ALVIR": {
-          "votes": 6,
-          "coalition_name": "RUŽICA ALVIR"
+        "OIP": {
+          "votes": 238,
+          "coalition_name": "ODLUČNOST I PRAVEDNOST - OIP"
         },
-        "VLATKA MARTINOVIĆ": {
-          "votes": 22,
-          "coalition_name": "VLATKA MARTINOVIĆ"
+        "STRANKA IVANA PERNARA": {
+          "votes": 99,
+          "coalition_name": "STRANKA IVANA PERNARA"
         },
-        "ŽARKO PAVLOVIĆ": {
-          "votes": 1,
-          "coalition_name": "ŽARKO PAVLOVIĆ"
+        "HDZ": {
+          "votes": 1119,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ"
         },
-        "MARKO ČAKTAŠ": {
-          "votes": 2,
-          "coalition_name": "MARKO ČAKTAŠ"
+        "HRVATSKO BILO": {
+          "votes": 286,
+          "coalition_name": "HRVATSKO BILO"
+        },
+        "MOST": {
+          "votes": 289,
+          "coalition_name": "MOST"
+        },
+        "POLITIČKA PLATFORMA": {
+          "votes": 203,
+          "coalition_name": "MOŽEMO! - POLITIČKA PLATFORMA"
         }
       }
     },
@@ -38701,7 +39105,16 @@
       "total_voters": 5,
       "votes_cast": 5,
       "turnout": 1.0,
-      "parties": {}
+      "parties": {
+        "HDZ": {
+          "votes": 2,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ"
+        },
+        "POLITIČKA PLATFORMA": {
+          "votes": 3,
+          "coalition_name": "MOŽEMO! - POLITIČKA PLATFORMA"
+        }
+      }
     },
     "portugal": {
       "name": "PORTUGAL",
@@ -38709,7 +39122,20 @@
       "total_voters": 7,
       "votes_cast": 7,
       "turnout": 1.0,
-      "parties": {}
+      "parties": {
+        "OIP": {
+          "votes": 2,
+          "coalition_name": "ODLUČNOST I PRAVEDNOST - OIP"
+        },
+        "HDZ": {
+          "votes": 2,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ"
+        },
+        "POLITIČKA PLATFORMA": {
+          "votes": 3,
+          "coalition_name": "MOŽEMO! - POLITIČKA PLATFORMA"
+        }
+      }
     },
     "republika-sjeverna-makedonija": {
       "name": "REPUBLIKA SJEVERNA MAKEDONIJA",
@@ -38726,9 +39152,29 @@
           "votes": 3,
           "coalition_name": "FOKUS, REPUBLIKA"
         },
-        "VLATKA MARTINOVIĆ": {
+        "OIP": {
+          "votes": 3,
+          "coalition_name": "ODLUČNOST I PRAVEDNOST - OIP"
+        },
+        "STRANKA IVANA PERNARA": {
+          "votes": 6,
+          "coalition_name": "STRANKA IVANA PERNARA"
+        },
+        "HDZ": {
+          "votes": 76,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ"
+        },
+        "HRVATSKO BILO": {
           "votes": 1,
-          "coalition_name": "VLATKA MARTINOVIĆ"
+          "coalition_name": "HRVATSKO BILO"
+        },
+        "MOST": {
+          "votes": 17,
+          "coalition_name": "MOST"
+        },
+        "POLITIČKA PLATFORMA": {
+          "votes": 11,
+          "coalition_name": "MOŽEMO! - POLITIČKA PLATFORMA"
         }
       }
     },
@@ -38742,6 +39188,14 @@
         "AUTOHTONA - HRVATSKA STRANKA PRAVA - DRAŽEN KELEMINEC - A - HSP - Dražen Keleminec": {
           "votes": 1,
           "coalition_name": "AUTOHTONA - HRVATSKA STRANKA PRAVA - DRAŽEN KELEMINEC - A - HSP - Dražen Keleminec"
+        },
+        "MOST": {
+          "votes": 1,
+          "coalition_name": "MOST"
+        },
+        "POLITIČKA PLATFORMA": {
+          "votes": 1,
+          "coalition_name": "MOŽEMO! - POLITIČKA PLATFORMA"
         }
       }
     },
@@ -38752,6 +39206,30 @@
       "votes_cast": 102,
       "turnout": 1.0,
       "parties": {
+        "OIP": {
+          "votes": 6,
+          "coalition_name": "ODLUČNOST I PRAVEDNOST - OIP"
+        },
+        "HDZ": {
+          "votes": 43,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ"
+        },
+        "POLITIČKA PLATFORMA": {
+          "votes": 21,
+          "coalition_name": "MOŽEMO! - POLITIČKA PLATFORMA"
+        },
+        "STRANKA IVANA PERNARA": {
+          "votes": 6,
+          "coalition_name": "STRANKA IVANA PERNARA"
+        },
+        "HRVATSKO BILO": {
+          "votes": 8,
+          "coalition_name": "HRVATSKO BILO"
+        },
+        "MOST": {
+          "votes": 9,
+          "coalition_name": "MOST"
+        },
         "AUTOHTONA - HRVATSKA STRANKA PRAVA - DRAŽEN KELEMINEC - A - HSP - Dražen Keleminec": {
           "votes": 4,
           "coalition_name": "AUTOHTONA - HRVATSKA STRANKA PRAVA - DRAŽEN KELEMINEC - A - HSP - Dražen Keleminec"
@@ -38764,7 +39242,12 @@
       "total_voters": 1,
       "votes_cast": 1,
       "turnout": 1.0,
-      "parties": {}
+      "parties": {
+        "POLITIČKA PLATFORMA": {
+          "votes": 1,
+          "coalition_name": "MOŽEMO! - POLITIČKA PLATFORMA"
+        }
+      }
     },
     "slovenija": {
       "name": "SLOVENIJA",
@@ -38780,6 +39263,30 @@
         "FOKUS": {
           "votes": 4,
           "coalition_name": "FOKUS, REPUBLIKA"
+        },
+        "OIP": {
+          "votes": 9,
+          "coalition_name": "ODLUČNOST I PRAVEDNOST - OIP"
+        },
+        "STRANKA IVANA PERNARA": {
+          "votes": 4,
+          "coalition_name": "STRANKA IVANA PERNARA"
+        },
+        "HDZ": {
+          "votes": 40,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ"
+        },
+        "HRVATSKO BILO": {
+          "votes": 5,
+          "coalition_name": "HRVATSKO BILO"
+        },
+        "MOST": {
+          "votes": 13,
+          "coalition_name": "MOST"
+        },
+        "POLITIČKA PLATFORMA": {
+          "votes": 34,
+          "coalition_name": "MOŽEMO! - POLITIČKA PLATFORMA"
         }
       }
     },
@@ -38798,13 +39305,29 @@
           "votes": 89,
           "coalition_name": "FOKUS, REPUBLIKA"
         },
-        "VLATKA MARTINOVIĆ": {
-          "votes": 1,
-          "coalition_name": "VLATKA MARTINOVIĆ"
+        "OIP": {
+          "votes": 13,
+          "coalition_name": "ODLUČNOST I PRAVEDNOST - OIP"
         },
-        "RUŽICA ALVIR": {
-          "votes": 1,
-          "coalition_name": "RUŽICA ALVIR"
+        "STRANKA IVANA PERNARA": {
+          "votes": 13,
+          "coalition_name": "STRANKA IVANA PERNARA"
+        },
+        "HDZ": {
+          "votes": 846,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ"
+        },
+        "HRVATSKO BILO": {
+          "votes": 6,
+          "coalition_name": "HRVATSKO BILO"
+        },
+        "MOST": {
+          "votes": 55,
+          "coalition_name": "MOST"
+        },
+        "POLITIČKA PLATFORMA": {
+          "votes": 76,
+          "coalition_name": "MOŽEMO! - POLITIČKA PLATFORMA"
         }
       }
     },
@@ -38818,6 +39341,22 @@
         "FOKUS": {
           "votes": 2,
           "coalition_name": "FOKUS, REPUBLIKA"
+        },
+        "OIP": {
+          "votes": 1,
+          "coalition_name": "ODLUČNOST I PRAVEDNOST - OIP"
+        },
+        "HDZ": {
+          "votes": 1,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ"
+        },
+        "HRVATSKO BILO": {
+          "votes": 1,
+          "coalition_name": "HRVATSKO BILO"
+        },
+        "POLITIČKA PLATFORMA": {
+          "votes": 3,
+          "coalition_name": "MOŽEMO! - POLITIČKA PLATFORMA"
         }
       }
     },
@@ -38831,6 +39370,22 @@
         "AUTOHTONA - HRVATSKA STRANKA PRAVA - DRAŽEN KELEMINEC - A - HSP - Dražen Keleminec": {
           "votes": 1,
           "coalition_name": "AUTOHTONA - HRVATSKA STRANKA PRAVA - DRAŽEN KELEMINEC - A - HSP - Dražen Keleminec"
+        },
+        "HDZ": {
+          "votes": 2,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ"
+        },
+        "HRVATSKO BILO": {
+          "votes": 1,
+          "coalition_name": "HRVATSKO BILO"
+        },
+        "MOST": {
+          "votes": 4,
+          "coalition_name": "MOST"
+        },
+        "POLITIČKA PLATFORMA": {
+          "votes": 15,
+          "coalition_name": "MOŽEMO! - POLITIČKA PLATFORMA"
         }
       }
     },
@@ -38849,13 +39404,29 @@
           "votes": 5,
           "coalition_name": "FOKUS, REPUBLIKA"
         },
-        "MARKO ČAKTAŠ": {
-          "votes": 2,
-          "coalition_name": "MARKO ČAKTAŠ"
+        "OIP": {
+          "votes": 16,
+          "coalition_name": "ODLUČNOST I PRAVEDNOST - OIP"
         },
-        "VLATKA MARTINOVIĆ": {
-          "votes": 2,
-          "coalition_name": "VLATKA MARTINOVIĆ"
+        "STRANKA IVANA PERNARA": {
+          "votes": 6,
+          "coalition_name": "STRANKA IVANA PERNARA"
+        },
+        "HDZ": {
+          "votes": 95,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ"
+        },
+        "HRVATSKO BILO": {
+          "votes": 23,
+          "coalition_name": "HRVATSKO BILO"
+        },
+        "MOST": {
+          "votes": 32,
+          "coalition_name": "MOST"
+        },
+        "POLITIČKA PLATFORMA": {
+          "votes": 47,
+          "coalition_name": "MOŽEMO! - POLITIČKA PLATFORMA"
         }
       }
     },
@@ -38865,7 +39436,12 @@
       "total_voters": 2,
       "votes_cast": 2,
       "turnout": 1.0,
-      "parties": {}
+      "parties": {
+        "HDZ": {
+          "votes": 1,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ"
+        }
+      }
     },
     "ujedinjeni-arapski-emirati": {
       "name": "UJEDINJENI ARAPSKI EMIRATI",
@@ -38877,6 +39453,18 @@
         "FOKUS": {
           "votes": 2,
           "coalition_name": "FOKUS, REPUBLIKA"
+        },
+        "HDZ": {
+          "votes": 3,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ"
+        },
+        "HRVATSKO BILO": {
+          "votes": 2,
+          "coalition_name": "HRVATSKO BILO"
+        },
+        "POLITIČKA PLATFORMA": {
+          "votes": 5,
+          "coalition_name": "MOŽEMO! - POLITIČKA PLATFORMA"
         }
       }
     },
@@ -38894,6 +39482,22 @@
         "FOKUS": {
           "votes": 2,
           "coalition_name": "FOKUS, REPUBLIKA"
+        },
+        "HDZ": {
+          "votes": 12,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ"
+        },
+        "HRVATSKO BILO": {
+          "votes": 2,
+          "coalition_name": "HRVATSKO BILO"
+        },
+        "MOST": {
+          "votes": 2,
+          "coalition_name": "MOST"
+        },
+        "POLITIČKA PLATFORMA": {
+          "votes": 40,
+          "coalition_name": "MOŽEMO! - POLITIČKA PLATFORMA"
         }
       }
     }
@@ -38901,731 +39505,931 @@
   "constituencies": {
     "I": {
       "name": "I. IZBORNA JEDINICA",
-      "total_voters": 334421,
-      "votes_cast": 229578,
-      "turnout": 0.6865,
+      "seats": 14,
+      "total_voters": 341023,
+      "votes_cast": 235553,
+      "turnout": 0.6907,
       "winner": "HDZ",
-      "margin": 2.93,
+      "margin": 3.21,
       "parties": {
         "AUTOHTONA - HRVATSKA STRANKA PRAVA - DRAŽEN KELEMINEC - A - HSP - Dražen Keleminec": {
-          "votes": 410,
+          "votes": 439,
           "coalition_name": "AUTOHTONA - HRVATSKA STRANKA PRAVA - DRAŽEN KELEMINEC - A - HSP - Dražen Keleminec"
         },
         "FOKUS": {
-          "votes": 7818,
+          "votes": 7931,
           "coalition_name": "FOKUS, REPUBLIKA"
         },
         "OIP": {
-          "votes": 4645,
+          "votes": 4714,
           "coalition_name": "ODLUČNOST I PRAVEDNOST - OIP"
         },
         "STRANKA IVANA PERNARA": {
-          "votes": 1449,
+          "votes": 1463,
           "coalition_name": "STRANKA IVANA PERNARA"
         },
         "POKRET ZA HRVATSKU POLJOPRIVREDU": {
-          "votes": 715,
+          "votes": 726,
           "coalition_name": "AGRARNA STRANKA - POKRET ZA HRVATSKU POLJOPRIVREDU, AKCIJA ZA PROMJENE"
         },
         "DP": {
-          "votes": 20986,
+          "votes": 21439,
           "coalition_name": "DOMOVINSKI POKRET - DP, PRAVO I PRAVDA, BLOK ZA HRVATSKU - BLOK, AGRAMERI - NEZAVISNA LISTA"
         },
         "HDZ": {
-          "votes": 61733,
+          "votes": 63763,
           "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ, HRVATSKA SOCIJALNO - LIBERALNA STRANKA - HSLS, HRVATSKA DEMOKRŠĆANSKA STRANKA - HDS, HRVATSKA NARODNA STRANKA - LIBERALNI DEMOKRATI - HNS, HRVATSKA STRANKA UMIROVLJENIKA - HSU"
         },
         "HSP": {
-          "votes": 711,
+          "votes": 736,
           "coalition_name": "HRVATSKA STRANKA PRAVA - HSP, HRVATSKO BILO, HRVATSKA DEMOKRATSKA SELJAČKA STRANKA - HDSS"
         },
         "MOST": {
-          "votes": 16852,
+          "votes": 17134,
           "coalition_name": "MOST, HRVATSKI SUVERENISTI, HRVATSKA KONZERVATIVNA STRANKA - HKS, NEZAVISNA LISTA MLADIH - NLM"
         },
         "POLITIČKA PLATFORMA": {
-          "votes": 44488,
+          "votes": 45831,
           "coalition_name": "MOŽEMO! - POLITIČKA PLATFORMA"
         },
         "POKRET ZA MODERNU HRVATSKU": {
-          "votes": 722,
+          "votes": 739,
           "coalition_name": "POKRET ZA MODERNU HRVATSKU"
         },
         "RF": {
-          "votes": 1769,
+          "votes": 1803,
           "coalition_name": "RADNIČKA FRONTA - RF"
         },
         "SOCIJALDEMOKRATI": {
-          "votes": 2048,
+          "votes": 2113,
           "coalition_name": "SOCIJALDEMOKRATI, ISTARSKI DEMOKRATSKI SABOR - IDS, PRIMORSKO GORANSKI SAVEZ - PGS, HRVATSKI LABURISTI - STRANKA RADA - LABURISTI, DEMOKRATI"
         },
         "SDP": {
-          "votes": 55001,
+          "votes": 56205,
           "coalition_name": "SOCIJALDEMOKRATSKA PARTIJA HRVATSKE - SDP, CENTAR, HRVATSKA SELJAČKA STRANKA - HSS, \"DALIJA OREŠKOVIĆ I LJUDI S IMENOM I PREZIMENOM\" - \"DO i SIP\", NARODNA STRANKA - REFORMISTI - REFORMISTI, GRAĐANSKO-LIBERALNI SAVEZ - GLAS"
         },
         "UMIROVLJENICI ZAJEDNO": {
-          "votes": 4532,
+          "votes": 4708,
           "coalition_name": "UMIROVLJENICI ZAJEDNO - POLITIČKA PLATFORMA - UMIROVLJENICI ZAJEDNO, STRANKA UMIROVLJENIKA - SU, BLOK UMIROVLJENICI ZAJEDNO - BUZ, DEMOKRATSKA STRANKA UMIROVLJENIKA - DSU"
         },
         "PH": {
-          "votes": 468,
+          "votes": 480,
           "coalition_name": "PRAVEDNA HRVATSKA - PH"
         },
         "JAVNO DOBRO": {
-          "votes": 319,
+          "votes": 326,
           "coalition_name": "JAVNO DOBRO"
         }
       }
     },
     "II": {
       "name": "II. IZBORNA JEDINICA",
-      "total_voters": 341432,
-      "votes_cast": 205075,
-      "turnout": 0.6006,
+      "seats": 14,
+      "total_voters": 345398,
+      "votes_cast": 208590,
+      "turnout": 0.6039,
       "winner": "HDZ",
-      "margin": 10.15,
+      "margin": 10.22,
       "parties": {
         "FOKUS": {
-          "votes": 5533,
+          "votes": 5595,
           "coalition_name": "FOKUS, REPUBLIKA"
         },
         "OIP": {
-          "votes": 2952,
+          "votes": 3010,
           "coalition_name": "ODLUČNOST I PRAVEDNOST - OIP"
         },
         "STRANKA IVANA PERNARA": {
-          "votes": 2506,
+          "votes": 2521,
           "coalition_name": "STRANKA IVANA PERNARA"
         },
         "DP": {
-          "votes": 22187,
+          "votes": 22592,
           "coalition_name": "DOMOVINSKI POKRET - DP, PRAVO I PRAVDA, DEMOKRATSKI HSS - DHSS, ZELENA LISTA, AGRAMERI - NEZAVISNA LISTA"
         },
         "HDZ": {
-          "votes": 70544,
+          "votes": 71695,
           "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ, HRVATSKA SOCIJALNO - LIBERALNA STRANKA - HSLS, HRVATSKA DEMOKRŠĆANSKA STRANKA - HDS, HRVATSKA NARODNA STRANKA - LIBERALNI DEMOKRATI - HNS, HRVATSKA STRANKA UMIROVLJENIKA - HSU"
         },
         "MOST": {
-          "votes": 18166,
+          "votes": 18404,
           "coalition_name": "MOST, HRVATSKI SUVERENISTI, HRVATSKA KONZERVATIVNA STRANKA - HKS, NEZAVISNA LISTA MLADIH - NLM"
         },
         "POLITIČKA PLATFORMA": {
-          "votes": 16732,
+          "votes": 17399,
           "coalition_name": "MOŽEMO! - POLITIČKA PLATFORMA, HOĆEMO PRAVEDNO"
         },
         "RF": {
-          "votes": 1518,
+          "votes": 1547,
           "coalition_name": "RADNIČKA FRONTA - RF"
         },
         "SOCIJALDEMOKRATI": {
-          "votes": 2330,
+          "votes": 2367,
           "coalition_name": "SOCIJALDEMOKRATI, ISTARSKI DEMOKRATSKI SABOR - IDS, PRIMORSKO GORANSKI SAVEZ - PGS, HRVATSKI LABURISTI - STRANKA RADA - LABURISTI, DEMOKRATI"
         },
         "SDP": {
-          "votes": 49727,
+          "votes": 50383,
           "coalition_name": "SOCIJALDEMOKRATSKA PARTIJA HRVATSKE - SDP, CENTAR, HRVATSKA SELJAČKA STRANKA - HSS, \"DALIJA OREŠKOVIĆ I LJUDI S IMENOM I PREZIMENOM\" - \"DO i SIP\", NARODNA STRANKA - REFORMISTI - REFORMISTI, GRAĐANSKO-LIBERALNI SAVEZ - GLAS"
         },
         "UMIROVLJENICI ZAJEDNO": {
-          "votes": 4174,
+          "votes": 4236,
           "coalition_name": "UMIROVLJENICI ZAJEDNO - POLITIČKA PLATFORMA - UMIROVLJENICI ZAJEDNO, STRANKA UMIROVLJENIKA - SU, BLOK UMIROVLJENICI ZAJEDNO - BUZ, DEMOKRATSKA STRANKA UMIROVLJENIKA - DSU"
         },
         "AUTOHTONA - HRVATSKA STRANKA PRAVA - DRAŽEN KELEMINEC - A - HSP - Dražen Keleminec": {
-          "votes": 642,
+          "votes": 655,
           "coalition_name": "AUTOHTONA - HRVATSKA STRANKA PRAVA - DRAŽEN KELEMINEC - A - HSP - Dražen Keleminec"
         },
         "POKRET ZA HRVATSKU POLJOPRIVREDU": {
-          "votes": 1217,
+          "votes": 1235,
           "coalition_name": "AGRARNA STRANKA - POKRET ZA HRVATSKU POLJOPRIVREDU, AKCIJA ZA PROMJENE"
         },
         "HSP": {
-          "votes": 1194,
+          "votes": 1215,
           "coalition_name": "HRVATSKA STRANKA PRAVA - HSP, HRVATSKO BILO, HRVATSKA DEMOKRATSKA SELJAČKA STRANKA - HDSS"
         }
       }
     },
     "III": {
       "name": "III. IZBORNA JEDINICA",
-      "total_voters": 344674,
-      "votes_cast": 214771,
-      "turnout": 0.6231,
+      "seats": 14,
+      "total_voters": 349058,
+      "votes_cast": 218584,
+      "turnout": 0.6262,
       "winner": "SDP",
-      "margin": 8.99,
+      "margin": 8.9,
       "parties": {
         "AUTOHTONA - HRVATSKA STRANKA PRAVA - DRAŽEN KELEMINEC - A - HSP - Dražen Keleminec": {
-          "votes": 539,
+          "votes": 557,
           "coalition_name": "AUTOHTONA - HRVATSKA STRANKA PRAVA - DRAŽEN KELEMINEC - A - HSP - Dražen Keleminec"
         },
         "FOKUS": {
-          "votes": 1759,
+          "votes": 1808,
           "coalition_name": "FOKUS, REPUBLIKA"
         },
         "OIP": {
-          "votes": 1747,
+          "votes": 1789,
           "coalition_name": "ODLUČNOST I PRAVEDNOST - OIP"
         },
         "STRANKA IVANA PERNARA": {
-          "votes": 2161,
+          "votes": 2174,
           "coalition_name": "STRANKA IVANA PERNARA"
         },
         "DP": {
-          "votes": 10592,
+          "votes": 10714,
           "coalition_name": "DOMOVINSKI POKRET - DP, PRAVO I PRAVDA, DEMOKRATSKI HSS - DHSS, ZELENA LISTA"
         },
         "HDZ": {
-          "votes": 57446,
+          "votes": 58356,
           "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ, HRVATSKA SOCIJALNO - LIBERALNA STRANKA - HSLS, HRVATSKA DEMOKRŠĆANSKA STRANKA - HDS, HRVATSKA NARODNA STRANKA - LIBERALNI DEMOKRATI - HNS, HRVATSKA STRANKA UMIROVLJENIKA - HSU"
         },
         "HSGO": {
-          "votes": 275,
+          "votes": 284,
           "coalition_name": "HRVATSKA STRANKA GRAĐANSKOG OTPORA - HSGO"
         },
         "HSP": {
-          "votes": 952,
+          "votes": 963,
           "coalition_name": "HRVATSKA STRANKA PRAVA - HSP, HRVATSKO BILO, HRVATSKA DEMOKRATSKA SELJAČKA STRANKA - HDSS"
         },
         "MDS": {
-          "votes": 744,
+          "votes": 762,
           "coalition_name": "MEĐIMURSKI DEMOKRATSKI SAVEZ - MDS"
         },
         "MOST": {
-          "votes": 7973,
+          "votes": 8125,
           "coalition_name": "MOST, HRVATSKI SUVERENISTI, HRVATSKA KONZERVATIVNA STRANKA - HKS, NEZAVISNA LISTA MLADIH - NLM"
         },
         "POLITIČKA PLATFORMA": {
-          "votes": 12224,
+          "votes": 13229,
           "coalition_name": "MOŽEMO! - POLITIČKA PLATFORMA, HOĆEMO PRAVEDNO"
         },
         "VIKTOR ŠIMUNIĆ": {
-          "votes": 4895,
+          "votes": 4935,
           "coalition_name": "NEOVISNA LISTA - VIKTOR ŠIMUNIĆ"
         },
         "NPS": {
-          "votes": 25608,
+          "votes": 25830,
           "coalition_name": "NEZAVISNA PLATFORMA SJEVERA - NPS"
         },
         "RF": {
-          "votes": 1029,
+          "votes": 1052,
           "coalition_name": "RADNIČKA FRONTA - RF"
         },
         "SDP": {
-          "votes": 76764,
+          "votes": 77804,
           "coalition_name": "SOCIJALDEMOKRATSKA PARTIJA HRVATSKE - SDP, CENTAR, HRVATSKA SELJAČKA STRANKA - HSS, \"DALIJA OREŠKOVIĆ I LJUDI S IMENOM I PREZIMENOM\" - \"DO i SIP\", NARODNA STRANKA - REFORMISTI - REFORMISTI, GRAĐANSKO-LIBERALNI SAVEZ - GLAS"
         },
         "UMIROVLJENICI ZAJEDNO": {
-          "votes": 3280,
+          "votes": 3328,
           "coalition_name": "UMIROVLJENICI ZAJEDNO - POLITIČKA PLATFORMA - UMIROVLJENICI ZAJEDNO, STRANKA UMIROVLJENIKA - SU, BLOK UMIROVLJENICI ZAJEDNO - BUZ, DEMOKRATSKA STRANKA UMIROVLJENIKA - DSU"
         }
       }
     },
     "IV": {
       "name": "IV. IZBORNA JEDINICA",
-      "total_voters": 346795,
-      "votes_cast": 204129,
-      "turnout": 0.5886,
+      "seats": 14,
+      "total_voters": 351860,
+      "votes_cast": 208481,
+      "turnout": 0.5925,
       "winner": "HDZ",
-      "margin": 16.31,
+      "margin": 16.14,
       "parties": {
         "AUTOHTONA - HRVATSKA STRANKA PRAVA - DRAŽEN KELEMINEC - A - HSP - Dražen Keleminec": {
-          "votes": 736,
+          "votes": 746,
           "coalition_name": "AUTOHTONA - HRVATSKA STRANKA PRAVA - DRAŽEN KELEMINEC - A - HSP - Dražen Keleminec"
         },
         "FOKUS": {
-          "votes": 1847,
+          "votes": 1951,
           "coalition_name": "FOKUS, REPUBLIKA"
         },
         "OIP": {
-          "votes": 1744,
+          "votes": 1813,
           "coalition_name": "ODLUČNOST I PRAVEDNOST - OIP"
         },
         "STRANKA IVANA PERNARA": {
-          "votes": 2100,
+          "votes": 2124,
           "coalition_name": "STRANKA IVANA PERNARA"
         },
         "DP": {
-          "votes": 26092,
+          "votes": 26478,
           "coalition_name": "DOMOVINSKI POKRET - DP, PRAVO I PRAVDA, NEZAVISNI, DEMOKRATSKI HSS - DHSS, ZELENA LISTA"
         },
         "HDZ": {
-          "votes": 83399,
+          "votes": 84712,
           "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ, HRVATSKA SOCIJALNO - LIBERALNA STRANKA - HSLS, HRVATSKA DEMOKRŠĆANSKA STRANKA - HDS, HRVATSKA NARODNA STRANKA - LIBERALNI DEMOKRATI - HNS, HRVATSKA STRANKA UMIROVLJENIKA - HSU"
         },
         "HSP": {
-          "votes": 1760,
+          "votes": 1787,
           "coalition_name": "HRVATSKA STRANKA PRAVA - HSP, HRVATSKO BILO, HRVATSKA DEMOKRATSKA SELJAČKA STRANKA - HDSS"
         },
         "MOST": {
-          "votes": 11927,
+          "votes": 12249,
           "coalition_name": "MOST, HRVATSKI SUVERENISTI, HRVATSKA KONZERVATIVNA STRANKA - HKS, NEZAVISNA LISTA MLADIH - NLM"
         },
         "POLITIČKA PLATFORMA": {
-          "votes": 10248,
+          "votes": 11133,
           "coalition_name": "MOŽEMO! - POLITIČKA PLATFORMA, HOĆEMO PRAVEDNO"
         },
         "PH": {
-          "votes": 630,
+          "votes": 644,
           "coalition_name": "PRAVEDNA HRVATSKA - PH"
         },
         "SOCIJALDEMOKRATI": {
-          "votes": 1994,
+          "votes": 2037,
           "coalition_name": "SOCIJALDEMOKRATI, ISTARSKI DEMOKRATSKI SABOR - IDS, PRIMORSKO GORANSKI SAVEZ - PGS, HRVATSKI LABURISTI - STRANKA RADA - LABURISTI, DEMOKRATI"
         },
         "SDP": {
-          "votes": 50103,
+          "votes": 51065,
           "coalition_name": "SOCIJALDEMOKRATSKA PARTIJA HRVATSKE - SDP, CENTAR, HRVATSKA SELJAČKA STRANKA - HSS, \"DALIJA OREŠKOVIĆ I LJUDI S IMENOM I PREZIMENOM\" - \"DO i SIP\", NARODNA STRANKA - REFORMISTI - REFORMISTI, GRAĐANSKO-LIBERALNI SAVEZ - GLAS"
         },
         "UMIROVLJENICI ZAJEDNO": {
-          "votes": 4632,
+          "votes": 4705,
           "coalition_name": "UMIROVLJENICI ZAJEDNO - POLITIČKA PLATFORMA - UMIROVLJENICI ZAJEDNO, STRANKA UMIROVLJENIKA - SU, BLOK UMIROVLJENICI ZAJEDNO - BUZ, DEMOKRATSKA STRANKA UMIROVLJENIKA - DSU"
         },
         "RF": {
-          "votes": 1099,
+          "votes": 1123,
           "coalition_name": "RADNIČKA FRONTA - RF"
         }
       }
     },
     "V": {
       "name": "V. IZBORNA JEDINICA",
-      "total_voters": 330609,
-      "votes_cast": 178261,
-      "turnout": 0.5392,
+      "seats": 14,
+      "total_voters": 336652,
+      "votes_cast": 183520,
+      "turnout": 0.5451,
       "winner": "HDZ",
-      "margin": 22.65,
+      "margin": 22.41,
       "parties": {
         "AUTOHTONA - HRVATSKA STRANKA PRAVA - DRAŽEN KELEMINEC - A - HSP - Dražen Keleminec": {
-          "votes": 565,
+          "votes": 579,
           "coalition_name": "AUTOHTONA - HRVATSKA STRANKA PRAVA - DRAŽEN KELEMINEC - A - HSP - Dražen Keleminec"
         },
         "FOKUS": {
-          "votes": 1637,
+          "votes": 1752,
           "coalition_name": "FOKUS, REPUBLIKA"
         },
         "OIP": {
-          "votes": 1859,
+          "votes": 1969,
           "coalition_name": "ODLUČNOST I PRAVEDNOST - OIP"
         },
         "STRANKA IVANA PERNARA": {
-          "votes": 1887,
+          "votes": 1921,
           "coalition_name": "STRANKA IVANA PERNARA"
         },
         "POKRET ZA HRVATSKU POLJOPRIVREDU": {
-          "votes": 1249,
+          "votes": 1277,
           "coalition_name": "AGRARNA STRANKA - POKRET ZA HRVATSKU POLJOPRIVREDU, AKCIJA ZA PROMJENE"
         },
         "DP": {
-          "votes": 30118,
+          "votes": 30816,
           "coalition_name": "DOMOVINSKI POKRET - DP, PRAVO I PRAVDA"
         },
         "HDZ": {
-          "votes": 74155,
+          "votes": 75807,
           "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ, HRVATSKA SOCIJALNO - LIBERALNA STRANKA - HSLS, HRVATSKA DEMOKRŠĆANSKA STRANKA - HDS, HRVATSKA NARODNA STRANKA - LIBERALNI DEMOKRATI - HNS, HRVATSKA STRANKA UMIROVLJENIKA - HSU"
         },
         "HSP": {
-          "votes": 1376,
+          "votes": 1398,
           "coalition_name": "HRVATSKA STRANKA PRAVA - HSP, HRVATSKO BILO, HRVATSKA DEMOKRATSKA SELJAČKA STRANKA - HDSS"
         },
         "JAVNO DOBRO": {
-          "votes": 325,
+          "votes": 328,
           "coalition_name": "JAVNO DOBRO"
         },
         "MOST": {
-          "votes": 14534,
+          "votes": 15035,
           "coalition_name": "MOST, HRVATSKI SUVERENISTI, HRVATSKA KONZERVATIVNA STRANKA - HKS, NEZAVISNA LISTA MLADIH - NLM"
         },
         "POLITIČKA PLATFORMA": {
-          "votes": 5448,
+          "votes": 6388,
           "coalition_name": "MOŽEMO! - POLITIČKA PLATFORMA, HOĆEMO PRAVEDNO"
         },
         "RF": {
-          "votes": 771,
+          "votes": 802,
           "coalition_name": "RADNIČKA FRONTA - RF"
         },
         "SOCIJALDEMOKRATI": {
-          "votes": 716,
+          "votes": 753,
           "coalition_name": "SOCIJALDEMOKRATI, ISTARSKI DEMOKRATSKI SABOR - IDS, PRIMORSKO GORANSKI SAVEZ - PGS, HRVATSKI LABURISTI - STRANKA RADA - LABURISTI, DEMOKRATI"
         },
         "SDP": {
-          "votes": 33784,
+          "votes": 34679,
           "coalition_name": "SOCIJALDEMOKRATSKA PARTIJA HRVATSKE - SDP, CENTAR, HRVATSKA SELJAČKA STRANKA - HSS, \"DALIJA OREŠKOVIĆ I LJUDI S IMENOM I PREZIMENOM\" - \"DO i SIP\", NARODNA STRANKA - REFORMISTI - REFORMISTI, GRAĐANSKO-LIBERALNI SAVEZ - GLAS"
         },
         "UMIROVLJENICI ZAJEDNO": {
-          "votes": 3612,
+          "votes": 3686,
           "coalition_name": "UMIROVLJENICI ZAJEDNO - POLITIČKA PLATFORMA - UMIROVLJENICI ZAJEDNO, STRANKA UMIROVLJENIKA - SU, BLOK UMIROVLJENICI ZAJEDNO - BUZ, DEMOKRATSKA STRANKA UMIROVLJENIKA - DSU"
         }
       }
     },
     "VI": {
       "name": "VI. IZBORNA JEDINICA",
-      "total_voters": 347226,
-      "votes_cast": 237323,
-      "turnout": 0.6835,
+      "seats": 14,
+      "total_voters": 352234,
+      "votes_cast": 241800,
+      "turnout": 0.6865,
       "winner": "HDZ",
-      "margin": 0.75,
+      "margin": 1.0,
       "parties": {
         "FOKUS": {
-          "votes": 18153,
+          "votes": 18316,
           "coalition_name": "FOKUS, REPUBLIKA"
         },
         "STRANKA IVANA PERNARA": {
-          "votes": 2524,
+          "votes": 2557,
           "coalition_name": "STRANKA IVANA PERNARA"
         },
         "DP": {
-          "votes": 20155,
+          "votes": 20550,
           "coalition_name": "DOMOVINSKI POKRET - DP, PRAVO I PRAVDA, DEMOKRATSKI HSS - DHSS, ZELENA LISTA, AGRAMERI - NEZAVISNA LISTA"
         },
         "HDZ": {
-          "votes": 57250,
+          "votes": 58656,
           "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ, HRVATSKA SOCIJALNO - LIBERALNA STRANKA - HSLS, HRVATSKA DEMOKRŠĆANSKA STRANKA - HDS, HRVATSKA NARODNA STRANKA - LIBERALNI DEMOKRATI - HNS, HRVATSKA STRANKA UMIROVLJENIKA - HSU"
         },
         "MOST": {
-          "votes": 22113,
+          "votes": 22433,
           "coalition_name": "MOST, HRVATSKI SUVERENISTI, HRVATSKA KONZERVATIVNA STRANKA - HKS, NEZAVISNA LISTA MLADIH - NLM"
         },
         "POLITIČKA PLATFORMA": {
-          "votes": 41789,
+          "votes": 42841,
           "coalition_name": "MOŽEMO! - POLITIČKA PLATFORMA"
         },
         "DAMIR-KRISTIJAN ROGINA": {
-          "votes": 1067,
+          "votes": 1071,
           "coalition_name": "NEOVISNA LISTA - DAMIR-KRISTIJAN ROGINA"
         },
         "POKRET ZA MODERNU HRVATSKU": {
-          "votes": 927,
+          "votes": 945,
           "coalition_name": "POKRET ZA MODERNU HRVATSKU"
         },
         "SDP": {
-          "votes": 55468,
+          "votes": 56235,
           "coalition_name": "SOCIJALDEMOKRATSKA PARTIJA HRVATSKE - SDP, CENTAR, HRVATSKA SELJAČKA STRANKA - HSS, \"DALIJA OREŠKOVIĆ I LJUDI S IMENOM I PREZIMENOM\" - \"DO i SIP\", NARODNA STRANKA - REFORMISTI - REFORMISTI, GRAĐANSKO-LIBERALNI SAVEZ - GLAS"
         },
         "AUTOHTONA - HRVATSKA STRANKA PRAVA - DRAŽEN KELEMINEC - A - HSP - Dražen Keleminec": {
-          "votes": 409,
+          "votes": 425,
           "coalition_name": "AUTOHTONA - HRVATSKA STRANKA PRAVA - DRAŽEN KELEMINEC - A - HSP - Dražen Keleminec"
         },
         "OIP": {
-          "votes": 2900,
+          "votes": 2949,
           "coalition_name": "ODLUČNOST I PRAVEDNOST - OIP"
         },
         "RF": {
-          "votes": 1694,
+          "votes": 1716,
           "coalition_name": "RADNIČKA FRONTA - RF"
         },
         "SOCIJALDEMOKRATI": {
-          "votes": 1402,
+          "votes": 1428,
           "coalition_name": "SOCIJALDEMOKRATI, ISTARSKI DEMOKRATSKI SABOR - IDS, PRIMORSKO GORANSKI SAVEZ - PGS, HRVATSKI LABURISTI - STRANKA RADA - LABURISTI, DEMOKRATI"
         },
         "UMIROVLJENICI ZAJEDNO": {
-          "votes": 4469,
+          "votes": 4559,
           "coalition_name": "UMIROVLJENICI ZAJEDNO - POLITIČKA PLATFORMA - UMIROVLJENICI ZAJEDNO, STRANKA UMIROVLJENIKA - SU, BLOK UMIROVLJENICI ZAJEDNO - BUZ, DEMOKRATSKA STRANKA UMIROVLJENIKA - DSU"
         },
         "HSP": {
-          "votes": 1072,
+          "votes": 1098,
           "coalition_name": "HRVATSKA STRANKA PRAVA - HSP, HRVATSKO BILO, HRVATSKA DEMOKRATSKA SELJAČKA STRANKA - HDSS"
         },
         "HSGO": {
-          "votes": 328,
+          "votes": 342,
           "coalition_name": "HRVATSKA STRANKA GRAĐANSKOG OTPORA - HSGO"
         }
       }
     },
     "VII": {
       "name": "VII. IZBORNA JEDINICA",
-      "total_voters": 336218,
-      "votes_cast": 197223,
-      "turnout": 0.5866,
+      "seats": 14,
+      "total_voters": 340923,
+      "votes_cast": 201283,
+      "turnout": 0.5904,
       "winner": "HDZ",
-      "margin": 15.5,
+      "margin": 15.43,
       "parties": {
         "AUTOHTONA - HRVATSKA STRANKA PRAVA - DRAŽEN KELEMINEC - A - HSP - Dražen Keleminec": {
-          "votes": 656,
+          "votes": 678,
           "coalition_name": "AUTOHTONA - HRVATSKA STRANKA PRAVA - DRAŽEN KELEMINEC - A - HSP - Dražen Keleminec"
         },
         "FOKUS": {
-          "votes": 3116,
+          "votes": 3212,
           "coalition_name": "FOKUS, REPUBLIKA"
         },
         "OIP": {
-          "votes": 2000,
+          "votes": 2051,
           "coalition_name": "ODLUČNOST I PRAVEDNOST - OIP"
         },
         "STRANKA IVANA PERNARA": {
-          "votes": 1889,
+          "votes": 1916,
           "coalition_name": "STRANKA IVANA PERNARA"
         },
         "AKCIJA ZA PROMJENE": {
-          "votes": 1803,
+          "votes": 1818,
           "coalition_name": "AKCIJA ZA PROMJENE, AGRARNA STRANKA - POKRET ZA HRVATSKU POLJOPRIVREDU"
         },
         "DP": {
-          "votes": 16513,
+          "votes": 16834,
           "coalition_name": "DOMOVINSKI POKRET - DP, PRAVO I PRAVDA, DEMOKRATSKI HSS - DHSS, ZELENA LISTA"
         },
         "HDZ": {
-          "votes": 79175,
+          "votes": 80485,
           "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ, HRVATSKA SOCIJALNO - LIBERALNA STRANKA - HSLS, HRVATSKA DEMOKRŠĆANSKA STRANKA - HDS, HRVATSKA NARODNA STRANKA - LIBERALNI DEMOKRATI - HNS, HRVATSKA STRANKA UMIROVLJENIKA - HSU"
         },
         "HSP": {
-          "votes": 2640,
+          "votes": 2682,
           "coalition_name": "HRVATSKA STRANKA PRAVA - HSP, HRVATSKO BILO, HRVATSKA DEMOKRATSKA SELJAČKA STRANKA - HDSS"
         },
         "MOST": {
-          "votes": 12598,
+          "votes": 12883,
           "coalition_name": "MOST, HRVATSKI SUVERENISTI, HRVATSKA KONZERVATIVNA STRANKA - HKS, NEZAVISNA LISTA MLADIH - NLM"
         },
         "POLITIČKA PLATFORMA": {
-          "votes": 12686,
+          "votes": 13504,
           "coalition_name": "MOŽEMO! - POLITIČKA PLATFORMA, HOĆEMO PRAVEDNO"
         },
         "REFORMISTI": {
-          "votes": 1888,
+          "votes": 1910,
           "coalition_name": "NARODNA STRANKA - REFORMISTI - REFORMISTI, PRIMORSKO GORANSKI SAVEZ - PGS, ISTARSKI DEMOKRATSKI SABOR - IDS, UNIJA KVARNERA - UNIJA, STRANKA HRVATSKIH UMIROVLJENIKA - UMIROVLJENICI - UMIROVLJENICI"
         },
         "RF": {
-          "votes": 1286,
+          "votes": 1322,
           "coalition_name": "RADNIČKA FRONTA - RF"
         },
         "SOCIJALDEMOKRATI": {
-          "votes": 1320,
+          "votes": 1353,
           "coalition_name": "SOCIJALDEMOKRATI, HRVATSKI LABURISTI - STRANKA RADA - LABURISTI, DEMOKRATI"
         },
         "SDP": {
-          "votes": 48614,
+          "votes": 49425,
           "coalition_name": "SOCIJALDEMOKRATSKA PARTIJA HRVATSKE - SDP, CENTAR, HRVATSKA SELJAČKA STRANKA - HSS, \"DALIJA OREŠKOVIĆ I LJUDI S IMENOM I PREZIMENOM\" - \"DO i SIP\", GRAĐANSKO-LIBERALNI SAVEZ - GLAS"
         },
         "UMIROVLJENICI ZAJEDNO": {
-          "votes": 4311,
+          "votes": 4386,
           "coalition_name": "UMIROVLJENICI ZAJEDNO - POLITIČKA PLATFORMA - UMIROVLJENICI ZAJEDNO, STRANKA UMIROVLJENIKA - SU, BLOK UMIROVLJENICI ZAJEDNO - BUZ, DEMOKRATSKA STRANKA UMIROVLJENIKA - DSU"
         },
         "HSGO": {
-          "votes": 363,
+          "votes": 372,
           "coalition_name": "HRVATSKA STRANKA GRAĐANSKOG OTPORA - HSGO"
         }
       }
     },
     "VIII": {
       "name": "VIII. IZBORNA JEDINICA",
-      "total_voters": 351089,
-      "votes_cast": 206633,
-      "turnout": 0.5885,
+      "seats": 14,
+      "total_voters": 355951,
+      "votes_cast": 211002,
+      "turnout": 0.5928,
       "winner": "SDP",
-      "margin": 11.92,
+      "margin": 11.77,
       "parties": {
         "FOKUS": {
-          "votes": 3771,
+          "votes": 3866,
           "coalition_name": "FOKUS, REPUBLIKA"
         },
         "OIP": {
-          "votes": 1795,
+          "votes": 1844,
           "coalition_name": "ODLUČNOST I PRAVEDNOST - OIP"
         },
         "STRANKA IVANA PERNARA": {
-          "votes": 1727,
+          "votes": 1746,
           "coalition_name": "STRANKA IVANA PERNARA"
         },
         "DP": {
-          "votes": 8077,
+          "votes": 8276,
           "coalition_name": "DOMOVINSKI POKRET - DP, PRAVO I PRAVDA"
         },
         "HDZ": {
-          "votes": 42852,
+          "votes": 43744,
           "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ, HRVATSKA SOCIJALNO - LIBERALNA STRANKA - HSLS, HRVATSKA DEMOKRŠĆANSKA STRANKA - HDS, HRVATSKA NARODNA STRANKA - LIBERALNI DEMOKRATI - HNS, HRVATSKA STRANKA UMIROVLJENIKA - HSU"
         },
         "HSP": {
-          "votes": 918,
+          "votes": 944,
           "coalition_name": "HRVATSKA STRANKA PRAVA - HSP, HRVATSKO BILO, HRVATSKA DEMOKRATSKA SELJAČKA STRANKA - HDSS"
         },
         "IDS": {
-          "votes": 32392,
+          "votes": 32728,
           "coalition_name": "ISTARSKI DEMOKRATSKI SABOR - IDS, PRIMORSKO GORANSKI SAVEZ - PGS, UNIJA KVARNERA - UNIJA, ISTARSKA STRANKA UMIROVLJENIKA - PARTITO ISTRIANO DEI PENSIONATI - ISU - PIP, SOCIJALDEMOKRATI, NARODNA STRANKA - REFORMISTI - REFORMISTI, DEMOKRATI, HRVATSKI LABURISTI - STRANKA RADA - LABURISTI"
         },
         "MOST": {
-          "votes": 11503,
+          "votes": 11754,
           "coalition_name": "MOST, HRVATSKI SUVERENISTI, HRVATSKA KONZERVATIVNA STRANKA - HKS, NEZAVISNA LISTA MLADIH - NLM"
         },
         "POLITIČKA PLATFORMA": {
-          "votes": 19940,
+          "votes": 21062,
           "coalition_name": "MOŽEMO! - POLITIČKA PLATFORMA"
         },
         "RF": {
-          "votes": 5600,
+          "votes": 5703,
           "coalition_name": "RADNIČKA FRONTA - RF"
         },
         "SDP": {
-          "votes": 67487,
+          "votes": 68577,
           "coalition_name": "SOCIJALDEMOKRATSKA PARTIJA HRVATSKE - SDP, CENTAR, HRVATSKA SELJAČKA STRANKA - HSS, \"DALIJA OREŠKOVIĆ I LJUDI S IMENOM I PREZIMENOM\" - \"DO i SIP\", GRAĐANSKO-LIBERALNI SAVEZ - GLAS"
         },
         "SRP": {
-          "votes": 608,
+          "votes": 615,
           "coalition_name": "SOCIJALISTIČKA RADNIČKA PARTIJA HRVATSKE - SRP"
         },
         "UMIROVLJENICI ZAJEDNO": {
-          "votes": 4090,
+          "votes": 4156,
           "coalition_name": "UMIROVLJENICI ZAJEDNO - POLITIČKA PLATFORMA - UMIROVLJENICI ZAJEDNO, STRANKA UMIROVLJENIKA - SU, BLOK UMIROVLJENICI ZAJEDNO - BUZ, DEMOKRATSKA STRANKA UMIROVLJENIKA - DSU"
         },
         "AUTOHTONA - HRVATSKA STRANKA PRAVA - DRAŽEN KELEMINEC - A - HSP - Dražen Keleminec": {
-          "votes": 485,
+          "votes": 503,
           "coalition_name": "AUTOHTONA - HRVATSKA STRANKA PRAVA - DRAŽEN KELEMINEC - A - HSP - Dražen Keleminec"
         }
       }
     },
     "IX": {
       "name": "IX. IZBORNA JEDINICA",
-      "total_voters": 344470,
-      "votes_cast": 202708,
-      "turnout": 0.5885,
+      "seats": 14,
+      "total_voters": 350941,
+      "votes_cast": 208481,
+      "turnout": 0.5941,
       "winner": "HDZ",
-      "margin": 20.1,
+      "margin": 19.8,
       "parties": {
         "AUTOHTONA - HRVATSKA STRANKA PRAVA - DRAŽEN KELEMINEC - A - HSP - Dražen Keleminec": {
-          "votes": 599,
+          "votes": 613,
           "coalition_name": "AUTOHTONA - HRVATSKA STRANKA PRAVA - DRAŽEN KELEMINEC - A - HSP - Dražen Keleminec"
         },
         "FOKUS": {
-          "votes": 1918,
+          "votes": 2018,
           "coalition_name": "FOKUS, REPUBLIKA"
         },
         "OIP": {
-          "votes": 2590,
+          "votes": 2714,
           "coalition_name": "ODLUČNOST I PRAVEDNOST - OIP"
         },
         "STRANKA IVANA PERNARA": {
-          "votes": 1139,
+          "votes": 1161,
           "coalition_name": "STRANKA IVANA PERNARA"
         },
         "AKCIJA ZA PROMJENE": {
-          "votes": 1938,
+          "votes": 1995,
           "coalition_name": "AKCIJA ZA PROMJENE, AGRARNA STRANKA - POKRET ZA HRVATSKU POLJOPRIVREDU"
         },
         "DP": {
-          "votes": 21000,
+          "votes": 21571,
           "coalition_name": "DOMOVINSKI POKRET - DP, PRAVO I PRAVDA"
         },
         "HDZ": {
-          "votes": 78950,
+          "votes": 80566,
           "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ, HRVATSKA SOCIJALNO - LIBERALNA STRANKA - HSLS, HRVATSKA DEMOKRŠĆANSKA STRANKA - HDS, HRVATSKA NARODNA STRANKA - LIBERALNI DEMOKRATI - HNS, HRVATSKA STRANKA UMIROVLJENIKA - HSU"
         },
         "HSP": {
-          "votes": 2922,
+          "votes": 2987,
           "coalition_name": "HRVATSKA STRANKA PRAVA - HSP, HRVATSKO BILO, HRVATSKA DEMOKRATSKA SELJAČKA STRANKA - HDSS"
         },
         "HRVATSKA STRANKA PRAVA DR. ANTE STARČEVIĆ": {
-          "votes": 862,
+          "votes": 882,
           "coalition_name": "HRVATSKA STRANKA PRAVA DR. ANTE STARČEVIĆ"
         },
         "MOST": {
-          "votes": 23875,
+          "votes": 24496,
           "coalition_name": "MOST, HRVATSKI SUVERENISTI, HRVATSKA KONZERVATIVNA STRANKA - HKS, NEZAVISNA LISTA MLADIH - NLM"
         },
         "POLITIČKA PLATFORMA": {
-          "votes": 7999,
+          "votes": 9015,
           "coalition_name": "MOŽEMO! - POLITIČKA PLATFORMA"
         },
         "RF": {
-          "votes": 899,
+          "votes": 937,
           "coalition_name": "RADNIČKA FRONTA - RF"
         },
         "RIČARD NEZAVISNI": {
-          "votes": 8197,
+          "votes": 8368,
           "coalition_name": "RIČARD NEZAVISNI"
         },
         "SOCIJALDEMOKRATI": {
-          "votes": 1760,
+          "votes": 1808,
           "coalition_name": "SOCIJALDEMOKRATI, ISTARSKI DEMOKRATSKI SABOR - IDS, PRIMORSKO GORANSKI SAVEZ - PGS, HRVATSKI LABURISTI - STRANKA RADA - LABURISTI, DEMOKRATI"
         },
         "SDP": {
-          "votes": 38210,
+          "votes": 39285,
           "coalition_name": "SOCIJALDEMOKRATSKA PARTIJA HRVATSKE - SDP, CENTAR, HRVATSKA SELJAČKA STRANKA - HSS, \"DALIJA OREŠKOVIĆ I LJUDI S IMENOM I PREZIMENOM\" - \"DO i SIP\", NARODNA STRANKA - REFORMISTI - REFORMISTI, GRAĐANSKO-LIBERALNI SAVEZ - GLAS"
         },
         "SHZ": {
-          "votes": 225,
+          "votes": 231,
           "coalition_name": "STRANKA HRVATSKOG ZAJEDNIŠTVA - SHZ"
         },
         "UMIROVLJENICI ZAJEDNO": {
-          "votes": 3385,
+          "votes": 3481,
           "coalition_name": "UMIROVLJENICI ZAJEDNO - POLITIČKA PLATFORMA - UMIROVLJENICI ZAJEDNO, STRANKA UMIROVLJENIKA - SU, BLOK UMIROVLJENICI ZAJEDNO - BUZ, DEMOKRATSKA STRANKA UMIROVLJENIKA - DSU"
         },
         "JAVNO DOBRO": {
-          "votes": 575,
+          "votes": 578,
           "coalition_name": "JAVNO DOBRO"
         }
       }
     },
     "X": {
       "name": "X. IZBORNA JEDINICA",
-      "total_voters": 350752,
-      "votes_cast": 215375,
-      "turnout": 0.614,
+      "seats": 14,
+      "total_voters": 358110,
+      "votes_cast": 222010,
+      "turnout": 0.6199,
       "winner": "HDZ",
-      "margin": 11.35,
+      "margin": 11.25,
       "parties": {
         "AUTOHTONA - HRVATSKA STRANKA PRAVA - DRAŽEN KELEMINEC - A - HSP - Dražen Keleminec": {
-          "votes": 630,
+          "votes": 651,
           "coalition_name": "AUTOHTONA - HRVATSKA STRANKA PRAVA - DRAŽEN KELEMINEC - A - HSP - Dražen Keleminec"
         },
         "STRANKA IVANA PERNARA": {
-          "votes": 1329,
+          "votes": 1367,
           "coalition_name": "STRANKA IVANA PERNARA"
         },
         "DP": {
-          "votes": 22879,
+          "votes": 23444,
           "coalition_name": "DOMOVINSKI POKRET - DP, PRAVO I PRAVDA"
         },
         "HDZ": {
-          "votes": 78097,
+          "votes": 80057,
           "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ, HRVATSKA SOCIJALNO - LIBERALNA STRANKA - HSLS, HRVATSKA DEMOKRŠĆANSKA STRANKA - HDS, HRVATSKA NARODNA STRANKA - LIBERALNI DEMOKRATI - HNS, HRVATSKA STRANKA UMIROVLJENIKA - HSU"
         },
         "JAVNO DOBRO": {
-          "votes": 412,
+          "votes": 418,
           "coalition_name": "JAVNO DOBRO"
         },
         "MOST": {
-          "votes": 23977,
+          "votes": 24791,
           "coalition_name": "MOST, HRVATSKI SUVERENISTI, HRVATSKA KONZERVATIVNA STRANKA - HKS, NEZAVISNA LISTA MLADIH - NLM"
         },
         "POLITIČKA PLATFORMA": {
-          "votes": 10329,
+          "votes": 11407,
           "coalition_name": "MOŽEMO! - POLITIČKA PLATFORMA, SRĐ JE GRAD"
         },
         "SDP": {
-          "votes": 53653,
+          "votes": 55090,
           "coalition_name": "SOCIJALDEMOKRATSKA PARTIJA HRVATSKE - SDP, CENTAR, HRVATSKA SELJAČKA STRANKA - HSS, \"DALIJA OREŠKOVIĆ I LJUDI S IMENOM I PREZIMENOM\" - \"DO i SIP\", NARODNA STRANKA - REFORMISTI - REFORMISTI, GRAĐANSKO-LIBERALNI SAVEZ - GLAS"
         },
         "FOKUS": {
-          "votes": 967,
+          "votes": 1064,
           "coalition_name": "FOKUS, REPUBLIKA"
         },
         "DA": {
-          "votes": 672,
+          "votes": 699,
           "coalition_name": "DALMATINSKA AKCIJA - DA"
         },
         "RIČARD NEZAVISNI": {
-          "votes": 6756,
+          "votes": 6860,
           "coalition_name": "RIČARD NEZAVISNI"
         },
         "SOCIJALDEMOKRATI": {
-          "votes": 1124,
+          "votes": 1158,
           "coalition_name": "SOCIJALDEMOKRATI, ISTARSKI DEMOKRATSKI SABOR - IDS, PRIMORSKO GORANSKI SAVEZ - PGS, HRVATSKI LABURISTI - STRANKA RADA - LABURISTI, DEMOKRATI"
         },
         "SRP": {
-          "votes": 563,
+          "votes": 591,
           "coalition_name": "SOCIJALISTIČKA RADNIČKA PARTIJA HRVATSKE - SRP"
         },
         "UMIROVLJENICI ZAJEDNO": {
-          "votes": 3425,
+          "votes": 3510,
           "coalition_name": "UMIROVLJENICI ZAJEDNO - POLITIČKA PLATFORMA - UMIROVLJENICI ZAJEDNO, STRANKA UMIROVLJENIKA - SU, BLOK UMIROVLJENICI ZAJEDNO - BUZ, DEMOKRATSKA STRANKA UMIROVLJENIKA - DSU"
         },
         "OIP": {
-          "votes": 2389,
+          "votes": 2500,
           "coalition_name": "ODLUČNOST I PRAVEDNOST - OIP"
         },
         "HSP": {
-          "votes": 1804,
+          "votes": 1849,
           "coalition_name": "HRVATSKA STRANKA PRAVA - HSP, HRVATSKO BILO, HRVATSKA DEMOKRATSKA SELJAČKA STRANKA - HDSS"
         },
         "RF": {
-          "votes": 829,
+          "votes": 864,
           "coalition_name": "RADNIČKA FRONTA - RF"
         }
       }
+    },
+    "XI": {
+      "name": "XI. IZBORNA JEDINICA",
+      "seats": 3,
+      "total_voters": 40071,
+      "votes_cast": 41107,
+      "turnout": 1.0259,
+      "winner": "HDZ",
+      "margin": 71.58,
+      "parties": {
+        "POLITIČKA PLATFORMA": {
+          "votes": 1242,
+          "coalition_name": "MOŽEMO! - POLITIČKA PLATFORMA"
+        },
+        "AUTOHTONA - HRVATSKA STRANKA PRAVA - DRAŽEN KELEMINEC - A - HSP - Dražen Keleminec": {
+          "votes": 445,
+          "coalition_name": "AUTOHTONA - HRVATSKA STRANKA PRAVA - DRAŽEN KELEMINEC - A - HSP - Dražen Keleminec"
+        },
+        "FOKUS": {
+          "votes": 202,
+          "coalition_name": "FOKUS, REPUBLIKA"
+        },
+        "OIP": {
+          "votes": 845,
+          "coalition_name": "ODLUČNOST I PRAVEDNOST - OIP"
+        },
+        "STRANKA IVANA PERNARA": {
+          "votes": 417,
+          "coalition_name": "STRANKA IVANA PERNARA"
+        },
+        "HDZ": {
+          "votes": 32108,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ"
+        },
+        "HRVATSKO BILO": {
+          "votes": 2469,
+          "coalition_name": "HRVATSKO BILO"
+        },
+        "MOST": {
+          "votes": 2684,
+          "coalition_name": "MOST"
+        }
+      }
     }
-  }
+  },
+  "minorities": [
+    {
+      "id": "1",
+      "name": "Srpska",
+      "seats": 3,
+      "total_voters": 63,
+      "votes_cast": 15939,
+      "turnout": 253.0,
+      "candidates": [
+        {
+          "name": "MILORAD PUPOVAC",
+          "votes": 11660,
+          "elected": true
+        },
+        {
+          "name": "ANJA ŠIMPRAGA",
+          "votes": 10842,
+          "elected": true
+        },
+        {
+          "name": "DRAGANA JECKOV",
+          "votes": 10344,
+          "elected": true
+        },
+        {
+          "name": "SRĐAN MILAKOVIĆ",
+          "votes": 2189,
+          "elected": false
+        },
+        {
+          "name": "DRAGAN CRNOGORAC",
+          "votes": 1869,
+          "elected": false
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Mađarska",
+      "seats": 1,
+      "total_voters": 6,
+      "votes_cast": 2877,
+      "turnout": 479.5,
+      "candidates": [
+        {
+          "name": "RÓBERT JANKOVICS",
+          "votes": 2804,
+          "elected": true
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Talijanska",
+      "seats": 1,
+      "total_voters": 3,
+      "votes_cast": 1951,
+      "turnout": 650.3333,
+      "candidates": [
+        {
+          "name": "FURIO RADIN",
+          "votes": 971,
+          "elected": true
+        },
+        {
+          "name": "CORRADO DUSSICH",
+          "votes": 936,
+          "elected": false
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Češka i slovačka",
+      "seats": 1,
+      "total_voters": 5,
+      "votes_cast": 1908,
+      "turnout": 381.6,
+      "candidates": [
+        {
+          "name": "VLADIMIR BILEK",
+          "votes": 1764,
+          "elected": true
+        },
+        {
+          "name": "IVAN KOMAK",
+          "votes": 132,
+          "elected": false
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Austrijska, bugarska, njemačka, poljska, romska, rumunjska, rusinska, ruska, turska, ukrajinska, vlaška i židovska",
+      "seats": 1,
+      "total_voters": 0,
+      "votes_cast": 4931,
+      "turnout": 0,
+      "candidates": [
+        {
+          "name": "VELJKO KAJTAZI",
+          "votes": 3017,
+          "elected": true
+        },
+        {
+          "name": "FRANJO HORVAT",
+          "votes": 1400,
+          "elected": false
+        },
+        {
+          "name": "ELVIS KRALJ",
+          "votes": 440,
+          "elected": false
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Albanska, bošnjačka, crnogorska, makedonska i slovenska",
+      "seats": 1,
+      "total_voters": 375,
+      "votes_cast": 7213,
+      "turnout": 19.2347,
+      "candidates": [
+        {
+          "name": "ARMIN HODŽIĆ",
+          "votes": 3357,
+          "elected": true
+        },
+        {
+          "name": "ERMINA LEKAJ PRLJASKAJ",
+          "votes": 2249,
+          "elected": false
+        },
+        {
+          "name": "ŠOIP ŠOIPI",
+          "votes": 1414,
+          "elected": false
+        },
+        {
+          "name": "SULEJMAN TABAKOVIĆ",
+          "votes": 117,
+          "elected": false
+        }
+      ]
+    }
+  ]
 }

@@ -2,7 +2,7 @@
   "election_id": "2015-parliamentary",
   "date": "2015-11-08",
   "type": "parliamentary",
-  "turnout_national": 0.6182,
+  "turnout_national": 0.6221,
   "results": {
     "zagreb": {
       "name": "ZAGREB-JUŽNI DIO",
@@ -36990,7 +36990,12 @@
       "total_voters": 1,
       "votes_cast": 1,
       "turnout": 1.0,
-      "parties": {}
+      "parties": {
+        "HDZ": {
+          "votes": 1,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ, HRVATSKA SELJAČKA STRANKA - HSS, HRVATSKA STRANKA PRAVA DR. ANTE STARČEVIĆ - HSP AS, BLOK UMIROVLJENICI ZAJEDNO - BUZ, HRVATSKA SOCIJALNO - LIBERALNA STRANKA - HSLS, HRAST - POKRET ZA USPJEŠNU HRVATSKU, HRVATSKA DEMOKRŠĆANSKA STRANKA - HDS, ZAGORSKA DEMOKRATSKA STRANKA - ZDS"
+        }
+      }
     },
     "albanija": {
       "name": "ALBANIJA",
@@ -36998,7 +37003,12 @@
       "total_voters": 1,
       "votes_cast": 1,
       "turnout": 1.0,
-      "parties": {}
+      "parties": {
+        "MOST": {
+          "votes": 1,
+          "coalition_name": "MOST NEZAVISNIH LISTA - MOST"
+        }
+      }
     },
     "alzir": {
       "name": "ALŽIR",
@@ -37006,7 +37016,24 @@
       "total_voters": 6,
       "votes_cast": 6,
       "turnout": 1.0,
-      "parties": {}
+      "parties": {
+        "STRANKA RADA I SOLIDARNOSTI": {
+          "votes": 1,
+          "coalition_name": "\"BANDIĆ MILAN 365 - STRANKA RADA I SOLIDARNOSTI\", DEMOKRATSKA PRIGORSKO - ZAGREBAČKA STRANKA - DPS, DEMOKRATSKA STRANKA ŽENA - DSŽ, HRVATSKA EUROPSKA STRANKA - HES, HRVATSKA RADNIČKA STRANKA - HRS, HRVATSKA STRANKA ZELENIH - EKO SAVEZ - ZELENI, ISTARSKI DEMOKRATI - DEMOCRATICI ISTRIANI - ID - DI, MEĐIMURSKA STRANKA - MS, NEZAVISNI SELJACI HRVATSKE - NSH, NOVI VAL - STRANKA RAZVOJA - NOVI VAL, STRANKA UMIROVLJENIKA - SU, UMIROVLJENIČKA DEMOKRATSKA UNIJA - UDU, ZELENI SAVEZ - ZELENI, ZELENA STRANKA - ZS"
+        },
+        "HDZ": {
+          "votes": 2,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ, HRVATSKA SELJAČKA STRANKA - HSS, HRVATSKA STRANKA PRAVA DR. ANTE STARČEVIĆ - HSP AS, BLOK UMIROVLJENICI ZAJEDNO - BUZ, HRVATSKA SOCIJALNO - LIBERALNA STRANKA - HSLS, HRAST - POKRET ZA USPJEŠNU HRVATSKU, HRVATSKA DEMOKRŠĆANSKA STRANKA - HDS, ZAGORSKA DEMOKRATSKA STRANKA - ZDS"
+        },
+        "ODRŽIVI RAZVOJ HRVATSKE": {
+          "votes": 1,
+          "coalition_name": "ODRŽIVI RAZVOJ HRVATSKE - ORaH"
+        },
+        "SRP": {
+          "votes": 2,
+          "coalition_name": "SOCIJALISTIČKA RADNIČKA PARTIJA HRVATSKE - SRP"
+        }
+      }
     },
     "argentina": {
       "name": "ARGENTINA",
@@ -37018,6 +37045,38 @@
         "HSP": {
           "votes": 1,
           "coalition_name": "AUTOHTONA - HRVATSKA STRANKA PRAVA - A - HSP"
+        },
+        "STRANKA RADA I SOLIDARNOSTI": {
+          "votes": 2,
+          "coalition_name": "\"BANDIĆ MILAN 365 - STRANKA RADA I SOLIDARNOSTI\", DEMOKRATSKA PRIGORSKO - ZAGREBAČKA STRANKA - DPS, DEMOKRATSKA STRANKA ŽENA - DSŽ, HRVATSKA EUROPSKA STRANKA - HES, HRVATSKA RADNIČKA STRANKA - HRS, HRVATSKA STRANKA ZELENIH - EKO SAVEZ - ZELENI, ISTARSKI DEMOKRATI - DEMOCRATICI ISTRIANI - ID - DI, MEĐIMURSKA STRANKA - MS, NEZAVISNI SELJACI HRVATSKE - NSH, NOVI VAL - STRANKA RAZVOJA - NOVI VAL, STRANKA UMIROVLJENIKA - SU, UMIROVLJENIČKA DEMOKRATSKA UNIJA - UDU, ZELENI SAVEZ - ZELENI, ZELENA STRANKA - ZS"
+        },
+        "HDZ": {
+          "votes": 163,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ, HRVATSKA SELJAČKA STRANKA - HSS, HRVATSKA STRANKA PRAVA DR. ANTE STARČEVIĆ - HSP AS, BLOK UMIROVLJENICI ZAJEDNO - BUZ, HRVATSKA SOCIJALNO - LIBERALNA STRANKA - HSLS, HRAST - POKRET ZA USPJEŠNU HRVATSKU, HRVATSKA DEMOKRŠĆANSKA STRANKA - HDS, ZAGORSKA DEMOKRATSKA STRANKA - ZDS"
+        },
+        "MOST": {
+          "votes": 1,
+          "coalition_name": "MOST NEZAVISNIH LISTA - MOST"
+        },
+        "REFORMISTI": {
+          "votes": 1,
+          "coalition_name": "NARODNA STRANKA - REFORMISTI - REFORMISTI, NAPRIJED HRVATSKA! - PROGRESIVNI SAVEZ IVE JOSIPOVIĆA, STRANKA HRVATSKIH UMIROVLJENIKA - UMIROVLJENICI, ZELENI FORUM, DUBROVAČKI DEMOKRATSKI SABOR - DDS"
+        },
+        "ODRŽIVI RAZVOJ HRVATSKE": {
+          "votes": 1,
+          "coalition_name": "ODRŽIVI RAZVOJ HRVATSKE - ORaH"
+        },
+        "PROJEKT DOMOVINA": {
+          "votes": 1,
+          "coalition_name": "U IME OBITELJI - PROJEKT DOMOVINA"
+        },
+        "HKDU": {
+          "votes": 1,
+          "coalition_name": "HRVATSKA KRŠĆANSKA DEMOKRATSKA UNIJA - HKDU, HRVATSKA DEMOKRATSKA STRANKA, NACIONALNI DEMOKRATI - ND"
+        },
+        "VESNA PINJUH": {
+          "votes": 1,
+          "coalition_name": "NEOVISNA LISTA - VESNA PINJUH"
         }
       }
     },
@@ -37032,9 +37091,41 @@
           "votes": 7,
           "coalition_name": "AUTOHTONA - HRVATSKA STRANKA PRAVA - A - HSP"
         },
-        "ILIJA JANOVIĆ": {
-          "votes": 4,
-          "coalition_name": "ILIJA JANOVIĆ"
+        "HDZ": {
+          "votes": 867,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ, HRVATSKA SELJAČKA STRANKA - HSS, HRVATSKA STRANKA PRAVA DR. ANTE STARČEVIĆ - HSP AS, BLOK UMIROVLJENICI ZAJEDNO - BUZ, HRVATSKA SOCIJALNO - LIBERALNA STRANKA - HSLS, HRAST - POKRET ZA USPJEŠNU HRVATSKU, HRVATSKA DEMOKRŠĆANSKA STRANKA - HDS, ZAGORSKA DEMOKRATSKA STRANKA - ZDS"
+        },
+        "MOST": {
+          "votes": 23,
+          "coalition_name": "MOST NEZAVISNIH LISTA - MOST"
+        },
+        "PROJEKT DOMOVINA": {
+          "votes": 20,
+          "coalition_name": "U IME OBITELJI - PROJEKT DOMOVINA"
+        },
+        "HKDU": {
+          "votes": 3,
+          "coalition_name": "HRVATSKA KRŠĆANSKA DEMOKRATSKA UNIJA - HKDU, HRVATSKA DEMOKRATSKA STRANKA, NACIONALNI DEMOKRATI - ND"
+        },
+        "SRP": {
+          "votes": 5,
+          "coalition_name": "SOCIJALISTIČKA RADNIČKA PARTIJA HRVATSKE - SRP"
+        },
+        "STRANKA RADA I SOLIDARNOSTI": {
+          "votes": 8,
+          "coalition_name": "\"BANDIĆ MILAN 365 - STRANKA RADA I SOLIDARNOSTI\", DEMOKRATSKA PRIGORSKO - ZAGREBAČKA STRANKA - DPS, DEMOKRATSKA STRANKA ŽENA - DSŽ, HRVATSKA EUROPSKA STRANKA - HES, HRVATSKA RADNIČKA STRANKA - HRS, HRVATSKA STRANKA ZELENIH - EKO SAVEZ - ZELENI, ISTARSKI DEMOKRATI - DEMOCRATICI ISTRIANI - ID - DI, MEĐIMURSKA STRANKA - MS, NEZAVISNI SELJACI HRVATSKE - NSH, NOVI VAL - STRANKA RAZVOJA - NOVI VAL, STRANKA UMIROVLJENIKA - SU, UMIROVLJENIČKA DEMOKRATSKA UNIJA - UDU, ZELENI SAVEZ - ZELENI, ZELENA STRANKA - ZS"
+        },
+        "HKS": {
+          "votes": 6,
+          "coalition_name": "HRVATSKA KONZERVATIVNA STRANKA - HKS, HRVATSKA STRANKA PRAVA - HSP, OBITELJSKA STRANKA - OS"
+        },
+        "VESNA PINJUH": {
+          "votes": 2,
+          "coalition_name": "NEOVISNA LISTA - VESNA PINJUH"
+        },
+        "ODRŽIVI RAZVOJ HRVATSKE": {
+          "votes": 2,
+          "coalition_name": "ODRŽIVI RAZVOJ HRVATSKE - ORaH"
         }
       }
     },
@@ -37049,17 +37140,45 @@
           "votes": 2,
           "coalition_name": "AUTOHTONA - HRVATSKA STRANKA PRAVA - A - HSP"
         },
-        "ANTONI BANDIĆ": {
-          "votes": 4,
-          "coalition_name": "ANTONI BANDIĆ, mag. računarstva"
+        "STRANKA RADA I SOLIDARNOSTI": {
+          "votes": 19,
+          "coalition_name": "\"BANDIĆ MILAN 365 - STRANKA RADA I SOLIDARNOSTI\", DEMOKRATSKA PRIGORSKO - ZAGREBAČKA STRANKA - DPS, DEMOKRATSKA STRANKA ŽENA - DSŽ, HRVATSKA EUROPSKA STRANKA - HES, HRVATSKA RADNIČKA STRANKA - HRS, HRVATSKA STRANKA ZELENIH - EKO SAVEZ - ZELENI, ISTARSKI DEMOKRATI - DEMOCRATICI ISTRIANI - ID - DI, MEĐIMURSKA STRANKA - MS, NEZAVISNI SELJACI HRVATSKE - NSH, NOVI VAL - STRANKA RAZVOJA - NOVI VAL, STRANKA UMIROVLJENIKA - SU, UMIROVLJENIČKA DEMOKRATSKA UNIJA - UDU, ZELENI SAVEZ - ZELENI, ZELENA STRANKA - ZS"
         },
-        "VLADIMIR JURIŠIĆ": {
-          "votes": 1,
-          "coalition_name": "VLADIMIR JURIŠIĆ"
+        "HDZ": {
+          "votes": 500,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ, HRVATSKA SELJAČKA STRANKA - HSS, HRVATSKA STRANKA PRAVA DR. ANTE STARČEVIĆ - HSP AS, BLOK UMIROVLJENICI ZAJEDNO - BUZ, HRVATSKA SOCIJALNO - LIBERALNA STRANKA - HSLS, HRAST - POKRET ZA USPJEŠNU HRVATSKU, HRVATSKA DEMOKRŠĆANSKA STRANKA - HDS, ZAGORSKA DEMOKRATSKA STRANKA - ZDS"
         },
-        "TOMY ROSY": {
+        "HKS": {
+          "votes": 2,
+          "coalition_name": "HRVATSKA KONZERVATIVNA STRANKA - HKS, HRVATSKA STRANKA PRAVA - HSP, OBITELJSKA STRANKA - OS"
+        },
+        "MOST": {
+          "votes": 54,
+          "coalition_name": "MOST NEZAVISNIH LISTA - MOST"
+        },
+        "REFORMISTI": {
+          "votes": 8,
+          "coalition_name": "NARODNA STRANKA - REFORMISTI - REFORMISTI, NAPRIJED HRVATSKA! - PROGRESIVNI SAVEZ IVE JOSIPOVIĆA, STRANKA HRVATSKIH UMIROVLJENIKA - UMIROVLJENICI, ZELENI FORUM, DUBROVAČKI DEMOKRATSKI SABOR - DDS"
+        },
+        "ODRŽIVI RAZVOJ HRVATSKE": {
+          "votes": 11,
+          "coalition_name": "ODRŽIVI RAZVOJ HRVATSKE - ORaH"
+        },
+        "PROJEKT DOMOVINA": {
+          "votes": 11,
+          "coalition_name": "U IME OBITELJI - PROJEKT DOMOVINA"
+        },
+        "HKDU": {
+          "votes": 3,
+          "coalition_name": "HRVATSKA KRŠĆANSKA DEMOKRATSKA UNIJA - HKDU, HRVATSKA DEMOKRATSKA STRANKA, NACIONALNI DEMOKRATI - ND"
+        },
+        "SRP": {
+          "votes": 2,
+          "coalition_name": "SOCIJALISTIČKA RADNIČKA PARTIJA HRVATSKE - SRP"
+        },
+        "VESNA PINJUH": {
           "votes": 1,
-          "coalition_name": "TOMY ROSY"
+          "coalition_name": "NEOVISNA LISTA - VESNA PINJUH"
         }
       }
     },
@@ -37069,7 +37188,36 @@
       "total_voters": 44,
       "votes_cast": 44,
       "turnout": 1.0,
-      "parties": {}
+      "parties": {
+        "STRANKA RADA I SOLIDARNOSTI": {
+          "votes": 1,
+          "coalition_name": "\"BANDIĆ MILAN 365 - STRANKA RADA I SOLIDARNOSTI\", DEMOKRATSKA PRIGORSKO - ZAGREBAČKA STRANKA - DPS, DEMOKRATSKA STRANKA ŽENA - DSŽ, HRVATSKA EUROPSKA STRANKA - HES, HRVATSKA RADNIČKA STRANKA - HRS, HRVATSKA STRANKA ZELENIH - EKO SAVEZ - ZELENI, ISTARSKI DEMOKRATI - DEMOCRATICI ISTRIANI - ID - DI, MEĐIMURSKA STRANKA - MS, NEZAVISNI SELJACI HRVATSKE - NSH, NOVI VAL - STRANKA RAZVOJA - NOVI VAL, STRANKA UMIROVLJENIKA - SU, UMIROVLJENIČKA DEMOKRATSKA UNIJA - UDU, ZELENI SAVEZ - ZELENI, ZELENA STRANKA - ZS"
+        },
+        "HDZ": {
+          "votes": 20,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ, HRVATSKA SELJAČKA STRANKA - HSS, HRVATSKA STRANKA PRAVA DR. ANTE STARČEVIĆ - HSP AS, BLOK UMIROVLJENICI ZAJEDNO - BUZ, HRVATSKA SOCIJALNO - LIBERALNA STRANKA - HSLS, HRAST - POKRET ZA USPJEŠNU HRVATSKU, HRVATSKA DEMOKRŠĆANSKA STRANKA - HDS, ZAGORSKA DEMOKRATSKA STRANKA - ZDS"
+        },
+        "MOST": {
+          "votes": 10,
+          "coalition_name": "MOST NEZAVISNIH LISTA - MOST"
+        },
+        "REFORMISTI": {
+          "votes": 2,
+          "coalition_name": "NARODNA STRANKA - REFORMISTI - REFORMISTI, NAPRIJED HRVATSKA! - PROGRESIVNI SAVEZ IVE JOSIPOVIĆA, STRANKA HRVATSKIH UMIROVLJENIKA - UMIROVLJENICI, ZELENI FORUM, DUBROVAČKI DEMOKRATSKI SABOR - DDS"
+        },
+        "ODRŽIVI RAZVOJ HRVATSKE": {
+          "votes": 7,
+          "coalition_name": "ODRŽIVI RAZVOJ HRVATSKE - ORaH"
+        },
+        "PROJEKT DOMOVINA": {
+          "votes": 3,
+          "coalition_name": "U IME OBITELJI - PROJEKT DOMOVINA"
+        },
+        "SRP": {
+          "votes": 1,
+          "coalition_name": "SOCIJALISTIČKA RADNIČKA PARTIJA HRVATSKE - SRP"
+        }
+      }
     },
     "bosna-i-hercegovina": {
       "name": "BOSNA I HERCEGOVINA",
@@ -37082,25 +37230,45 @@
           "votes": 46,
           "coalition_name": "AUTOHTONA - HRVATSKA STRANKA PRAVA - A - HSP"
         },
-        "ILIJA JANOVIĆ": {
-          "votes": 12,
-          "coalition_name": "ILIJA JANOVIĆ"
+        "STRANKA RADA I SOLIDARNOSTI": {
+          "votes": 847,
+          "coalition_name": "\"BANDIĆ MILAN 365 - STRANKA RADA I SOLIDARNOSTI\", DEMOKRATSKA PRIGORSKO - ZAGREBAČKA STRANKA - DPS, DEMOKRATSKA STRANKA ŽENA - DSŽ, HRVATSKA EUROPSKA STRANKA - HES, HRVATSKA RADNIČKA STRANKA - HRS, HRVATSKA STRANKA ZELENIH - EKO SAVEZ - ZELENI, ISTARSKI DEMOKRATI - DEMOCRATICI ISTRIANI - ID - DI, MEĐIMURSKA STRANKA - MS, NEZAVISNI SELJACI HRVATSKE - NSH, NOVI VAL - STRANKA RAZVOJA - NOVI VAL, STRANKA UMIROVLJENIKA - SU, UMIROVLJENIČKA DEMOKRATSKA UNIJA - UDU, ZELENI SAVEZ - ZELENI, ZELENA STRANKA - ZS"
         },
-        "ANTONI BANDIĆ": {
-          "votes": 69,
-          "coalition_name": "ANTONI BANDIĆ, mag. računarstva"
+        "HDZ": {
+          "votes": 16064,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ, HRVATSKA SELJAČKA STRANKA - HSS, HRVATSKA STRANKA PRAVA DR. ANTE STARČEVIĆ - HSP AS, BLOK UMIROVLJENICI ZAJEDNO - BUZ, HRVATSKA SOCIJALNO - LIBERALNA STRANKA - HSLS, HRAST - POKRET ZA USPJEŠNU HRVATSKU, HRVATSKA DEMOKRŠĆANSKA STRANKA - HDS, ZAGORSKA DEMOKRATSKA STRANKA - ZDS"
         },
-        "VLADIMIR JURIŠIĆ": {
-          "votes": 16,
-          "coalition_name": "VLADIMIR JURIŠIĆ"
+        "HKS": {
+          "votes": 56,
+          "coalition_name": "HRVATSKA KONZERVATIVNA STRANKA - HKS, HRVATSKA STRANKA PRAVA - HSP, OBITELJSKA STRANKA - OS"
         },
-        "TOMY ROSY": {
-          "votes": 3,
-          "coalition_name": "TOMY ROSY"
+        "MOST": {
+          "votes": 579,
+          "coalition_name": "MOST NEZAVISNIH LISTA - MOST"
         },
-        "BORA DIDULICA": {
-          "votes": 1,
-          "coalition_name": "BORA DIDULICA"
+        "REFORMISTI": {
+          "votes": 173,
+          "coalition_name": "NARODNA STRANKA - REFORMISTI - REFORMISTI, NAPRIJED HRVATSKA! - PROGRESIVNI SAVEZ IVE JOSIPOVIĆA, STRANKA HRVATSKIH UMIROVLJENIKA - UMIROVLJENICI, ZELENI FORUM, DUBROVAČKI DEMOKRATSKI SABOR - DDS"
+        },
+        "ODRŽIVI RAZVOJ HRVATSKE": {
+          "votes": 98,
+          "coalition_name": "ODRŽIVI RAZVOJ HRVATSKE - ORaH"
+        },
+        "PROJEKT DOMOVINA": {
+          "votes": 212,
+          "coalition_name": "U IME OBITELJI - PROJEKT DOMOVINA"
+        },
+        "HKDU": {
+          "votes": 41,
+          "coalition_name": "HRVATSKA KRŠĆANSKA DEMOKRATSKA UNIJA - HKDU, HRVATSKA DEMOKRATSKA STRANKA, NACIONALNI DEMOKRATI - ND"
+        },
+        "VESNA PINJUH": {
+          "votes": 135,
+          "coalition_name": "NEOVISNA LISTA - VESNA PINJUH"
+        },
+        "SRP": {
+          "votes": 100,
+          "coalition_name": "SOCIJALISTIČKA RADNIČKA PARTIJA HRVATSKE - SRP"
         }
       }
     },
@@ -37110,7 +37278,12 @@
       "total_voters": 1,
       "votes_cast": 1,
       "turnout": 1.0,
-      "parties": {}
+      "parties": {
+        "HDZ": {
+          "votes": 1,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ, HRVATSKA SELJAČKA STRANKA - HSS, HRVATSKA STRANKA PRAVA DR. ANTE STARČEVIĆ - HSP AS, BLOK UMIROVLJENICI ZAJEDNO - BUZ, HRVATSKA SOCIJALNO - LIBERALNA STRANKA - HSLS, HRAST - POKRET ZA USPJEŠNU HRVATSKU, HRVATSKA DEMOKRŠĆANSKA STRANKA - HDS, ZAGORSKA DEMOKRATSKA STRANKA - ZDS"
+        }
+      }
     },
     "bugarska": {
       "name": "BUGARSKA",
@@ -37122,6 +37295,18 @@
         "HSP": {
           "votes": 1,
           "coalition_name": "AUTOHTONA - HRVATSKA STRANKA PRAVA - A - HSP"
+        },
+        "HDZ": {
+          "votes": 2,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ, HRVATSKA SELJAČKA STRANKA - HSS, HRVATSKA STRANKA PRAVA DR. ANTE STARČEVIĆ - HSP AS, BLOK UMIROVLJENICI ZAJEDNO - BUZ, HRVATSKA SOCIJALNO - LIBERALNA STRANKA - HSLS, HRAST - POKRET ZA USPJEŠNU HRVATSKU, HRVATSKA DEMOKRŠĆANSKA STRANKA - HDS, ZAGORSKA DEMOKRATSKA STRANKA - ZDS"
+        },
+        "MOST": {
+          "votes": 1,
+          "coalition_name": "MOST NEZAVISNIH LISTA - MOST"
+        },
+        "VESNA PINJUH": {
+          "votes": 1,
+          "coalition_name": "NEOVISNA LISTA - VESNA PINJUH"
         }
       }
     },
@@ -37136,25 +37321,41 @@
           "votes": 2,
           "coalition_name": "AUTOHTONA - HRVATSKA STRANKA PRAVA - A - HSP"
         },
-        "ANTONI BANDIĆ": {
-          "votes": 4,
-          "coalition_name": "ANTONI BANDIĆ, mag. računarstva"
+        "STRANKA RADA I SOLIDARNOSTI": {
+          "votes": 18,
+          "coalition_name": "\"BANDIĆ MILAN 365 - STRANKA RADA I SOLIDARNOSTI\", DEMOKRATSKA PRIGORSKO - ZAGREBAČKA STRANKA - DPS, DEMOKRATSKA STRANKA ŽENA - DSŽ, HRVATSKA EUROPSKA STRANKA - HES, HRVATSKA RADNIČKA STRANKA - HRS, HRVATSKA STRANKA ZELENIH - EKO SAVEZ - ZELENI, ISTARSKI DEMOKRATI - DEMOCRATICI ISTRIANI - ID - DI, MEĐIMURSKA STRANKA - MS, NEZAVISNI SELJACI HRVATSKE - NSH, NOVI VAL - STRANKA RAZVOJA - NOVI VAL, STRANKA UMIROVLJENIKA - SU, UMIROVLJENIČKA DEMOKRATSKA UNIJA - UDU, ZELENI SAVEZ - ZELENI, ZELENA STRANKA - ZS"
         },
-        "ILIJA JANOVIĆ": {
-          "votes": 106,
-          "coalition_name": "ILIJA JANOVIĆ"
+        "HDZ": {
+          "votes": 151,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ, HRVATSKA SELJAČKA STRANKA - HSS, HRVATSKA STRANKA PRAVA DR. ANTE STARČEVIĆ - HSP AS, BLOK UMIROVLJENICI ZAJEDNO - BUZ, HRVATSKA SOCIJALNO - LIBERALNA STRANKA - HSLS, HRAST - POKRET ZA USPJEŠNU HRVATSKU, HRVATSKA DEMOKRŠĆANSKA STRANKA - HDS, ZAGORSKA DEMOKRATSKA STRANKA - ZDS"
         },
-        "TOMY ROSY": {
+        "MOST": {
+          "votes": 16,
+          "coalition_name": "MOST NEZAVISNIH LISTA - MOST"
+        },
+        "REFORMISTI": {
+          "votes": 16,
+          "coalition_name": "NARODNA STRANKA - REFORMISTI - REFORMISTI, NAPRIJED HRVATSKA! - PROGRESIVNI SAVEZ IVE JOSIPOVIĆA, STRANKA HRVATSKIH UMIROVLJENIKA - UMIROVLJENICI, ZELENI FORUM, DUBROVAČKI DEMOKRATSKI SABOR - DDS"
+        },
+        "ODRŽIVI RAZVOJ HRVATSKE": {
+          "votes": 13,
+          "coalition_name": "ODRŽIVI RAZVOJ HRVATSKE - ORaH"
+        },
+        "PROJEKT DOMOVINA": {
+          "votes": 1,
+          "coalition_name": "U IME OBITELJI - PROJEKT DOMOVINA"
+        },
+        "HKDU": {
           "votes": 3,
-          "coalition_name": "TOMY ROSY"
+          "coalition_name": "HRVATSKA KRŠĆANSKA DEMOKRATSKA UNIJA - HKDU, HRVATSKA DEMOKRATSKA STRANKA, NACIONALNI DEMOKRATI - ND"
         },
-        "BORA DIDULICA": {
-          "votes": 1,
-          "coalition_name": "BORA DIDULICA"
+        "SRP": {
+          "votes": 4,
+          "coalition_name": "SOCIJALISTIČKA RADNIČKA PARTIJA HRVATSKE - SRP"
         },
-        "VLADIMIR JURIŠIĆ": {
-          "votes": 1,
-          "coalition_name": "VLADIMIR JURIŠIĆ"
+        "VESNA PINJUH": {
+          "votes": 3,
+          "coalition_name": "NEOVISNA LISTA - VESNA PINJUH"
         }
       }
     },
@@ -37165,9 +37366,29 @@
       "votes_cast": 19,
       "turnout": 1.0,
       "parties": {
-        "VLADIMIR JURIŠIĆ": {
+        "STRANKA RADA I SOLIDARNOSTI": {
           "votes": 1,
-          "coalition_name": "VLADIMIR JURIŠIĆ"
+          "coalition_name": "\"BANDIĆ MILAN 365 - STRANKA RADA I SOLIDARNOSTI\", DEMOKRATSKA PRIGORSKO - ZAGREBAČKA STRANKA - DPS, DEMOKRATSKA STRANKA ŽENA - DSŽ, HRVATSKA EUROPSKA STRANKA - HES, HRVATSKA RADNIČKA STRANKA - HRS, HRVATSKA STRANKA ZELENIH - EKO SAVEZ - ZELENI, ISTARSKI DEMOKRATI - DEMOCRATICI ISTRIANI - ID - DI, MEĐIMURSKA STRANKA - MS, NEZAVISNI SELJACI HRVATSKE - NSH, NOVI VAL - STRANKA RAZVOJA - NOVI VAL, STRANKA UMIROVLJENIKA - SU, UMIROVLJENIČKA DEMOKRATSKA UNIJA - UDU, ZELENI SAVEZ - ZELENI, ZELENA STRANKA - ZS"
+        },
+        "HDZ": {
+          "votes": 2,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ, HRVATSKA SELJAČKA STRANKA - HSS, HRVATSKA STRANKA PRAVA DR. ANTE STARČEVIĆ - HSP AS, BLOK UMIROVLJENICI ZAJEDNO - BUZ, HRVATSKA SOCIJALNO - LIBERALNA STRANKA - HSLS, HRAST - POKRET ZA USPJEŠNU HRVATSKU, HRVATSKA DEMOKRŠĆANSKA STRANKA - HDS, ZAGORSKA DEMOKRATSKA STRANKA - ZDS"
+        },
+        "MOST": {
+          "votes": 4,
+          "coalition_name": "MOST NEZAVISNIH LISTA - MOST"
+        },
+        "REFORMISTI": {
+          "votes": 6,
+          "coalition_name": "NARODNA STRANKA - REFORMISTI - REFORMISTI, NAPRIJED HRVATSKA! - PROGRESIVNI SAVEZ IVE JOSIPOVIĆA, STRANKA HRVATSKIH UMIROVLJENIKA - UMIROVLJENICI, ZELENI FORUM, DUBROVAČKI DEMOKRATSKI SABOR - DDS"
+        },
+        "VESNA PINJUH": {
+          "votes": 4,
+          "coalition_name": "NEOVISNA LISTA - VESNA PINJUH"
+        },
+        "SRP": {
+          "votes": 2,
+          "coalition_name": "SOCIJALISTIČKA RADNIČKA PARTIJA HRVATSKE - SRP"
         }
       }
     },
@@ -37178,9 +37399,37 @@
       "votes_cast": 26,
       "turnout": 1.0,
       "parties": {
-        "LANA MAJIĆ": {
+        "STRANKA RADA I SOLIDARNOSTI": {
+          "votes": 3,
+          "coalition_name": "\"BANDIĆ MILAN 365 - STRANKA RADA I SOLIDARNOSTI\", DEMOKRATSKA PRIGORSKO - ZAGREBAČKA STRANKA - DPS, DEMOKRATSKA STRANKA ŽENA - DSŽ, HRVATSKA EUROPSKA STRANKA - HES, HRVATSKA RADNIČKA STRANKA - HRS, HRVATSKA STRANKA ZELENIH - EKO SAVEZ - ZELENI, ISTARSKI DEMOKRATI - DEMOCRATICI ISTRIANI - ID - DI, MEĐIMURSKA STRANKA - MS, NEZAVISNI SELJACI HRVATSKE - NSH, NOVI VAL - STRANKA RAZVOJA - NOVI VAL, STRANKA UMIROVLJENIKA - SU, UMIROVLJENIČKA DEMOKRATSKA UNIJA - UDU, ZELENI SAVEZ - ZELENI, ZELENA STRANKA - ZS"
+        },
+        "HDZ": {
+          "votes": 13,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ, HRVATSKA SELJAČKA STRANKA - HSS, HRVATSKA STRANKA PRAVA DR. ANTE STARČEVIĆ - HSP AS, BLOK UMIROVLJENICI ZAJEDNO - BUZ, HRVATSKA SOCIJALNO - LIBERALNA STRANKA - HSLS, HRAST - POKRET ZA USPJEŠNU HRVATSKU, HRVATSKA DEMOKRŠĆANSKA STRANKA - HDS, ZAGORSKA DEMOKRATSKA STRANKA - ZDS"
+        },
+        "HKS": {
           "votes": 1,
-          "coalition_name": "LANA MAJIĆ"
+          "coalition_name": "HRVATSKA KONZERVATIVNA STRANKA - HKS, HRVATSKA STRANKA PRAVA - HSP, OBITELJSKA STRANKA - OS"
+        },
+        "REFORMISTI": {
+          "votes": 4,
+          "coalition_name": "NARODNA STRANKA - REFORMISTI - REFORMISTI, NAPRIJED HRVATSKA! - PROGRESIVNI SAVEZ IVE JOSIPOVIĆA, STRANKA HRVATSKIH UMIROVLJENIKA - UMIROVLJENICI, ZELENI FORUM, DUBROVAČKI DEMOKRATSKI SABOR - DDS"
+        },
+        "ODRŽIVI RAZVOJ HRVATSKE": {
+          "votes": 1,
+          "coalition_name": "ODRŽIVI RAZVOJ HRVATSKE - ORaH"
+        },
+        "PROJEKT DOMOVINA": {
+          "votes": 1,
+          "coalition_name": "U IME OBITELJI - PROJEKT DOMOVINA"
+        },
+        "HKDU": {
+          "votes": 1,
+          "coalition_name": "HRVATSKA KRŠĆANSKA DEMOKRATSKA UNIJA - HKDU, HRVATSKA DEMOKRATSKA STRANKA, NACIONALNI DEMOKRATI - ND"
+        },
+        "SRP": {
+          "votes": 1,
+          "coalition_name": "SOCIJALISTIČKA RADNIČKA PARTIJA HRVATSKE - SRP"
         }
       }
     },
@@ -37190,7 +37439,28 @@
       "total_voters": 34,
       "votes_cast": 34,
       "turnout": 1.0,
-      "parties": {}
+      "parties": {
+        "STRANKA RADA I SOLIDARNOSTI": {
+          "votes": 1,
+          "coalition_name": "\"BANDIĆ MILAN 365 - STRANKA RADA I SOLIDARNOSTI\", DEMOKRATSKA PRIGORSKO - ZAGREBAČKA STRANKA - DPS, DEMOKRATSKA STRANKA ŽENA - DSŽ, HRVATSKA EUROPSKA STRANKA - HES, HRVATSKA RADNIČKA STRANKA - HRS, HRVATSKA STRANKA ZELENIH - EKO SAVEZ - ZELENI, ISTARSKI DEMOKRATI - DEMOCRATICI ISTRIANI - ID - DI, MEĐIMURSKA STRANKA - MS, NEZAVISNI SELJACI HRVATSKE - NSH, NOVI VAL - STRANKA RAZVOJA - NOVI VAL, STRANKA UMIROVLJENIKA - SU, UMIROVLJENIČKA DEMOKRATSKA UNIJA - UDU, ZELENI SAVEZ - ZELENI, ZELENA STRANKA - ZS"
+        },
+        "HDZ": {
+          "votes": 22,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ, HRVATSKA SELJAČKA STRANKA - HSS, HRVATSKA STRANKA PRAVA DR. ANTE STARČEVIĆ - HSP AS, BLOK UMIROVLJENICI ZAJEDNO - BUZ, HRVATSKA SOCIJALNO - LIBERALNA STRANKA - HSLS, HRAST - POKRET ZA USPJEŠNU HRVATSKU, HRVATSKA DEMOKRŠĆANSKA STRANKA - HDS, ZAGORSKA DEMOKRATSKA STRANKA - ZDS"
+        },
+        "MOST": {
+          "votes": 4,
+          "coalition_name": "MOST NEZAVISNIH LISTA - MOST"
+        },
+        "REFORMISTI": {
+          "votes": 3,
+          "coalition_name": "NARODNA STRANKA - REFORMISTI - REFORMISTI, NAPRIJED HRVATSKA! - PROGRESIVNI SAVEZ IVE JOSIPOVIĆA, STRANKA HRVATSKIH UMIROVLJENIKA - UMIROVLJENICI, ZELENI FORUM, DUBROVAČKI DEMOKRATSKI SABOR - DDS"
+        },
+        "ODRŽIVI RAZVOJ HRVATSKE": {
+          "votes": 3,
+          "coalition_name": "ODRŽIVI RAZVOJ HRVATSKE - ORaH"
+        }
+      }
     },
     "finska": {
       "name": "FINSKA",
@@ -37198,7 +37468,16 @@
       "total_voters": 4,
       "votes_cast": 4,
       "turnout": 1.0,
-      "parties": {}
+      "parties": {
+        "REFORMISTI": {
+          "votes": 2,
+          "coalition_name": "NARODNA STRANKA - REFORMISTI - REFORMISTI, NAPRIJED HRVATSKA! - PROGRESIVNI SAVEZ IVE JOSIPOVIĆA, STRANKA HRVATSKIH UMIROVLJENIKA - UMIROVLJENICI, ZELENI FORUM, DUBROVAČKI DEMOKRATSKI SABOR - DDS"
+        },
+        "ODRŽIVI RAZVOJ HRVATSKE": {
+          "votes": 2,
+          "coalition_name": "ODRŽIVI RAZVOJ HRVATSKE - ORaH"
+        }
+      }
     },
     "francuska": {
       "name": "FRANCUSKA",
@@ -37210,6 +37489,30 @@
         "HSP": {
           "votes": 1,
           "coalition_name": "AUTOHTONA - HRVATSKA STRANKA PRAVA - A - HSP"
+        },
+        "HDZ": {
+          "votes": 29,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ, HRVATSKA SELJAČKA STRANKA - HSS, HRVATSKA STRANKA PRAVA DR. ANTE STARČEVIĆ - HSP AS, BLOK UMIROVLJENICI ZAJEDNO - BUZ, HRVATSKA SOCIJALNO - LIBERALNA STRANKA - HSLS, HRAST - POKRET ZA USPJEŠNU HRVATSKU, HRVATSKA DEMOKRŠĆANSKA STRANKA - HDS, ZAGORSKA DEMOKRATSKA STRANKA - ZDS"
+        },
+        "MOST": {
+          "votes": 1,
+          "coalition_name": "MOST NEZAVISNIH LISTA - MOST"
+        },
+        "REFORMISTI": {
+          "votes": 1,
+          "coalition_name": "NARODNA STRANKA - REFORMISTI - REFORMISTI, NAPRIJED HRVATSKA! - PROGRESIVNI SAVEZ IVE JOSIPOVIĆA, STRANKA HRVATSKIH UMIROVLJENIKA - UMIROVLJENICI, ZELENI FORUM, DUBROVAČKI DEMOKRATSKI SABOR - DDS"
+        },
+        "ODRŽIVI RAZVOJ HRVATSKE": {
+          "votes": 2,
+          "coalition_name": "ODRŽIVI RAZVOJ HRVATSKE - ORaH"
+        },
+        "HKDU": {
+          "votes": 1,
+          "coalition_name": "HRVATSKA KRŠĆANSKA DEMOKRATSKA UNIJA - HKDU, HRVATSKA DEMOKRATSKA STRANKA, NACIONALNI DEMOKRATI - ND"
+        },
+        "VESNA PINJUH": {
+          "votes": 1,
+          "coalition_name": "NEOVISNA LISTA - VESNA PINJUH"
         }
       }
     },
@@ -37219,7 +37522,24 @@
       "total_voters": 6,
       "votes_cast": 6,
       "turnout": 1.0,
-      "parties": {}
+      "parties": {
+        "STRANKA RADA I SOLIDARNOSTI": {
+          "votes": 1,
+          "coalition_name": "\"BANDIĆ MILAN 365 - STRANKA RADA I SOLIDARNOSTI\", DEMOKRATSKA PRIGORSKO - ZAGREBAČKA STRANKA - DPS, DEMOKRATSKA STRANKA ŽENA - DSŽ, HRVATSKA EUROPSKA STRANKA - HES, HRVATSKA RADNIČKA STRANKA - HRS, HRVATSKA STRANKA ZELENIH - EKO SAVEZ - ZELENI, ISTARSKI DEMOKRATI - DEMOCRATICI ISTRIANI - ID - DI, MEĐIMURSKA STRANKA - MS, NEZAVISNI SELJACI HRVATSKE - NSH, NOVI VAL - STRANKA RAZVOJA - NOVI VAL, STRANKA UMIROVLJENIKA - SU, UMIROVLJENIČKA DEMOKRATSKA UNIJA - UDU, ZELENI SAVEZ - ZELENI, ZELENA STRANKA - ZS"
+        },
+        "HDZ": {
+          "votes": 3,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ, HRVATSKA SELJAČKA STRANKA - HSS, HRVATSKA STRANKA PRAVA DR. ANTE STARČEVIĆ - HSP AS, BLOK UMIROVLJENICI ZAJEDNO - BUZ, HRVATSKA SOCIJALNO - LIBERALNA STRANKA - HSLS, HRAST - POKRET ZA USPJEŠNU HRVATSKU, HRVATSKA DEMOKRŠĆANSKA STRANKA - HDS, ZAGORSKA DEMOKRATSKA STRANKA - ZDS"
+        },
+        "REFORMISTI": {
+          "votes": 1,
+          "coalition_name": "NARODNA STRANKA - REFORMISTI - REFORMISTI, NAPRIJED HRVATSKA! - PROGRESIVNI SAVEZ IVE JOSIPOVIĆA, STRANKA HRVATSKIH UMIROVLJENIKA - UMIROVLJENICI, ZELENI FORUM, DUBROVAČKI DEMOKRATSKI SABOR - DDS"
+        },
+        "ODRŽIVI RAZVOJ HRVATSKE": {
+          "votes": 1,
+          "coalition_name": "ODRŽIVI RAZVOJ HRVATSKE - ORaH"
+        }
+      }
     },
     "indija": {
       "name": "INDIJA",
@@ -37227,7 +37547,12 @@
       "total_voters": 1,
       "votes_cast": 1,
       "turnout": 1.0,
-      "parties": {}
+      "parties": {
+        "HDZ": {
+          "votes": 1,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ, HRVATSKA SELJAČKA STRANKA - HSS, HRVATSKA STRANKA PRAVA DR. ANTE STARČEVIĆ - HSP AS, BLOK UMIROVLJENICI ZAJEDNO - BUZ, HRVATSKA SOCIJALNO - LIBERALNA STRANKA - HSLS, HRAST - POKRET ZA USPJEŠNU HRVATSKU, HRVATSKA DEMOKRŠĆANSKA STRANKA - HDS, ZAGORSKA DEMOKRATSKA STRANKA - ZDS"
+        }
+      }
     },
     "indonezija": {
       "name": "INDONEZIJA",
@@ -37235,7 +37560,20 @@
       "total_voters": 4,
       "votes_cast": 4,
       "turnout": 1.0,
-      "parties": {}
+      "parties": {
+        "STRANKA RADA I SOLIDARNOSTI": {
+          "votes": 1,
+          "coalition_name": "\"BANDIĆ MILAN 365 - STRANKA RADA I SOLIDARNOSTI\", DEMOKRATSKA PRIGORSKO - ZAGREBAČKA STRANKA - DPS, DEMOKRATSKA STRANKA ŽENA - DSŽ, HRVATSKA EUROPSKA STRANKA - HES, HRVATSKA RADNIČKA STRANKA - HRS, HRVATSKA STRANKA ZELENIH - EKO SAVEZ - ZELENI, ISTARSKI DEMOKRATI - DEMOCRATICI ISTRIANI - ID - DI, MEĐIMURSKA STRANKA - MS, NEZAVISNI SELJACI HRVATSKE - NSH, NOVI VAL - STRANKA RAZVOJA - NOVI VAL, STRANKA UMIROVLJENIKA - SU, UMIROVLJENIČKA DEMOKRATSKA UNIJA - UDU, ZELENI SAVEZ - ZELENI, ZELENA STRANKA - ZS"
+        },
+        "ODRŽIVI RAZVOJ HRVATSKE": {
+          "votes": 2,
+          "coalition_name": "ODRŽIVI RAZVOJ HRVATSKE - ORaH"
+        },
+        "HKDU": {
+          "votes": 1,
+          "coalition_name": "HRVATSKA KRŠĆANSKA DEMOKRATSKA UNIJA - HKDU, HRVATSKA DEMOKRATSKA STRANKA, NACIONALNI DEMOKRATI - ND"
+        }
+      }
     },
     "irska": {
       "name": "IRSKA",
@@ -37243,7 +37581,12 @@
       "total_voters": 2,
       "votes_cast": 2,
       "turnout": 1.0,
-      "parties": {}
+      "parties": {
+        "MOST": {
+          "votes": 2,
+          "coalition_name": "MOST NEZAVISNIH LISTA - MOST"
+        }
+      }
     },
     "italija": {
       "name": "ITALIJA",
@@ -37252,13 +37595,49 @@
       "votes_cast": 88,
       "turnout": 1.0,
       "parties": {
+        "STRANKA RADA I SOLIDARNOSTI": {
+          "votes": 5,
+          "coalition_name": "\"BANDIĆ MILAN 365 - STRANKA RADA I SOLIDARNOSTI\", DEMOKRATSKA PRIGORSKO - ZAGREBAČKA STRANKA - DPS, DEMOKRATSKA STRANKA ŽENA - DSŽ, HRVATSKA EUROPSKA STRANKA - HES, HRVATSKA RADNIČKA STRANKA - HRS, HRVATSKA STRANKA ZELENIH - EKO SAVEZ - ZELENI, ISTARSKI DEMOKRATI - DEMOCRATICI ISTRIANI - ID - DI, MEĐIMURSKA STRANKA - MS, NEZAVISNI SELJACI HRVATSKE - NSH, NOVI VAL - STRANKA RAZVOJA - NOVI VAL, STRANKA UMIROVLJENIKA - SU, UMIROVLJENIČKA DEMOKRATSKA UNIJA - UDU, ZELENI SAVEZ - ZELENI, ZELENA STRANKA - ZS"
+        },
+        "HDZ": {
+          "votes": 45,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ, HRVATSKA SELJAČKA STRANKA - HSS, HRVATSKA STRANKA PRAVA DR. ANTE STARČEVIĆ - HSP AS, BLOK UMIROVLJENICI ZAJEDNO - BUZ, HRVATSKA SOCIJALNO - LIBERALNA STRANKA - HSLS, HRAST - POKRET ZA USPJEŠNU HRVATSKU, HRVATSKA DEMOKRŠĆANSKA STRANKA - HDS, ZAGORSKA DEMOKRATSKA STRANKA - ZDS"
+        },
+        "MOST": {
+          "votes": 14,
+          "coalition_name": "MOST NEZAVISNIH LISTA - MOST"
+        },
+        "REFORMISTI": {
+          "votes": 3,
+          "coalition_name": "NARODNA STRANKA - REFORMISTI - REFORMISTI, NAPRIJED HRVATSKA! - PROGRESIVNI SAVEZ IVE JOSIPOVIĆA, STRANKA HRVATSKIH UMIROVLJENIKA - UMIROVLJENICI, ZELENI FORUM, DUBROVAČKI DEMOKRATSKI SABOR - DDS"
+        },
+        "PROJEKT DOMOVINA": {
+          "votes": 6,
+          "coalition_name": "U IME OBITELJI - PROJEKT DOMOVINA"
+        },
+        "HKDU": {
+          "votes": 3,
+          "coalition_name": "HRVATSKA KRŠĆANSKA DEMOKRATSKA UNIJA - HKDU, HRVATSKA DEMOKRATSKA STRANKA, NACIONALNI DEMOKRATI - ND"
+        },
+        "SRP": {
+          "votes": 2,
+          "coalition_name": "SOCIJALISTIČKA RADNIČKA PARTIJA HRVATSKE - SRP"
+        },
         "HSP": {
           "votes": 2,
           "coalition_name": "AUTOHTONA - HRVATSKA STRANKA PRAVA - A - HSP"
         },
-        "ILIJA JANOVIĆ": {
+        "HKS": {
+          "votes": 1,
+          "coalition_name": "HRVATSKA KONZERVATIVNA STRANKA - HKS, HRVATSKA STRANKA PRAVA - HSP, OBITELJSKA STRANKA - OS"
+        },
+        "VESNA PINJUH": {
+          "votes": 1,
+          "coalition_name": "NEOVISNA LISTA - VESNA PINJUH"
+        },
+        "ODRŽIVI RAZVOJ HRVATSKE": {
           "votes": 2,
-          "coalition_name": "ILIJA JANOVIĆ"
+          "coalition_name": "ODRŽIVI RAZVOJ HRVATSKE - ORaH"
         }
       }
     },
@@ -37272,6 +37651,30 @@
         "HSP": {
           "votes": 1,
           "coalition_name": "AUTOHTONA - HRVATSKA STRANKA PRAVA - A - HSP"
+        },
+        "STRANKA RADA I SOLIDARNOSTI": {
+          "votes": 1,
+          "coalition_name": "\"BANDIĆ MILAN 365 - STRANKA RADA I SOLIDARNOSTI\", DEMOKRATSKA PRIGORSKO - ZAGREBAČKA STRANKA - DPS, DEMOKRATSKA STRANKA ŽENA - DSŽ, HRVATSKA EUROPSKA STRANKA - HES, HRVATSKA RADNIČKA STRANKA - HRS, HRVATSKA STRANKA ZELENIH - EKO SAVEZ - ZELENI, ISTARSKI DEMOKRATI - DEMOCRATICI ISTRIANI - ID - DI, MEĐIMURSKA STRANKA - MS, NEZAVISNI SELJACI HRVATSKE - NSH, NOVI VAL - STRANKA RAZVOJA - NOVI VAL, STRANKA UMIROVLJENIKA - SU, UMIROVLJENIČKA DEMOKRATSKA UNIJA - UDU, ZELENI SAVEZ - ZELENI, ZELENA STRANKA - ZS"
+        },
+        "HDZ": {
+          "votes": 2,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ, HRVATSKA SELJAČKA STRANKA - HSS, HRVATSKA STRANKA PRAVA DR. ANTE STARČEVIĆ - HSP AS, BLOK UMIROVLJENICI ZAJEDNO - BUZ, HRVATSKA SOCIJALNO - LIBERALNA STRANKA - HSLS, HRAST - POKRET ZA USPJEŠNU HRVATSKU, HRVATSKA DEMOKRŠĆANSKA STRANKA - HDS, ZAGORSKA DEMOKRATSKA STRANKA - ZDS"
+        },
+        "REFORMISTI": {
+          "votes": 4,
+          "coalition_name": "NARODNA STRANKA - REFORMISTI - REFORMISTI, NAPRIJED HRVATSKA! - PROGRESIVNI SAVEZ IVE JOSIPOVIĆA, STRANKA HRVATSKIH UMIROVLJENIKA - UMIROVLJENICI, ZELENI FORUM, DUBROVAČKI DEMOKRATSKI SABOR - DDS"
+        },
+        "ODRŽIVI RAZVOJ HRVATSKE": {
+          "votes": 1,
+          "coalition_name": "ODRŽIVI RAZVOJ HRVATSKE - ORaH"
+        },
+        "VESNA PINJUH": {
+          "votes": 1,
+          "coalition_name": "NEOVISNA LISTA - VESNA PINJUH"
+        },
+        "SRP": {
+          "votes": 1,
+          "coalition_name": "SOCIJALISTIČKA RADNIČKA PARTIJA HRVATSKE - SRP"
         }
       }
     },
@@ -37285,6 +37688,30 @@
         "HSP": {
           "votes": 2,
           "coalition_name": "AUTOHTONA - HRVATSKA STRANKA PRAVA - A - HSP"
+        },
+        "STRANKA RADA I SOLIDARNOSTI": {
+          "votes": 1,
+          "coalition_name": "\"BANDIĆ MILAN 365 - STRANKA RADA I SOLIDARNOSTI\", DEMOKRATSKA PRIGORSKO - ZAGREBAČKA STRANKA - DPS, DEMOKRATSKA STRANKA ŽENA - DSŽ, HRVATSKA EUROPSKA STRANKA - HES, HRVATSKA RADNIČKA STRANKA - HRS, HRVATSKA STRANKA ZELENIH - EKO SAVEZ - ZELENI, ISTARSKI DEMOKRATI - DEMOCRATICI ISTRIANI - ID - DI, MEĐIMURSKA STRANKA - MS, NEZAVISNI SELJACI HRVATSKE - NSH, NOVI VAL - STRANKA RAZVOJA - NOVI VAL, STRANKA UMIROVLJENIKA - SU, UMIROVLJENIČKA DEMOKRATSKA UNIJA - UDU, ZELENI SAVEZ - ZELENI, ZELENA STRANKA - ZS"
+        },
+        "HDZ": {
+          "votes": 19,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ, HRVATSKA SELJAČKA STRANKA - HSS, HRVATSKA STRANKA PRAVA DR. ANTE STARČEVIĆ - HSP AS, BLOK UMIROVLJENICI ZAJEDNO - BUZ, HRVATSKA SOCIJALNO - LIBERALNA STRANKA - HSLS, HRAST - POKRET ZA USPJEŠNU HRVATSKU, HRVATSKA DEMOKRŠĆANSKA STRANKA - HDS, ZAGORSKA DEMOKRATSKA STRANKA - ZDS"
+        },
+        "HKS": {
+          "votes": 1,
+          "coalition_name": "HRVATSKA KONZERVATIVNA STRANKA - HKS, HRVATSKA STRANKA PRAVA - HSP, OBITELJSKA STRANKA - OS"
+        },
+        "MOST": {
+          "votes": 3,
+          "coalition_name": "MOST NEZAVISNIH LISTA - MOST"
+        },
+        "REFORMISTI": {
+          "votes": 1,
+          "coalition_name": "NARODNA STRANKA - REFORMISTI - REFORMISTI, NAPRIJED HRVATSKA! - PROGRESIVNI SAVEZ IVE JOSIPOVIĆA, STRANKA HRVATSKIH UMIROVLJENIKA - UMIROVLJENICI, ZELENI FORUM, DUBROVAČKI DEMOKRATSKI SABOR - DDS"
+        },
+        "SRP": {
+          "votes": 4,
+          "coalition_name": "SOCIJALISTIČKA RADNIČKA PARTIJA HRVATSKE - SRP"
         }
       }
     },
@@ -37295,13 +37722,45 @@
       "votes_cast": 583,
       "turnout": 1.0,
       "parties": {
+        "HDZ": {
+          "votes": 544,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ, HRVATSKA SELJAČKA STRANKA - HSS, HRVATSKA STRANKA PRAVA DR. ANTE STARČEVIĆ - HSP AS, BLOK UMIROVLJENICI ZAJEDNO - BUZ, HRVATSKA SOCIJALNO - LIBERALNA STRANKA - HSLS, HRAST - POKRET ZA USPJEŠNU HRVATSKU, HRVATSKA DEMOKRŠĆANSKA STRANKA - HDS, ZAGORSKA DEMOKRATSKA STRANKA - ZDS"
+        },
+        "MOST": {
+          "votes": 10,
+          "coalition_name": "MOST NEZAVISNIH LISTA - MOST"
+        },
+        "ODRŽIVI RAZVOJ HRVATSKE": {
+          "votes": 2,
+          "coalition_name": "ODRŽIVI RAZVOJ HRVATSKE - ORaH"
+        },
         "HSP": {
           "votes": 2,
           "coalition_name": "AUTOHTONA - HRVATSKA STRANKA PRAVA - A - HSP"
         },
-        "ILIJA JANOVIĆ": {
+        "HKS": {
+          "votes": 6,
+          "coalition_name": "HRVATSKA KONZERVATIVNA STRANKA - HKS, HRVATSKA STRANKA PRAVA - HSP, OBITELJSKA STRANKA - OS"
+        },
+        "REFORMISTI": {
           "votes": 1,
-          "coalition_name": "ILIJA JANOVIĆ"
+          "coalition_name": "NARODNA STRANKA - REFORMISTI - REFORMISTI, NAPRIJED HRVATSKA! - PROGRESIVNI SAVEZ IVE JOSIPOVIĆA, STRANKA HRVATSKIH UMIROVLJENIKA - UMIROVLJENICI, ZELENI FORUM, DUBROVAČKI DEMOKRATSKI SABOR - DDS"
+        },
+        "PROJEKT DOMOVINA": {
+          "votes": 3,
+          "coalition_name": "U IME OBITELJI - PROJEKT DOMOVINA"
+        },
+        "HKDU": {
+          "votes": 2,
+          "coalition_name": "HRVATSKA KRŠĆANSKA DEMOKRATSKA UNIJA - HKDU, HRVATSKA DEMOKRATSKA STRANKA, NACIONALNI DEMOKRATI - ND"
+        },
+        "SRP": {
+          "votes": 1,
+          "coalition_name": "SOCIJALISTIČKA RADNIČKA PARTIJA HRVATSKE - SRP"
+        },
+        "VESNA PINJUH": {
+          "votes": 1,
+          "coalition_name": "NEOVISNA LISTA - VESNA PINJUH"
         }
       }
     },
@@ -37312,9 +37771,13 @@
       "votes_cast": 4,
       "turnout": 1.0,
       "parties": {
-        "ANTONI BANDIĆ": {
+        "STRANKA RADA I SOLIDARNOSTI": {
+          "votes": 3,
+          "coalition_name": "\"BANDIĆ MILAN 365 - STRANKA RADA I SOLIDARNOSTI\", DEMOKRATSKA PRIGORSKO - ZAGREBAČKA STRANKA - DPS, DEMOKRATSKA STRANKA ŽENA - DSŽ, HRVATSKA EUROPSKA STRANKA - HES, HRVATSKA RADNIČKA STRANKA - HRS, HRVATSKA STRANKA ZELENIH - EKO SAVEZ - ZELENI, ISTARSKI DEMOKRATI - DEMOCRATICI ISTRIANI - ID - DI, MEĐIMURSKA STRANKA - MS, NEZAVISNI SELJACI HRVATSKE - NSH, NOVI VAL - STRANKA RAZVOJA - NOVI VAL, STRANKA UMIROVLJENIKA - SU, UMIROVLJENIČKA DEMOKRATSKA UNIJA - UDU, ZELENI SAVEZ - ZELENI, ZELENA STRANKA - ZS"
+        },
+        "MOST": {
           "votes": 1,
-          "coalition_name": "ANTONI BANDIĆ, mag. računarstva"
+          "coalition_name": "MOST NEZAVISNIH LISTA - MOST"
         }
       }
     },
@@ -37325,9 +37788,21 @@
       "votes_cast": 8,
       "turnout": 1.0,
       "parties": {
-        "ANTONI BANDIĆ": {
+        "STRANKA RADA I SOLIDARNOSTI": {
           "votes": 1,
-          "coalition_name": "ANTONI BANDIĆ, mag. računarstva"
+          "coalition_name": "\"BANDIĆ MILAN 365 - STRANKA RADA I SOLIDARNOSTI\", DEMOKRATSKA PRIGORSKO - ZAGREBAČKA STRANKA - DPS, DEMOKRATSKA STRANKA ŽENA - DSŽ, HRVATSKA EUROPSKA STRANKA - HES, HRVATSKA RADNIČKA STRANKA - HRS, HRVATSKA STRANKA ZELENIH - EKO SAVEZ - ZELENI, ISTARSKI DEMOKRATI - DEMOCRATICI ISTRIANI - ID - DI, MEĐIMURSKA STRANKA - MS, NEZAVISNI SELJACI HRVATSKE - NSH, NOVI VAL - STRANKA RAZVOJA - NOVI VAL, STRANKA UMIROVLJENIKA - SU, UMIROVLJENIČKA DEMOKRATSKA UNIJA - UDU, ZELENI SAVEZ - ZELENI, ZELENA STRANKA - ZS"
+        },
+        "HDZ": {
+          "votes": 5,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ, HRVATSKA SELJAČKA STRANKA - HSS, HRVATSKA STRANKA PRAVA DR. ANTE STARČEVIĆ - HSP AS, BLOK UMIROVLJENICI ZAJEDNO - BUZ, HRVATSKA SOCIJALNO - LIBERALNA STRANKA - HSLS, HRAST - POKRET ZA USPJEŠNU HRVATSKU, HRVATSKA DEMOKRŠĆANSKA STRANKA - HDS, ZAGORSKA DEMOKRATSKA STRANKA - ZDS"
+        },
+        "MOST": {
+          "votes": 1,
+          "coalition_name": "MOST NEZAVISNIH LISTA - MOST"
+        },
+        "REFORMISTI": {
+          "votes": 1,
+          "coalition_name": "NARODNA STRANKA - REFORMISTI - REFORMISTI, NAPRIJED HRVATSKA! - PROGRESIVNI SAVEZ IVE JOSIPOVIĆA, STRANKA HRVATSKIH UMIROVLJENIKA - UMIROVLJENICI, ZELENI FORUM, DUBROVAČKI DEMOKRATSKI SABOR - DDS"
         }
       }
     },
@@ -37338,9 +37813,21 @@
       "votes_cast": 29,
       "turnout": 1.0,
       "parties": {
-        "ANTONI BANDIĆ": {
+        "STRANKA RADA I SOLIDARNOSTI": {
+          "votes": 4,
+          "coalition_name": "\"BANDIĆ MILAN 365 - STRANKA RADA I SOLIDARNOSTI\", DEMOKRATSKA PRIGORSKO - ZAGREBAČKA STRANKA - DPS, DEMOKRATSKA STRANKA ŽENA - DSŽ, HRVATSKA EUROPSKA STRANKA - HES, HRVATSKA RADNIČKA STRANKA - HRS, HRVATSKA STRANKA ZELENIH - EKO SAVEZ - ZELENI, ISTARSKI DEMOKRATI - DEMOCRATICI ISTRIANI - ID - DI, MEĐIMURSKA STRANKA - MS, NEZAVISNI SELJACI HRVATSKE - NSH, NOVI VAL - STRANKA RAZVOJA - NOVI VAL, STRANKA UMIROVLJENIKA - SU, UMIROVLJENIČKA DEMOKRATSKA UNIJA - UDU, ZELENI SAVEZ - ZELENI, ZELENA STRANKA - ZS"
+        },
+        "HDZ": {
+          "votes": 22,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ, HRVATSKA SELJAČKA STRANKA - HSS, HRVATSKA STRANKA PRAVA DR. ANTE STARČEVIĆ - HSP AS, BLOK UMIROVLJENICI ZAJEDNO - BUZ, HRVATSKA SOCIJALNO - LIBERALNA STRANKA - HSLS, HRAST - POKRET ZA USPJEŠNU HRVATSKU, HRVATSKA DEMOKRŠĆANSKA STRANKA - HDS, ZAGORSKA DEMOKRATSKA STRANKA - ZDS"
+        },
+        "MOST": {
+          "votes": 2,
+          "coalition_name": "MOST NEZAVISNIH LISTA - MOST"
+        },
+        "REFORMISTI": {
           "votes": 1,
-          "coalition_name": "ANTONI BANDIĆ, mag. računarstva"
+          "coalition_name": "NARODNA STRANKA - REFORMISTI - REFORMISTI, NAPRIJED HRVATSKA! - PROGRESIVNI SAVEZ IVE JOSIPOVIĆA, STRANKA HRVATSKIH UMIROVLJENIKA - UMIROVLJENICI, ZELENI FORUM, DUBROVAČKI DEMOKRATSKI SABOR - DDS"
         }
       }
     },
@@ -37355,13 +37842,41 @@
           "votes": 4,
           "coalition_name": "AUTOHTONA - HRVATSKA STRANKA PRAVA - A - HSP"
         },
-        "ANTONI BANDIĆ": {
-          "votes": 6,
-          "coalition_name": "ANTONI BANDIĆ, mag. računarstva"
+        "STRANKA RADA I SOLIDARNOSTI": {
+          "votes": 24,
+          "coalition_name": "\"BANDIĆ MILAN 365 - STRANKA RADA I SOLIDARNOSTI\", DEMOKRATSKA PRIGORSKO - ZAGREBAČKA STRANKA - DPS, DEMOKRATSKA STRANKA ŽENA - DSŽ, HRVATSKA EUROPSKA STRANKA - HES, HRVATSKA RADNIČKA STRANKA - HRS, HRVATSKA STRANKA ZELENIH - EKO SAVEZ - ZELENI, ISTARSKI DEMOKRATI - DEMOCRATICI ISTRIANI - ID - DI, MEĐIMURSKA STRANKA - MS, NEZAVISNI SELJACI HRVATSKE - NSH, NOVI VAL - STRANKA RAZVOJA - NOVI VAL, STRANKA UMIROVLJENIKA - SU, UMIROVLJENIČKA DEMOKRATSKA UNIJA - UDU, ZELENI SAVEZ - ZELENI, ZELENA STRANKA - ZS"
         },
-        "ILIJA JANOVIĆ": {
+        "HDZ": {
+          "votes": 84,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ, HRVATSKA SELJAČKA STRANKA - HSS, HRVATSKA STRANKA PRAVA DR. ANTE STARČEVIĆ - HSP AS, BLOK UMIROVLJENICI ZAJEDNO - BUZ, HRVATSKA SOCIJALNO - LIBERALNA STRANKA - HSLS, HRAST - POKRET ZA USPJEŠNU HRVATSKU, HRVATSKA DEMOKRŠĆANSKA STRANKA - HDS, ZAGORSKA DEMOKRATSKA STRANKA - ZDS"
+        },
+        "HKS": {
           "votes": 1,
-          "coalition_name": "ILIJA JANOVIĆ"
+          "coalition_name": "HRVATSKA KONZERVATIVNA STRANKA - HKS, HRVATSKA STRANKA PRAVA - HSP, OBITELJSKA STRANKA - OS"
+        },
+        "MOST": {
+          "votes": 10,
+          "coalition_name": "MOST NEZAVISNIH LISTA - MOST"
+        },
+        "REFORMISTI": {
+          "votes": 13,
+          "coalition_name": "NARODNA STRANKA - REFORMISTI - REFORMISTI, NAPRIJED HRVATSKA! - PROGRESIVNI SAVEZ IVE JOSIPOVIĆA, STRANKA HRVATSKIH UMIROVLJENIKA - UMIROVLJENICI, ZELENI FORUM, DUBROVAČKI DEMOKRATSKI SABOR - DDS"
+        },
+        "ODRŽIVI RAZVOJ HRVATSKE": {
+          "votes": 6,
+          "coalition_name": "ODRŽIVI RAZVOJ HRVATSKE - ORaH"
+        },
+        "PROJEKT DOMOVINA": {
+          "votes": 6,
+          "coalition_name": "U IME OBITELJI - PROJEKT DOMOVINA"
+        },
+        "VESNA PINJUH": {
+          "votes": 4,
+          "coalition_name": "NEOVISNA LISTA - VESNA PINJUH"
+        },
+        "SRP": {
+          "votes": 4,
+          "coalition_name": "SOCIJALISTIČKA RADNIČKA PARTIJA HRVATSKE - SRP"
         }
       }
     },
@@ -37375,6 +37890,26 @@
         "HSP": {
           "votes": 2,
           "coalition_name": "AUTOHTONA - HRVATSKA STRANKA PRAVA - A - HSP"
+        },
+        "HDZ": {
+          "votes": 21,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ, HRVATSKA SELJAČKA STRANKA - HSS, HRVATSKA STRANKA PRAVA DR. ANTE STARČEVIĆ - HSP AS, BLOK UMIROVLJENICI ZAJEDNO - BUZ, HRVATSKA SOCIJALNO - LIBERALNA STRANKA - HSLS, HRAST - POKRET ZA USPJEŠNU HRVATSKU, HRVATSKA DEMOKRŠĆANSKA STRANKA - HDS, ZAGORSKA DEMOKRATSKA STRANKA - ZDS"
+        },
+        "MOST": {
+          "votes": 2,
+          "coalition_name": "MOST NEZAVISNIH LISTA - MOST"
+        },
+        "REFORMISTI": {
+          "votes": 2,
+          "coalition_name": "NARODNA STRANKA - REFORMISTI - REFORMISTI, NAPRIJED HRVATSKA! - PROGRESIVNI SAVEZ IVE JOSIPOVIĆA, STRANKA HRVATSKIH UMIROVLJENIKA - UMIROVLJENICI, ZELENI FORUM, DUBROVAČKI DEMOKRATSKI SABOR - DDS"
+        },
+        "ODRŽIVI RAZVOJ HRVATSKE": {
+          "votes": 4,
+          "coalition_name": "ODRŽIVI RAZVOJ HRVATSKE - ORaH"
+        },
+        "VESNA PINJUH": {
+          "votes": 1,
+          "coalition_name": "NEOVISNA LISTA - VESNA PINJUH"
         }
       }
     },
@@ -37384,7 +37919,28 @@
       "total_voters": 14,
       "votes_cast": 14,
       "turnout": 1.0,
-      "parties": {}
+      "parties": {
+        "HDZ": {
+          "votes": 6,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ, HRVATSKA SELJAČKA STRANKA - HSS, HRVATSKA STRANKA PRAVA DR. ANTE STARČEVIĆ - HSP AS, BLOK UMIROVLJENICI ZAJEDNO - BUZ, HRVATSKA SOCIJALNO - LIBERALNA STRANKA - HSLS, HRAST - POKRET ZA USPJEŠNU HRVATSKU, HRVATSKA DEMOKRŠĆANSKA STRANKA - HDS, ZAGORSKA DEMOKRATSKA STRANKA - ZDS"
+        },
+        "MOST": {
+          "votes": 2,
+          "coalition_name": "MOST NEZAVISNIH LISTA - MOST"
+        },
+        "REFORMISTI": {
+          "votes": 1,
+          "coalition_name": "NARODNA STRANKA - REFORMISTI - REFORMISTI, NAPRIJED HRVATSKA! - PROGRESIVNI SAVEZ IVE JOSIPOVIĆA, STRANKA HRVATSKIH UMIROVLJENIKA - UMIROVLJENICI, ZELENI FORUM, DUBROVAČKI DEMOKRATSKI SABOR - DDS"
+        },
+        "PROJEKT DOMOVINA": {
+          "votes": 2,
+          "coalition_name": "U IME OBITELJI - PROJEKT DOMOVINA"
+        },
+        "SRP": {
+          "votes": 3,
+          "coalition_name": "SOCIJALISTIČKA RADNIČKA PARTIJA HRVATSKE - SRP"
+        }
+      }
     },
     "njemacka": {
       "name": "NJEMAČKA",
@@ -37397,21 +37953,45 @@
           "votes": 41,
           "coalition_name": "AUTOHTONA - HRVATSKA STRANKA PRAVA - A - HSP"
         },
-        "LANA MAJIĆ": {
-          "votes": 2,
-          "coalition_name": "LANA MAJIĆ"
+        "STRANKA RADA I SOLIDARNOSTI": {
+          "votes": 68,
+          "coalition_name": "\"BANDIĆ MILAN 365 - STRANKA RADA I SOLIDARNOSTI\", DEMOKRATSKA PRIGORSKO - ZAGREBAČKA STRANKA - DPS, DEMOKRATSKA STRANKA ŽENA - DSŽ, HRVATSKA EUROPSKA STRANKA - HES, HRVATSKA RADNIČKA STRANKA - HRS, HRVATSKA STRANKA ZELENIH - EKO SAVEZ - ZELENI, ISTARSKI DEMOKRATI - DEMOCRATICI ISTRIANI - ID - DI, MEĐIMURSKA STRANKA - MS, NEZAVISNI SELJACI HRVATSKE - NSH, NOVI VAL - STRANKA RAZVOJA - NOVI VAL, STRANKA UMIROVLJENIKA - SU, UMIROVLJENIČKA DEMOKRATSKA UNIJA - UDU, ZELENI SAVEZ - ZELENI, ZELENA STRANKA - ZS"
         },
-        "ILIJA JANOVIĆ": {
-          "votes": 4,
-          "coalition_name": "ILIJA JANOVIĆ"
+        "HDZ": {
+          "votes": 3768,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ, HRVATSKA SELJAČKA STRANKA - HSS, HRVATSKA STRANKA PRAVA DR. ANTE STARČEVIĆ - HSP AS, BLOK UMIROVLJENICI ZAJEDNO - BUZ, HRVATSKA SOCIJALNO - LIBERALNA STRANKA - HSLS, HRAST - POKRET ZA USPJEŠNU HRVATSKU, HRVATSKA DEMOKRŠĆANSKA STRANKA - HDS, ZAGORSKA DEMOKRATSKA STRANKA - ZDS"
         },
-        "ANTONI BANDIĆ": {
-          "votes": 12,
-          "coalition_name": "ANTONI BANDIĆ, mag. računarstva"
+        "HKS": {
+          "votes": 26,
+          "coalition_name": "HRVATSKA KONZERVATIVNA STRANKA - HKS, HRVATSKA STRANKA PRAVA - HSP, OBITELJSKA STRANKA - OS"
         },
-        "VLADIMIR JURIŠIĆ": {
-          "votes": 3,
-          "coalition_name": "VLADIMIR JURIŠIĆ"
+        "MOST": {
+          "votes": 158,
+          "coalition_name": "MOST NEZAVISNIH LISTA - MOST"
+        },
+        "REFORMISTI": {
+          "votes": 35,
+          "coalition_name": "NARODNA STRANKA - REFORMISTI - REFORMISTI, NAPRIJED HRVATSKA! - PROGRESIVNI SAVEZ IVE JOSIPOVIĆA, STRANKA HRVATSKIH UMIROVLJENIKA - UMIROVLJENICI, ZELENI FORUM, DUBROVAČKI DEMOKRATSKI SABOR - DDS"
+        },
+        "ODRŽIVI RAZVOJ HRVATSKE": {
+          "votes": 24,
+          "coalition_name": "ODRŽIVI RAZVOJ HRVATSKE - ORaH"
+        },
+        "PROJEKT DOMOVINA": {
+          "votes": 109,
+          "coalition_name": "U IME OBITELJI - PROJEKT DOMOVINA"
+        },
+        "HKDU": {
+          "votes": 25,
+          "coalition_name": "HRVATSKA KRŠĆANSKA DEMOKRATSKA UNIJA - HKDU, HRVATSKA DEMOKRATSKA STRANKA, NACIONALNI DEMOKRATI - ND"
+        },
+        "SRP": {
+          "votes": 10,
+          "coalition_name": "SOCIJALISTIČKA RADNIČKA PARTIJA HRVATSKE - SRP"
+        },
+        "VESNA PINJUH": {
+          "votes": 13,
+          "coalition_name": "NEOVISNA LISTA - VESNA PINJUH"
         }
       }
     },
@@ -37421,7 +38001,16 @@
       "total_voters": 2,
       "votes_cast": 2,
       "turnout": 1.0,
-      "parties": {}
+      "parties": {
+        "HDZ": {
+          "votes": 1,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ, HRVATSKA SELJAČKA STRANKA - HSS, HRVATSKA STRANKA PRAVA DR. ANTE STARČEVIĆ - HSP AS, BLOK UMIROVLJENICI ZAJEDNO - BUZ, HRVATSKA SOCIJALNO - LIBERALNA STRANKA - HSLS, HRAST - POKRET ZA USPJEŠNU HRVATSKU, HRVATSKA DEMOKRŠĆANSKA STRANKA - HDS, ZAGORSKA DEMOKRATSKA STRANKA - ZDS"
+        },
+        "MOST": {
+          "votes": 1,
+          "coalition_name": "MOST NEZAVISNIH LISTA - MOST"
+        }
+      }
     },
     "portugal": {
       "name": "PORTUGAL",
@@ -37429,7 +38018,16 @@
       "total_voters": 2,
       "votes_cast": 2,
       "turnout": 1.0,
-      "parties": {}
+      "parties": {
+        "STRANKA RADA I SOLIDARNOSTI": {
+          "votes": 1,
+          "coalition_name": "\"BANDIĆ MILAN 365 - STRANKA RADA I SOLIDARNOSTI\", DEMOKRATSKA PRIGORSKO - ZAGREBAČKA STRANKA - DPS, DEMOKRATSKA STRANKA ŽENA - DSŽ, HRVATSKA EUROPSKA STRANKA - HES, HRVATSKA RADNIČKA STRANKA - HRS, HRVATSKA STRANKA ZELENIH - EKO SAVEZ - ZELENI, ISTARSKI DEMOKRATI - DEMOCRATICI ISTRIANI - ID - DI, MEĐIMURSKA STRANKA - MS, NEZAVISNI SELJACI HRVATSKE - NSH, NOVI VAL - STRANKA RAZVOJA - NOVI VAL, STRANKA UMIROVLJENIKA - SU, UMIROVLJENIČKA DEMOKRATSKA UNIJA - UDU, ZELENI SAVEZ - ZELENI, ZELENA STRANKA - ZS"
+        },
+        "ODRŽIVI RAZVOJ HRVATSKE": {
+          "votes": 1,
+          "coalition_name": "ODRŽIVI RAZVOJ HRVATSKE - ORaH"
+        }
+      }
     },
     "rumunjska": {
       "name": "RUMUNJSKA",
@@ -37437,7 +38035,12 @@
       "total_voters": 2,
       "votes_cast": 2,
       "turnout": 1.0,
-      "parties": {}
+      "parties": {
+        "MOST": {
+          "votes": 2,
+          "coalition_name": "MOST NEZAVISNIH LISTA - MOST"
+        }
+      }
     },
     "rusija": {
       "name": "RUSIJA",
@@ -37445,7 +38048,20 @@
       "total_voters": 7,
       "votes_cast": 7,
       "turnout": 1.0,
-      "parties": {}
+      "parties": {
+        "HDZ": {
+          "votes": 3,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ, HRVATSKA SELJAČKA STRANKA - HSS, HRVATSKA STRANKA PRAVA DR. ANTE STARČEVIĆ - HSP AS, BLOK UMIROVLJENICI ZAJEDNO - BUZ, HRVATSKA SOCIJALNO - LIBERALNA STRANKA - HSLS, HRAST - POKRET ZA USPJEŠNU HRVATSKU, HRVATSKA DEMOKRŠĆANSKA STRANKA - HDS, ZAGORSKA DEMOKRATSKA STRANKA - ZDS"
+        },
+        "MOST": {
+          "votes": 3,
+          "coalition_name": "MOST NEZAVISNIH LISTA - MOST"
+        },
+        "HKDU": {
+          "votes": 1,
+          "coalition_name": "HRVATSKA KRŠĆANSKA DEMOKRATSKA UNIJA - HKDU, HRVATSKA DEMOKRATSKA STRANKA, NACIONALNI DEMOKRATI - ND"
+        }
+      }
     },
     "sad": {
       "name": "SAD",
@@ -37454,9 +38070,45 @@
       "votes_cast": 277,
       "turnout": 1.0,
       "parties": {
+        "HDZ": {
+          "votes": 241,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ, HRVATSKA SELJAČKA STRANKA - HSS, HRVATSKA STRANKA PRAVA DR. ANTE STARČEVIĆ - HSP AS, BLOK UMIROVLJENICI ZAJEDNO - BUZ, HRVATSKA SOCIJALNO - LIBERALNA STRANKA - HSLS, HRAST - POKRET ZA USPJEŠNU HRVATSKU, HRVATSKA DEMOKRŠĆANSKA STRANKA - HDS, ZAGORSKA DEMOKRATSKA STRANKA - ZDS"
+        },
+        "MOST": {
+          "votes": 13,
+          "coalition_name": "MOST NEZAVISNIH LISTA - MOST"
+        },
+        "ODRŽIVI RAZVOJ HRVATSKE": {
+          "votes": 2,
+          "coalition_name": "ODRŽIVI RAZVOJ HRVATSKE - ORaH"
+        },
+        "PROJEKT DOMOVINA": {
+          "votes": 6,
+          "coalition_name": "U IME OBITELJI - PROJEKT DOMOVINA"
+        },
+        "STRANKA RADA I SOLIDARNOSTI": {
+          "votes": 4,
+          "coalition_name": "\"BANDIĆ MILAN 365 - STRANKA RADA I SOLIDARNOSTI\", DEMOKRATSKA PRIGORSKO - ZAGREBAČKA STRANKA - DPS, DEMOKRATSKA STRANKA ŽENA - DSŽ, HRVATSKA EUROPSKA STRANKA - HES, HRVATSKA RADNIČKA STRANKA - HRS, HRVATSKA STRANKA ZELENIH - EKO SAVEZ - ZELENI, ISTARSKI DEMOKRATI - DEMOCRATICI ISTRIANI - ID - DI, MEĐIMURSKA STRANKA - MS, NEZAVISNI SELJACI HRVATSKE - NSH, NOVI VAL - STRANKA RAZVOJA - NOVI VAL, STRANKA UMIROVLJENIKA - SU, UMIROVLJENIČKA DEMOKRATSKA UNIJA - UDU, ZELENI SAVEZ - ZELENI, ZELENA STRANKA - ZS"
+        },
+        "HKS": {
+          "votes": 3,
+          "coalition_name": "HRVATSKA KONZERVATIVNA STRANKA - HKS, HRVATSKA STRANKA PRAVA - HSP, OBITELJSKA STRANKA - OS"
+        },
+        "VESNA PINJUH": {
+          "votes": 2,
+          "coalition_name": "NEOVISNA LISTA - VESNA PINJUH"
+        },
         "HSP": {
           "votes": 1,
           "coalition_name": "AUTOHTONA - HRVATSKA STRANKA PRAVA - A - HSP"
+        },
+        "REFORMISTI": {
+          "votes": 2,
+          "coalition_name": "NARODNA STRANKA - REFORMISTI - REFORMISTI, NAPRIJED HRVATSKA! - PROGRESIVNI SAVEZ IVE JOSIPOVIĆA, STRANKA HRVATSKIH UMIROVLJENIKA - UMIROVLJENICI, ZELENI FORUM, DUBROVAČKI DEMOKRATSKI SABOR - DDS"
+        },
+        "HKDU": {
+          "votes": 1,
+          "coalition_name": "HRVATSKA KRŠĆANSKA DEMOKRATSKA UNIJA - HKDU, HRVATSKA DEMOKRATSKA STRANKA, NACIONALNI DEMOKRATI - ND"
         }
       }
     },
@@ -37467,13 +38119,33 @@
       "votes_cast": 62,
       "turnout": 1.0,
       "parties": {
-        "ILIJA JANOVIĆ": {
-          "votes": 1,
-          "coalition_name": "ILIJA JANOVIĆ"
+        "HDZ": {
+          "votes": 37,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ, HRVATSKA SELJAČKA STRANKA - HSS, HRVATSKA STRANKA PRAVA DR. ANTE STARČEVIĆ - HSP AS, BLOK UMIROVLJENICI ZAJEDNO - BUZ, HRVATSKA SOCIJALNO - LIBERALNA STRANKA - HSLS, HRAST - POKRET ZA USPJEŠNU HRVATSKU, HRVATSKA DEMOKRŠĆANSKA STRANKA - HDS, ZAGORSKA DEMOKRATSKA STRANKA - ZDS"
         },
-        "VLADIMIR JURIŠIĆ": {
+        "HKS": {
+          "votes": 1,
+          "coalition_name": "HRVATSKA KONZERVATIVNA STRANKA - HKS, HRVATSKA STRANKA PRAVA - HSP, OBITELJSKA STRANKA - OS"
+        },
+        "MOST": {
+          "votes": 10,
+          "coalition_name": "MOST NEZAVISNIH LISTA - MOST"
+        },
+        "REFORMISTI": {
+          "votes": 4,
+          "coalition_name": "NARODNA STRANKA - REFORMISTI - REFORMISTI, NAPRIJED HRVATSKA! - PROGRESIVNI SAVEZ IVE JOSIPOVIĆA, STRANKA HRVATSKIH UMIROVLJENIKA - UMIROVLJENICI, ZELENI FORUM, DUBROVAČKI DEMOKRATSKI SABOR - DDS"
+        },
+        "ODRŽIVI RAZVOJ HRVATSKE": {
+          "votes": 5,
+          "coalition_name": "ODRŽIVI RAZVOJ HRVATSKE - ORaH"
+        },
+        "VESNA PINJUH": {
+          "votes": 1,
+          "coalition_name": "NEOVISNA LISTA - VESNA PINJUH"
+        },
+        "SRP": {
           "votes": 2,
-          "coalition_name": "VLADIMIR JURIŠIĆ"
+          "coalition_name": "SOCIJALISTIČKA RADNIČKA PARTIJA HRVATSKE - SRP"
         }
       }
     },
@@ -37488,21 +38160,45 @@
           "votes": 4,
           "coalition_name": "AUTOHTONA - HRVATSKA STRANKA PRAVA - A - HSP"
         },
-        "ILIJA JANOVIĆ": {
-          "votes": 1,
-          "coalition_name": "ILIJA JANOVIĆ"
+        "STRANKA RADA I SOLIDARNOSTI": {
+          "votes": 111,
+          "coalition_name": "\"BANDIĆ MILAN 365 - STRANKA RADA I SOLIDARNOSTI\", DEMOKRATSKA PRIGORSKO - ZAGREBAČKA STRANKA - DPS, DEMOKRATSKA STRANKA ŽENA - DSŽ, HRVATSKA EUROPSKA STRANKA - HES, HRVATSKA RADNIČKA STRANKA - HRS, HRVATSKA STRANKA ZELENIH - EKO SAVEZ - ZELENI, ISTARSKI DEMOKRATI - DEMOCRATICI ISTRIANI - ID - DI, MEĐIMURSKA STRANKA - MS, NEZAVISNI SELJACI HRVATSKE - NSH, NOVI VAL - STRANKA RAZVOJA - NOVI VAL, STRANKA UMIROVLJENIKA - SU, UMIROVLJENIČKA DEMOKRATSKA UNIJA - UDU, ZELENI SAVEZ - ZELENI, ZELENA STRANKA - ZS"
         },
-        "TOMY ROSY": {
-          "votes": 1,
-          "coalition_name": "TOMY ROSY"
+        "HDZ": {
+          "votes": 239,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ, HRVATSKA SELJAČKA STRANKA - HSS, HRVATSKA STRANKA PRAVA DR. ANTE STARČEVIĆ - HSP AS, BLOK UMIROVLJENICI ZAJEDNO - BUZ, HRVATSKA SOCIJALNO - LIBERALNA STRANKA - HSLS, HRAST - POKRET ZA USPJEŠNU HRVATSKU, HRVATSKA DEMOKRŠĆANSKA STRANKA - HDS, ZAGORSKA DEMOKRATSKA STRANKA - ZDS"
         },
-        "ANTONI BANDIĆ": {
-          "votes": 9,
-          "coalition_name": "ANTONI BANDIĆ, mag. računarstva"
+        "HKS": {
+          "votes": 4,
+          "coalition_name": "HRVATSKA KONZERVATIVNA STRANKA - HKS, HRVATSKA STRANKA PRAVA - HSP, OBITELJSKA STRANKA - OS"
         },
-        "VLADIMIR JURIŠIĆ": {
+        "MOST": {
+          "votes": 56,
+          "coalition_name": "MOST NEZAVISNIH LISTA - MOST"
+        },
+        "REFORMISTI": {
+          "votes": 33,
+          "coalition_name": "NARODNA STRANKA - REFORMISTI - REFORMISTI, NAPRIJED HRVATSKA! - PROGRESIVNI SAVEZ IVE JOSIPOVIĆA, STRANKA HRVATSKIH UMIROVLJENIKA - UMIROVLJENICI, ZELENI FORUM, DUBROVAČKI DEMOKRATSKI SABOR - DDS"
+        },
+        "ODRŽIVI RAZVOJ HRVATSKE": {
+          "votes": 28,
+          "coalition_name": "ODRŽIVI RAZVOJ HRVATSKE - ORaH"
+        },
+        "PROJEKT DOMOVINA": {
+          "votes": 14,
+          "coalition_name": "U IME OBITELJI - PROJEKT DOMOVINA"
+        },
+        "HKDU": {
           "votes": 3,
-          "coalition_name": "VLADIMIR JURIŠIĆ"
+          "coalition_name": "HRVATSKA KRŠĆANSKA DEMOKRATSKA UNIJA - HKDU, HRVATSKA DEMOKRATSKA STRANKA, NACIONALNI DEMOKRATI - ND"
+        },
+        "VESNA PINJUH": {
+          "votes": 10,
+          "coalition_name": "NEOVISNA LISTA - VESNA PINJUH"
+        },
+        "SRP": {
+          "votes": 18,
+          "coalition_name": "SOCIJALISTIČKA RADNIČKA PARTIJA HRVATSKE - SRP"
         }
       }
     },
@@ -37512,7 +38208,16 @@
       "total_voters": 3,
       "votes_cast": 3,
       "turnout": 1.0,
-      "parties": {}
+      "parties": {
+        "REFORMISTI": {
+          "votes": 1,
+          "coalition_name": "NARODNA STRANKA - REFORMISTI - REFORMISTI, NAPRIJED HRVATSKA! - PROGRESIVNI SAVEZ IVE JOSIPOVIĆA, STRANKA HRVATSKIH UMIROVLJENIKA - UMIROVLJENICI, ZELENI FORUM, DUBROVAČKI DEMOKRATSKI SABOR - DDS"
+        },
+        "VESNA PINJUH": {
+          "votes": 2,
+          "coalition_name": "NEOVISNA LISTA - VESNA PINJUH"
+        }
+      }
     },
     "svedska": {
       "name": "ŠVEDSKA",
@@ -37521,9 +38226,29 @@
       "votes_cast": 52,
       "turnout": 1.0,
       "parties": {
-        "BORA DIDULICA": {
+        "STRANKA RADA I SOLIDARNOSTI": {
           "votes": 1,
-          "coalition_name": "BORA DIDULICA"
+          "coalition_name": "\"BANDIĆ MILAN 365 - STRANKA RADA I SOLIDARNOSTI\", DEMOKRATSKA PRIGORSKO - ZAGREBAČKA STRANKA - DPS, DEMOKRATSKA STRANKA ŽENA - DSŽ, HRVATSKA EUROPSKA STRANKA - HES, HRVATSKA RADNIČKA STRANKA - HRS, HRVATSKA STRANKA ZELENIH - EKO SAVEZ - ZELENI, ISTARSKI DEMOKRATI - DEMOCRATICI ISTRIANI - ID - DI, MEĐIMURSKA STRANKA - MS, NEZAVISNI SELJACI HRVATSKE - NSH, NOVI VAL - STRANKA RAZVOJA - NOVI VAL, STRANKA UMIROVLJENIKA - SU, UMIROVLJENIČKA DEMOKRATSKA UNIJA - UDU, ZELENI SAVEZ - ZELENI, ZELENA STRANKA - ZS"
+        },
+        "HDZ": {
+          "votes": 44,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ, HRVATSKA SELJAČKA STRANKA - HSS, HRVATSKA STRANKA PRAVA DR. ANTE STARČEVIĆ - HSP AS, BLOK UMIROVLJENICI ZAJEDNO - BUZ, HRVATSKA SOCIJALNO - LIBERALNA STRANKA - HSLS, HRAST - POKRET ZA USPJEŠNU HRVATSKU, HRVATSKA DEMOKRŠĆANSKA STRANKA - HDS, ZAGORSKA DEMOKRATSKA STRANKA - ZDS"
+        },
+        "MOST": {
+          "votes": 2,
+          "coalition_name": "MOST NEZAVISNIH LISTA - MOST"
+        },
+        "REFORMISTI": {
+          "votes": 2,
+          "coalition_name": "NARODNA STRANKA - REFORMISTI - REFORMISTI, NAPRIJED HRVATSKA! - PROGRESIVNI SAVEZ IVE JOSIPOVIĆA, STRANKA HRVATSKIH UMIROVLJENIKA - UMIROVLJENICI, ZELENI FORUM, DUBROVAČKI DEMOKRATSKI SABOR - DDS"
+        },
+        "ODRŽIVI RAZVOJ HRVATSKE": {
+          "votes": 1,
+          "coalition_name": "ODRŽIVI RAZVOJ HRVATSKE - ORaH"
+        },
+        "SRP": {
+          "votes": 1,
+          "coalition_name": "SOCIJALISTIČKA RADNIČKA PARTIJA HRVATSKE - SRP"
         }
       }
     },
@@ -37538,21 +38263,41 @@
           "votes": 5,
           "coalition_name": "AUTOHTONA - HRVATSKA STRANKA PRAVA - A - HSP"
         },
-        "ANTONI BANDIĆ": {
-          "votes": 3,
-          "coalition_name": "ANTONI BANDIĆ, mag. računarstva"
+        "STRANKA RADA I SOLIDARNOSTI": {
+          "votes": 14,
+          "coalition_name": "\"BANDIĆ MILAN 365 - STRANKA RADA I SOLIDARNOSTI\", DEMOKRATSKA PRIGORSKO - ZAGREBAČKA STRANKA - DPS, DEMOKRATSKA STRANKA ŽENA - DSŽ, HRVATSKA EUROPSKA STRANKA - HES, HRVATSKA RADNIČKA STRANKA - HRS, HRVATSKA STRANKA ZELENIH - EKO SAVEZ - ZELENI, ISTARSKI DEMOKRATI - DEMOCRATICI ISTRIANI - ID - DI, MEĐIMURSKA STRANKA - MS, NEZAVISNI SELJACI HRVATSKE - NSH, NOVI VAL - STRANKA RAZVOJA - NOVI VAL, STRANKA UMIROVLJENIKA - SU, UMIROVLJENIČKA DEMOKRATSKA UNIJA - UDU, ZELENI SAVEZ - ZELENI, ZELENA STRANKA - ZS"
         },
-        "VLADIMIR JURIŠIĆ": {
+        "HDZ": {
+          "votes": 547,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ, HRVATSKA SELJAČKA STRANKA - HSS, HRVATSKA STRANKA PRAVA DR. ANTE STARČEVIĆ - HSP AS, BLOK UMIROVLJENICI ZAJEDNO - BUZ, HRVATSKA SOCIJALNO - LIBERALNA STRANKA - HSLS, HRAST - POKRET ZA USPJEŠNU HRVATSKU, HRVATSKA DEMOKRŠĆANSKA STRANKA - HDS, ZAGORSKA DEMOKRATSKA STRANKA - ZDS"
+        },
+        "HKS": {
+          "votes": 7,
+          "coalition_name": "HRVATSKA KONZERVATIVNA STRANKA - HKS, HRVATSKA STRANKA PRAVA - HSP, OBITELJSKA STRANKA - OS"
+        },
+        "MOST": {
+          "votes": 44,
+          "coalition_name": "MOST NEZAVISNIH LISTA - MOST"
+        },
+        "REFORMISTI": {
+          "votes": 6,
+          "coalition_name": "NARODNA STRANKA - REFORMISTI - REFORMISTI, NAPRIJED HRVATSKA! - PROGRESIVNI SAVEZ IVE JOSIPOVIĆA, STRANKA HRVATSKIH UMIROVLJENIKA - UMIROVLJENICI, ZELENI FORUM, DUBROVAČKI DEMOKRATSKI SABOR - DDS"
+        },
+        "PROJEKT DOMOVINA": {
+          "votes": 24,
+          "coalition_name": "U IME OBITELJI - PROJEKT DOMOVINA"
+        },
+        "HKDU": {
           "votes": 4,
-          "coalition_name": "VLADIMIR JURIŠIĆ"
+          "coalition_name": "HRVATSKA KRŠĆANSKA DEMOKRATSKA UNIJA - HKDU, HRVATSKA DEMOKRATSKA STRANKA, NACIONALNI DEMOKRATI - ND"
         },
-        "ILIJA JANOVIĆ": {
-          "votes": 1,
-          "coalition_name": "ILIJA JANOVIĆ"
+        "VESNA PINJUH": {
+          "votes": 2,
+          "coalition_name": "NEOVISNA LISTA - VESNA PINJUH"
         },
-        "LANA MAJIĆ": {
-          "votes": 1,
-          "coalition_name": "LANA MAJIĆ"
+        "ODRŽIVI RAZVOJ HRVATSKE": {
+          "votes": 5,
+          "coalition_name": "ODRŽIVI RAZVOJ HRVATSKE - ORaH"
         }
       }
     },
@@ -37562,7 +38307,16 @@
       "total_voters": 2,
       "votes_cast": 2,
       "turnout": 1.0,
-      "parties": {}
+      "parties": {
+        "HDZ": {
+          "votes": 1,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ, HRVATSKA SELJAČKA STRANKA - HSS, HRVATSKA STRANKA PRAVA DR. ANTE STARČEVIĆ - HSP AS, BLOK UMIROVLJENICI ZAJEDNO - BUZ, HRVATSKA SOCIJALNO - LIBERALNA STRANKA - HSLS, HRAST - POKRET ZA USPJEŠNU HRVATSKU, HRVATSKA DEMOKRŠĆANSKA STRANKA - HDS, ZAGORSKA DEMOKRATSKA STRANKA - ZDS"
+        },
+        "STRANKA RADA I SOLIDARNOSTI": {
+          "votes": 1,
+          "coalition_name": "\"BANDIĆ MILAN 365 - STRANKA RADA I SOLIDARNOSTI\", DEMOKRATSKA PRIGORSKO - ZAGREBAČKA STRANKA - DPS, DEMOKRATSKA STRANKA ŽENA - DSŽ, HRVATSKA EUROPSKA STRANKA - HES, HRVATSKA RADNIČKA STRANKA - HRS, HRVATSKA STRANKA ZELENIH - EKO SAVEZ - ZELENI, ISTARSKI DEMOKRATI - DEMOCRATICI ISTRIANI - ID - DI, MEĐIMURSKA STRANKA - MS, NEZAVISNI SELJACI HRVATSKE - NSH, NOVI VAL - STRANKA RAZVOJA - NOVI VAL, STRANKA UMIROVLJENIKA - SU, UMIROVLJENIČKA DEMOKRATSKA UNIJA - UDU, ZELENI SAVEZ - ZELENI, ZELENA STRANKA - ZS"
+        }
+      }
     },
     "velika-britanija": {
       "name": "VELIKA BRITANIJA",
@@ -37571,9 +38325,21 @@
       "votes_cast": 9,
       "turnout": 1.0,
       "parties": {
-        "ANTONI BANDIĆ": {
+        "STRANKA RADA I SOLIDARNOSTI": {
           "votes": 1,
-          "coalition_name": "ANTONI BANDIĆ, mag. računarstva"
+          "coalition_name": "\"BANDIĆ MILAN 365 - STRANKA RADA I SOLIDARNOSTI\", DEMOKRATSKA PRIGORSKO - ZAGREBAČKA STRANKA - DPS, DEMOKRATSKA STRANKA ŽENA - DSŽ, HRVATSKA EUROPSKA STRANKA - HES, HRVATSKA RADNIČKA STRANKA - HRS, HRVATSKA STRANKA ZELENIH - EKO SAVEZ - ZELENI, ISTARSKI DEMOKRATI - DEMOCRATICI ISTRIANI - ID - DI, MEĐIMURSKA STRANKA - MS, NEZAVISNI SELJACI HRVATSKE - NSH, NOVI VAL - STRANKA RAZVOJA - NOVI VAL, STRANKA UMIROVLJENIKA - SU, UMIROVLJENIČKA DEMOKRATSKA UNIJA - UDU, ZELENI SAVEZ - ZELENI, ZELENA STRANKA - ZS"
+        },
+        "HDZ": {
+          "votes": 4,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ, HRVATSKA SELJAČKA STRANKA - HSS, HRVATSKA STRANKA PRAVA DR. ANTE STARČEVIĆ - HSP AS, BLOK UMIROVLJENICI ZAJEDNO - BUZ, HRVATSKA SOCIJALNO - LIBERALNA STRANKA - HSLS, HRAST - POKRET ZA USPJEŠNU HRVATSKU, HRVATSKA DEMOKRŠĆANSKA STRANKA - HDS, ZAGORSKA DEMOKRATSKA STRANKA - ZDS"
+        },
+        "MOST": {
+          "votes": 2,
+          "coalition_name": "MOST NEZAVISNIH LISTA - MOST"
+        },
+        "ODRŽIVI RAZVOJ HRVATSKE": {
+          "votes": 2,
+          "coalition_name": "ODRŽIVI RAZVOJ HRVATSKE - ORaH"
         }
       }
     }
@@ -37581,723 +38347,1079 @@
   "constituencies": {
     "I": {
       "name": "I. IZBORNA JEDINICA",
-      "total_voters": 336961,
-      "votes_cast": 230579,
-      "turnout": 0.6843,
+      "seats": 14,
+      "total_voters": 342728,
+      "votes_cast": 235808,
+      "turnout": 0.688,
       "winner": "SDP",
-      "margin": 13.63,
+      "margin": 12.96,
       "parties": {
         "STRANKA RADA I SOLIDARNOSTI": {
-          "votes": 10393,
+          "votes": 10656,
           "coalition_name": "\"BANDIĆ MILAN 365 - STRANKA RADA I SOLIDARNOSTI\", DEMOKRATSKA PRIGORSKO - ZAGREBAČKA STRANKA - DPS, DEMOKRATSKA STRANKA ŽENA - DSŽ, HRVATSKA EUROPSKA STRANKA - HES, HRVATSKA RADNIČKA STRANKA - HRS, HRVATSKA STRANKA ZELENIH - EKO SAVEZ - ZELENI, ISTARSKI DEMOKRATI - DEMOCRATICI ISTRIANI - ID - DI, MEĐIMURSKA STRANKA - MS, NEZAVISNI SELJACI HRVATSKE - NSH, NOVI VAL - STRANKA RAZVOJA - NOVI VAL, STRANKA UMIROVLJENIKA - SU, UMIROVLJENIČKA DEMOKRATSKA UNIJA - UDU, ZELENI SAVEZ - ZELENI, ZELENA STRANKA - ZS"
         },
         "HDZ": {
-          "votes": 58363,
+          "votes": 60697,
           "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ, HRVATSKA SELJAČKA STRANKA - HSS, HRVATSKA STRANKA PRAVA DR. ANTE STARČEVIĆ - HSP AS, BLOK UMIROVLJENICI ZAJEDNO - BUZ, HRVATSKA SOCIJALNO - LIBERALNA STRANKA - HSLS, HRAST - POKRET ZA USPJEŠNU HRVATSKU, HRVATSKA DEMOKRŠĆANSKA STRANKA - HDS, ZAGORSKA DEMOKRATSKA STRANKA - ZDS"
         },
         "HKS": {
-          "votes": 677,
+          "votes": 701,
           "coalition_name": "HRVATSKA KONZERVATIVNA STRANKA - HKS, HRVATSKA STRANKA PRAVA - HSP, OBITELJSKA STRANKA - OS"
         },
         "MOST": {
-          "votes": 42370,
+          "votes": 42880,
           "coalition_name": "MOST NEZAVISNIH LISTA - MOST"
         },
         "PROGRESIVNI SAVEZ IVE JOSIPOVIĆA": {
-          "votes": 2277,
+          "votes": 2365,
           "coalition_name": "NAPRIJED HRVATSKA! - PROGRESIVNI SAVEZ IVE JOSIPOVIĆA, NARODNA STRANKA - REFORMISTI - REFORMISTI, STRANKA HRVATSKIH UMIROVLJENIKA - UMIROVLJENICI, ZELENI FORUM, DUBROVAČKI DEMOKRATSKI SABOR - DDS"
         },
         "ODRŽIVI RAZVOJ HRVATSKE": {
-          "votes": 7692,
+          "votes": 7815,
           "coalition_name": "ODRŽIVI RAZVOJ HRVATSKE - ORaH"
         },
         "PROJEKT DOMOVINA": {
-          "votes": 3358,
+          "votes": 3478,
           "coalition_name": "U IME OBITELJI - PROJEKT DOMOVINA"
         },
         "BRANITELJSKO DOMOLJUBNA STRANKA HRVATSKE": {
-          "votes": 234,
+          "votes": 251,
           "coalition_name": "BRANITELJSKO DOMOLJUBNA STRANKA HRVATSKE"
         },
         "MIRA DAVIDOVIĆ": {
-          "votes": 359,
+          "votes": 365,
           "coalition_name": "NEOVISNA LISTA - MIRA DAVIDOVIĆ"
         },
         "PAMETNO": {
-          "votes": 1564,
+          "votes": 1609,
           "coalition_name": "PAMETNO"
         },
         "POKRET ZAJEDNO": {
-          "votes": 204,
+          "votes": 205,
           "coalition_name": "POKRET ZAJEDNO"
         },
         "RF": {
-          "votes": 363,
+          "votes": 370,
           "coalition_name": "RADNIČKA FRONTA - RF"
         },
         "SDP": {
-          "votes": 89801,
+          "votes": 91262,
           "coalition_name": "SOCIJALDEMOKRATSKA PARTIJA HRVATSKE - SDP, HRVATSKA NARODNA STRANKA - LIBERALNI DEMOKRATI - HNS, HRVATSKA STRANKA UMIROVLJENIKA - HSU, HRVATSKI LABURISTI - STRANKA RADA, AUTOHTONA - HRVATSKA SELJAČKA STRANKA - A - HSS, ZAGORSKA STRANKA - ZS"
         },
         "ZA GRAD": {
-          "votes": 1096,
+          "votes": 1121,
           "coalition_name": "ZA GRAD"
         },
         "ŽIVI ZID": {
-          "votes": 7817,
+          "votes": 7895,
           "coalition_name": "ŽIVI ZID"
         },
         "HSP": {
-          "votes": 526,
+          "votes": 556,
           "coalition_name": "AUTOHTONA - HRVATSKA STRANKA PRAVA - A - HSP"
         },
         "AM": {
-          "votes": 429,
+          "votes": 434,
           "coalition_name": "AKCIJA MLADIH - AM"
         },
         "HKDU": {
-          "votes": 184,
+          "votes": 189,
           "coalition_name": "HRVATSKA KRŠĆANSKA DEMOKRATSKA UNIJA - HKDU, HRVATSKA DEMOKRATSKA STRANKA, NACIONALNI DEMOKRATI - ND"
         },
         "HZ": {
-          "votes": 268,
+          "votes": 276,
           "coalition_name": "HRVATSKA ZORA STRANKA NARODA - HZ"
         }
       }
     },
     "II": {
       "name": "II. IZBORNA JEDINICA",
-      "total_voters": 380485,
-      "votes_cast": 229606,
-      "turnout": 0.6035,
+      "seats": 14,
+      "total_voters": 384450,
+      "votes_cast": 233160,
+      "turnout": 0.6065,
       "winner": "HDZ",
-      "margin": 0.35,
+      "margin": 0.85,
       "parties": {
         "STRANKA RADA I SOLIDARNOSTI": {
-          "votes": 17986,
+          "votes": 18164,
           "coalition_name": "\"BANDIĆ MILAN 365 - STRANKA RADA I SOLIDARNOSTI\", DEMOKRATSKA PRIGORSKO - ZAGREBAČKA STRANKA - DPS, DEMOKRATSKA STRANKA ŽENA - DSŽ, HRVATSKA EUROPSKA STRANKA - HES, HRVATSKA RADNIČKA STRANKA - HRS, HRVATSKA STRANKA ZELENIH - EKO SAVEZ - ZELENI, ISTARSKI DEMOKRATI - DEMOCRATICI ISTRIANI - ID - DI, MEĐIMURSKA STRANKA - MS, NEZAVISNI SELJACI HRVATSKE - NSH, NOVI VAL - STRANKA RAZVOJA - NOVI VAL, STRANKA UMIROVLJENIKA - SU, UMIROVLJENIČKA DEMOKRATSKA UNIJA - UDU, ZELENI SAVEZ - ZELENI, ZELENA STRANKA - ZS"
         },
         "HDZ": {
-          "votes": 74615,
+          "votes": 76461,
           "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ, HRVATSKA SELJAČKA STRANKA - HSS, HRVATSKA STRANKA PRAVA DR. ANTE STARČEVIĆ - HSP AS, BLOK UMIROVLJENICI ZAJEDNO - BUZ, HRVATSKA SOCIJALNO - LIBERALNA STRANKA - HSLS, HRAST - POKRET ZA USPJEŠNU HRVATSKU, HRVATSKA DEMOKRŠĆANSKA STRANKA - HDS, ZAGORSKA DEMOKRATSKA STRANKA - ZDS"
         },
         "HKS": {
-          "votes": 924,
+          "votes": 940,
           "coalition_name": "HRVATSKA KONZERVATIVNA STRANKA - HKS, HRVATSKA STRANKA PRAVA - HSP, OBITELJSKA STRANKA - OS"
         },
         "MOST": {
-          "votes": 29729,
+          "votes": 30097,
           "coalition_name": "MOST NEZAVISNIH LISTA - MOST"
         },
         "PROGRESIVNI SAVEZ IVE JOSIPOVIĆA": {
-          "votes": 1413,
+          "votes": 1440,
           "coalition_name": "NAPRIJED HRVATSKA! - PROGRESIVNI SAVEZ IVE JOSIPOVIĆA, NARODNA STRANKA - REFORMISTI - REFORMISTI, STRANKA HRVATSKIH UMIROVLJENIKA - UMIROVLJENICI, ZELENI FORUM, DUBROVAČKI DEMOKRATSKI SABOR - DDS"
         },
         "ODRŽIVI RAZVOJ HRVATSKE": {
-          "votes": 3665,
+          "votes": 3744,
           "coalition_name": "ODRŽIVI RAZVOJ HRVATSKE - ORaH"
         },
         "PROJEKT DOMOVINA": {
-          "votes": 3179,
+          "votes": 3273,
           "coalition_name": "U IME OBITELJI - PROJEKT DOMOVINA"
         },
         "DAMIR BAJS": {
-          "votes": 2692,
+          "votes": 2707,
           "coalition_name": "NEOVISNA LISTA - DAMIR BAJS"
         },
         "ŽELJKO LACKOVIĆ": {
-          "votes": 4210,
+          "votes": 4223,
           "coalition_name": "NEOVISNA LISTA - ŽELJKO LACKOVIĆ"
         },
         "SDP": {
-          "votes": 73809,
+          "votes": 74488,
           "coalition_name": "SOCIJALDEMOKRATSKA PARTIJA HRVATSKE - SDP, HRVATSKA NARODNA STRANKA - LIBERALNI DEMOKRATI - HNS, HRVATSKA STRANKA UMIROVLJENIKA - HSU, HRVATSKI LABURISTI - STRANKA RADA, AUTOHTONA - HRVATSKA SELJAČKA STRANKA - A - HSS, ZAGORSKA STRANKA - ZS"
         },
         "SRP": {
-          "votes": 492,
+          "votes": 502,
           "coalition_name": "SOCIJALISTIČKA RADNIČKA PARTIJA HRVATSKE - SRP"
         },
         "ŽIVI ZID": {
-          "votes": 10369,
+          "votes": 10471,
           "coalition_name": "ŽIVI ZID"
         },
         "HSP": {
-          "votes": 1284,
+          "votes": 1316,
           "coalition_name": "AUTOHTONA - HRVATSKA STRANKA PRAVA - A - HSP"
         },
         "AM": {
-          "votes": 455,
+          "votes": 467,
           "coalition_name": "AKCIJA MLADIH - AM"
         },
         "HSR": {
-          "votes": 159,
+          "votes": 162,
           "coalition_name": "HRVATSKA STRANKA REDA - HSR"
         },
         "ZA GRAD": {
-          "votes": 347,
+          "votes": 369,
           "coalition_name": "ZA GRAD"
         },
         "HZ": {
-          "votes": 452,
+          "votes": 465,
           "coalition_name": "HRVATSKA ZORA STRANKA NARODA - HZ"
         }
       }
     },
     "III": {
       "name": "III. IZBORNA JEDINICA",
-      "total_voters": 348082,
-      "votes_cast": 208949,
-      "turnout": 0.6003,
+      "seats": 14,
+      "total_voters": 350744,
+      "votes_cast": 211283,
+      "turnout": 0.6024,
       "winner": "SDP",
-      "margin": 24.38,
+      "margin": 24.15,
       "parties": {
         "HSP": {
-          "votes": 1204,
+          "votes": 1228,
           "coalition_name": "AUTOHTONA - HRVATSKA STRANKA PRAVA - A - HSP"
         },
         "STRANKA RADA I SOLIDARNOSTI": {
-          "votes": 3997,
+          "votes": 4066,
           "coalition_name": "\"BANDIĆ MILAN 365 - STRANKA RADA I SOLIDARNOSTI\", DEMOKRATSKA PRIGORSKO - ZAGREBAČKA STRANKA - DPS, DEMOKRATSKA STRANKA ŽENA - DSŽ, HRVATSKA EUROPSKA STRANKA - HES, HRVATSKA RADNIČKA STRANKA - HRS, HRVATSKA STRANKA ZELENIH - EKO SAVEZ - ZELENI, ISTARSKI DEMOKRATI - DEMOCRATICI ISTRIANI - ID - DI, MEĐIMURSKA STRANKA - MS, NEZAVISNI SELJACI HRVATSKE - NSH, NOVI VAL - STRANKA RAZVOJA - NOVI VAL, STRANKA UMIROVLJENIKA - SU, UMIROVLJENIČKA DEMOKRATSKA UNIJA - UDU, ZELENI SAVEZ - ZELENI, ZELENA STRANKA - ZS"
         },
         "HDZ": {
-          "votes": 49819,
+          "votes": 50578,
           "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ, HRVATSKA SELJAČKA STRANKA - HSS, HRVATSKA STRANKA PRAVA DR. ANTE STARČEVIĆ - HSP AS, BLOK UMIROVLJENICI ZAJEDNO - BUZ, HRVATSKA SOCIJALNO - LIBERALNA STRANKA - HSLS, HRAST - POKRET ZA USPJEŠNU HRVATSKU, HRVATSKA DEMOKRŠĆANSKA STRANKA - HDS, ZAGORSKA DEMOKRATSKA STRANKA - ZDS"
         },
         "HKS": {
-          "votes": 581,
+          "votes": 596,
           "coalition_name": "HRVATSKA KONZERVATIVNA STRANKA - HKS, HRVATSKA STRANKA PRAVA - HSP, OBITELJSKA STRANKA - OS"
         },
         "MOST": {
-          "votes": 16123,
+          "votes": 16339,
           "coalition_name": "MOST NEZAVISNIH LISTA - MOST"
         },
         "REFORMISTI": {
-          "votes": 13239,
+          "votes": 13314,
           "coalition_name": "NARODNA STRANKA - REFORMISTI - REFORMISTI, NAPRIJED HRVATSKA! - PROGRESIVNI SAVEZ IVE JOSIPOVIĆA, STRANKA HRVATSKIH UMIROVLJENIKA - UMIROVLJENICI, ZELENI FORUM, DUBROVAČKI DEMOKRATSKI SABOR - DDS"
         },
         "ODRŽIVI RAZVOJ HRVATSKE": {
-          "votes": 3837,
+          "votes": 3917,
           "coalition_name": "ODRŽIVI RAZVOJ HRVATSKE - ORaH"
         },
         "PROJEKT DOMOVINA": {
-          "votes": 847,
+          "votes": 890,
           "coalition_name": "U IME OBITELJI - PROJEKT DOMOVINA"
         },
         "AM": {
-          "votes": 621,
+          "votes": 630,
           "coalition_name": "AKCIJA MLADIH - AM"
         },
         "BRANITELJSKO DOMOLJUBNA STRANKA HRVATSKE": {
-          "votes": 454,
+          "votes": 464,
           "coalition_name": "BRANITELJSKO DOMOLJUBNA STRANKA HRVATSKE"
         },
         "HKDU": {
-          "votes": 418,
+          "votes": 432,
           "coalition_name": "HRVATSKA KRŠĆANSKA DEMOKRATSKA UNIJA - HKDU, NACIONALNI DEMOKRATI - ND, HRVATSKA DEMOKRATSKA STRANKA"
         },
         "MDS": {
-          "votes": 744,
+          "votes": 762,
           "coalition_name": "MEĐIMURSKI DEMOKRATSKI SAVEZ - MDS"
         },
         "ŽELJKO KNAPIĆ": {
-          "votes": 472,
+          "votes": 490,
           "coalition_name": "NEOVISNA LISTA - ŽELJKO KNAPIĆ"
         },
         "SDP": {
-          "votes": 100764,
+          "votes": 101594,
           "coalition_name": "SOCIJALDEMOKRATSKA PARTIJA HRVATSKE - SDP, HRVATSKA NARODNA STRANKA - LIBERALNI DEMOKRATI - HNS, HRVATSKA STRANKA UMIROVLJENIKA - HSU, HRVATSKI LABURISTI - STRANKA RADA, AUTOHTONA - HRVATSKA SELJAČKA STRANKA - A - HSS, ZAGORSKA STRANKA - ZS"
         },
         "SRP": {
-          "votes": 530,
+          "votes": 540,
           "coalition_name": "SOCIJALISTIČKA RADNIČKA PARTIJA HRVATSKE - SRP"
         },
         "ŽIVI ZID": {
-          "votes": 10776,
+          "votes": 10871,
           "coalition_name": "ŽIVI ZID"
         }
       }
     },
     "IV": {
       "name": "IV. IZBORNA JEDINICA",
-      "total_voters": 303173,
-      "votes_cast": 189082,
-      "turnout": 0.6237,
+      "seats": 14,
+      "total_voters": 306567,
+      "votes_cast": 191974,
+      "turnout": 0.6262,
       "winner": "HDZ",
-      "margin": 6.41,
+      "margin": 6.63,
       "parties": {
         "STRANKA RADA I SOLIDARNOSTI": {
-          "votes": 1937,
+          "votes": 1992,
           "coalition_name": "\"BANDIĆ MILAN 365 - STRANKA RADA I SOLIDARNOSTI\", DEMOKRATSKA PRIGORSKO - ZAGREBAČKA STRANKA - DPS, DEMOKRATSKA STRANKA ŽENA - DSŽ, HRVATSKA EUROPSKA STRANKA - HES, HRVATSKA RADNIČKA STRANKA - HRS, HRVATSKA STRANKA ZELENIH - EKO SAVEZ - ZELENI, ISTARSKI DEMOKRATI - DEMOCRATICI ISTRIANI - ID - DI, MEĐIMURSKA STRANKA - MS, NEZAVISNI SELJACI HRVATSKE - NSH, NOVI VAL - STRANKA RAZVOJA - NOVI VAL, STRANKA UMIROVLJENIKA - SU, UMIROVLJENIČKA DEMOKRATSKA UNIJA - UDU, ZELENI SAVEZ - ZELENI, ZELENA STRANKA - ZS"
         },
         "HDZ": {
-          "votes": 66572,
+          "votes": 67805,
           "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ, HRVATSKA SELJAČKA STRANKA - HSS, HRVATSKA STRANKA PRAVA DR. ANTE STARČEVIĆ - HSP AS, BLOK UMIROVLJENICI ZAJEDNO - BUZ, HRVATSKA SOCIJALNO - LIBERALNA STRANKA - HSLS, HRAST - POKRET ZA USPJEŠNU HRVATSKU, HRVATSKA DEMOKRŠĆANSKA STRANKA - HDS, ZAGORSKA DEMOKRATSKA STRANKA - ZDS"
         },
         "HKS": {
-          "votes": 1468,
+          "votes": 1501,
           "coalition_name": "HRVATSKA KONZERVATIVNA STRANKA - HKS, HRVATSKA STRANKA PRAVA - HSP, OBITELJSKA STRANKA - OS"
         },
         "MOST": {
-          "votes": 19781,
+          "votes": 20156,
           "coalition_name": "MOST NEZAVISNIH LISTA - MOST"
         },
         "PROGRESIVNI SAVEZ IVE JOSIPOVIĆA": {
-          "votes": 1584,
+          "votes": 1613,
           "coalition_name": "NAPRIJED HRVATSKA! - PROGRESIVNI SAVEZ IVE JOSIPOVIĆA, NARODNA STRANKA - REFORMISTI - REFORMISTI, STRANKA HRVATSKIH UMIROVLJENIKA - UMIROVLJENICI, ZELENI FORUM, DUBROVAČKI DEMOKRATSKI SABOR - DDS"
         },
         "ODRŽIVI RAZVOJ HRVATSKE": {
-          "votes": 2733,
+          "votes": 2799,
           "coalition_name": "ODRŽIVI RAZVOJ HRVATSKE - ORaH"
         },
         "PROJEKT DOMOVINA": {
-          "votes": 2445,
+          "votes": 2519,
           "coalition_name": "U IME OBITELJI - PROJEKT DOMOVINA"
         },
         "AM": {
-          "votes": 608,
+          "votes": 619,
           "coalition_name": "AKCIJA MLADIH - AM"
         },
         "BRANITELJSKO DOMOLJUBNA STRANKA HRVATSKE": {
-          "votes": 433,
+          "votes": 449,
           "coalition_name": "BRANITELJSKO DOMOLJUBNA STRANKA HRVATSKE"
         },
         "DESNO": {
-          "votes": 1527,
+          "votes": 1548,
           "coalition_name": "DEMOKRATSKI SAVEZ NACIONALNE OBNOVE - DESNO"
         },
         "HDSSB": {
-          "votes": 21687,
+          "votes": 21849,
           "coalition_name": "HRVATSKI DEMOKRATSKI SAVEZ SLAVONIJE I BARANJE - HDSSB"
         },
         "SDP": {
-          "votes": 54448,
+          "votes": 55077,
           "coalition_name": "SOCIJALDEMOKRATSKA PARTIJA HRVATSKE - SDP, HRVATSKA NARODNA STRANKA - LIBERALNI DEMOKRATI - HNS, HRVATSKA STRANKA UMIROVLJENIKA - HSU, HRVATSKI LABURISTI - STRANKA RADA, AUTOHTONA - HRVATSKA SELJAČKA STRANKA - A - HSS, ZAGORSKA STRANKA - ZS"
         },
         "ŽIVI ZID": {
-          "votes": 9262,
+          "votes": 9379,
           "coalition_name": "ŽIVI ZID"
         },
         "HSP": {
-          "votes": 1042,
+          "votes": 1062,
           "coalition_name": "AUTOHTONA - HRVATSKA STRANKA PRAVA - A - HSP"
         }
       }
     },
     "V": {
       "name": "V. IZBORNA JEDINICA",
-      "total_voters": 329855,
-      "votes_cast": 192340,
-      "turnout": 0.5831,
+      "seats": 14,
+      "total_voters": 334893,
+      "votes_cast": 196804,
+      "turnout": 0.5877,
       "winner": "HDZ",
-      "margin": 19.74,
+      "margin": 20.07,
       "parties": {
         "HSP": {
-          "votes": 1959,
+          "votes": 1999,
           "coalition_name": "AUTOHTONA - HRVATSKA STRANKA PRAVA - A - HSP"
         },
         "STRANKA RADA I SOLIDARNOSTI": {
-          "votes": 4223,
+          "votes": 4310,
           "coalition_name": "\"BANDIĆ MILAN 365 - STRANKA RADA I SOLIDARNOSTI\", DEMOKRATSKA PRIGORSKO - ZAGREBAČKA STRANKA - DPS, DEMOKRATSKA STRANKA ŽENA - DSŽ, HRVATSKA EUROPSKA STRANKA - HES, HRVATSKA RADNIČKA STRANKA - HRS, HRVATSKA STRANKA ZELENIH - EKO SAVEZ - ZELENI, ISTARSKI DEMOKRATI - DEMOCRATICI ISTRIANI - ID - DI, MEĐIMURSKA STRANKA - MS, NEZAVISNI SELJACI HRVATSKE - NSH, NOVI VAL - STRANKA RAZVOJA - NOVI VAL, STRANKA UMIROVLJENIKA - SU, UMIROVLJENIČKA DEMOKRATSKA UNIJA - UDU, ZELENI SAVEZ - ZELENI, ZELENA STRANKA - ZS"
         },
         "HDZ": {
-          "votes": 86432,
+          "votes": 88760,
           "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ, HRVATSKA SELJAČKA STRANKA - HSS, HRVATSKA STRANKA PRAVA DR. ANTE STARČEVIĆ - HSP AS, BLOK UMIROVLJENICI ZAJEDNO - BUZ, HRVATSKA SOCIJALNO - LIBERALNA STRANKA - HSLS, HRAST - POKRET ZA USPJEŠNU HRVATSKU, HRVATSKA DEMOKRŠĆANSKA STRANKA - HDS, ZAGORSKA DEMOKRATSKA STRANKA - ZDS"
         },
         "HKS": {
-          "votes": 2645,
+          "votes": 2682,
           "coalition_name": "HRVATSKA KONZERVATIVNA STRANKA - HKS, HRVATSKA STRANKA PRAVA - HSP, OBITELJSKA STRANKA - OS"
         },
         "MOST": {
-          "votes": 21474,
+          "votes": 22069,
           "coalition_name": "MOST NEZAVISNIH LISTA - MOST"
         },
         "REFORMISTI": {
-          "votes": 2358,
+          "votes": 2411,
           "coalition_name": "NARODNA STRANKA - REFORMISTI - REFORMISTI, NAPRIJED HRVATSKA! - PROGRESIVNI SAVEZ IVE JOSIPOVIĆA, STRANKA HRVATSKIH UMIROVLJENIKA - UMIROVLJENICI, ZELENI FORUM, DUBROVAČKI DEMOKRATSKI SABOR - DDS"
         },
         "ODRŽIVI RAZVOJ HRVATSKE": {
-          "votes": 2133,
+          "votes": 2208,
           "coalition_name": "ODRŽIVI RAZVOJ HRVATSKE - ORaH"
         },
         "PROJEKT DOMOVINA": {
-          "votes": 1815,
+          "votes": 1930,
           "coalition_name": "U IME OBITELJI - PROJEKT DOMOVINA"
         },
         "AM": {
-          "votes": 522,
+          "votes": 536,
           "coalition_name": "AKCIJA MLADIH - AM"
         },
         "HKDU": {
-          "votes": 391,
+          "votes": 400,
           "coalition_name": "HRVATSKA KRŠĆANSKA DEMOKRATSKA UNIJA - HKDU, HRVATSKA DEMOKRATSKA STRANKA, NACIONALNI DEMOKRATI - ND"
         },
         "HDSSB": {
-          "votes": 8518,
+          "votes": 8594,
           "coalition_name": "HRVATSKI DEMOKRATSKI SAVEZ SLAVONIJE I BARANJE - HDSSB"
         },
         "SDP": {
-          "votes": 48469,
+          "votes": 49268,
           "coalition_name": "SOCIJALDEMOKRATSKA PARTIJA HRVATSKE - SDP, HRVATSKA NARODNA STRANKA - LIBERALNI DEMOKRATI - HNS, HRVATSKA STRANKA UMIROVLJENIKA - HSU, HRVATSKI LABURISTI - STRANKA RADA, AUTOHTONA - HRVATSKA SELJAČKA STRANKA - A - HSS, ZAGORSKA STRANKA - ZS"
         },
         "ŽIVI ZID": {
-          "votes": 7418,
+          "votes": 7571,
           "coalition_name": "ŽIVI ZID"
         }
       }
     },
     "VI": {
       "name": "VI. IZBORNA JEDINICA",
-      "total_voters": 321179,
-      "votes_cast": 200995,
-      "turnout": 0.6258,
+      "seats": 14,
+      "total_voters": 324880,
+      "votes_cast": 204264,
+      "turnout": 0.6287,
       "winner": "SDP",
-      "margin": 2.79,
+      "margin": 2.36,
       "parties": {
         "HSP": {
-          "votes": 1128,
+          "votes": 1152,
           "coalition_name": "AUTOHTONA - HRVATSKA STRANKA PRAVA - A - HSP"
         },
         "STRANKA RADA I SOLIDARNOSTI": {
-          "votes": 11324,
+          "votes": 11456,
           "coalition_name": "\"BANDIĆ MILAN 365 - STRANKA RADA I SOLIDARNOSTI\", DEMOKRATSKA PRIGORSKO - ZAGREBAČKA STRANKA - DPS, DEMOKRATSKA STRANKA ŽENA - DSŽ, HRVATSKA EUROPSKA STRANKA - HES, HRVATSKA RADNIČKA STRANKA - HRS, HRVATSKA STRANKA ZELENIH - EKO SAVEZ - ZELENI, ISTARSKI DEMOKRATI - DEMOCRATICI ISTRIANI - ID - DI, MEĐIMURSKA STRANKA - MS, NEZAVISNI SELJACI HRVATSKE - NSH, NOVI VAL - STRANKA RAZVOJA - NOVI VAL, STRANKA UMIROVLJENIKA - SU, UMIROVLJENIČKA DEMOKRATSKA UNIJA - UDU, ZELENI SAVEZ - ZELENI, ZELENA STRANKA - ZS"
         },
         "HDZ": {
-          "votes": 64516,
+          "votes": 66096,
           "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ, HRVATSKA SELJAČKA STRANKA - HSS, HRVATSKA STRANKA PRAVA DR. ANTE STARČEVIĆ - HSP AS, BLOK UMIROVLJENICI ZAJEDNO - BUZ, HRVATSKA SOCIJALNO - LIBERALNA STRANKA - HSLS, HRAST - POKRET ZA USPJEŠNU HRVATSKU, HRVATSKA DEMOKRŠĆANSKA STRANKA - HDS, ZAGORSKA DEMOKRATSKA STRANKA - ZDS"
         },
         "HKS": {
-          "votes": 1683,
+          "votes": 1724,
           "coalition_name": "HRVATSKA KONZERVATIVNA STRANKA - HKS, HRVATSKA STRANKA PRAVA - HSP, OBITELJSKA STRANKA - OS"
         },
         "MOST": {
-          "votes": 27707,
+          "votes": 28002,
           "coalition_name": "MOST NEZAVISNIH LISTA - MOST"
         },
         "REFORMISTI": {
-          "votes": 3538,
+          "votes": 3583,
           "coalition_name": "NARODNA STRANKA - REFORMISTI - REFORMISTI, NAPRIJED HRVATSKA! - PROGRESIVNI SAVEZ IVE JOSIPOVIĆA, STRANKA HRVATSKIH UMIROVLJENIKA - UMIROVLJENICI, ZELENI FORUM, DUBROVAČKI DEMOKRATSKI SABOR - DDS"
         },
         "ODRŽIVI RAZVOJ HRVATSKE": {
-          "votes": 3985,
+          "votes": 4060,
           "coalition_name": "ODRŽIVI RAZVOJ HRVATSKE - ORaH"
         },
         "PROJEKT DOMOVINA": {
-          "votes": 2246,
+          "votes": 2300,
           "coalition_name": "U IME OBITELJI - PROJEKT DOMOVINA"
         },
         "HKDU": {
-          "votes": 362,
+          "votes": 372,
           "coalition_name": "HRVATSKA KRŠĆANSKA DEMOKRATSKA UNIJA - HKDU, HRVATSKA DEMOKRATSKA STRANKA, NACIONALNI DEMOKRATI - ND"
         },
         "HZ": {
-          "votes": 496,
+          "votes": 508,
           "coalition_name": "HRVATSKA ZORA STRANKA NARODA - HZ"
         },
         "RF": {
-          "votes": 368,
+          "votes": 373,
           "coalition_name": "RADNIČKA FRONTA - RF"
         },
         "SDP": {
-          "votes": 70122,
+          "votes": 70925,
           "coalition_name": "SOCIJALDEMOKRATSKA PARTIJA HRVATSKE - SDP, HRVATSKA NARODNA STRANKA - LIBERALNI DEMOKRATI - HNS, HRVATSKA STRANKA UMIROVLJENIKA - HSU, HRVATSKI LABURISTI - STRANKA RADA, AUTOHTONA - HRVATSKA SELJAČKA STRANKA - A - HSS, ZAGORSKA STRANKA - ZS"
         },
         "ŽIVI ZID": {
-          "votes": 8763,
+          "votes": 8851,
           "coalition_name": "ŽIVI ZID"
         },
         "AM": {
-          "votes": 752,
+          "votes": 769,
           "coalition_name": "AKCIJA MLADIH - AM"
         },
         "ZA GRAD": {
-          "votes": 449,
+          "votes": 468,
           "coalition_name": "ZA GRAD"
         }
       }
     },
     "VII": {
       "name": "VII. IZBORNA JEDINICA",
-      "total_voters": 392016,
-      "votes_cast": 254418,
-      "turnout": 0.649,
+      "seats": 14,
+      "total_voters": 396152,
+      "votes_cast": 258150,
+      "turnout": 0.6516,
       "winner": "SDP",
-      "margin": 3.15,
+      "margin": 2.72,
       "parties": {
         "HSP": {
-          "votes": 1334,
+          "votes": 1363,
           "coalition_name": "AUTOHTONA - HRVATSKA STRANKA PRAVA - A - HSP"
         },
         "STRANKA RADA I SOLIDARNOSTI": {
-          "votes": 13335,
+          "votes": 13485,
           "coalition_name": "\"BANDIĆ MILAN 365 - STRANKA RADA I SOLIDARNOSTI\", DEMOKRATSKA PRIGORSKO - ZAGREBAČKA STRANKA - DPS, DEMOKRATSKA STRANKA ŽENA - DSŽ, HRVATSKA EUROPSKA STRANKA - HES, HRVATSKA RADNIČKA STRANKA - HRS, HRVATSKA STRANKA ZELENIH - EKO SAVEZ - ZELENI, ISTARSKI DEMOKRATI - DEMOCRATICI ISTRIANI - ID - DI, MEĐIMURSKA STRANKA - MS, NEZAVISNI SELJACI HRVATSKE - NSH, NOVI VAL - STRANKA RAZVOJA - NOVI VAL, STRANKA UMIROVLJENIKA - SU, UMIROVLJENIČKA DEMOKRATSKA UNIJA - UDU, ZELENI SAVEZ - ZELENI, ZELENA STRANKA - ZS"
         },
         "HDZ": {
-          "votes": 79243,
+          "votes": 81092,
           "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ, HRVATSKA SELJAČKA STRANKA - HSS, HRVATSKA STRANKA PRAVA DR. ANTE STARČEVIĆ - HSP AS, BLOK UMIROVLJENICI ZAJEDNO - BUZ, HRVATSKA SOCIJALNO - LIBERALNA STRANKA - HSLS, HRAST - POKRET ZA USPJEŠNU HRVATSKU, HRVATSKA DEMOKRŠĆANSKA STRANKA - HDS, ZAGORSKA DEMOKRATSKA STRANKA - ZDS"
         },
         "HKS": {
-          "votes": 1243,
+          "votes": 1262,
           "coalition_name": "HRVATSKA KONZERVATIVNA STRANKA - HKS, HRVATSKA STRANKA PRAVA - HSP, OBITELJSKA STRANKA - OS"
         },
         "MOST": {
-          "votes": 39441,
+          "votes": 39854,
           "coalition_name": "MOST NEZAVISNIH LISTA - MOST"
         },
         "PROGRESIVNI SAVEZ IVE JOSIPOVIĆA": {
-          "votes": 2101,
+          "votes": 2138,
           "coalition_name": "NAPRIJED HRVATSKA! - PROGRESIVNI SAVEZ IVE JOSIPOVIĆA, NARODNA STRANKA - REFORMISTI - REFORMISTI, STRANKA HRVATSKIH UMIROVLJENIKA - UMIROVLJENICI, ZELENI FORUM, DUBROVAČKI DEMOKRATSKI SABOR - DDS"
         },
         "ODRŽIVI RAZVOJ HRVATSKE": {
-          "votes": 5005,
+          "votes": 5071,
           "coalition_name": "ODRŽIVI RAZVOJ HRVATSKE - ORaH"
         },
         "PROJEKT DOMOVINA": {
-          "votes": 2736,
+          "votes": 2807,
           "coalition_name": "U IME OBITELJI - PROJEKT DOMOVINA"
         },
         "AM": {
-          "votes": 895,
+          "votes": 905,
           "coalition_name": "AKCIJA MLADIH - AM"
         },
         "BRANITELJSKO DOMOLJUBNA STRANKA HRVATSKE": {
-          "votes": 470,
+          "votes": 481,
           "coalition_name": "BRANITELJSKO DOMOLJUBNA STRANKA HRVATSKE"
         },
         "HZ": {
-          "votes": 292,
+          "votes": 296,
           "coalition_name": "HRVATSKA ZORA STRANKA NARODA - HZ"
         },
         "PAMETNO": {
-          "votes": 1095,
+          "votes": 1124,
           "coalition_name": "PAMETNO"
         },
         "POKRET ZAJEDNO": {
-          "votes": 289,
+          "votes": 293,
           "coalition_name": "POKRET ZAJEDNO"
         },
         "SDP": {
-          "votes": 87253,
+          "votes": 88102,
           "coalition_name": "SOCIJALDEMOKRATSKA PARTIJA HRVATSKE - SDP, HRVATSKA NARODNA STRANKA - LIBERALNI DEMOKRATI - HNS, HRVATSKA STRANKA UMIROVLJENIKA - HSU, HRVATSKI LABURISTI - STRANKA RADA, AUTOHTONA - HRVATSKA SELJAČKA STRANKA - A - HSS, ZAGORSKA STRANKA - ZS"
         },
         "ZA GRAD": {
-          "votes": 575,
+          "votes": 590,
           "coalition_name": "ZA GRAD"
         },
         "ŽIVI ZID": {
-          "votes": 14584,
+          "votes": 14690,
           "coalition_name": "ŽIVI ZID"
         },
         "HKDU": {
-          "votes": 250,
+          "votes": 260,
           "coalition_name": "HRVATSKA KRŠĆANSKA DEMOKRATSKA UNIJA - HKDU, HRVATSKA DEMOKRATSKA STRANKA, NACIONALNI DEMOKRATI - ND"
         }
       }
     },
     "VIII": {
       "name": "VIII. IZBORNA JEDINICA",
-      "total_voters": 357567,
-      "votes_cast": 213021,
-      "turnout": 0.5958,
+      "seats": 14,
+      "total_voters": 362451,
+      "votes_cast": 217267,
+      "turnout": 0.5994,
       "winner": "SDP",
-      "margin": 17.59,
+      "margin": 17.62,
       "parties": {
         "HSP": {
-          "votes": 898,
+          "votes": 926,
           "coalition_name": "AUTOHTONA - HRVATSKA STRANKA PRAVA - A - HSP"
         },
         "STRANKA RADA I SOLIDARNOSTI": {
-          "votes": 5486,
+          "votes": 5574,
           "coalition_name": "\"BANDIĆ MILAN 365 - STRANKA RADA I SOLIDARNOSTI\", ISTARSKI DEMOKRATI - DEMOCRATICI ISTRIANI - ID - DI, DEMOKRATSKA PRIGORSKO - ZAGREBAČKA STRANKA - DPS, DEMOKRATSKA STRANKA ŽENA - DSŽ, HRVATSKA EUROPSKA STRANKA - HES, HRVATSKA RADNIČKA STRANKA - HRS, HRVATSKA STRANKA ZELENIH - EKO SAVEZ - ZELENI, MEĐIMURSKA STRANKA - MS, NEZAVISNI SELJACI HRVATSKE - NSH, NOVI VAL - STRANKA RAZVOJA - NOVI VAL, STRANKA UMIROVLJENIKA - SU, UMIROVLJENIČKA DEMOKRATSKA UNIJA - UDU, ZELENI SAVEZ - ZELENI, ZELENA STRANKA - ZS"
         },
         "HDZ": {
-          "votes": 35960,
+          "votes": 37356,
           "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ, HRVATSKA SELJAČKA STRANKA - HSS, HRVATSKA STRANKA PRAVA DR. ANTE STARČEVIĆ - HSP AS, BLOK UMIROVLJENICI ZAJEDNO - BUZ, HRVATSKA SOCIJALNO - LIBERALNA STRANKA - HSLS, HRAST - POKRET ZA USPJEŠNU HRVATSKU, HRVATSKA DEMOKRŠĆANSKA STRANKA - HDS, ZAGORSKA DEMOKRATSKA STRANKA - ZDS"
         },
         "HKS": {
-          "votes": 649,
+          "votes": 666,
           "coalition_name": "HRVATSKA KONZERVATIVNA STRANKA - HKS, HRVATSKA STRANKA PRAVA - HSP, OBITELJSKA STRANKA - OS"
         },
         "MOST": {
-          "votes": 22001,
+          "votes": 22432,
           "coalition_name": "MOST NEZAVISNIH LISTA - MOST"
         },
         "PROGRESIVNI SAVEZ IVE JOSIPOVIĆA": {
-          "votes": 3568,
+          "votes": 3634,
           "coalition_name": "NAPRIJED HRVATSKA! - PROGRESIVNI SAVEZ IVE JOSIPOVIĆA, NARODNA STRANKA - REFORMISTI - REFORMISTI, STRANKA HRVATSKIH UMIROVLJENIKA - UMIROVLJENICI, ZELENI FORUM, DUBROVAČKI DEMOKRATSKI SABOR - DDS"
         },
         "ODRŽIVI RAZVOJ HRVATSKE": {
-          "votes": 4430,
+          "votes": 4553,
           "coalition_name": "ODRŽIVI RAZVOJ HRVATSKE - ORaH"
         },
         "PROJEKT DOMOVINA": {
-          "votes": 1640,
+          "votes": 1707,
           "coalition_name": "U IME OBITELJI - PROJEKT DOMOVINA"
         },
         "AM": {
-          "votes": 1192,
+          "votes": 1220,
           "coalition_name": "AKCIJA MLADIH - AM"
         },
         "IDS": {
-          "votes": 41710,
+          "votes": 42193,
           "coalition_name": "ISTARSKI DEMOKRATSKI SABOR - IDS, PRIMORSKO GORANSKI SAVEZ - PGS, LISTA ZA RIJEKU - RI"
         },
         "POKRET ZAJEDNO": {
-          "votes": 446,
+          "votes": 463,
           "coalition_name": "POKRET ZAJEDNO"
         },
         "RF": {
-          "votes": 542,
+          "votes": 550,
           "coalition_name": "RADNIČKA FRONTA - RF"
         },
         "SDP": {
-          "votes": 79178,
+          "votes": 80467,
           "coalition_name": "SOCIJALDEMOKRATSKA PARTIJA HRVATSKE - SDP, HRVATSKA NARODNA STRANKA - LIBERALNI DEMOKRATI - HNS, HRVATSKA STRANKA UMIROVLJENIKA - HSU, HRVATSKI LABURISTI - STRANKA RADA, AUTOHTONA - HRVATSKA SELJAČKA STRANKA - A - HSS, ZAGORSKA STRANKA - ZS"
         },
         "SRP": {
-          "votes": 619,
+          "votes": 631,
           "coalition_name": "SOCIJALISTIČKA RADNIČKA PARTIJA HRVATSKE - SRP"
         },
         "ŽIVI ZID": {
-          "votes": 10891,
+          "votes": 11013,
           "coalition_name": "ŽIVI ZID"
         }
       }
     },
     "IX": {
       "name": "IX. IZBORNA JEDINICA",
-      "total_voters": 397793,
-      "votes_cast": 231649,
-      "turnout": 0.5823,
+      "seats": 14,
+      "total_voters": 405728,
+      "votes_cast": 238905,
+      "turnout": 0.5888,
       "winner": "HDZ",
-      "margin": 22.57,
+      "margin": 23.13,
       "parties": {
         "HSP": {
-          "votes": 1337,
+          "votes": 1383,
           "coalition_name": "AUTOHTONA - HRVATSKA STRANKA PRAVA - A - HSP"
         },
         "STRANKA RADA I SOLIDARNOSTI": {
-          "votes": 2849,
+          "votes": 2923,
           "coalition_name": "\"BANDIĆ MILAN 365 - STRANKA RADA I SOLIDARNOSTI\", DEMOKRATSKA PRIGORSKO - ZAGREBAČKA STRANKA - DPS, DEMOKRATSKA STRANKA ŽENA - DSŽ, HRVATSKA EUROPSKA STRANKA - HES, HRVATSKA RADNIČKA STRANKA - HRS, HRVATSKA STRANKA ZELENIH - EKO SAVEZ - ZELENI, ISTARSKI DEMOKRATI - DEMOCRATICI ISTRIANI - ID - DI, MEĐIMURSKA STRANKA - MS, NEZAVISNI SELJACI HRVATSKE - NSH, NOVI VAL - STRANKA RAZVOJA - NOVI VAL, STRANKA UMIROVLJENIKA - SU, UMIROVLJENIČKA DEMOKRATSKA UNIJA - UDU, ZELENI SAVEZ - ZELENI, ZELENA STRANKA - ZS"
         },
         "HDZ": {
-          "votes": 111926,
+          "votes": 116195,
           "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ, HRVATSKA SELJAČKA STRANKA - HSS, HRVATSKA STRANKA PRAVA DR. ANTE STARČEVIĆ - HSP AS, BLOK UMIROVLJENICI ZAJEDNO - BUZ, HRVATSKA SOCIJALNO - LIBERALNA STRANKA - HSLS, HRAST - POKRET ZA USPJEŠNU HRVATSKU, HRVATSKA DEMOKRŠĆANSKA STRANKA - HDS, ZAGORSKA DEMOKRATSKA STRANKA - ZDS"
         },
         "HKS": {
-          "votes": 1372,
+          "votes": 1411,
           "coalition_name": "HRVATSKA KONZERVATIVNA STRANKA - HKS, HRVATSKA STRANKA PRAVA - HSP, OBITELJSKA STRANKA - OS"
         },
         "MOST": {
-          "votes": 34559,
+          "votes": 35473,
           "coalition_name": "MOST NEZAVISNIH LISTA - MOST"
         },
         "REFORMISTI": {
-          "votes": 1874,
+          "votes": 1931,
           "coalition_name": "NARODNA STRANKA - REFORMISTI - REFORMISTI, NAPRIJED HRVATSKA! - PROGRESIVNI SAVEZ IVE JOSIPOVIĆA, STRANKA HRVATSKIH UMIROVLJENIKA - UMIROVLJENICI, ZELENI FORUM, DUBROVAČKI DEMOKRATSKI SABOR - DDS"
         },
         "ODRŽIVI RAZVOJ HRVATSKE": {
-          "votes": 2337,
+          "votes": 2435,
           "coalition_name": "ODRŽIVI RAZVOJ HRVATSKE - ORaH"
         },
         "PROJEKT DOMOVINA": {
-          "votes": 2033,
+          "votes": 2128,
           "coalition_name": "U IME OBITELJI - PROJEKT DOMOVINA"
         },
         "HKDU": {
-          "votes": 721,
+          "votes": 769,
           "coalition_name": "HRVATSKA KRŠĆANSKA DEMOKRATSKA UNIJA - HKDU, HRVATSKA DEMOKRATSKA STRANKA, NACIONALNI DEMOKRATI - ND"
         },
         "HZ": {
-          "votes": 990,
+          "votes": 1003,
           "coalition_name": "HRVATSKA ZORA STRANKA NARODA - HZ"
         },
         "SDP": {
-          "votes": 59636,
+          "votes": 60944,
           "coalition_name": "SOCIJALDEMOKRATSKA PARTIJA HRVATSKE - SDP, HRVATSKA NARODNA STRANKA - LIBERALNI DEMOKRATI - HNS, HRVATSKA STRANKA UMIROVLJENIKA - HSU, HRVATSKI LABURISTI - STRANKA RADA, AUTOHTONA - HRVATSKA SELJAČKA STRANKA - A - HSS, ZAGORSKA STRANKA - ZS, SAMOSTALNA DEMOKRATSKA SRPSKA STRANKA - SDSS"
         },
         "ŽIVI ZID": {
-          "votes": 7073,
+          "votes": 7244,
           "coalition_name": "ŽIVI ZID, AKCIJA MLADIH - AM"
         },
         "HRVATSKA GRAĐANSKA STRANKA": {
-          "votes": 685,
+          "votes": 695,
           "coalition_name": "ŽELJKO KERUM - HRVATSKA GRAĐANSKA STRANKA"
         }
       }
     },
     "X": {
       "name": "X. IZBORNA JEDINICA",
-      "total_voters": 396286,
-      "votes_cast": 241755,
-      "turnout": 0.6101,
+      "seats": 14,
+      "total_voters": 403969,
+      "votes_cast": 248758,
+      "turnout": 0.6158,
       "winner": "HDZ",
-      "margin": 11.82,
+      "margin": 12.38,
       "parties": {
         "HDZ": {
-          "votes": 98000,
+          "votes": 101586,
           "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ, HRVATSKA SELJAČKA STRANKA - HSS, HRVATSKA STRANKA PRAVA DR. ANTE STARČEVIĆ - HSP AS, BLOK UMIROVLJENICI ZAJEDNO - BUZ, HRVATSKA SOCIJALNO - LIBERALNA STRANKA - HSLS, HRVATSKA DEMOKRŠĆANSKA STRANKA - HDS, ZAGORSKA DEMOKRATSKA STRANKA - ZDS, HRAST - POKRET ZA USPJEŠNU HRVATSKU"
         },
         "HKS": {
-          "votes": 2435,
+          "votes": 2497,
           "coalition_name": "HRVATSKA KONZERVATIVNA STRANKA - HKS, HRVATSKA STRANKA PRAVA - HSP, OBITELJSKA STRANKA - OS"
         },
         "MOST": {
-          "votes": 43930,
+          "votes": 45151,
           "coalition_name": "MOST NEZAVISNIH LISTA - MOST"
         },
         "REFORMISTI": {
-          "votes": 2108,
+          "votes": 2144,
           "coalition_name": "NARODNA STRANKA - REFORMISTI - REFORMISTI, DUBROVAČKI DEMOKRATSKI SABOR - DDS, NAPRIJED HRVATSKA! - PROGRESIVNI SAVEZ IVE JOSIPOVIĆA, STRANKA HRVATSKIH UMIROVLJENIKA - UMIROVLJENICI, ZELENI FORUM"
         },
         "ODRŽIVI RAZVOJ HRVATSKE": {
-          "votes": 2141,
+          "votes": 2228,
           "coalition_name": "ODRŽIVI RAZVOJ HRVATSKE - ORaH"
         },
         "HKDU": {
-          "votes": 461,
+          "votes": 490,
           "coalition_name": "HRVATSKA KRŠĆANSKA DEMOKRATSKA UNIJA - HKDU, HRVATSKA DEMOKRATSKA STRANKA, NACIONALNI DEMOKRATI - ND"
         },
         "SDP": {
-          "votes": 69419,
+          "votes": 70782,
           "coalition_name": "SOCIJALDEMOKRATSKA PARTIJA HRVATSKE - SDP, HRVATSKA NARODNA STRANKA - LIBERALNI DEMOKRATI - HNS, HRVATSKA STRANKA UMIROVLJENIKA - HSU, HRVATSKI LABURISTI - STRANKA RADA, AUTOHTONA - HRVATSKA SELJAČKA STRANKA - A - HSS, ZAGORSKA STRANKA - ZS"
         },
         "HSP": {
-          "votes": 894,
+          "votes": 914,
           "coalition_name": "AUTOHTONA - HRVATSKA STRANKA PRAVA - A - HSP"
         },
         "STRANKA RADA I SOLIDARNOSTI": {
-          "votes": 1627,
+          "votes": 1675,
           "coalition_name": "\"BANDIĆ MILAN 365 - STRANKA RADA I SOLIDARNOSTI\", DEMOKRATSKA PRIGORSKO - ZAGREBAČKA STRANKA - DPS, DEMOKRATSKA STRANKA ŽENA - DSŽ, HRVATSKA EUROPSKA STRANKA - HES, HRVATSKA RADNIČKA STRANKA - HRS, HRVATSKA STRANKA ZELENIH - EKO SAVEZ - ZELENI, ISTARSKI DEMOKRATI - DEMOCRATICI ISTRIANI - ID - DI, MEĐIMURSKA STRANKA - MS, NEZAVISNI SELJACI HRVATSKE - NSH, NOVI VAL - STRANKA RAZVOJA - NOVI VAL, STRANKA UMIROVLJENIKA - SU, UMIROVLJENIČKA DEMOKRATSKA UNIJA - UDU, ZELENI SAVEZ - ZELENI, ZELENA STRANKA - ZS"
         },
         "PROJEKT DOMOVINA": {
-          "votes": 2244,
+          "votes": 2397,
           "coalition_name": "U IME OBITELJI - PROJEKT DOMOVINA"
         },
         "HZ": {
-          "votes": 1898,
+          "votes": 1939,
           "coalition_name": "HRVATSKA ZORA STRANKA NARODA - HZ"
         },
         "PAMETNO": {
-          "votes": 3166,
+          "votes": 3268,
           "coalition_name": "PAMETNO"
         },
         "SRP": {
-          "votes": 660,
+          "votes": 678,
           "coalition_name": "SOCIJALISTIČKA RADNIČKA PARTIJA HRVATSKE - SRP"
         },
         "HRVATSKA GRAĐANSKA STRANKA": {
-          "votes": 1516,
+          "votes": 1539,
           "coalition_name": "ŽELJKO KERUM - HRVATSKA GRAĐANSKA STRANKA"
         },
         "ŽIVI ZID": {
-          "votes": 6784,
+          "votes": 6892,
           "coalition_name": "ŽIVI ZID"
         },
         "AM": {
-          "votes": 593,
+          "votes": 616,
           "coalition_name": "AKCIJA MLADIH - AM"
         }
       }
+    },
+    "XI": {
+      "name": "XI. IZBORNA JEDINICA",
+      "seats": 3,
+      "total_voters": 28944,
+      "votes_cast": 28917,
+      "turnout": 0.9991,
+      "winner": "HDZ",
+      "margin": 77.22,
+      "parties": {
+        "HDZ": {
+          "votes": 23474,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ, HRVATSKA SELJAČKA STRANKA - HSS, HRVATSKA STRANKA PRAVA DR. ANTE STARČEVIĆ - HSP AS, BLOK UMIROVLJENICI ZAJEDNO - BUZ, HRVATSKA SOCIJALNO - LIBERALNA STRANKA - HSLS, HRAST - POKRET ZA USPJEŠNU HRVATSKU, HRVATSKA DEMOKRŠĆANSKA STRANKA - HDS, ZAGORSKA DEMOKRATSKA STRANKA - ZDS"
+        },
+        "MOST": {
+          "votes": 1032,
+          "coalition_name": "MOST NEZAVISNIH LISTA - MOST"
+        },
+        "STRANKA RADA I SOLIDARNOSTI": {
+          "votes": 1143,
+          "coalition_name": "\"BANDIĆ MILAN 365 - STRANKA RADA I SOLIDARNOSTI\", DEMOKRATSKA PRIGORSKO - ZAGREBAČKA STRANKA - DPS, DEMOKRATSKA STRANKA ŽENA - DSŽ, HRVATSKA EUROPSKA STRANKA - HES, HRVATSKA RADNIČKA STRANKA - HRS, HRVATSKA STRANKA ZELENIH - EKO SAVEZ - ZELENI, ISTARSKI DEMOKRATI - DEMOCRATICI ISTRIANI - ID - DI, MEĐIMURSKA STRANKA - MS, NEZAVISNI SELJACI HRVATSKE - NSH, NOVI VAL - STRANKA RAZVOJA - NOVI VAL, STRANKA UMIROVLJENIKA - SU, UMIROVLJENIČKA DEMOKRATSKA UNIJA - UDU, ZELENI SAVEZ - ZELENI, ZELENA STRANKA - ZS"
+        },
+        "ODRŽIVI RAZVOJ HRVATSKE": {
+          "votes": 227,
+          "coalition_name": "ODRŽIVI RAZVOJ HRVATSKE - ORaH"
+        },
+        "SRP": {
+          "votes": 163,
+          "coalition_name": "SOCIJALISTIČKA RADNIČKA PARTIJA HRVATSKE - SRP"
+        },
+        "HSP": {
+          "votes": 128,
+          "coalition_name": "AUTOHTONA - HRVATSKA STRANKA PRAVA - A - HSP"
+        },
+        "REFORMISTI": {
+          "votes": 327,
+          "coalition_name": "NARODNA STRANKA - REFORMISTI - REFORMISTI, NAPRIJED HRVATSKA! - PROGRESIVNI SAVEZ IVE JOSIPOVIĆA, STRANKA HRVATSKIH UMIROVLJENIKA - UMIROVLJENICI, ZELENI FORUM, DUBROVAČKI DEMOKRATSKI SABOR - DDS"
+        },
+        "PROJEKT DOMOVINA": {
+          "votes": 419,
+          "coalition_name": "U IME OBITELJI - PROJEKT DOMOVINA"
+        },
+        "HKDU": {
+          "votes": 93,
+          "coalition_name": "HRVATSKA KRŠĆANSKA DEMOKRATSKA UNIJA - HKDU, HRVATSKA DEMOKRATSKA STRANKA, NACIONALNI DEMOKRATI - ND"
+        },
+        "VESNA PINJUH": {
+          "votes": 186,
+          "coalition_name": "NEOVISNA LISTA - VESNA PINJUH"
+        },
+        "HKS": {
+          "votes": 115,
+          "coalition_name": "HRVATSKA KONZERVATIVNA STRANKA - HKS, HRVATSKA STRANKA PRAVA - HSP, OBITELJSKA STRANKA - OS"
+        },
+        "ANTONI BANDIĆ": {
+          "votes": 23,
+          "coalition_name": "ANTONI BANDIĆ, mag. računarstva"
+        },
+        "VLADIMIR JURIŠIĆ": {
+          "votes": 3,
+          "coalition_name": "VLADIMIR JURIŠIĆ"
+        },
+        "TOMY ROSY": {
+          "votes": 2,
+          "coalition_name": "TOMY ROSY"
+        },
+        "LANA MAJIĆ": {
+          "votes": 1,
+          "coalition_name": "LANA MAJIĆ"
+        },
+        "BORA DIDULICA": {
+          "votes": 1,
+          "coalition_name": "BORA DIDULICA"
+        },
+        "ILIJA JANOVIĆ": {
+          "votes": 2,
+          "coalition_name": "ILIJA JANOVIĆ"
+        }
+      }
     }
-  }
+  },
+  "minorities": [
+    {
+      "id": "1",
+      "name": "Srpska",
+      "seats": 3,
+      "total_voters": 130134,
+      "votes_cast": 19021,
+      "turnout": 0.1462,
+      "candidates": [
+        {
+          "name": "dr. sc. MILORAD PUPOVAC",
+          "votes": 14103,
+          "elected": true
+        },
+        {
+          "name": "MILE HORVAT, dipl. iur.",
+          "votes": 10997,
+          "elected": true
+        },
+        {
+          "name": "MIRKO RAŠKOVIĆ",
+          "votes": 10103,
+          "elected": true
+        },
+        {
+          "name": "SRĐAN MILAKOVIĆ, mag. prava",
+          "votes": 2995,
+          "elected": false
+        },
+        {
+          "name": "SINIŠA LJUBOJEVIĆ, struč. spec. ing. el.",
+          "votes": 2690,
+          "elected": false
+        },
+        {
+          "name": "JOVAN AJDUKOVIĆ, dipl. iur.",
+          "votes": 1681,
+          "elected": false
+        },
+        {
+          "name": "mr. sc. DUŠAN BJELAJAC, dr. med.",
+          "votes": 852,
+          "elected": false
+        },
+        {
+          "name": "DRAGAN TODIĆ, dipl. iur.",
+          "votes": 543,
+          "elected": false
+        },
+        {
+          "name": "SLAVKO MIRNIĆ, prof.",
+          "votes": 541,
+          "elected": false
+        },
+        {
+          "name": "NENAD VLAHOVIĆ, mag. iur.",
+          "votes": 471,
+          "elected": false
+        },
+        {
+          "name": "DRAGOLJUB PETROVIĆ",
+          "votes": 371,
+          "elected": false
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Mađarska",
+      "seats": 1,
+      "total_voters": 9169,
+      "votes_cast": 4485,
+      "turnout": 0.4891,
+      "candidates": [
+        {
+          "name": "ŠANDOR JUHAS",
+          "votes": 2218,
+          "elected": true
+        },
+        {
+          "name": "RÓBERT JANKOVICS",
+          "votes": 2198,
+          "elected": false
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Talijanska",
+      "seats": 1,
+      "total_voters": 10338,
+      "votes_cast": 2451,
+      "turnout": 0.2371,
+      "candidates": [
+        {
+          "name": "FURIO RADIN",
+          "votes": 1594,
+          "elected": true
+        },
+        {
+          "name": "MAURIZIO ZENNARO",
+          "votes": 676,
+          "elected": false
+        },
+        {
+          "name": "DANIELA DAPAS",
+          "votes": 151,
+          "elected": false
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Češka i slovačka",
+      "seats": 1,
+      "total_voters": 6488,
+      "votes_cast": 2134,
+      "turnout": 0.3289,
+      "candidates": [
+        {
+          "name": "VLADIMIR BILEK",
+          "votes": 1598,
+          "elected": true
+        },
+        {
+          "name": "IVAN KOMAK",
+          "votes": 512,
+          "elected": false
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Austrijska, bugarska, njemačka, poljska, romska, rumunjska, rusinska, ruska, turska, ukrajinska, vlaška i židovska",
+      "seats": 1,
+      "total_voters": 14198,
+      "votes_cast": 4698,
+      "turnout": 0.3309,
+      "candidates": [
+        {
+          "name": "VELJKO KAJTAZI",
+          "votes": 1913,
+          "elected": true
+        },
+        {
+          "name": "ŽELJKO BALOG",
+          "votes": 778,
+          "elected": false
+        },
+        {
+          "name": "MUHAMED ZAHIROVIĆ",
+          "votes": 638,
+          "elected": false
+        },
+        {
+          "name": "ROBERT BOSAK",
+          "votes": 539,
+          "elected": false
+        },
+        {
+          "name": "DUŠKO KOSTIĆ, mag. prim. educ.",
+          "votes": 258,
+          "elected": false
+        },
+        {
+          "name": "DUBRAVKA RAŠLJANIN",
+          "votes": 182,
+          "elected": false
+        },
+        {
+          "name": "mr. sc. RENATA TRISCHLER",
+          "votes": 131,
+          "elected": false
+        },
+        {
+          "name": "VESNA PICHLER",
+          "votes": 61,
+          "elected": false
+        },
+        {
+          "name": "JELENA ZARIČNAJA JINDRA",
+          "votes": 58,
+          "elected": false
+        },
+        {
+          "name": "BARI AHMEDI",
+          "votes": 44,
+          "elected": false
+        },
+        {
+          "name": "ZVONKO KALANJOŠ",
+          "votes": 18,
+          "elected": false
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Albanska, bošnjačka, crnogorska, makedonska i slovenska",
+      "seats": 1,
+      "total_voters": 26914,
+      "votes_cast": 4775,
+      "turnout": 0.1774,
+      "candidates": [
+        {
+          "name": "ERMINA LEKAJ PRLJASKAJ, dipl. iur.",
+          "votes": 999,
+          "elected": true
+        },
+        {
+          "name": "IDRIS SULEJMANI",
+          "votes": 994,
+          "elected": false
+        },
+        {
+          "name": "NEDŽAD HODŽIĆ, dipl. ing.",
+          "votes": 755,
+          "elected": false
+        },
+        {
+          "name": "MIRSAD SREBRENIKOVIĆ, dipl. iur.",
+          "votes": 711,
+          "elected": false
+        },
+        {
+          "name": "JONUZ ALITI",
+          "votes": 375,
+          "elected": false
+        },
+        {
+          "name": "ALEN DŽOMBA",
+          "votes": 306,
+          "elected": false
+        },
+        {
+          "name": "ALIJA AVDIĆ, dipl. krim.",
+          "votes": 176,
+          "elected": false
+        },
+        {
+          "name": "SABINA KOŽELJ-HORVAT, ing.",
+          "votes": 143,
+          "elected": false
+        },
+        {
+          "name": "SENAD PRŠIĆ, struč. spec. oec.",
+          "votes": 128,
+          "elected": false
+        },
+        {
+          "name": "LUTVIJA GRACA, dipl. ing. str.",
+          "votes": 52,
+          "elected": false
+        },
+        {
+          "name": "SULEJMAN TABAKOVIĆ",
+          "votes": 45,
+          "elected": false
+        },
+        {
+          "name": "SUAD SALKIĆ",
+          "votes": 30,
+          "elected": false
+        }
+      ]
+    }
+  ]
 }
