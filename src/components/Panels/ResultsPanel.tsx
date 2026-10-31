@@ -3,6 +3,7 @@ import { useAppContext } from '../../context/AppContext'
 import { getPartyInfo, MINORITY_COLOR } from '../../utils/dataProcessor'
 import { RegionResults, CountryResult } from '../../utils/regionResults'
 import { MinorityGroup, PartyInfo } from '../../types'
+import { displayName, localParty } from '../../utils/coalitions'
 import { cn } from '@/lib/utils'
 import { Check, ChevronDown, ChevronUp, PanelRightClose, PanelRightOpen, X } from 'lucide-react'
 import Parliament from './Parliament'
@@ -15,15 +16,6 @@ interface ResultsPanelProps {
 }
 
 const isDesktop = () => window.matchMedia('(min-width: 1024px)').matches
-
-// 'BOSNA I HERCEGOVINA' -> 'Bosna i Hercegovina', 'dr. sc. MILORAD PUPOVAC' -> 'dr. sc. Milorad Pupovac'
-function displayName(name: string) {
-    return name.split(' ').map(word => {
-        if (word !== word.toUpperCase() || !/[A-ZČĆĐŠŽ]/.test(word)) return word
-        if (['I', 'U'].includes(word)) return word.toLowerCase()
-        return word.charAt(0) + word.slice(1).toLowerCase().replace(/([-(])(\p{L})/gu, (_, sep, c) => sep + c.toUpperCase())
-    }).join(' ')
-}
 
 // Candidates per minority group; the ones with the most votes are elected
 function MinorityResults({ groups }: { groups: MinorityGroup[] }) {
@@ -165,13 +157,18 @@ function ResultsPanel({ data, parties, dateString, loading }: ResultsPanelProps)
                         {data.results.length > 0 && (
                             <div className="px-4 py-3 space-y-3">
                                 {data.results.map(result => {
-                                    const party = getPartyInfo(result.partyId, parties, result.listName)
+                                    // The national total names every partner; elsewhere only the local ones
+                                    const listParty = getPartyInfo(result.partyId, parties, result.listName)
+                                    const party = data.parliament ? listParty : localParty(listParty, result.listName, parties)
                                     return (
                                         <div key={result.partyId}>
                                             <div className="flex items-baseline justify-between gap-2">
                                                 <span className="text-sm font-semibold text-slate-800 truncate" title={party.name}>{party.name}</span>
                                                 <span className="text-sm font-bold tabular-nums shrink-0">{result.percent.toFixed(1)}%</span>
                                             </div>
+                                            {party.campaignName && party.coalition && (
+                                                <p className="text-[11px] text-slate-400 truncate" title={party.coalition.join(', ')}>{party.coalition.join(' · ')}</p>
+                                            )}
                                             <div className="mt-1 h-1.5 w-full bg-slate-100 rounded-full overflow-hidden">
                                                 <div
                                                     className="h-full rounded-full transition-all duration-700 ease-out"

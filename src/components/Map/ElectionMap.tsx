@@ -6,6 +6,7 @@ import { loadGeoJSON, loadElectionData, loadPartyData } from '../../utils/dataLo
 import { calculateWinners, getPartyColor, joinElectionWithGeo, NO_DATA_COLOR } from '../../utils/dataProcessor';
 import { ElectionData, PartyInfo, findElection } from '../../types';
 import MapInsets from './MapInsets';
+import { withCoalitions } from '../../utils/coalitions';
 
 const CROATIA_BOUNDS: [[number, number], [number, number]] = [[13.4, 42.35], [19.5, 46.6]];
 
@@ -86,7 +87,7 @@ function ElectionMap() {
 
                 setGeoData(joinedData);
                 setElectionData(processedElection);
-                setParties(partyData);
+                setParties(withCoalitions(partyData, processedElection, electionId));
             } catch (error) {
                 console.error('Error loading data:', error);
             } finally {

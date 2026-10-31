@@ -3,6 +3,7 @@ import { AppProvider, useAppContext } from './context/AppContext'
 import { loadElectionData, loadPartyData } from './utils/dataLoader'
 import { calculateWinners } from './utils/dataProcessor'
 import { isAvailable, regionResults } from './utils/regionResults'
+import { withCoalitions } from './utils/coalitions'
 import { ElectionData, PartyInfo, findElection } from './types'
 import ElectionMap from './components/Map/ElectionMap'
 import TopBar, { NAV_LINKS } from './components/Layout/TopBar'
@@ -47,7 +48,7 @@ function AppContent() {
 
                 const processedElection = calculateWinners(election)
                 setElectionData(processedElection)
-                setParties(partyData)
+                setParties(withCoalitions(partyData, processedElection, electionId))
             } catch (error) {
                 console.error('Error loading data:', error)
             } finally {

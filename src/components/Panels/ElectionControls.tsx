@@ -1,7 +1,15 @@
 import { useAppContext } from '../../context/AppContext'
 import { ELECTIONS, ELECTION_TYPES, ElectionType, findElection } from '../../types'
 import { cn } from '@/lib/utils'
-import { MapIcon, LayoutGrid, ChevronDown } from 'lucide-react'
+import * as Select from '@radix-ui/react-select'
+import { MapIcon, LayoutGrid, ChevronDown, Check, Landmark, UserRound, Building2, Globe } from 'lucide-react'
+
+const TYPE_ICONS: Record<ElectionType, typeof Landmark> = {
+    parliamentary: Landmark,
+    presidential: UserRound,
+    local: Building2,
+    eu: Globe,
+}
 
 const VISUALIZATION_MODES = [
     { id: 'winner', label: 'Pobjednik' },
@@ -14,6 +22,15 @@ const segment = (active: boolean) => cn(
     active ? "bg-white shadow-sm text-slate-900" : "text-slate-500 hover:text-slate-700"
 )
 
+function TypeIcon({ type, active }: { type: ElectionType; active?: boolean }) {
+    const Icon = TYPE_ICONS[type]
+    return (
+        <span className={cn("w-8 h-8 shrink-0 rounded-lg grid place-items-center", active ? "bg-blue-50 text-blue-600" : "bg-slate-100 text-slate-400")}>
+            <Icon size={16} />
+        </span>
+    )
+}
+
 function ElectionControls() {
     const { electionType, year, viewMode, visualizationMode, setElectionType, setYear, setViewMode, setVisualizationMode } = useAppContext()
     const elections = ELECTIONS.filter(e => e.type === electionType)
@@ -22,21 +39,49 @@ function ElectionControls() {
     return (
         <div className="absolute z-10 top-3 left-3 w-[min(340px,calc(100%-24px))] bg-white/95 backdrop-blur rounded-xl shadow-lg ring-1 ring-slate-200 p-3 space-y-2.5 text-slate-900">
             {/* Election type */}
-            <div className="relative">
-                <select
-                    value={electionType}
-                    onChange={e => setElectionType(e.target.value as ElectionType)}
-                    className="w-full appearance-none bg-transparent pr-6 text-base font-bold tracking-tight cursor-pointer focus:outline-none"
-                >
-                    {ELECTION_TYPES.map(type => (
-                        <option key={type.id} value={type.id} disabled={!type.available}>
-                            {type.label}{type.available ? '' : ' (uskoro)'}
-                        </option>
-                    ))}
-                </select>
-                <ChevronDown size={16} className="absolute right-0 top-1.5 text-slate-400 pointer-events-none" />
-                <p className="text-[11px] text-slate-400 font-medium">Službeni rezultati DIP-a</p>
-            </div>
+            <Select.Root value={electionType} onValueChange={value => setElectionType(value as ElectionType)}>
+                <Select.Trigger className="group w-full flex items-center gap-2.5 -mx-1 -mt-1 p-1 rounded-lg text-left hover:bg-slate-100 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 data-[state=open]:bg-slate-100 transition-colors">
+                    <TypeIcon type={electionType} active />
+                    <div className="flex-1 min-w-0">
+                        <div className="text-base font-bold tracking-tight leading-tight truncate">
+                            <Select.Value />
+                        </div>
+                        <p className="text-[11px] text-slate-400 font-medium">Službeni rezultati DIP-a</p>
+                    </div>
+                    <Select.Icon>
+                        <ChevronDown size={16} className="text-slate-400 transition-transform group-data-[state=open]:rotate-180" />
+                    </Select.Icon>
+                </Select.Trigger>
+
+                <Select.Portal>
+                    <Select.Content
+                        position="popper"
+                        sideOffset={8}
+                        className="z-50 w-[var(--radix-select-trigger-width)] overflow-hidden bg-white rounded-xl shadow-xl ring-1 ring-slate-200 p-1 text-slate-900 font-sans"
+                    >
+                        <Select.Viewport>
+                            {ELECTION_TYPES.map(type => (
+                                <Select.Item
+                                    key={type.id}
+                                    value={type.id}
+                                    disabled={!type.available}
+                                    className="flex items-center gap-2.5 px-2 py-1.5 rounded-lg text-sm font-semibold cursor-pointer select-none outline-none data-[highlighted]:bg-slate-100 data-[disabled]:cursor-default data-[disabled]:text-slate-400"
+                                >
+                                    <TypeIcon type={type.id} active={type.id === electionType} />
+                                    <Select.ItemText>{type.label}</Select.ItemText>
+                                    <span className="ml-auto flex items-center">
+                                        {type.available ? (
+                                            <Select.ItemIndicator><Check size={16} className="text-blue-600" /></Select.ItemIndicator>
+                                        ) : (
+                                            <span className="text-[10px] font-semibold uppercase tracking-wide text-slate-400 bg-slate-100 px-1.5 py-0.5 rounded">Uskoro</span>
+                                        )}
+                                    </span>
+                                </Select.Item>
+                            ))}
+                        </Select.Viewport>
+                    </Select.Content>
+                </Select.Portal>
+            </Select.Root>
 
             {/* Year */}
             <div className="grid gap-0.5" style={{ gridTemplateColumns: `repeat(${elections.length}, minmax(0, 1fr))` }}>

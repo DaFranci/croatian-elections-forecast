@@ -49,7 +49,10 @@ export interface PartyInfo {
     name: string;
     shortName: string;
     color: string;
-    coalition?: string[];
+    coalition?: string[]; // partner labels when the list ran as a coalition, lead party first
+    partyName?: string; // name and short name of the lead party on its own
+    partyShortName?: string;
+    campaignName?: boolean; // name is the coalition's campaign name rather than its partners
 }
 
 export interface GeoFeature {

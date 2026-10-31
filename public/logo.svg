@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="6 7 52 52" role="img" aria-label="Izborna karta">
+  <defs>
+    <clipPath id="shield"><path d="M14 22H50V37C50 48 42 54 32 58C22 54 14 48 14 37Z"/></clipPath>
+  </defs>
+  <!-- Stylized crown: five pointed-arch shields fanned along an arc -->
+  <g fill="#2563eb">
+    <path transform="rotate(-12 15.20 22.10)" d="M11.40 22.10V19.10A7.6 7.6 0 0 1 15.20 12.52A7.6 7.6 0 0 1 19.00 19.10V22.10Z"/>
+    <path transform="rotate(-6 23.60 20.40)" d="M19.80 20.40V17.40A7.6 7.6 0 0 1 23.60 10.82A7.6 7.6 0 0 1 27.40 17.40V20.40Z"/>
+    <path transform="rotate(0 32.00 19.50)" d="M28.20 19.50V16.50A7.6 7.6 0 0 1 32.00 9.92A7.6 7.6 0 0 1 35.80 16.50V19.50Z"/>
+    <path transform="rotate(6 40.40 20.40)" d="M36.60 20.40V17.40A7.6 7.6 0 0 1 40.40 10.82A7.6 7.6 0 0 1 44.20 17.40V20.40Z"/>
+    <path transform="rotate(12 48.80 22.10)" d="M45.00 22.10V19.10A7.6 7.6 0 0 1 48.80 12.52A7.6 7.6 0 0 1 52.60 19.10V22.10Z"/>
+  </g>
+  <!-- 5x5 checkerboard shield, red field first -->
+  <path d="M14 22H50V37C50 48 42 54 32 58C22 54 14 48 14 37Z" fill="#fff"/>
+  <g clip-path="url(#shield)" fill="#e11d2e">
+    <rect x="14.0" y="22.0" width="7.2" height="7.2"/>
+    <rect x="28.4" y="22.0" width="7.2" height="7.2"/>
+    <rect x="42.8" y="22.0" width="7.2" height="7.2"/>
+    <rect x="21.2" y="29.2" width="7.2" height="7.2"/>
+    <rect x="35.6" y="29.2" width="7.2" height="7.2"/>
+    <rect x="14.0" y="36.4" width="7.2" height="7.2"/>
+    <rect x="28.4" y="36.4" width="7.2" height="7.2"/>
+    <rect x="42.8" y="36.4" width="7.2" height="7.2"/>
+    <rect x="21.2" y="43.6" width="7.2" height="7.2"/>
+    <rect x="35.6" y="43.6" width="7.2" height="7.2"/>
+    <rect x="14.0" y="50.8" width="7.2" height="7.2"/>
+    <rect x="28.4" y="50.8" width="7.2" height="7.2"/>
+    <rect x="42.8" y="50.8" width="7.2" height="7.2"/>
+  </g>
+  <path d="M14 22H50V37C50 48 42 54 32 58C22 54 14 48 14 37Z" fill="none" stroke="#e11d2e" stroke-width="2" stroke-linejoin="round"/>
+</svg>

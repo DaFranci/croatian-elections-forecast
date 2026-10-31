@@ -2,6 +2,7 @@ import { Marker } from 'react-map-gl/maplibre'
 import { useAppContext } from '../../context/AppContext'
 import { getPartyInfo, MINORITY_COLOR, NO_DATA_COLOR } from '../../utils/dataProcessor'
 import { hasDiaspora, regionResults } from '../../utils/regionResults'
+import { localParty } from '../../utils/coalitions'
 import { DIASPORA_ID, ElectionData, MINORITIES_ID, PartyInfo } from '../../types'
 import { cn } from '@/lib/utils'
 
@@ -52,7 +53,7 @@ function MapInsets({ electionData, parties }: { electionData: ElectionData; part
     const minoritySeats = (electionData.minorities ?? []).reduce((sum, g) => sum + g.seats, 0)
 
     const [first, second] = diaspora?.results ?? []
-    const winner = first ? getPartyInfo(first.partyId, parties, first.listName) : null
+    const winner = first ? localParty(getPartyInfo(first.partyId, parties, first.listName), first.listName, parties) : null
     const diasporaColor = visualizationMode === 'turnout'
         ? (diaspora?.turnout != null ? turnoutColor(diaspora.turnout) : NO_DATA_COLOR)
         : winner?.color ?? NO_DATA_COLOR
