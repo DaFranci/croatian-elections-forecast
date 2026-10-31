@@ -14270,27 +14270,27 @@
         }
       }
     },
-    "otok": {
+    "otok-vukovarska": {
       "name": "OTOK",
-      "constituency": "IX. IZBORNA JEDINICA",
-      "total_voters": 9848,
-      "votes_cast": 5102,
-      "turnout": 0.5181,
+      "constituency": "V. IZBORNA JEDINICA",
+      "total_voters": 5324,
+      "votes_cast": 2474,
+      "turnout": 0.4647,
       "parties": {
         "HSP": {
-          "votes": 33,
+          "votes": 11,
           "coalition_name": "HRVATSKA STRANKA PRAVA - HSP, HRVATSKA ČISTA STRANKA PRAVA - HČSP, AKCIJA ZA BOLJU HRVATSKU - ABH, OBITELJSKA STRANKA - OS"
         },
         "STRANKA RADA I SOLIDARNOSTI": {
-          "votes": 341,
+          "votes": 38,
           "coalition_name": "\"BANDIĆ MILAN 365 - STRANKA RADA I SOLIDARNOSTI\" - \"STRANKA RADA I SOLIDARNOSTI\", NARODNA STRANKA - REFORMISTI - REFORMISTI, NOVI VAL - STRANKA RAZVOJA - NOVI VAL, HRVATSKA SELJAČKA STRANKA - STJEPAN RADIĆ - HSS - SR, BLOK UMIROVLJENICI ZAJEDNO - BUZ"
         },
         "HSP AS": {
-          "votes": 24,
+          "votes": 7,
           "coalition_name": "HRVATSKA STRANKA PRAVA DR. ANTE STARČEVIĆ - HSP AS, DEMOKRATSKI SAVEZ NACIONALNE OBNOVE - DESNO, HRVATSKA KRŠĆANSKA DEMOKRATSKA UNIJA - DR. MARKO VESELICA - HKDU - DR. MARKO VESELICA, UJEDINJENA STRANKA PRAVA - USP, HRVATSKA DEMOKRATSKA STRANKA - HDS"
         },
         "MOST": {
-          "votes": 664,
+          "votes": 242,
           "coalition_name": "MOST NEZAVISNIH LISTA - MOST"
         },
         "DSŽ": {
@@ -14298,7 +14298,7 @@
           "coalition_name": "DEMOKRATSKA STRANKA ŽENA - DSŽ"
         },
         "HDZ": {
-          "votes": 2851,
+          "votes": 1346,
           "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ"
         },
         "HDSSB": {
@@ -14310,11 +14310,11 @@
           "coalition_name": "NEOVISNA LISTA - DRAGUTIN DUKIĆ"
         },
         "NLSP": {
-          "votes": 28,
+          "votes": 5,
           "coalition_name": "NEZAVISNA LISTA STIPE PETRINA - NLSP, SLOBODNA HRVATSKA - SH, POKRET ZAJEDNO, ODRŽIVI RAZVOJ HRVATSKE - ORaH"
         },
         "SDP": {
-          "votes": 587,
+          "votes": 381,
           "coalition_name": "SOCIJALDEMOKRATSKA PARTIJA HRVATSKE - SDP, HRVATSKA NARODNA STRANKA - LIBERALNI DEMOKRATI - HNS, HRVATSKA SELJAČKA STRANKA - HSS, HRVATSKA STRANKA UMIROVLJENIKA - HSU"
         },
         "SU": {
@@ -14322,28 +14322,16 @@
           "coalition_name": "STRANKA UMIROVLJENIKA - SU"
         },
         "ŽIVI ZID": {
-          "votes": 286,
+          "votes": 247,
           "coalition_name": "ŽIVI ZID, PROMIJENIMO HRVATSKU, AKCIJA MLADIH"
         },
         "PAMETNO": {
-          "votes": 16,
+          "votes": 8,
           "coalition_name": "PAMETNO, ZA GRAD"
         },
         "LABURISTI": {
           "votes": 3,
           "coalition_name": "HRVATSKI LABURISTI - STRANKA RADA - LABURISTI"
-        },
-        "BDSH": {
-          "votes": 3,
-          "coalition_name": "BRANITELJSKO DOMOLJUBNA STRANKA HRVATSKE - BDSH"
-        },
-        "SRP": {
-          "votes": 8,
-          "coalition_name": "SOCIJALISTIČKA RADNIČKA PARTIJA HRVATSKE - SRP"
-        },
-        "DEBLOKIRAJMO HRVATSKU": {
-          "votes": 5,
-          "coalition_name": "BLOKIRANI - DEBLOKIRAJMO HRVATSKU"
         }
       }
     },
@@ -17091,31 +17079,31 @@
         }
       }
     },
-    "privlaka": {
+    "privlaka-vukovarska": {
       "name": "PRIVLAKA",
-      "constituency": "IX. IZBORNA JEDINICA",
-      "total_voters": 4790,
-      "votes_cast": 2264,
-      "turnout": 0.4727,
+      "constituency": "V. IZBORNA JEDINICA",
+      "total_voters": 2462,
+      "votes_cast": 1232,
+      "turnout": 0.5004,
       "parties": {
         "HSP": {
-          "votes": 12,
+          "votes": 9,
           "coalition_name": "HRVATSKA STRANKA PRAVA - HSP, HRVATSKA ČISTA STRANKA PRAVA - HČSP, AKCIJA ZA BOLJU HRVATSKU - ABH, OBITELJSKA STRANKA - OS"
         },
         "STRANKA RADA I SOLIDARNOSTI": {
-          "votes": 81,
+          "votes": 18,
           "coalition_name": "\"BANDIĆ MILAN 365 - STRANKA RADA I SOLIDARNOSTI\" - \"STRANKA RADA I SOLIDARNOSTI\", NARODNA STRANKA - REFORMISTI - REFORMISTI, NOVI VAL - STRANKA RAZVOJA - NOVI VAL, HRVATSKA SELJAČKA STRANKA - STJEPAN RADIĆ - HSS - SR, BLOK UMIROVLJENICI ZAJEDNO - BUZ"
         },
         "HSP AS": {
-          "votes": 11,
+          "votes": 6,
           "coalition_name": "HRVATSKA STRANKA PRAVA DR. ANTE STARČEVIĆ - HSP AS, DEMOKRATSKI SAVEZ NACIONALNE OBNOVE - DESNO, HRVATSKA KRŠĆANSKA DEMOKRATSKA UNIJA - DR. MARKO VESELICA - HKDU - DR. MARKO VESELICA, UJEDINJENA STRANKA PRAVA - USP, HRVATSKA DEMOKRATSKA STRANKA - HDS"
         },
         "MOST": {
-          "votes": 192,
+          "votes": 96,
           "coalition_name": "MOST NEZAVISNIH LISTA - MOST"
         },
         "PAMETNO": {
-          "votes": 16,
+          "votes": 6,
           "coalition_name": "PAMETNO, ZA GRAD"
         },
         "DSŽ": {
@@ -17123,7 +17111,7 @@
           "coalition_name": "DEMOKRATSKA STRANKA ŽENA - DSŽ"
         },
         "HDZ": {
-          "votes": 1228,
+          "votes": 702,
           "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ"
         },
         "HDSSB": {
@@ -17131,7 +17119,7 @@
           "coalition_name": "HRVATSKI DEMOKRATSKI SAVEZ SLAVONIJE I BARANJE - HDSSB, HRVATSKA KONZERVATIVNA STRANKA - HKS"
         },
         "SDP": {
-          "votes": 497,
+          "votes": 259,
           "coalition_name": "SOCIJALDEMOKRATSKA PARTIJA HRVATSKE - SDP, HRVATSKA NARODNA STRANKA - LIBERALNI DEMOKRATI - HNS, HRVATSKA SELJAČKA STRANKA - HSS, HRVATSKA STRANKA UMIROVLJENIKA - HSU"
         },
         "SU": {
@@ -17139,28 +17127,12 @@
           "coalition_name": "STRANKA UMIROVLJENIKA - SU"
         },
         "ŽIVI ZID": {
-          "votes": 95,
+          "votes": 63,
           "coalition_name": "ŽIVI ZID, PROMIJENIMO HRVATSKU, AKCIJA MLADIH"
         },
         "DRAGUTIN DUKIĆ": {
           "votes": 1,
           "coalition_name": "NEOVISNA LISTA - DRAGUTIN DUKIĆ"
-        },
-        "BDSH": {
-          "votes": 2,
-          "coalition_name": "BRANITELJSKO DOMOLJUBNA STRANKA HRVATSKE - BDSH"
-        },
-        "NLSP": {
-          "votes": 27,
-          "coalition_name": "NEZAVISNA LISTA STIPE PETRINA - NLSP, SLOBODNA HRVATSKA - SH, POKRET ZAJEDNO, ODRŽIVI RAZVOJ HRVATSKE - ORaH, STRANKA HRVATSKOG ZAJEDNIŠTVA - SHZ, STRANKA UMIROVLJENIKA - SU"
-        },
-        "SRP": {
-          "votes": 2,
-          "coalition_name": "SOCIJALISTIČKA RADNIČKA PARTIJA HRVATSKE - SRP"
-        },
-        "DEBLOKIRAJMO HRVATSKU": {
-          "votes": 2,
-          "coalition_name": "BLOKIRANI - DEBLOKIRAJMO HRVATSKU"
         }
       }
     },
@@ -30433,6 +30405,63 @@
         }
       }
     },
+    "otok-splitska": {
+      "name": "OTOK",
+      "constituency": "IX. IZBORNA JEDINICA",
+      "total_voters": 4524,
+      "votes_cast": 2628,
+      "turnout": 0.5809,
+      "parties": {
+        "HSP": {
+          "votes": 22,
+          "coalition_name": "HRVATSKA STRANKA PRAVA - HSP, HRVATSKA ČISTA STRANKA PRAVA - HČSP, AKCIJA ZA BOLJU HRVATSKU - ABH, OBITELJSKA STRANKA - OS"
+        },
+        "STRANKA RADA I SOLIDARNOSTI": {
+          "votes": 303,
+          "coalition_name": "\"BANDIĆ MILAN 365 - STRANKA RADA I SOLIDARNOSTI\" - \"STRANKA RADA I SOLIDARNOSTI\", NARODNA STRANKA - REFORMISTI - REFORMISTI, NOVI VAL - STRANKA RAZVOJA - NOVI VAL, HRVATSKA SELJAČKA STRANKA - STJEPAN RADIĆ - HSS - SR, BLOK UMIROVLJENICI ZAJEDNO - BUZ"
+        },
+        "HSP AS": {
+          "votes": 17,
+          "coalition_name": "HRVATSKA STRANKA PRAVA DR. ANTE STARČEVIĆ - HSP AS, DEMOKRATSKI SAVEZ NACIONALNE OBNOVE - DESNO, HRVATSKA KRŠĆANSKA DEMOKRATSKA UNIJA - DR. MARKO VESELICA - HKDU - DR. MARKO VESELICA, UJEDINJENA STRANKA PRAVA - USP, HRVATSKA DEMOKRATSKA STRANKA - HDS"
+        },
+        "MOST": {
+          "votes": 422,
+          "coalition_name": "MOST NEZAVISNIH LISTA - MOST"
+        },
+        "PAMETNO": {
+          "votes": 8,
+          "coalition_name": "PAMETNO, ZA GRAD"
+        },
+        "BDSH": {
+          "votes": 3,
+          "coalition_name": "BRANITELJSKO DOMOLJUBNA STRANKA HRVATSKE - BDSH"
+        },
+        "HDZ": {
+          "votes": 1505,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ"
+        },
+        "SDP": {
+          "votes": 206,
+          "coalition_name": "SOCIJALDEMOKRATSKA PARTIJA HRVATSKE - SDP, HRVATSKA NARODNA STRANKA - LIBERALNI DEMOKRATI - HNS, HRVATSKA SELJAČKA STRANKA - HSS, HRVATSKA STRANKA UMIROVLJENIKA - HSU"
+        },
+        "SRP": {
+          "votes": 8,
+          "coalition_name": "SOCIJALISTIČKA RADNIČKA PARTIJA HRVATSKE - SRP"
+        },
+        "ŽIVI ZID": {
+          "votes": 39,
+          "coalition_name": "ŽIVI ZID, PROMIJENIMO HRVATSKU, AKCIJA MLADIH"
+        },
+        "DEBLOKIRAJMO HRVATSKU": {
+          "votes": 5,
+          "coalition_name": "BLOKIRANI - DEBLOKIRAJMO HRVATSKU"
+        },
+        "NLSP": {
+          "votes": 23,
+          "coalition_name": "NEZAVISNA LISTA STIPE PETRINA - NLSP, SLOBODNA HRVATSKA - SH, POKRET ZAJEDNO, ODRŽIVI RAZVOJ HRVATSKE - ORaH, STRANKA HRVATSKOG ZAJEDNIŠTVA - SHZ, STRANKA UMIROVLJENIKA - SU"
+        }
+      }
+    },
     "pakostane": {
       "name": "PAKOŠTANE",
       "constituency": "IX. IZBORNA JEDINICA",
@@ -31139,6 +31168,63 @@
         "BDSH": {
           "votes": 1,
           "coalition_name": "BRANITELJSKO DOMOLJUBNA STRANKA HRVATSKE - BDSH"
+        }
+      }
+    },
+    "privlaka-zadarska": {
+      "name": "PRIVLAKA",
+      "constituency": "IX. IZBORNA JEDINICA",
+      "total_voters": 2328,
+      "votes_cast": 1032,
+      "turnout": 0.4433,
+      "parties": {
+        "HSP": {
+          "votes": 3,
+          "coalition_name": "HRVATSKA STRANKA PRAVA - HSP, HRVATSKA ČISTA STRANKA PRAVA - HČSP, AKCIJA ZA BOLJU HRVATSKU - ABH, OBITELJSKA STRANKA - OS"
+        },
+        "STRANKA RADA I SOLIDARNOSTI": {
+          "votes": 63,
+          "coalition_name": "\"BANDIĆ MILAN 365 - STRANKA RADA I SOLIDARNOSTI\" - \"STRANKA RADA I SOLIDARNOSTI\", NARODNA STRANKA - REFORMISTI - REFORMISTI, NOVI VAL - STRANKA RAZVOJA - NOVI VAL, HRVATSKA SELJAČKA STRANKA - STJEPAN RADIĆ - HSS - SR, BLOK UMIROVLJENICI ZAJEDNO - BUZ"
+        },
+        "HSP AS": {
+          "votes": 5,
+          "coalition_name": "HRVATSKA STRANKA PRAVA DR. ANTE STARČEVIĆ - HSP AS, DEMOKRATSKI SAVEZ NACIONALNE OBNOVE - DESNO, HRVATSKA KRŠĆANSKA DEMOKRATSKA UNIJA - DR. MARKO VESELICA - HKDU - DR. MARKO VESELICA, UJEDINJENA STRANKA PRAVA - USP, HRVATSKA DEMOKRATSKA STRANKA - HDS"
+        },
+        "MOST": {
+          "votes": 96,
+          "coalition_name": "MOST NEZAVISNIH LISTA - MOST"
+        },
+        "PAMETNO": {
+          "votes": 10,
+          "coalition_name": "PAMETNO, ZA GRAD"
+        },
+        "BDSH": {
+          "votes": 2,
+          "coalition_name": "BRANITELJSKO DOMOLJUBNA STRANKA HRVATSKE - BDSH"
+        },
+        "HDZ": {
+          "votes": 526,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ"
+        },
+        "NLSP": {
+          "votes": 27,
+          "coalition_name": "NEZAVISNA LISTA STIPE PETRINA - NLSP, SLOBODNA HRVATSKA - SH, POKRET ZAJEDNO, ODRŽIVI RAZVOJ HRVATSKE - ORaH, STRANKA HRVATSKOG ZAJEDNIŠTVA - SHZ, STRANKA UMIROVLJENIKA - SU"
+        },
+        "SDP": {
+          "votes": 238,
+          "coalition_name": "SOCIJALDEMOKRATSKA PARTIJA HRVATSKE - SDP, HRVATSKA NARODNA STRANKA - LIBERALNI DEMOKRATI - HNS, HRVATSKA SELJAČKA STRANKA - HSS, HRVATSKA STRANKA UMIROVLJENIKA - HSU"
+        },
+        "SRP": {
+          "votes": 2,
+          "coalition_name": "SOCIJALISTIČKA RADNIČKA PARTIJA HRVATSKE - SRP"
+        },
+        "ŽIVI ZID": {
+          "votes": 32,
+          "coalition_name": "ŽIVI ZID, PROMIJENIMO HRVATSKU, AKCIJA MLADIH"
+        },
+        "DEBLOKIRAJMO HRVATSKU": {
+          "votes": 2,
+          "coalition_name": "BLOKIRANI - DEBLOKIRAJMO HRVATSKU"
         }
       }
     },

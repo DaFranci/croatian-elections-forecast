@@ -24750,27 +24750,27 @@
         }
       }
     },
-    "otok": {
+    "otok-vukovarska": {
       "name": "OTOK",
-      "constituency": "IX. IZBORNA JEDINICA",
-      "total_voters": 10980,
-      "votes_cast": 6431,
-      "turnout": 0.5857,
+      "constituency": "V. IZBORNA JEDINICA",
+      "total_voters": 6107,
+      "votes_cast": 3721,
+      "turnout": 0.6093,
       "parties": {
         "AM": {
-          "votes": 24,
+          "votes": 16,
           "coalition_name": "AKCIJA MLADIH - AM"
         },
         "ASH": {
-          "votes": 21,
+          "votes": 7,
           "coalition_name": "AKCIJA SOCIJALDEMOKRATA HRVATSKE - ASH , STRANKA UMIROVLJENIKA HRVATSKE-BLOK UMIROVLJENICI ZAJEDNO - SUH , SPLITSKA STRANKA UMIROVLJENIKA - SSU"
         },
         "A-HSP": {
-          "votes": 15,
+          "votes": 12,
           "coalition_name": "AUTOHTONA-HRVATSKA STRANKA PRAVA - A-HSP"
         },
         "BUZ": {
-          "votes": 85,
+          "votes": 42,
           "coalition_name": "BLOK UMIROVLJENICI ZAJEDNO - BUZ , PRIMORSKO GORANSKI SAVEZ - PGS , HRVATSKA RADNIČKA STRANKA - HRS"
         },
         "SLAVONSKA RAVNICA": {
@@ -24778,31 +24778,31 @@
           "coalition_name": "DEMOKRATSKA STRANKA SLAVONSKE RAVNICE - SLAVONSKA RAVNICA"
         },
         "DSŽ": {
-          "votes": 32,
+          "votes": 21,
           "coalition_name": "DEMOKRATSKA STRANKA ŽENA - DSŽ"
         },
         "HDZ": {
-          "votes": 3046,
+          "votes": 1797,
           "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ"
         },
         "HDS": {
-          "votes": 72,
+          "votes": 14,
           "coalition_name": "HRVATSKA DEMOKRŠĆANSKA STRANKA - HDS , JEDINO HRVATSKA - POKRET ZA HRVATSKU - JEDINO HRVATSKA"
         },
         "HSS": {
-          "votes": 91,
+          "votes": 75,
           "coalition_name": "HRVATSKA SELJAČKA STRANKA - HSS"
         },
         "HSLS": {
-          "votes": 194,
+          "votes": 141,
           "coalition_name": "HRVATSKA SOCIJALNO-LIBERALNA STRANKA - HSLS"
         },
         "HSP": {
-          "votes": 146,
+          "votes": 40,
           "coalition_name": "HRVATSKA STRANKA PRAVA - HSP"
         },
         "HSP DR.ANTE STARČEVIĆ": {
-          "votes": 176,
+          "votes": 83,
           "coalition_name": "HRVATSKA STRANKA PRAVA DR.ANTE STARČEVIĆ - HSP DR.ANTE STARČEVIĆ , HRVATSKA ČISTA STRANKA PRAVA - HČSP"
         },
         "HDSSB": {
@@ -24810,11 +24810,11 @@
           "coalition_name": "HRVATSKI DEMOKRATSKI SAVEZ SLAVONIJE I BARANJE - HDSSB"
         },
         "HRVATSKI LABURISTI-STRANKA RADA": {
-          "votes": 74,
+          "votes": 51,
           "coalition_name": "HRVATSKI LABURISTI-STRANKA RADA"
         },
         "HRAST": {
-          "votes": 56,
+          "votes": 11,
           "coalition_name": "HRVATSKI RAST - HRAST"
         },
         "SP": {
@@ -24822,15 +24822,15 @@
           "coalition_name": "SAVEZ ZA PROMJENE - SP , AUTOHTONA - HRVATSKA SELJAČKA STRANKA - A-HSS"
         },
         "SDP": {
-          "votes": 1282,
+          "votes": 941,
           "coalition_name": "SOCIJALDEMOKRATSKA PARTIJA HRVATSKE - SDP , HRVATSKA NARODNA STRANKA - LIBERALNI DEMOKRATI - HNS , ISTARSKI DEMOKRATSKI SABOR - IDS , HRVATSKA STRANKA UMIROVLJENIKA - HSU"
         },
         "SHZ": {
-          "votes": 10,
+          "votes": 8,
           "coalition_name": "STRANKA HRVATSKOG ZAJEDNIŠTVA - SHZ"
         },
         "ZELENA LISTA": {
-          "votes": 13,
+          "votes": 6,
           "coalition_name": "ZELENA LISTA"
         },
         "ND": {
@@ -24838,36 +24838,16 @@
           "coalition_name": "NACIONALNI DEMOKRATI - ND"
         },
         "ZS": {
-          "votes": 7,
+          "votes": 4,
           "coalition_name": "ZELENA STRANKA - ZS"
         },
         "ABECEDA": {
-          "votes": 19,
+          "votes": 13,
           "coalition_name": "ABECEDA DEMOKRACIJE - ABECEDA"
         },
         "SRP": {
-          "votes": 5,
+          "votes": 4,
           "coalition_name": "SOCIJALISTIČKA RADNIČKA PARTIJA HRVATSKE - SRP"
-        },
-        "ZELENI": {
-          "votes": 2,
-          "coalition_name": "HRVATSKA STRANKA ZELENIH - EKO SAVEZ - ZELENI"
-        },
-        "NEOVISNA LISTA": {
-          "votes": 341,
-          "coalition_name": "NEOVISNA LISTA"
-        },
-        "A-HSS": {
-          "votes": 4,
-          "coalition_name": "AUTOHTONA - HRVATSKA SELJAČKA STRANKA - A-HSS , SAVEZ ZA PROMJENE - SP"
-        },
-        "OS": {
-          "votes": 2,
-          "coalition_name": "OBITELJSKA STRANKA - OS"
-        },
-        "SDSS": {
-          "votes": 4,
-          "coalition_name": "SAMOSTALNA DEMOKRATSKA SRPSKA STRANKA - SDSS"
         }
       }
     },
@@ -29135,27 +29115,27 @@
         }
       }
     },
-    "privlaka": {
+    "privlaka-vukovarska": {
       "name": "PRIVLAKA",
-      "constituency": "IX. IZBORNA JEDINICA",
-      "total_voters": 5426,
-      "votes_cast": 2660,
-      "turnout": 0.4902,
+      "constituency": "V. IZBORNA JEDINICA",
+      "total_voters": 2848,
+      "votes_cast": 1515,
+      "turnout": 0.532,
       "parties": {
         "ABECEDA": {
-          "votes": 9,
+          "votes": 6,
           "coalition_name": "ABECEDA DEMOKRACIJE - ABECEDA"
         },
         "AM": {
-          "votes": 12,
+          "votes": 1,
           "coalition_name": "AKCIJA MLADIH - AM"
         },
         "ASH": {
-          "votes": 9,
+          "votes": 5,
           "coalition_name": "AKCIJA SOCIJALDEMOKRATA HRVATSKE - ASH , STRANKA UMIROVLJENIKA HRVATSKE-BLOK UMIROVLJENICI ZAJEDNO - SUH , SPLITSKA STRANKA UMIROVLJENIKA - SSU"
         },
         "BUZ": {
-          "votes": 48,
+          "votes": 19,
           "coalition_name": "BLOK UMIROVLJENICI ZAJEDNO - BUZ , PRIMORSKO GORANSKI SAVEZ - PGS , HRVATSKA RADNIČKA STRANKA - HRS"
         },
         "SLAVONSKA RAVNICA": {
@@ -29163,31 +29143,31 @@
           "coalition_name": "DEMOKRATSKA STRANKA SLAVONSKE RAVNICE - SLAVONSKA RAVNICA"
         },
         "DSŽ": {
-          "votes": 15,
+          "votes": 8,
           "coalition_name": "DEMOKRATSKA STRANKA ŽENA - DSŽ"
         },
         "HDZ": {
-          "votes": 980,
+          "votes": 652,
           "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ"
         },
         "HDS": {
-          "votes": 14,
+          "votes": 6,
           "coalition_name": "HRVATSKA DEMOKRŠĆANSKA STRANKA - HDS , JEDINO HRVATSKA - POKRET ZA HRVATSKU - JEDINO HRVATSKA"
         },
         "HSS": {
-          "votes": 42,
+          "votes": 38,
           "coalition_name": "HRVATSKA SELJAČKA STRANKA - HSS"
         },
         "HSLS": {
-          "votes": 82,
+          "votes": 39,
           "coalition_name": "HRVATSKA SOCIJALNO-LIBERALNA STRANKA - HSLS"
         },
         "HSP": {
-          "votes": 56,
+          "votes": 16,
           "coalition_name": "HRVATSKA STRANKA PRAVA - HSP"
         },
         "HSP DR.ANTE STARČEVIĆ": {
-          "votes": 214,
+          "votes": 55,
           "coalition_name": "HRVATSKA STRANKA PRAVA DR.ANTE STARČEVIĆ - HSP DR.ANTE STARČEVIĆ , HRVATSKA ČISTA STRANKA PRAVA - HČSP"
         },
         "HDSSB": {
@@ -29195,11 +29175,11 @@
           "coalition_name": "HRVATSKI DEMOKRATSKI SAVEZ SLAVONIJE I BARANJE - HDSSB"
         },
         "HRVATSKI LABURISTI-STRANKA RADA": {
-          "votes": 47,
+          "votes": 21,
           "coalition_name": "HRVATSKI LABURISTI-STRANKA RADA"
         },
         "HRAST": {
-          "votes": 27,
+          "votes": 16,
           "coalition_name": "HRVATSKI RAST - HRAST"
         },
         "SP": {
@@ -29207,23 +29187,23 @@
           "coalition_name": "SAVEZ ZA PROMJENE - SP , AUTOHTONA - HRVATSKA SELJAČKA STRANKA - A-HSS"
         },
         "SDP": {
-          "votes": 772,
+          "votes": 385,
           "coalition_name": "SOCIJALDEMOKRATSKA PARTIJA HRVATSKE - SDP , HRVATSKA NARODNA STRANKA - LIBERALNI DEMOKRATI - HNS , ISTARSKI DEMOKRATSKI SABOR - IDS , HRVATSKA STRANKA UMIROVLJENIKA - HSU"
         },
         "SRP": {
-          "votes": 7,
+          "votes": 5,
           "coalition_name": "SOCIJALISTIČKA RADNIČKA PARTIJA HRVATSKE - SRP"
         },
         "ZELENA LISTA": {
-          "votes": 7,
+          "votes": 3,
           "coalition_name": "ZELENA LISTA"
         },
         "ZS": {
-          "votes": 5,
+          "votes": 4,
           "coalition_name": "ZELENA STRANKA - ZS"
         },
         "A-HSP": {
-          "votes": 6,
+          "votes": 3,
           "coalition_name": "AUTOHTONA-HRVATSKA STRANKA PRAVA - A-HSP"
         },
         "SHZ": {
@@ -29233,26 +29213,6 @@
         "ND": {
           "votes": 3,
           "coalition_name": "NACIONALNI DEMOKRATI - ND"
-        },
-        "A-HSS": {
-          "votes": 3,
-          "coalition_name": "AUTOHTONA - HRVATSKA SELJAČKA STRANKA - A-HSS , SAVEZ ZA PROMJENE - SP"
-        },
-        "ZELENI": {
-          "votes": 4,
-          "coalition_name": "HRVATSKA STRANKA ZELENIH - EKO SAVEZ - ZELENI"
-        },
-        "NEOVISNA LISTA": {
-          "votes": 15,
-          "coalition_name": "NEOVISNA LISTA"
-        },
-        "OS": {
-          "votes": 3,
-          "coalition_name": "OBITELJSKA STRANKA - OS"
-        },
-        "SDSS": {
-          "votes": 2,
-          "coalition_name": "SAMOSTALNA DEMOKRATSKA SRPSKA STRANKA - SDSS"
         }
       }
     },
@@ -50221,6 +50181,111 @@
         }
       }
     },
+    "otok-splitska": {
+      "name": "OTOK",
+      "constituency": "IX. IZBORNA JEDINICA",
+      "total_voters": 4873,
+      "votes_cast": 2710,
+      "turnout": 0.5561,
+      "parties": {
+        "ABECEDA": {
+          "votes": 6,
+          "coalition_name": "ABECEDA DEMOKRACIJE - ABECEDA"
+        },
+        "ASH": {
+          "votes": 14,
+          "coalition_name": "AKCIJA SOCIJALDEMOKRATA HRVATSKE - ASH , SPLITSKA STRANKA UMIROVLJENIKA - SSU , STRANKA UMIROVLJENIKA HRVATSKE-BLOK UMIROVLJENICI ZAJEDNO - SUH"
+        },
+        "BUZ": {
+          "votes": 43,
+          "coalition_name": "BLOK UMIROVLJENICI ZAJEDNO - BUZ , PRIMORSKO GORANSKI SAVEZ - PGS , HRVATSKA RADNIČKA STRANKA - HRS"
+        },
+        "DSŽ": {
+          "votes": 11,
+          "coalition_name": "DEMOKRATSKA STRANKA ŽENA - DSŽ"
+        },
+        "HDZ": {
+          "votes": 1249,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ , HRVATSKA GRAĐANSKA STRANKA - HGS"
+        },
+        "HDS": {
+          "votes": 58,
+          "coalition_name": "HRVATSKA DEMOKRŠĆANSKA STRANKA - HDS , JEDINO HRVATSKA - POKRET ZA HRVATSKU - JEDINO HRVATSKA"
+        },
+        "HSS": {
+          "votes": 16,
+          "coalition_name": "HRVATSKA SELJAČKA STRANKA - HSS"
+        },
+        "HSLS": {
+          "votes": 53,
+          "coalition_name": "HRVATSKA SOCIJALNO-LIBERALNA STRANKA - HSLS"
+        },
+        "HSP": {
+          "votes": 106,
+          "coalition_name": "HRVATSKA STRANKA PRAVA - HSP"
+        },
+        "HSP DR.ANTE STARČEVIĆ": {
+          "votes": 93,
+          "coalition_name": "HRVATSKA STRANKA PRAVA DR.ANTE STARČEVIĆ - HSP DR.ANTE STARČEVIĆ , HRVATSKA ČISTA STRANKA PRAVA - HČSP"
+        },
+        "ZELENI": {
+          "votes": 2,
+          "coalition_name": "HRVATSKA STRANKA ZELENIH - EKO SAVEZ - ZELENI"
+        },
+        "HRVATSKI LABURISTI-STRANKA RADA": {
+          "votes": 23,
+          "coalition_name": "HRVATSKI LABURISTI-STRANKA RADA"
+        },
+        "HRAST": {
+          "votes": 45,
+          "coalition_name": "HRVATSKI RAST - HRAST"
+        },
+        "NEOVISNA LISTA": {
+          "votes": 341,
+          "coalition_name": "NEOVISNA LISTA"
+        },
+        "SDP": {
+          "votes": 341,
+          "coalition_name": "SOCIJALDEMOKRATSKA PARTIJA HRVATSKE - SDP , HRVATSKA NARODNA STRANKA - LIBERALNI DEMOKRATI - HNS , ISTARSKI DEMOKRATSKI SABOR - IDS , HRVATSKA STRANKA UMIROVLJENIKA - HSU"
+        },
+        "ZELENA LISTA": {
+          "votes": 7,
+          "coalition_name": "ZELENA LISTA"
+        },
+        "AM": {
+          "votes": 8,
+          "coalition_name": "AKCIJA MLADIH - AM"
+        },
+        "A-HSS": {
+          "votes": 4,
+          "coalition_name": "AUTOHTONA - HRVATSKA SELJAČKA STRANKA - A-HSS , SAVEZ ZA PROMJENE - SP"
+        },
+        "A-HSP": {
+          "votes": 3,
+          "coalition_name": "AUTOHTONA-HRVATSKA STRANKA PRAVA - A-HSP"
+        },
+        "OS": {
+          "votes": 2,
+          "coalition_name": "OBITELJSKA STRANKA - OS"
+        },
+        "SDSS": {
+          "votes": 4,
+          "coalition_name": "SAMOSTALNA DEMOKRATSKA SRPSKA STRANKA - SDSS"
+        },
+        "ZS": {
+          "votes": 3,
+          "coalition_name": "ZELENA STRANKA - ZS"
+        },
+        "SRP": {
+          "votes": 1,
+          "coalition_name": "SOCIJALISTIČKA RADNIČKA PARTIJA HRVATSKE - SRP"
+        },
+        "SHZ": {
+          "votes": 2,
+          "coalition_name": "STRANKA HRVATSKOG ZAJEDNIŠTVA - SHZ"
+        }
+      }
+    },
     "pakostane": {
       "name": "PAKOŠTANE",
       "constituency": "IX. IZBORNA JEDINICA",
@@ -51487,6 +51552,107 @@
         "OS": {
           "votes": 1,
           "coalition_name": "OBITELJSKA STRANKA - OS"
+        }
+      }
+    },
+    "privlaka-zadarska": {
+      "name": "PRIVLAKA",
+      "constituency": "IX. IZBORNA JEDINICA",
+      "total_voters": 2578,
+      "votes_cast": 1145,
+      "turnout": 0.4441,
+      "parties": {
+        "ABECEDA": {
+          "votes": 3,
+          "coalition_name": "ABECEDA DEMOKRACIJE - ABECEDA"
+        },
+        "AM": {
+          "votes": 11,
+          "coalition_name": "AKCIJA MLADIH - AM"
+        },
+        "ASH": {
+          "votes": 4,
+          "coalition_name": "AKCIJA SOCIJALDEMOKRATA HRVATSKE - ASH , SPLITSKA STRANKA UMIROVLJENIKA - SSU , STRANKA UMIROVLJENIKA HRVATSKE-BLOK UMIROVLJENICI ZAJEDNO - SUH"
+        },
+        "A-HSS": {
+          "votes": 3,
+          "coalition_name": "AUTOHTONA - HRVATSKA SELJAČKA STRANKA - A-HSS , SAVEZ ZA PROMJENE - SP"
+        },
+        "A-HSP": {
+          "votes": 3,
+          "coalition_name": "AUTOHTONA-HRVATSKA STRANKA PRAVA - A-HSP"
+        },
+        "BUZ": {
+          "votes": 29,
+          "coalition_name": "BLOK UMIROVLJENICI ZAJEDNO - BUZ , PRIMORSKO GORANSKI SAVEZ - PGS , HRVATSKA RADNIČKA STRANKA - HRS"
+        },
+        "DSŽ": {
+          "votes": 7,
+          "coalition_name": "DEMOKRATSKA STRANKA ŽENA - DSŽ"
+        },
+        "HDZ": {
+          "votes": 328,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ , HRVATSKA GRAĐANSKA STRANKA - HGS"
+        },
+        "HDS": {
+          "votes": 8,
+          "coalition_name": "HRVATSKA DEMOKRŠĆANSKA STRANKA - HDS , JEDINO HRVATSKA - POKRET ZA HRVATSKU - JEDINO HRVATSKA"
+        },
+        "HSS": {
+          "votes": 4,
+          "coalition_name": "HRVATSKA SELJAČKA STRANKA - HSS"
+        },
+        "HSLS": {
+          "votes": 43,
+          "coalition_name": "HRVATSKA SOCIJALNO-LIBERALNA STRANKA - HSLS"
+        },
+        "HSP": {
+          "votes": 40,
+          "coalition_name": "HRVATSKA STRANKA PRAVA - HSP"
+        },
+        "HSP DR.ANTE STARČEVIĆ": {
+          "votes": 159,
+          "coalition_name": "HRVATSKA STRANKA PRAVA DR.ANTE STARČEVIĆ - HSP DR.ANTE STARČEVIĆ , HRVATSKA ČISTA STRANKA PRAVA - HČSP"
+        },
+        "ZELENI": {
+          "votes": 4,
+          "coalition_name": "HRVATSKA STRANKA ZELENIH - EKO SAVEZ - ZELENI"
+        },
+        "HRVATSKI LABURISTI-STRANKA RADA": {
+          "votes": 26,
+          "coalition_name": "HRVATSKI LABURISTI-STRANKA RADA"
+        },
+        "HRAST": {
+          "votes": 11,
+          "coalition_name": "HRVATSKI RAST - HRAST"
+        },
+        "NEOVISNA LISTA": {
+          "votes": 15,
+          "coalition_name": "NEOVISNA LISTA"
+        },
+        "OS": {
+          "votes": 3,
+          "coalition_name": "OBITELJSKA STRANKA - OS"
+        },
+        "SDSS": {
+          "votes": 2,
+          "coalition_name": "SAMOSTALNA DEMOKRATSKA SRPSKA STRANKA - SDSS"
+        },
+        "SDP": {
+          "votes": 387,
+          "coalition_name": "SOCIJALDEMOKRATSKA PARTIJA HRVATSKE - SDP , HRVATSKA NARODNA STRANKA - LIBERALNI DEMOKRATI - HNS , ISTARSKI DEMOKRATSKI SABOR - IDS , HRVATSKA STRANKA UMIROVLJENIKA - HSU"
+        },
+        "SRP": {
+          "votes": 2,
+          "coalition_name": "SOCIJALISTIČKA RADNIČKA PARTIJA HRVATSKE - SRP"
+        },
+        "ZELENA LISTA": {
+          "votes": 4,
+          "coalition_name": "ZELENA LISTA"
+        },
+        "ZS": {
+          "votes": 1,
+          "coalition_name": "ZELENA STRANKA - ZS"
         }
       }
     },

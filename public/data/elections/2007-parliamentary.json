@@ -20818,7 +20818,7 @@
         }
       }
     },
-    "otok-vinkovci": {
+    "otok-vukovarska": {
       "name": "OTOK (VINKOVCI)",
       "constituency": "V. IZBORNA JEDINICA",
       "total_voters": 6045,
@@ -24447,43 +24447,43 @@
         }
       }
     },
-    "privlaka": {
+    "privlaka-vukovarska": {
       "name": "PRIVLAKA",
-      "constituency": "IX. IZBORNA JEDINICA",
-      "total_voters": 5317,
-      "votes_cast": 2610,
-      "turnout": 0.4909,
+      "constituency": "V. IZBORNA JEDINICA",
+      "total_voters": 2866,
+      "votes_cast": 1381,
+      "turnout": 0.4819,
       "parties": {
         "ABECEDA": {
-          "votes": 4,
+          "votes": 1,
           "coalition_name": "ABECEDA DEMOKRACIJE - ABECEDA"
         },
         "ASH": {
-          "votes": 6,
+          "votes": 3,
           "coalition_name": "AKCIJA SOCIJALDEMOKRATA HRVATSKE - ASH, HRVATSKA RADNIČKA STRANKA - HRS, ZELENA STRANKA - ZS"
         },
         "A-HSS": {
-          "votes": 9,
+          "votes": 6,
           "coalition_name": "AUTOHTONA-HRVATSKA SELJAČKA STRANKA - A-HSS"
         },
         "DC": {
-          "votes": 72,
+          "votes": 61,
           "coalition_name": "DEMOKRATSKI CENTAR - DC"
         },
         "GS": {
-          "votes": 5,
+          "votes": 3,
           "coalition_name": "GOSPODARSKA STRANKA - GS"
         },
         "HČSP": {
-          "votes": 13,
+          "votes": 6,
           "coalition_name": "HRVATSKA ČISTA STRANKA PRAVA - HČSP"
         },
         "HDZ": {
-          "votes": 1174,
+          "votes": 675,
           "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ"
         },
         "HNS": {
-          "votes": 75,
+          "votes": 28,
           "coalition_name": "HRVATSKA NARODNA STRANKA-LIBERALNI DEMOKRATI - HNS"
         },
         "HSS": {
@@ -24491,15 +24491,15 @@
           "coalition_name": "HRVATSKA SELJAČKA STRANKA - HSS, HRVATSKA SOCIJALNO LIBERALNA STRANKA - HSLS"
         },
         "HSM": {
-          "votes": 20,
+          "votes": 10,
           "coalition_name": "HRVATSKA STRANKA MLADIH - HSM"
         },
         "HSP": {
-          "votes": 152,
+          "votes": 32,
           "coalition_name": "HRVATSKA STRANKA PRAVA - HSP"
         },
         "HSU": {
-          "votes": 124,
+          "votes": 36,
           "coalition_name": "HRVATSKA STRANKA UMIROVLJENIKA - HSU"
         },
         "HDSSB": {
@@ -24507,15 +24507,15 @@
           "coalition_name": "HRVATSKI DEMOKRATSKI SAVEZ SLAVONIJE I BARANJE - HDSSB"
         },
         "JEDINO HRVATSKA": {
-          "votes": 6,
+          "votes": 2,
           "coalition_name": "JEDINO HRVATSKA-POKRET ZA HRVATSKU - JEDINO HRVATSKA"
         },
         "SDP": {
-          "votes": 600,
+          "votes": 289,
           "coalition_name": "SOCIJALDEMOKRATSKA PARTIJA HRVATSKE - SDP"
         },
         "SU": {
-          "votes": 34,
+          "votes": 9,
           "coalition_name": "STRANKA UMIROVLJENIKA - SU"
         },
         "DSŽ": {
@@ -24523,44 +24523,12 @@
           "coalition_name": "DEMOKRATSKA STRANKA ŽENA - DSŽ, ZELENI HRVATSKE - ZELENI HR"
         },
         "HP-HPP": {
-          "votes": 4,
+          "votes": 1,
           "coalition_name": "HRVATSKI PRAVAŠI-HRVATSKI PRAVAŠKI POKRET - HP-HPP"
         },
         "HSD": {
           "votes": 1,
           "coalition_name": "HRVATSKI SOCIJALDEMOKRATI - HSD, LJEVICA HRVATSKE - LJEVICA, SOCIJALISTIČKA RADNIČKA PARTIJA HRVATSKE - SRP, ISTARSKI SOCIJALDEMOKRATSKI FORUM-FORO SOCIAL DEMOCRATICO ISTRIANO - ISDF-FSDI"
-        },
-        "AM": {
-          "votes": 3,
-          "coalition_name": "AKCIJA MLADIH - AM"
-        },
-        "DLS": {
-          "votes": 1,
-          "coalition_name": "DALMATINSKA LIBERALNA STRANKA - DLS"
-        },
-        "HKDS": {
-          "votes": 6,
-          "coalition_name": "HRVATSKA KRŠĆANSKA DEMOKRATSKA STRANKA - HKDS, KRŠĆANSKA SOCIJALNA UNIJA - KSU"
-        },
-        "HSLS": {
-          "votes": 45,
-          "coalition_name": "HRVATSKA SOCIJALNO LIBERALNA STRANKA - HSLS, HRVATSKA SELJAČKA STRANKA - HSS"
-        },
-        "SDSS": {
-          "votes": 3,
-          "coalition_name": "SAMOSTALNA DEMOKRATSKA SRPSKA STRANKA - SDSS"
-        },
-        "SRP": {
-          "votes": 3,
-          "coalition_name": "SOCIJALISTIČKA RADNIČKA PARTIJA HRVATSKE - SRP, LJEVICA HRVATSKE - LJEVICA, ISTARSKI SOCIJALDEMOKRATSKI FORUM-FORO SOCIAL DEMOCRATICO ISTRIANO - ISDF-FSDI, HRVATSKI SOCIJALDEMOKRATI - HSD"
-        },
-        "ZELENI HR": {
-          "votes": 2,
-          "coalition_name": "ZELENI HRVATSKE - ZELENI HR"
-        },
-        "NEOVISNA LISTA": {
-          "votes": 3,
-          "coalition_name": "NEOVISNA LISTA"
         }
       }
     },
@@ -43381,7 +43349,7 @@
         }
       }
     },
-    "otok": {
+    "otok-splitska": {
       "name": "OTOK",
       "constituency": "IX. IZBORNA JEDINICA",
       "total_voters": 4783,
@@ -44708,6 +44676,107 @@
         "SDSS": {
           "votes": 2,
           "coalition_name": "SAMOSTALNA DEMOKRATSKA SRPSKA STRANKA - SDSS"
+        }
+      }
+    },
+    "privlaka-zadarska": {
+      "name": "PRIVLAKA",
+      "constituency": "IX. IZBORNA JEDINICA",
+      "total_voters": 2451,
+      "votes_cast": 1229,
+      "turnout": 0.5014,
+      "parties": {
+        "ABECEDA": {
+          "votes": 3,
+          "coalition_name": "ABECEDA DEMOKRACIJE - ABECEDA"
+        },
+        "AM": {
+          "votes": 3,
+          "coalition_name": "AKCIJA MLADIH - AM"
+        },
+        "ASH": {
+          "votes": 3,
+          "coalition_name": "AKCIJA SOCIJALDEMOKRATA HRVATSKE - ASH, JADRANSKA SOCIJALDEMOKRATSKA STRANKA HRVATSKE - JADRANSKI SOCIJALDEMOKRATI, DEMOKRATSKA STRANKA ŽENA - DSŽ, ZELENA STRANKA - ZS, HRVATSKA RADNIČKA STRANKA - HRS"
+        },
+        "A-HSS": {
+          "votes": 3,
+          "coalition_name": "AUTOHTONA-HRVATSKA SELJAČKA STRANKA - A-HSS"
+        },
+        "DLS": {
+          "votes": 1,
+          "coalition_name": "DALMATINSKA LIBERALNA STRANKA - DLS"
+        },
+        "DC": {
+          "votes": 11,
+          "coalition_name": "DEMOKRATSKI CENTAR - DC"
+        },
+        "GS": {
+          "votes": 2,
+          "coalition_name": "GOSPODARSKA STRANKA - GS"
+        },
+        "HČSP": {
+          "votes": 7,
+          "coalition_name": "HRVATSKA ČISTA STRANKA PRAVA - HČSP"
+        },
+        "HDZ": {
+          "votes": 499,
+          "coalition_name": "HRVATSKA DEMOKRATSKA ZAJEDNICA - HDZ"
+        },
+        "HKDS": {
+          "votes": 6,
+          "coalition_name": "HRVATSKA KRŠĆANSKA DEMOKRATSKA STRANKA - HKDS, KRŠĆANSKA SOCIJALNA UNIJA - KSU"
+        },
+        "HNS": {
+          "votes": 47,
+          "coalition_name": "HRVATSKA NARODNA STRANKA-LIBERALNI DEMOKRATI - HNS"
+        },
+        "HSLS": {
+          "votes": 45,
+          "coalition_name": "HRVATSKA SOCIJALNO LIBERALNA STRANKA - HSLS, HRVATSKA SELJAČKA STRANKA - HSS"
+        },
+        "HSM": {
+          "votes": 10,
+          "coalition_name": "HRVATSKA STRANKA MLADIH - HSM"
+        },
+        "HSP": {
+          "votes": 120,
+          "coalition_name": "HRVATSKA STRANKA PRAVA - HSP"
+        },
+        "HSU": {
+          "votes": 88,
+          "coalition_name": "HRVATSKA STRANKA UMIROVLJENIKA - HSU"
+        },
+        "HP-HPP": {
+          "votes": 3,
+          "coalition_name": "HRVATSKI PRAVAŠI-HRVATSKI PRAVAŠKI POKRET - HP-HPP"
+        },
+        "JEDINO HRVATSKA": {
+          "votes": 4,
+          "coalition_name": "JEDINO HRVATSKA-POKRET ZA HRVATSKU - JEDINO HRVATSKA"
+        },
+        "SDSS": {
+          "votes": 3,
+          "coalition_name": "SAMOSTALNA DEMOKRATSKA SRPSKA STRANKA - SDSS"
+        },
+        "SDP": {
+          "votes": 311,
+          "coalition_name": "SOCIJALDEMOKRATSKA PARTIJA HRVATSKE - SDP"
+        },
+        "SRP": {
+          "votes": 3,
+          "coalition_name": "SOCIJALISTIČKA RADNIČKA PARTIJA HRVATSKE - SRP, LJEVICA HRVATSKE - LJEVICA, ISTARSKI SOCIJALDEMOKRATSKI FORUM-FORO SOCIAL DEMOCRATICO ISTRIANO - ISDF-FSDI, HRVATSKI SOCIJALDEMOKRATI - HSD"
+        },
+        "SU": {
+          "votes": 25,
+          "coalition_name": "STRANKA UMIROVLJENIKA - SU"
+        },
+        "ZELENI HR": {
+          "votes": 2,
+          "coalition_name": "ZELENI HRVATSKE - ZELENI HR"
+        },
+        "NEOVISNA LISTA": {
+          "votes": 3,
+          "coalition_name": "NEOVISNA LISTA"
         }
       }
     },

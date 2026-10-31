@@ -109,7 +109,7 @@
   "primorski-dolac": "primorskidolac",
   "sveti-filip-i-jakov": "svetifilipijakov",
   "zemunik-donji": "zemunikdonji",
-  "stari-grad": "starigrad",
+  "stari-grad": "starigradhvar",
   "baska-voda": "baskavoda",
   "cista-provo": "cistaprovo",
   "dubrovacko-primorje": "dubrovackoprimorje",
@@ -123,7 +123,6 @@
   "spisic-bukovica": "spisicbukovica",
   "nova-bukovica": "novabukovica",
   "vela-luka": "velaluka",
-  "lopar": "loparsupetarskadraga",
   "mali-bukovec": "malibukovec",
   "donji-kukuruzari": "donjikukuruzari",
   "sveta-nedelja-istarska": "svetanedeljaistarska",
@@ -131,6 +130,12 @@
   "novigrad-cittanova": "novigradistarska",
   "novigrad-zadarska": "novigradzadarska",
   "starigrad-zadarska": "starigradzadarska",
-  "stari-grad": "starigradhvar",
-  "kastelir-labinci-castelliere-s-d": "kastelir-labinci"
+  "kastelir-labinci-castelliere-s-d": "kastelir-labinci",
+  "otok-splitska": "otoksplitska",
+  "otok-vukovarska": "otokvukovarska",
+  "privlaka-zadarska": "privlakazadarska",
+  "privlaka-vukovarska": "privlakavukovarska",
+  "funtana-fontane": "funtana",
+  "tar-vabriga-torre-abrega": "tar-vabriga",
+  "novigrad-istarska": "novigradistarska"
 }

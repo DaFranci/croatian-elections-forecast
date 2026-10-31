@@ -372,7 +372,22 @@ def process_csv_files(year):
                             muni_id = 'starigrad-zadarska'
                         else:
                             muni_id = 'starigrad-hvar'
-                    
+
+                    # 2007 lists the Vukovar-Srijem Otok as "OTOK (VINKOVCI)"
+                    if muni_id in ('otok', 'otok-vinkovci'):
+                        county_name = (row.get('Naziv županije') or row.get('Županija') or '').lower()
+                        if 'vukovarsko' in county_name:
+                            muni_id = 'otok-vukovarska'
+                        elif 'splitsko' in county_name:
+                            muni_id = 'otok-splitska'
+
+                    if muni_id == 'privlaka':
+                        county_name = (row.get('Naziv županije') or row.get('Županija') or '').lower()
+                        if 'vukovarsko' in county_name:
+                            muni_id = 'privlaka-vukovarska'
+                        elif 'zadarska' in county_name:
+                            muni_id = 'privlaka-zadarska'
+
                     # Extract vote data
                     try:
                         total_voters = 0
