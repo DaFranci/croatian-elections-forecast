@@ -10,9 +10,10 @@ import TopBar, { NAV_LINKS } from './components/Layout/TopBar'
 import ElectionControls from './components/Panels/ElectionControls'
 import ResultsPanel from './components/Panels/ResultsPanel'
 import MapLegend from './components/Panels/MapLegend'
+import ForecastPage from './components/Forecast/ForecastPage'
 import './App.css'
 
-// Minimal hash routing until the forecast and blog pages exist
+// Minimal hash routing until the blog page exists
 function useHashPage() {
     const read = () => NAV_LINKS.some(l => l.href === window.location.hash) ? window.location.hash : '#/'
     const [page, setPage] = useState(read)
@@ -94,6 +95,10 @@ function AppContent() {
                             <ResultsPanel data={activeData} parties={parties} dateString={dateString} loading={loading} />
                         </>
                     )}
+                </main>
+            ) : page === '#/prognoza' ? (
+                <main className="flex-1 min-h-0 overflow-y-auto flex flex-col">
+                    <ForecastPage />
                 </main>
             ) : (
                 <main className="flex-1 flex items-center justify-center">

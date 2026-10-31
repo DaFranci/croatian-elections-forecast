@@ -1,4 +1,5 @@
 import { ElectionData, PartyInfo, GeoJSON } from '../types';
+import { ForecastData } from '../types/forecast';
 
 // Cache for loaded data
 const dataCache = new Map<string, any>();
@@ -93,6 +94,25 @@ export async function loadPartyData(): Promise<PartyInfo[]> {
         console.error('Error loading party data:', error);
         throw error;
     }
+}
+
+/**
+ * Load the latest election forecast
+ */
+export async function loadForecast(): Promise<ForecastData> {
+    const cacheKey = 'forecast';
+
+    if (dataCache.has(cacheKey)) {
+        return dataCache.get(cacheKey);
+    }
+
+    const response = await fetch('/data/forecast/forecast.json');
+    if (!response.ok) {
+        throw new Error(`Failed to load forecast: ${response.statusText}`);
+    }
+    const data = await response.json();
+    dataCache.set(cacheKey, data);
+    return data;
 }
 
 /**

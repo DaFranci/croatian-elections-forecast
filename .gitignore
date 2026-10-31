@@ -28,3 +28,9 @@ dist-ssr
 /mismatch*.txt
 /debug_*
 *.bak
+
+# Forecast model, analyses and their inputs are kept private;
+# only the published forecast (public/data/forecast/) is in the repo
+/analysis/
+/public/data/polls/
+/public/data/fundamentals/
