@@ -54,12 +54,17 @@ function ElectionMap() {
     // Map year to election ID
     const electionId = `${year}-parliamentary`;
 
+    // Boundaries in force for the selected election
+    const electionInfo = ELECTIONS.find(e => e.year === year);
+    const municipalityLevel = electionInfo?.municipalities ?? 'municipalities';
+    const constituencyLevel = electionInfo?.constituencies ?? 'constituencies';
+
     useEffect(() => {
         async function loadData() {
             setLoading(true);
             try {
                 const [geo, election, partyData] = await Promise.all([
-                    loadGeoJSON('municipalities'),
+                    loadGeoJSON(municipalityLevel),
                     loadElectionData(electionId),
                     loadPartyData(),
                 ]);
@@ -78,10 +83,7 @@ function ElectionMap() {
         }
 
         loadData();
-    }, [electionId]);
-
-    // Constituency boundaries in force for the selected election
-    const constituencyLevel = ELECTIONS.find(e => e.year === year)?.constituencies ?? 'constituencies';
+    }, [electionId, municipalityLevel]);
 
     // Load constituency GeoJSON when in district view (cached by loadGeoJSON)
     useEffect(() => {
