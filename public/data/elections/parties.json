@@ -198,6 +198,36 @@
         "color": "#F57F17"
     },
     {
+        "id": "HRAST",
+        "name": "Hrast - Pokret za uspješnu Hrvatsku",
+        "shortName": "HRAST",
+        "color": "#3E2723"
+    },
+    {
+        "id": "NHR",
+        "name": "Neovisni za Hrvatsku",
+        "shortName": "NHR",
+        "color": "#283593"
+    },
+    {
+        "id": "KOLAKUŠIĆ MISLAV",
+        "name": "Neovisna lista Mislava Kolakušića",
+        "shortName": "Kolakušić",
+        "color": "#C0CA33"
+    },
+    {
+        "id": "PETIR MARIJANA",
+        "name": "Neovisna lista Marijane Petir",
+        "shortName": "Petir",
+        "color": "#F06292"
+    },
+    {
+        "id": "IVAN JAKOVČIĆ",
+        "name": "Neovisna lista Ivana Jakovčića",
+        "shortName": "Jakovčić",
+        "color": "#F9A825"
+    },
+    {
         "id": "Other",
         "name": "Other Parties",
         "shortName": "Other",

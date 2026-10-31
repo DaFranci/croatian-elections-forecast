@@ -2,7 +2,7 @@ import { useState, useEffect, useMemo } from 'react'
 import { AppProvider, useAppContext } from './context/AppContext'
 import { loadElectionData, loadPartyData } from './utils/dataLoader'
 import { calculateWinners, calculateSeats } from './utils/dataProcessor'
-import { ELECTIONS, ElectionData, PartyInfo } from './types'
+import { ElectionData, PartyInfo, findElection } from './types'
 import ElectionMap from './components/Map/ElectionMap'
 import TopBar, { NAV_LINKS } from './components/Layout/TopBar'
 import ElectionControls from './components/Panels/ElectionControls'
@@ -25,7 +25,7 @@ function useHashPage() {
 }
 
 function AppContent() {
-    const { year, activeId, viewMode, setActiveId } = useAppContext()
+    const { electionType, year, activeId, viewMode, setActiveId } = useAppContext()
 
     const [electionData, setElectionData] = useState<ElectionData | null>(null)
     const [parties, setParties] = useState<PartyInfo[]>([])
@@ -33,7 +33,7 @@ function AppContent() {
     const page = useHashPage()
 
     // Map year to election ID
-    const electionId = `${year}-parliamentary`
+    const electionId = `${year}-${electionType}`
 
     useEffect(() => {
         async function loadData() {
@@ -174,7 +174,7 @@ function AppContent() {
                     id: activeId,
                     name: muniData.name,
                     turnout: muniData.turnout * 100,
-                    constituency: muniData.constituency,
+                    constituency: muniData.constituency || muniData.county,
                     results
                 }
             }
@@ -183,7 +183,7 @@ function AppContent() {
         return null
     }, [electionData, activeId, activeExists, viewMode])
 
-    const dateString = ELECTIONS.find(e => e.year === year)?.date
+    const dateString = findElection(electionType, year)?.date
 
     return (
         <div className="h-dvh flex flex-col bg-slate-50 text-slate-900 font-sans overflow-hidden">

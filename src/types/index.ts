@@ -13,6 +13,7 @@ export interface ElectionResult {
     turnout: number;
     parties: Record<string, PartyVotes>;
     constituency?: string;
+    county?: string;
     winner?: string;
     margin?: number;
 }
@@ -21,6 +22,7 @@ export interface ElectionData {
     election_id: string;
     date: string;
     turnout_national: number;
+    seats?: number; // elections with a single national constituency
     results: Record<string, ElectionResult>;
     constituencies?: Record<string, ElectionResult>;
 }
@@ -56,29 +58,39 @@ export interface GeoJSON {
 export type VisualizationMode = 'winner' | 'margin' | 'turnout';
 export type ViewMode = 'district' | 'municipality';
 
-// Election types shown in the picker; only parliamentary data exists so far
+// Election types shown in the picker
 export const ELECTION_TYPES = [
     { id: 'parliamentary', label: 'Parlamentarni izbori', available: true },
     { id: 'presidential', label: 'Predsjednički izbori', available: false },
     { id: 'local', label: 'Lokalni izbori', available: false },
-    { id: 'eu', label: 'Izbori za Europski parlament', available: false },
+    { id: 'eu', label: 'Izbori za Europski parlament', available: true },
 ] as const;
+export type ElectionType = typeof ELECTION_TYPES[number]['id'];
 
 // Available elections, oldest first, with the municipality and constituency
-// boundaries in force
+// boundaries in force. European elections have a single national constituency.
 export const ELECTIONS = [
-    { year: 2003, date: '23. studenoga 2003.', municipalities: 'municipalities-2003', constituencies: 'constituencies-1999' },
-    { year: 2007, date: '25. studenoga 2007.', municipalities: 'municipalities', constituencies: 'constituencies-1999' },
-    { year: 2011, date: '4. prosinca 2011.', municipalities: 'municipalities', constituencies: 'constituencies-1999' },
-    { year: 2015, date: '8. studenoga 2015.', municipalities: 'municipalities', constituencies: 'constituencies-1999' },
-    { year: 2016, date: '11. rujna 2016.', municipalities: 'municipalities', constituencies: 'constituencies-1999' },
-    { year: 2020, date: '5. srpnja 2020.', municipalities: 'municipalities', constituencies: 'constituencies-1999' },
-    { year: 2024, date: '17. travnja 2024.', municipalities: 'municipalities', constituencies: 'constituencies' },
+    { type: 'parliamentary', year: 2003, date: '23. studenoga 2003.', municipalities: 'municipalities-2003', constituencies: 'constituencies-1999' },
+    { type: 'parliamentary', year: 2007, date: '25. studenoga 2007.', municipalities: 'municipalities', constituencies: 'constituencies-1999' },
+    { type: 'parliamentary', year: 2011, date: '4. prosinca 2011.', municipalities: 'municipalities', constituencies: 'constituencies-1999' },
+    { type: 'parliamentary', year: 2015, date: '8. studenoga 2015.', municipalities: 'municipalities', constituencies: 'constituencies-1999' },
+    { type: 'parliamentary', year: 2016, date: '11. rujna 2016.', municipalities: 'municipalities', constituencies: 'constituencies-1999' },
+    { type: 'parliamentary', year: 2020, date: '5. srpnja 2020.', municipalities: 'municipalities', constituencies: 'constituencies-1999' },
+    { type: 'parliamentary', year: 2024, date: '17. travnja 2024.', municipalities: 'municipalities', constituencies: 'constituencies' },
+    { type: 'eu', year: 2013, date: '14. travnja 2013.', municipalities: 'municipalities', constituencies: null },
+    { type: 'eu', year: 2014, date: '25. svibnja 2014.', municipalities: 'municipalities', constituencies: null },
+    { type: 'eu', year: 2019, date: '26. svibnja 2019.', municipalities: 'municipalities', constituencies: null },
+    { type: 'eu', year: 2024, date: '9. lipnja 2024.', municipalities: 'municipalities', constituencies: null },
 ] as const;
 export type Year = typeof ELECTIONS[number]['year'];
 
+export function findElection(type: ElectionType, year: Year) {
+    return ELECTIONS.find(e => e.type === type && e.year === year);
+}
+
 // App state types
 export interface AppState {
+    electionType: ElectionType;
     year: Year;
     visualizationMode: VisualizationMode;
     viewMode: ViewMode;

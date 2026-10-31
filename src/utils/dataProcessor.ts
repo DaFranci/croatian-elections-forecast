@@ -101,69 +101,61 @@ export function formatPercentage(num: number, decimals: number = 1): string {
 }
 
 /**
- * Calculate total seats by party (simplified D'Hondt method)
- * This is a simplified version - real implementation would need constituency-level data
+ * D'Hondt allocation among parties with at least `threshold` percent of the valid votes
+ */
+export function allocateDHondt(
+    parties: Record<string, { votes: number }>,
+    seatsToAllocate: number,
+    threshold: number
+): Record<string, number> {
+    const seats: Record<string, number> = {};
+    const totalValidVotes = Object.values(parties).reduce((sum, p) => sum + p.votes, 0);
+    if (totalValidVotes === 0) return seats;
+
+    const quotients: Array<{ partyId: string; quotient: number }> = [];
+    Object.entries(parties).forEach(([partyId, p]) => {
+        if ((p.votes / totalValidVotes) * 100 < threshold) return;
+        for (let i = 1; i <= seatsToAllocate; i++) {
+            quotients.push({ partyId, quotient: p.votes / i });
+        }
+    });
+
+    quotients.sort((a, b) => b.quotient - a.quotient);
+    quotients.slice(0, seatsToAllocate).forEach(({ partyId }) => {
+        seats[partyId] = (seats[partyId] || 0) + 1;
+    });
+    return seats;
+}
+
+/**
+ * Calculate total seats by party: D'Hondt per constituency, or on national totals
+ * for elections with a single national constituency (European elections)
  */
 export function calculateSeats(electionData: ElectionData): Record<string, number> {
-    const seats: Record<string, number> = {};
     const SEATS_PER_CONSTITUENCY = 14;
     const THRESHOLD_PERCENTAGE = 5;
 
-    // If no constituency data, return empty (or fallback to national if we wanted, but let's stick to correct logic)
     if (!electionData.constituencies) {
-        console.warn('No constituency data found for seat calculation');
-        return {};
+        if (!electionData.seats) {
+            console.warn('No constituency data found for seat calculation');
+            return {};
+        }
+        const national: Record<string, { votes: number }> = {};
+        Object.values(electionData.results).forEach(result => {
+            Object.entries(result.parties).forEach(([partyId, p]) => {
+                national[partyId] = { votes: (national[partyId]?.votes || 0) + p.votes };
+            });
+        });
+        return allocateDHondt(national, electionData.seats, THRESHOLD_PERCENTAGE);
     }
 
-    // Iterate through each constituency
+    const seats: Record<string, number> = {};
     Object.entries(electionData.constituencies).forEach(([constId, constituency]) => {
-        // Determine seats for this constituency
         // XI (Diaspora) has 3 seats, others have 14
         const seatsToAllocate = constId === 'XI' ? 3 : SEATS_PER_CONSTITUENCY;
-
-        // 1. Calculate total valid votes in this constituency
-        let totalValidVotes = 0;
-        Object.values(constituency.parties).forEach(p => {
-            totalValidVotes += p.votes;
+        Object.entries(allocateDHondt(constituency.parties, seatsToAllocate, THRESHOLD_PERCENTAGE)).forEach(([partyId, n]) => {
+            seats[partyId] = (seats[partyId] || 0) + n;
         });
-
-        if (totalValidVotes === 0) return;
-
-        // 2. Filter parties passing the 5% threshold
-        // Note: Threshold might not apply to XI in the same way, but usually does. 
-        // For XI, it's often effectively natural threshold due to low seat count.
-        // We'll keep the 5% rule for consistency unless specified otherwise.
-        const qualifyingParties: Array<{ id: string; votes: number }> = [];
-        Object.entries(constituency.parties).forEach(([partyId, partyData]) => {
-            const percentage = (partyData.votes / totalValidVotes) * 100;
-            if (percentage >= THRESHOLD_PERCENTAGE) {
-                qualifyingParties.push({ id: partyId, votes: partyData.votes });
-            }
-        });
-
-        // 3. D'Hondt allocation for this constituency
-        const quotients: Array<{ partyId: string; quotient: number }> = [];
-
-        // Calculate quotients for all qualifying parties
-        qualifyingParties.forEach(party => {
-            for (let i = 1; i <= seatsToAllocate; i++) {
-                quotients.push({
-                    partyId: party.id,
-                    quotient: party.votes / i
-                });
-            }
-        });
-
-        // Sort by quotient descending
-        quotients.sort((a, b) => b.quotient - a.quotient);
-
-        // Allocate seats
-        for (let i = 0; i < seatsToAllocate; i++) {
-            if (i < quotients.length) {
-                const winnerId = quotients[i].partyId;
-                seats[winnerId] = (seats[winnerId] || 0) + 1;
-            }
-        }
     });
 
     return seats;

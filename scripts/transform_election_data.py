@@ -95,6 +95,49 @@ def normalize_municipality_name(name):
     
     return name
 
+def municipality_id(muni_name, county_name):
+    """
+    Map a municipality name from the results to its ID. Zagreb's parts are merged into
+    one 'zagreb', and names used by several municipalities are told apart by county.
+    county_name is the lowercase county from the same row.
+    """
+    muni_id = normalize_municipality_name(muni_name)
+
+    # Zagreb is split across multiple constituencies and often listed as "ZAGREB - DISTRICT" or "ZAGREB - CONSTITUENCY"
+    muni_name_upper = muni_name.upper()
+    if (muni_name_upper.startswith('ZAGREB') or muni_name_upper.startswith('GRAD ZAGREB')) and        'ŽUPANIJA' not in muni_name_upper and 'ZUPANIJA' not in muni_name_upper:
+        return 'zagreb'
+
+    if muni_id == 'sveta-nedelja':
+        if 'istarska' in county_name:
+            return 'sveta-nedelja-istarska'
+        if 'zagrebačka' in county_name:
+            return 'sveta-nedelja-zagreb'
+
+    if muni_id == 'novigrad':
+        if 'istarska' in county_name:
+            return 'novigrad-istarska'
+        if 'zadarska' in county_name:
+            return 'novigrad-zadarska'
+
+    if muni_id == 'starigrad':
+        return 'starigrad-zadarska' if 'zadarska' in county_name else 'starigrad-hvar'
+
+    # 2007 lists the Vukovar-Srijem Otok as "OTOK (VINKOVCI)"
+    if muni_id in ('otok', 'otok-vinkovci'):
+        if 'vukovarsko' in county_name:
+            return 'otok-vukovarska'
+        if 'splitsko' in county_name:
+            return 'otok-splitska'
+
+    if muni_id == 'privlaka':
+        if 'vukovarsko' in county_name:
+            return 'privlaka-vukovarska'
+        if 'zadarska' in county_name:
+            return 'privlaka-zadarska'
+
+    return muni_id
+
 def try_read_csv(filepath):
     """Try to read CSV with different encodings."""
     encodings = ['cp1250', 'windows-1250', 'iso-8859-2', 'utf-8', 'utf-8-sig']
@@ -407,56 +450,10 @@ def process_csv_files(year):
                     if not muni_name:
                         continue
                     
-                    # Create municipality ID
-                    muni_id = normalize_municipality_name(muni_name)
-                    
-                    # Handle Zagreb aggregation
-                    # Zagreb is split across multiple constituencies and often listed as "ZAGREB - DISTRICT" or "ZAGREB - CONSTITUENCY"
-                    # We want to aggregate all of these into a single "zagreb" entry
-                    muni_name_upper = muni_name.upper()
-                    if (muni_name_upper.startswith('ZAGREB') or muni_name_upper.startswith('GRAD ZAGREB')) and \
-                       'ŽUPANIJA' not in muni_name_upper and 'ZUPANIJA' not in muni_name_upper:
-                        muni_id = 'zagreb'
-                    
+                    county_name = (row.get('Naziv županije') or row.get('Županija') or '').lower()
+                    muni_id = municipality_id(muni_name, county_name)
                     if not muni_id:
                         continue
-
-                    # Handle Sveta Nedelja collision
-                    if muni_id == 'sveta-nedelja':
-                        county_name = (row.get('Naziv županije') or row.get('Županija') or '').lower()
-                        if 'istarska' in county_name:
-                            muni_id = 'sveta-nedelja-istarska'
-                        elif 'zagrebačka' in county_name:
-                            muni_id = 'sveta-nedelja-zagreb'
-                    
-                    if muni_id == 'novigrad':
-                        county_name = (row.get('Naziv županije') or row.get('Županija') or '').lower()
-                        if 'istarska' in county_name:
-                            muni_id = 'novigrad-istarska'
-                        elif 'zadarska' in county_name:
-                            muni_id = 'novigrad-zadarska'
-
-                    if muni_id == 'starigrad':
-                        county_name = (row.get('Naziv županije') or row.get('Županija') or '').lower()
-                        if 'zadarska' in county_name:
-                            muni_id = 'starigrad-zadarska'
-                        else:
-                            muni_id = 'starigrad-hvar'
-
-                    # 2007 lists the Vukovar-Srijem Otok as "OTOK (VINKOVCI)"
-                    if muni_id in ('otok', 'otok-vinkovci'):
-                        county_name = (row.get('Naziv županije') or row.get('Županija') or '').lower()
-                        if 'vukovarsko' in county_name:
-                            muni_id = 'otok-vukovarska'
-                        elif 'splitsko' in county_name:
-                            muni_id = 'otok-splitska'
-
-                    if muni_id == 'privlaka':
-                        county_name = (row.get('Naziv županije') or row.get('Županija') or '').lower()
-                        if 'vukovarsko' in county_name:
-                            muni_id = 'privlaka-vukovarska'
-                        elif 'zadarska' in county_name:
-                            muni_id = 'privlaka-zadarska'
 
                     # Extract vote data
                     try:

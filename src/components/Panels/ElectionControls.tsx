@@ -1,5 +1,5 @@
 import { useAppContext } from '../../context/AppContext'
-import { ELECTIONS, ELECTION_TYPES } from '../../types'
+import { ELECTIONS, ELECTION_TYPES, ElectionType, findElection } from '../../types'
 import { cn } from '@/lib/utils'
 import { MapIcon, LayoutGrid, ChevronDown } from 'lucide-react'
 
@@ -15,14 +15,17 @@ const segment = (active: boolean) => cn(
 )
 
 function ElectionControls() {
-    const { year, viewMode, visualizationMode, setYear, setViewMode, setVisualizationMode } = useAppContext()
+    const { electionType, year, viewMode, visualizationMode, setElectionType, setYear, setViewMode, setVisualizationMode } = useAppContext()
+    const elections = ELECTIONS.filter(e => e.type === electionType)
+    const hasConstituencies = !!findElection(electionType, year)?.constituencies
 
     return (
         <div className="absolute z-10 top-3 left-3 w-[min(340px,calc(100%-24px))] bg-white/95 backdrop-blur rounded-xl shadow-lg ring-1 ring-slate-200 p-3 space-y-2.5 text-slate-900">
             {/* Election type */}
             <div className="relative">
                 <select
-                    defaultValue="parliamentary"
+                    value={electionType}
+                    onChange={e => setElectionType(e.target.value as ElectionType)}
                     className="w-full appearance-none bg-transparent pr-6 text-base font-bold tracking-tight cursor-pointer focus:outline-none"
                 >
                     {ELECTION_TYPES.map(type => (
@@ -36,8 +39,8 @@ function ElectionControls() {
             </div>
 
             {/* Year */}
-            <div className="grid grid-cols-7 gap-0.5">
-                {ELECTIONS.map(election => (
+            <div className="grid gap-0.5" style={{ gridTemplateColumns: `repeat(${elections.length}, minmax(0, 1fr))` }}>
+                {elections.map(election => (
                     <button
                         key={election.year}
                         onClick={() => setYear(election.year)}
@@ -55,7 +58,12 @@ function ElectionControls() {
 
             {/* Granularity */}
             <div className="flex bg-slate-100 p-0.5 rounded-md">
-                <button onClick={() => setViewMode('district')} className={segment(viewMode === 'district')}>
+                <button
+                    onClick={() => setViewMode('district')}
+                    disabled={!hasConstituencies}
+                    title={hasConstituencies ? undefined : 'Cijela Hrvatska jedna je izborna jedinica'}
+                    className={cn(segment(viewMode === 'district'), "disabled:opacity-40 disabled:cursor-not-allowed")}
+                >
                     <MapIcon size={13} /> Izborne jedinice
                 </button>
                 <button onClick={() => setViewMode('municipality')} className={segment(viewMode === 'municipality')}>

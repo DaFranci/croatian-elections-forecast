@@ -4,7 +4,7 @@ import type { FillLayer, LineLayer } from 'react-map-gl/maplibre';
 import { useAppContext } from '../../context/AppContext';
 import { loadGeoJSON, loadElectionData, loadPartyData } from '../../utils/dataLoader';
 import { calculateWinners, getPartyColor, joinElectionWithGeo, NO_DATA_COLOR } from '../../utils/dataProcessor';
-import { ELECTIONS, ElectionData, PartyInfo } from '../../types';
+import { ElectionData, PartyInfo, findElection } from '../../types';
 
 const CROATIA_BOUNDS: [[number, number], [number, number]] = [[13.4, 42.35], [19.5, 46.6]];
 
@@ -40,6 +40,7 @@ const BASE_MAP_STYLE = {
 
 function ElectionMap() {
     const {
+        electionType,
         year,
         visualizationMode,
         viewMode,
@@ -62,10 +63,10 @@ function ElectionMap() {
     } | null>(null);
 
     // Map year to election ID
-    const electionId = `${year}-parliamentary`;
+    const electionId = `${year}-${electionType}`;
 
     // Boundaries in force for the selected election
-    const electionInfo = ELECTIONS.find(e => e.year === year);
+    const electionInfo = findElection(electionType, year);
     const municipalityLevel = electionInfo?.municipalities ?? 'municipalities';
     const constituencyLevel = electionInfo?.constituencies ?? 'constituencies';
 
