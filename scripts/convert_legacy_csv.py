@@ -1,5 +1,5 @@
 """
-Convert pre-2015 DIP polling station CSVs (2007, 2011) to the modern layout.
+Convert pre-2015 DIP polling station CSVs (2003, 2007, 2011) to the modern layout.
 
 DIP's archive files for 2007 and 2011 differ from 2015+ ones: party columns are
 named "LIST, Nositelj liste: NAME", there is a second header row of list numbers,
@@ -7,7 +7,7 @@ there is no county column, and 2007 has no constituency column. This script
 rewrites the regular polling station files (constituencies I-XI) into the
 2015+ layout so transform_election_data.py can process them unchanged.
 
-Input:  public/data/elections/csvs/<year>/source/*_Redovita_BM.csv (as unzipped from DIP)
+Input:  public/data/elections/csvs/<year>/source/ (regular polling station CSVs from DIP)
 Output: public/data/elections/csvs/<year>/<NN>_00_rezultati.csv
 
 Usage:
@@ -77,9 +77,23 @@ def find_county(lookup, const, muni):
 
 
 def clean_party_header(header):
-    """'HDZ - HRVATSKA ..., Nositelj liste: IVO SANADER' -> 'HDZ - HRVATSKA ...'"""
+    """Strip the list leader from a party column header.
+
+    2007/2011: 'HRVATSKA ... - HDZ, Nositelj liste: IVO SANADER' -> 'HRVATSKA ... - HDZ'
+    2003:      'AKCIJA ... - ASH, IVAN ŠPIKA - Nositelj liste'  -> 'AKCIJA ... - ASH'
+    """
+    header = ' '.join(header.split())
+    if re.search(r'-\s*Nositelj liste\s*$', header, flags=re.IGNORECASE):
+        segments = [s.strip() for s in re.sub(r'\s*-\s*Nositelj liste\s*$', '', header,
+                                              flags=re.IGNORECASE).split(',')]
+        # Drop academic titles after the leader's name ('dipl.ing.', 'dr.sc.'), then the name
+        while len(segments) > 1 and not segments[-1].isupper():
+            segments.pop()
+        if len(segments) > 1:
+            segments.pop()
+        return ', '.join(segments)
     header = re.split(r',?\s*Nositelj liste\s*:', header, flags=re.IGNORECASE)[0]
-    return ' '.join(header.split()).rstrip(' ,')
+    return header.rstrip(' ,')
 
 
 def parse_int(value):
@@ -103,16 +117,18 @@ def convert_file(src, const_num, county_lookup):
         rows = list(csv.reader(fh, delimiter=';'))
 
     headers = rows[0]
-    muni_col = find_column(headers, 'grad / opć', 'grad/opć', 'država')
-    bm_col = find_column(headers, 'bm rbr', 'redni broj')
+    muni_col = find_column(headers, 'grad / opć', 'grad/opć', 'grad/ opć', 'država')
+    bm_col = find_column(headers, 'bm rbr', 'redni broj', 'broj biračkog mjesta')
     bm_name_col = find_column(headers, 'bm naziv')
     bm_loc_col = find_column(headers, 'bm lokacija')
     bm_addr_col = find_column(headers, 'bm adresa')
-    voters_col = find_column(headers, 'ukupno birača')
-    cast_col = find_column(headers, 'glasovalo ukupno')
+    voters_col = find_column(headers, 'ukupno birača', 'broj birača')
+    cast_col = find_column(headers, 'glasovalo ukupno', 'glasovalo birača')
     ballots_col = find_column(headers, 'glasovalo (prema')
-    valid_col = find_column(headers, 'listići važeći')
-    invalid_col = find_column(headers, 'listići nevažeći')
+    if ballots_col is None:
+        ballots_col = cast_col  # 2003 has no separate ballot count
+    valid_col = find_column(headers, 'listići važeći', 'važećih listića')
+    invalid_col = find_column(headers, 'listići nevažeći', 'nevažećih listića')
 
     party_cols = [(i, clean_party_header(h)) for i, h in enumerate(headers)
                   if i > invalid_col and h.strip()]
@@ -133,6 +149,8 @@ def convert_file(src, const_num, county_lookup):
             continue  # list number row and blank separator rows
         if re.search(r'\bZA [IVX]+\. ?IJ', muni):
             continue  # 2007 per-constituency total rows ("UKUPNO ZA I. IJ", "POSEBNA BM ZA I. IJ")
+        if muni.endswith('Total') or muni.startswith(('DIJASPORA I MJEŠOVITA', 'PROGNANICI')):
+            continue  # 2003 subtotal rows, combined diaspora/mixed and displaced persons' stations
 
         county = find_county(county_lookup, roman, muni)
         if not county and roman != 'XI':
@@ -165,8 +183,10 @@ def main():
     county_lookup = load_county_lookup()
 
     for src in sorted(source_dir.glob('*.csv')):
-        # Regular polling stations of constituencies I-XI: "01_I_izborna_jedinica_Redovita_BM.csv"
-        match = re.match(r'(\d{2})_[IVX]+_izborna_jedinica_redovita_bm\.csv$', src.name, re.IGNORECASE)
+        # Regular polling stations of constituencies I-XI:
+        # 2007/2011 "01_I_izborna_jedinica_Redovita_BM.csv", 2003 "I izborna jedinica_IJ01 po BM.csv"
+        match = (re.match(r'(\d{2})_[IVX]+_izborna_jedinica_redovita_bm\.csv$', src.name, re.IGNORECASE)
+                 or re.match(r'[IVX]+ izborna jedinica_IJ(\d{2}) po BM\s*\.csv$', src.name))
         if not match or int(match.group(1)) > 11:
             continue
 

@@ -168,6 +168,24 @@
         "color": "#795548"
     },
     {
+        "id": "HDSS",
+        "name": "Hrvatska demokratska seljačka stranka",
+        "shortName": "HDSS",
+        "color": "#558B2F"
+    },
+    {
+        "id": "HČSP",
+        "name": "Hrvatska čista stranka prava",
+        "shortName": "HČSP",
+        "color": "#424242"
+    },
+    {
+        "id": "HSP-1861",
+        "name": "Hrvatska stranka prava 1861",
+        "shortName": "HSP 1861",
+        "color": "#616161"
+    },
+    {
         "id": "Other",
         "name": "Other Parties",
         "shortName": "Other",

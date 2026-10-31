@@ -58,6 +58,7 @@ export type ViewMode = 'district' | 'municipality';
 
 // Available elections, oldest first, with the constituency boundaries in force
 export const ELECTIONS = [
+    { year: 2003, date: '23. studenoga 2003.', constituencies: 'constituencies-1999' },
     { year: 2007, date: '25. studenoga 2007.', constituencies: 'constituencies-1999' },
     { year: 2011, date: '4. prosinca 2011.', constituencies: 'constituencies-1999' },
     { year: 2015, date: '8. studenoga 2015.', constituencies: 'constituencies-1999' },
