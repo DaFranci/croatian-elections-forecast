@@ -4,7 +4,7 @@ import type { FillLayer, LineLayer } from 'react-map-gl/maplibre';
 import { useAppContext } from '../../context/AppContext';
 import { loadGeoJSON, loadElectionData, loadPartyData } from '../../utils/dataLoader';
 import { calculateWinners, joinElectionWithGeo } from '../../utils/dataProcessor';
-import { ElectionData, PartyInfo } from '../../types';
+import { ELECTIONS, ElectionData, PartyInfo } from '../../types';
 
 const INITIAL_VIEW_STATE = {
     longitude: 16.5,
@@ -80,12 +80,15 @@ function ElectionMap() {
         loadData();
     }, [electionId]);
 
-    // Load constituency GeoJSON when switching to district view
+    // Constituency boundaries in force for the selected election
+    const constituencyLevel = ELECTIONS.find(e => e.year === year)?.constituencies ?? 'constituencies';
+
+    // Load constituency GeoJSON when in district view (cached by loadGeoJSON)
     useEffect(() => {
         async function loadConstituencyData() {
-            if (viewMode === 'district' && !constituencyGeoData) {
+            if (viewMode === 'district') {
                 try {
-                    const constGeo = await loadGeoJSON('constituencies');
+                    const constGeo = await loadGeoJSON(constituencyLevel);
                     setConstituencyGeoData(constGeo);
                 } catch (error) {
                     console.error('Error loading constituency data:', error);
@@ -93,7 +96,7 @@ function ElectionMap() {
             }
         }
         loadConstituencyData();
-    }, [viewMode, constituencyGeoData]);
+    }, [viewMode, constituencyLevel]);
 
     const getFillOpacity = useCallback((): any => {
         if (visualizationMode !== 'margin' || !electionData) return 0.7;

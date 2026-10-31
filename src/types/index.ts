@@ -56,14 +56,14 @@ export interface GeoJSON {
 export type VisualizationMode = 'winner' | 'margin' | 'turnout';
 export type ViewMode = 'district' | 'municipality';
 
-// Available elections, oldest first
+// Available elections, oldest first, with the constituency boundaries in force
 export const ELECTIONS = [
-    { year: 2007, date: '25. studenoga 2007.' },
-    { year: 2011, date: '4. prosinca 2011.' },
-    { year: 2015, date: '8. studenoga 2015.' },
-    { year: 2016, date: '11. rujna 2016.' },
-    { year: 2020, date: '5. srpnja 2020.' },
-    { year: 2024, date: '17. travnja 2024.' },
+    { year: 2007, date: '25. studenoga 2007.', constituencies: 'constituencies-1999' },
+    { year: 2011, date: '4. prosinca 2011.', constituencies: 'constituencies-1999' },
+    { year: 2015, date: '8. studenoga 2015.', constituencies: 'constituencies-1999' },
+    { year: 2016, date: '11. rujna 2016.', constituencies: 'constituencies-1999' },
+    { year: 2020, date: '5. srpnja 2020.', constituencies: 'constituencies-1999' },
+    { year: 2024, date: '17. travnja 2024.', constituencies: 'constituencies' },
 ] as const;
 export type Year = typeof ELECTIONS[number]['year'];
 
