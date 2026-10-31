@@ -3,7 +3,7 @@ import Map, { Source, Layer, MapLayerMouseEvent, Popup } from 'react-map-gl/mapl
 import type { FillLayer, LineLayer } from 'react-map-gl/maplibre';
 import { useAppContext } from '../../context/AppContext';
 import { loadGeoJSON, loadElectionData, loadPartyData } from '../../utils/dataLoader';
-import { calculateWinners, joinElectionWithGeo } from '../../utils/dataProcessor';
+import { calculateWinners, getPartyColor, joinElectionWithGeo } from '../../utils/dataProcessor';
 import { ELECTIONS, ElectionData, PartyInfo } from '../../types';
 
 const INITIAL_VIEW_STATE = {
@@ -164,10 +164,7 @@ function ElectionMap() {
                     }
 
                     if (winnerId) {
-                        const party = parties.find(p => p.id === winnerId);
-                        if (party) {
-                            colorExpression.push(id, party.color);
-                        }
+                        colorExpression.push(id, getPartyColor(winnerId, parties));
                     }
                 });
 
@@ -200,10 +197,7 @@ function ElectionMap() {
                     }
 
                     if (winnerId) {
-                        const party = parties.find(p => p.id === winnerId);
-                        if (party) {
-                            colorExpression.push(id, party.color);
-                        }
+                        colorExpression.push(id, getPartyColor(winnerId, parties));
                     }
                 });
 
@@ -322,11 +316,13 @@ function ElectionMap() {
         const feature = event.features?.[0];
         if (feature) {
             const id = feature.properties?.id;
+            // Municipalities that didn't exist yet (e.g. Vrsi in 2003) have no result to show
+            if (viewMode === 'municipality' && !electionData?.results[id]) return;
             // Convert to number if it's a district ID (numeric string)
             const parsedId = viewMode === 'district' ? id : id;
             setActiveId(parsedId);
         }
-    }, [setActiveId, viewMode]);
+    }, [setActiveId, viewMode, electionData]);
 
     const handleMouseMove = useCallback((event: MapLayerMouseEvent) => {
         const feature = event.features?.[0];
@@ -406,6 +402,11 @@ function ElectionMap() {
                     >
                         <div className="municipality-name">
                             {hoverInfo.feature.properties.name}
+                            {viewMode === 'municipality' && electionData && !electionData.results[hoverInfo.feature.properties.id] && (
+                                <div style={{ fontSize: '0.8em', opacity: 0.8, marginTop: '2px' }}>
+                                    Nema podataka za {year}.
+                                </div>
+                            )}
                             {viewMode === 'district' && electionData?.results[hoverInfo.feature.properties.id]?.constituency && (
                                 <div style={{ fontSize: '0.8em', opacity: 0.8, marginTop: '2px' }}>
                                     {electionData.results[hoverInfo.feature.properties.id].constituency}

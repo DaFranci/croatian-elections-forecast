@@ -186,6 +186,18 @@
         "color": "#616161"
     },
     {
+        "id": "SDSS",
+        "name": "Samostalna demokratska srpska stranka",
+        "shortName": "SDSS",
+        "color": "#00838F"
+    },
+    {
+        "id": "NLSP",
+        "name": "Nezavisna lista Stipe Petrina",
+        "shortName": "NLSP",
+        "color": "#F57F17"
+    },
+    {
         "id": "Other",
         "name": "Other Parties",
         "shortName": "Other",

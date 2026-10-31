@@ -63,10 +63,23 @@ export function calculateSwing(
 }
 
 /**
+ * Get party info by ID. Parties not in parties.json (small parties, independent
+ * lists) get their list name and the "Other" color.
+ */
+export function getPartyInfo(partyId: string, parties: PartyInfo[], listName?: string): PartyInfo {
+    return parties.find(p => p.id === partyId) ?? {
+        id: partyId,
+        name: listName || partyId,
+        shortName: partyId,
+        color: getPartyColor('Other', parties),
+    };
+}
+
+/**
  * Get party color by ID
  */
 export function getPartyColor(partyId: string, parties: PartyInfo[]): string {
-    const party = parties.find(p => p.id === partyId);
+    const party = parties.find(p => p.id === partyId) ?? parties.find(p => p.id === 'Other');
     return party?.color || '#808080';
 }
 

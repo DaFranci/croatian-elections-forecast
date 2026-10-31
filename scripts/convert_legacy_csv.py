@@ -86,14 +86,28 @@ def clean_party_header(header):
     if re.search(r'-\s*Nositelj liste\s*$', header, flags=re.IGNORECASE):
         segments = [s.strip() for s in re.sub(r'\s*-\s*Nositelj liste\s*$', '', header,
                                               flags=re.IGNORECASE).split(',')]
-        # Drop academic titles after the leader's name ('dipl.ing.', 'dr.sc.'), then the name
-        while len(segments) > 1 and not segments[-1].isupper():
+        # Drop academic titles after the leader's name ('dipl.ing.', 'dr.med.'), then the name
+        while len(segments) > 1 and not has_uppercase_word(segments[-1]):
             segments.pop()
-        if len(segments) > 1:
-            segments.pop()
-        return ', '.join(segments)
-    header = re.split(r',?\s*Nositelj liste\s*:', header, flags=re.IGNORECASE)[0]
-    return header.rstrip(' ,')
+        leader = segments.pop() if len(segments) > 1 else ''
+        lists = ', '.join(segments)
+    else:
+        parts = re.split(r',?\s*Nositelj liste\s*:', header, maxsplit=1, flags=re.IGNORECASE)
+        lists = parts[0]
+        leader = parts[1].split(',')[0] if len(parts) > 1 else ''
+
+    lists = re.sub(r'^Predlagatelji:\s*', '', lists).strip(' ,')
+
+    # Independent lists differ only by leader; keep it, as 2015+ files do ('NEOVISNA LISTA - IVO IVIĆ')
+    if lists in ('NEOVISNA LISTA', 'NEZAVISNA LISTA') and leader:
+        name = ' '.join(w for w in leader.split() if not any(c.islower() for c in w))  # drop 'dr.sc.', 'mr.'
+        return f'{lists} - {name}'
+    return lists
+
+
+def has_uppercase_word(text):
+    """True if text contains an all-caps word, i.e. a name rather than a title like 'dipl.ing.'"""
+    return any(w.isupper() and sum(c.isalpha() for c in w) > 1 for w in text.split())
 
 
 def parse_int(value):

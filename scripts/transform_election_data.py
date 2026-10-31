@@ -214,7 +214,41 @@ def identify_party_columns(headers):
     
     return party_columns
 
-def extract_party_votes(row, party_columns, headers):
+def parse_votes(value):
+    try:
+        return int((value or '0').strip() or '0')
+    except ValueError:
+        return 0
+
+def resolve_party_ids(party_columns, headers, rows):
+    """
+    Assign a unique party ID to each party column of a file.
+    Different lists can share a lead party abbreviation (e.g. 'AUTOHTONA - ... - A - HSP'
+    and the HSP coalition). The list with the most votes in the file keeps the ID;
+    the others are identified by their lead party's full name.
+    Returns a dict: { col_idx: party_id }
+    """
+    by_id = defaultdict(list)
+    for col_idx, party_name in party_columns:
+        clean_name = clean_party_name(party_name)
+        party_id = extract_lead_party_id(clean_name) if clean_name else None
+        if party_id and col_idx < len(headers):
+            total = sum(parse_votes(row.get(headers[col_idx])) for row in rows)
+            by_id[party_id].append((total, col_idx, clean_name))
+
+    party_ids = {}
+    for party_id, columns in by_id.items():
+        columns.sort(reverse=True)
+        party_ids[columns[0][1]] = party_id
+        for _, col_idx, clean_name in columns[1:]:
+            fallback = ' '.join(clean_name.split(',')[0].split())
+            while fallback in by_id or fallback in party_ids.values():
+                fallback += '*'
+            party_ids[col_idx] = fallback
+            print(f"  Party ID '{party_id}' is shared; using '{fallback}' for {clean_name[:60]}")
+    return party_ids
+
+def extract_party_votes(row, party_columns, headers, party_ids):
     """
     Extract party votes from the CSV row using identified columns.
     Returns a dict: { party_id: {'votes': count, 'coalition_name': name} }
@@ -240,7 +274,7 @@ def extract_party_votes(row, party_columns, headers):
                 # Clean up party name
                 clean_name = clean_party_name(party_name)
                 if clean_name:
-                    party_id = extract_lead_party_id(clean_name)
+                    party_id = party_ids.get(col_idx)
                     if party_id:
                         parties[party_id] = {
                             'votes': votes,
@@ -302,9 +336,12 @@ def process_csv_files(year):
                 reader = csv.DictReader(f, delimiter=';')
                 headers = reader.fieldnames
                 
+                rows = list(reader)
+
                 # Identify party columns once per file
                 party_columns = identify_party_columns(headers)
-                
+                party_ids = resolve_party_ids(party_columns, headers, rows)
+
                 # Identify constituency column once per file
                 const_key = None
                 voters_key = None
@@ -319,7 +356,7 @@ def process_csv_files(year):
                     elif ('glasalo' in h_clean or 'glasovalo' in h_clean) and 'bira' in h_clean:
                         votes_key = h
                 
-                for row in reader:
+                for row in rows:
                     # Extract municipality name
                     # Try different possible column names
                     # Extract municipality name
@@ -427,7 +464,7 @@ def process_csv_files(year):
                         continue
 
                     # Extract party votes
-                    party_votes = extract_party_votes(row, party_columns, headers)
+                    party_votes = extract_party_votes(row, party_columns, headers, party_ids)
                     
                     # Aggregate data - Municipality
                     muni = municipalities[muni_id]

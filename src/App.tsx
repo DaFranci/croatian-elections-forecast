@@ -1,7 +1,7 @@
 import { useState, useEffect, useMemo } from 'react'
 import { AppProvider, useAppContext } from './context/AppContext'
 import { loadElectionData, loadPartyData } from './utils/dataLoader'
-import { calculateWinners, calculateSeats } from './utils/dataProcessor'
+import { calculateWinners, calculateSeats, getPartyInfo } from './utils/dataProcessor'
 import { ELECTIONS, ElectionData, PartyInfo } from './types'
 import ElectionMap from './components/Map/ElectionMap'
 import { Card } from '@/components/ui/card'
@@ -61,13 +61,22 @@ function AppContent() {
         loadData()
     }, [electionId])
 
+    // A selection can be missing from another year's data (e.g. Vrsi didn't exist in 2003)
+    const activeExists = activeId === null || !electionData || (viewMode === 'district'
+        ? !!electionData.constituencies?.[activeId as string]
+        : !!electionData.results[activeId as string])
+
+    useEffect(() => {
+        if (!activeExists) setActiveId(null)
+    }, [activeExists, setActiveId])
+
     // Calculate active data based on activeId
     const activeData = useMemo(() => {
         if (!electionData) return null
 
-        if (activeId === null) {
+        if (activeId === null || !activeExists) {
             // National view - aggregate all results
-            const allResults: Record<string, { votes: number; seats: number }> = {}
+            const allResults: Record<string, { votes: number; seats: number; listName: string }> = {}
             let totalVoters = 0
             let totalVotesCast = 0
 
@@ -80,7 +89,7 @@ function AppContent() {
 
                 Object.entries(result.parties).forEach(([partyId, partyVotes]) => {
                     if (!allResults[partyId]) {
-                        allResults[partyId] = { votes: 0, seats: 0 }
+                        allResults[partyId] = { votes: 0, seats: 0, listName: partyVotes.coalition_name ?? partyId }
                     }
                     allResults[partyId].votes += partyVotes.votes
                 })
@@ -89,6 +98,7 @@ function AppContent() {
             const results = Object.entries(allResults)
                 .map(([partyId, data]) => ({
                     partyId,
+                    listName: data.listName,
                     votes: data.votes,
                     percent: (data.votes / totalVotesCast) * 100,
                     seats: nationalSeats[partyId] || 0
@@ -137,6 +147,7 @@ function AppContent() {
                 const results = Object.entries(constData.parties)
                     .map(([partyId, partyVotes]) => ({
                         partyId,
+                        listName: partyVotes.coalition_name,
                         votes: partyVotes.votes,
                         percent: (partyVotes.votes / constData.votes_cast) * 100,
                         seats: seats[partyId] || 0
@@ -156,6 +167,7 @@ function AppContent() {
                 const results = Object.entries(muniData.parties)
                     .map(([partyId, partyVotes]) => ({
                         partyId,
+                        listName: partyVotes.coalition_name,
                         votes: partyVotes.votes,
                         percent: (partyVotes.votes / muniData.votes_cast) * 100,
                         seats: 0
@@ -173,7 +185,7 @@ function AppContent() {
         }
 
         return null
-    }, [electionData, activeId, viewMode])
+    }, [electionData, activeId, activeExists, viewMode])
 
     if (loading || !electionData || !activeData) {
         return (
@@ -186,7 +198,8 @@ function AppContent() {
         )
     }
 
-    const leadingParty = parties.find(p => p.id === activeData.results[0]?.partyId)
+    const leadingResult = activeData.results[0]
+    const leadingParty = leadingResult && getPartyInfo(leadingResult.partyId, parties, leadingResult.listName)
     const dateString = ELECTIONS.find(e => e.year === year)?.date
 
     return (
@@ -356,8 +369,7 @@ function AppContent() {
                             <div className="flex-1 overflow-y-auto p-6 space-y-6 bg-white">
                                 <div className="space-y-4">
                                     {activeData.results.map((result, idx) => {
-                                        const party = parties.find(p => p.id === result.partyId)
-                                        if (!party) return null
+                                        const party = getPartyInfo(result.partyId, parties, result.listName)
 
                                         return (
                                             <div key={idx} className="group">
