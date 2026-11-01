@@ -29,8 +29,7 @@ dist-ssr
 /debug_*
 *.bak
 
-# Forecast model, analyses and their inputs are kept private;
-# only the published forecast (public/data/forecast/) is in the repo
+# Forecast model, analyses and their input data (analysis/data/) are kept private;
+# only their published results (public/data/forecast/, public/data/blog/) are in the repo.
+# Nothing private may go in public/: Vite copies all of it into the build.
 /analysis/
-/public/data/polls/
-/public/data/fundamentals/

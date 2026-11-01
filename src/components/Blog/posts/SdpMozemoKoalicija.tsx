@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import { CartesianGrid, Line, LineChart, ReferenceLine, ResponsiveContainer, Tooltip, TooltipProps, XAxis, YAxis } from 'recharts'
 import { longDate, percent } from '../../../utils/format'
+import { asset } from '../../../utils/assets'
 
 type Range3 = [number, number, number] // 10th percentile, median, 90th percentile
 
@@ -139,7 +140,7 @@ function SdpMozemoKoalicija() {
     const [error, setError] = useState(false)
 
     useEffect(() => {
-        fetch('/data/blog/sdp-mozemo-koalicija.json')
+        fetch(asset('data/blog/sdp-mozemo-koalicija.json'))
             .then(r => (r.ok ? r.json() : Promise.reject()))
             .then(setData)
             .catch(() => setError(true))

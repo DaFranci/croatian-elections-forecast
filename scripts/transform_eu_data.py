@@ -7,7 +7,7 @@ the app allocates nationally (D'Hondt, 5% threshold).
 
 Input is DIP's per-polling-station CSV (cp1250, ';'), where each list's votes
 are followed by its candidates' preference votes:
-    public/data/elections/csvs/eu/<year>/rezultati_eupa.csv
+    data/elections/csvs/eu/<year>/rezultati_eupa.csv
 Source: https://www.izbori.hr/arhiva-izbora/data/euparlament/<year>/zip/rezultati.zip
 
 Usage:
@@ -89,7 +89,7 @@ def party_ids_for(columns):
 
 def transform(year):
     meta = ELECTIONS[year]
-    path = Path(f'public/data/elections/csvs/eu/{year}/rezultati_eupa.csv')
+    path = Path(f'data/elections/csvs/eu/{year}/rezultati_eupa.csv')
     with open(path, encoding='cp1250', newline='') as f:
         rows = list(csv.reader(f, delimiter=';'))
 

@@ -1,5 +1,6 @@
 import { ElectionData, PartyInfo, GeoJSON } from '../types';
 import { ForecastData } from '../types/forecast';
+import { asset } from './assets';
 
 // Cache for loaded data
 const dataCache = new Map<string, any>();
@@ -15,7 +16,7 @@ async function loadMunicipalityMapping(): Promise<Record<string, string>> {
     }
 
     try {
-        const response = await fetch('/data/elections/municipality_mapping.json');
+        const response = await fetch(asset('data/elections/municipality_mapping.json'));
         if (!response.ok) {
             console.warn('Municipality mapping not found, using direct IDs');
             return {};
@@ -40,7 +41,7 @@ export async function loadElectionData(electionId: string): Promise<ElectionData
     }
 
     try {
-        const response = await fetch(`/data/elections/${electionId}.json`);
+        const response = await fetch(asset(`data/elections/${electionId}.json`));
         if (!response.ok) {
             throw new Error(`Failed to load election data: ${response.statusText}`);
         }
@@ -83,7 +84,7 @@ export async function loadPartyData(): Promise<PartyInfo[]> {
     }
 
     try {
-        const response = await fetch('/data/elections/parties.json');
+        const response = await fetch(asset('data/elections/parties.json'));
         if (!response.ok) {
             throw new Error(`Failed to load party data: ${response.statusText}`);
         }
@@ -106,7 +107,7 @@ export async function loadForecast(): Promise<ForecastData> {
         return dataCache.get(cacheKey);
     }
 
-    const response = await fetch('/data/forecast/forecast.json');
+    const response = await fetch(asset('data/forecast/forecast.json'));
     if (!response.ok) {
         throw new Error(`Failed to load forecast: ${response.statusText}`);
     }
@@ -126,7 +127,7 @@ export async function loadGeoJSON(level: 'counties' | 'municipalities' | 'munici
     }
 
     try {
-        const response = await fetch(`/data/geospatial/${level}.geojson`);
+        const response = await fetch(asset(`data/geospatial/${level}.geojson`));
         if (!response.ok) {
             throw new Error(`Failed to load GeoJSON: ${response.statusText}`);
         }

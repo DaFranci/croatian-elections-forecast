@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { Menu, X } from 'lucide-react'
 import { cn } from '@/lib/utils'
+import { asset } from '../../utils/assets'
 
 export const NAV_LINKS = [
     { href: '#/', label: 'Rezultati' },
@@ -17,7 +18,7 @@ function TopBar({ page }: { page: string }) {
     return (
         <header className="relative z-20 h-12 shrink-0 bg-white border-b border-slate-200 px-4 flex items-center justify-between">
             <a href="#/" className="flex items-center gap-2 font-bold text-slate-900 tracking-tight">
-                <img src="/logo.svg" alt="" className="w-7 h-7" />
+                <img src={asset('logo.svg')} alt="" className="w-7 h-7" />
                 Izborna karta
             </a>
 

@@ -1,6 +1,6 @@
 import { useEffect, useState, useCallback, useMemo } from 'react';
 import Map, { Source, Layer, MapLayerMouseEvent, Popup } from 'react-map-gl/maplibre';
-import type { FillLayer, LineLayer } from 'react-map-gl/maplibre';
+import type { LayerProps } from 'react-map-gl/maplibre';
 import { useAppContext } from '../../context/AppContext';
 import { loadGeoJSON, loadElectionData, loadPartyData } from '../../utils/dataLoader';
 import { calculateWinners, getPartyColor, joinElectionWithGeo, NO_DATA_COLOR } from '../../utils/dataProcessor';
@@ -287,7 +287,7 @@ function ElectionMap() {
         return opacityExpression;
     }, [visualizationMode, electionData]);
 
-    const municipalityLayer: FillLayer = useMemo(() => ({
+    const municipalityLayer: LayerProps = useMemo(() => ({
         id: 'municipalities',
         type: 'fill',
         paint: {
@@ -296,7 +296,7 @@ function ElectionMap() {
         },
     }), [getFillColor, getFillOpacity]);
 
-    const constituencyLayer: FillLayer = useMemo(() => ({
+    const constituencyLayer: LayerProps = useMemo(() => ({
         id: 'constituencies',
         type: 'fill',
         paint: {
@@ -311,7 +311,7 @@ function ElectionMap() {
             : ['municipalities']
     ), [viewMode]);
 
-    const municipalityOutlineLayer: LineLayer = useMemo(() => ({
+    const municipalityOutlineLayer: LayerProps = useMemo(() => ({
         id: 'municipalities-outline',
         type: 'line',
         paint: {
@@ -325,7 +325,7 @@ function ElectionMap() {
         },
     }), [activeId]);
 
-    const constituencyOutlineLayer: LineLayer = useMemo(() => ({
+    const constituencyOutlineLayer: LayerProps = useMemo(() => ({
         id: 'constituencies-outline',
         type: 'line',
         paint: {
@@ -357,7 +357,7 @@ function ElectionMap() {
 
         if (feature) {
             setCursor('pointer');
-            setHoveredMunicipality((prev: string | undefined) => (prev !== featureId ? featureId : prev));
+            setHoveredMunicipality(featureId);
             setHoverInfo({
                 longitude: event.lngLat.lng,
                 latitude: event.lngLat.lat,

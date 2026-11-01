@@ -64,7 +64,8 @@ export const AppProvider: React.FC<{ children: ReactNode }> = ({ children }) => 
     };
 
     const setHoveredMunicipality = (id: string | undefined) => {
-        setState(prev => ({ ...prev, hoveredMunicipality: id }));
+        // Mouse moves within one area fire constantly; skip updates that change nothing
+        setState(prev => (prev.hoveredMunicipality === id ? prev : { ...prev, hoveredMunicipality: id }));
     };
 
     const setZoomLevel = (zoom: number) => {

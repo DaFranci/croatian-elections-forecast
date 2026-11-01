@@ -16,7 +16,7 @@ transform_election_data.py can process them unchanged:
 diaspora and mixed stations (and V. one for displaced persons), which goes to
 the _posebna file.
 
-Input:  public/data/elections/csvs/<year>/source/ (polling station CSVs from DIP)
+Input:  data/elections/csvs/<year>/source/ (polling station CSVs from DIP)
 
 Usage:
     python scripts/convert_legacy_csv.py <year>
@@ -30,7 +30,7 @@ import re
 import sys
 from pathlib import Path
 
-CSV_ROOT = Path("public/data/elections/csvs")
+CSV_ROOT = Path("data/elections/csvs")
 
 # County reference: constituency borders were unchanged 1999-2023, so 2015 data
 # gives the county for every (constituency, municipality) pair

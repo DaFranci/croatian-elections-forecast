@@ -5,7 +5,7 @@ Each election has two rounds, and each round its own output file:
     public/data/elections/<year>-presidential-<round>.json
 
 Input is DIP's per-polling-station results, one file per round:
-    public/data/elections/csvs/presidential/<year>/<round>_krug.(csv|xlsx)
+    data/elections/csvs/presidential/<year>/<round>_krug.(csv|xlsx)
 Source: https://www.izbori.hr/arhiva-izbora/data/predsjednik/<year>/zip/rezultati.zip
 2005-2014 are CSV (cp1250, ';'), 2019 and 2024 only xlsx.
 
@@ -24,7 +24,7 @@ from pathlib import Path
 
 from transform_election_data import municipality_id, parse_votes
 
-SOURCE_DIR = Path('public/data/elections/csvs/presidential')
+SOURCE_DIR = Path('data/elections/csvs/presidential')
 OUTPUT_DIR = Path('public/data/elections')
 
 ELECTIONS = {

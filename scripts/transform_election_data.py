@@ -428,7 +428,7 @@ def extract_party_votes(row, party_columns, headers, party_ids):
 
 def process_csv_files(year):
     """Process all CSV files for a given election year."""
-    csv_dir = Path(f"public/data/elections/csvs/{year}")
+    csv_dir = Path(f"data/elections/csvs/{year}")
     
     if not csv_dir.exists():
         print(f"ERROR: Directory not found: {csv_dir}")
