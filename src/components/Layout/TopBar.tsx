@@ -8,6 +8,9 @@ export const NAV_LINKS = [
     { href: '#/blog', label: 'Blog' },
 ] as const
 
+// The blog link stays active on its posts ('#/blog/<slug>')
+const isActive = (href: string, page: string) => page === href || (href !== '#/' && page.startsWith(`${href}/`))
+
 function TopBar({ page }: { page: string }) {
     const [menuOpen, setMenuOpen] = useState(false)
 
@@ -26,7 +29,7 @@ function TopBar({ page }: { page: string }) {
                         href={link.href}
                         className={cn(
                             "px-3 py-1.5 rounded-md text-sm font-medium transition-colors",
-                            page === link.href ? "bg-slate-100 text-slate-900" : "text-slate-500 hover:text-slate-900"
+                            isActive(link.href, page) ? "bg-slate-100 text-slate-900" : "text-slate-500 hover:text-slate-900"
                         )}
                     >
                         {link.label}
@@ -51,7 +54,7 @@ function TopBar({ page }: { page: string }) {
                             onClick={() => setMenuOpen(false)}
                             className={cn(
                                 "px-3 py-2 rounded-md text-sm font-medium",
-                                page === link.href ? "bg-slate-100 text-slate-900" : "text-slate-600"
+                                isActive(link.href, page) ? "bg-slate-100 text-slate-900" : "text-slate-600"
                             )}
                         >
                             {link.label}

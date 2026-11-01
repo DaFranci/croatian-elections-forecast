@@ -11,11 +11,15 @@ import ElectionControls from './components/Panels/ElectionControls'
 import ResultsPanel from './components/Panels/ResultsPanel'
 import MapLegend from './components/Panels/MapLegend'
 import ForecastPage from './components/Forecast/ForecastPage'
+import BlogPage from './components/Blog/BlogPage'
 import './App.css'
 
-// Minimal hash routing until the blog page exists
+// Minimal hash routing: a nav link, or a blog post under '#/blog/<slug>'
 function useHashPage() {
-    const read = () => NAV_LINKS.some(l => l.href === window.location.hash) ? window.location.hash : '#/'
+    const read = () => {
+        const hash = window.location.hash
+        return NAV_LINKS.some(l => l.href === hash) || hash.startsWith('#/blog/') ? hash : '#/'
+    }
     const [page, setPage] = useState(read)
 
     useEffect(() => {
@@ -100,11 +104,8 @@ function AppContent() {
                     <ForecastPage />
                 </main>
             ) : (
-                <main className="flex-1 flex items-center justify-center">
-                    <div className="text-center">
-                        <h1 className="text-2xl font-bold">{NAV_LINKS.find(l => l.href === page)?.label}</h1>
-                        <p className="text-slate-500 mt-1">Uskoro.</p>
-                    </div>
+                <main className="flex-1 min-h-0 overflow-y-auto flex flex-col">
+                    <BlogPage slug={page.replace(/^#\/blog\/?/, '')} />
                 </main>
             )}
         </div>
