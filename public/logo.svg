@@ -2,13 +2,13 @@
   <defs>
     <clipPath id="shield"><path d="M14 22H50V37C50 48 42 54 32 58C22 54 14 48 14 37Z"/></clipPath>
   </defs>
-  <!-- Stylized crown: five pointed-arch shields fanned along an arc -->
+  <!-- Five dots fanned along an arc above the shield -->
   <g fill="#2563eb">
-    <path transform="rotate(-12 15.20 22.10)" d="M11.40 22.10V19.10A7.6 7.6 0 0 1 15.20 12.52A7.6 7.6 0 0 1 19.00 19.10V22.10Z"/>
-    <path transform="rotate(-6 23.60 20.40)" d="M19.80 20.40V17.40A7.6 7.6 0 0 1 23.60 10.82A7.6 7.6 0 0 1 27.40 17.40V20.40Z"/>
-    <path transform="rotate(0 32.00 19.50)" d="M28.20 19.50V16.50A7.6 7.6 0 0 1 32.00 9.92A7.6 7.6 0 0 1 35.80 16.50V19.50Z"/>
-    <path transform="rotate(6 40.40 20.40)" d="M36.60 20.40V17.40A7.6 7.6 0 0 1 40.40 10.82A7.6 7.6 0 0 1 44.20 17.40V20.40Z"/>
-    <path transform="rotate(12 48.80 22.10)" d="M45.00 22.10V19.10A7.6 7.6 0 0 1 48.80 12.52A7.6 7.6 0 0 1 52.60 19.10V22.10Z"/>
+    <circle cx="15.6" cy="16.2" r="3"/>
+    <circle cx="23.8" cy="14.2" r="3"/>
+    <circle cx="32.0" cy="13.5" r="3"/>
+    <circle cx="40.2" cy="14.2" r="3"/>
+    <circle cx="48.4" cy="16.2" r="3"/>
   </g>
   <!-- 5x5 checkerboard shield, red field first -->
   <path d="M14 22H50V37C50 48 42 54 32 58C22 54 14 48 14 37Z" fill="#fff"/>

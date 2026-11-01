@@ -14,9 +14,7 @@ function TopBar({ page }: { page: string }) {
     return (
         <header className="relative z-20 h-12 shrink-0 bg-white border-b border-slate-200 px-4 flex items-center justify-between">
             <a href="#/" className="flex items-center gap-2 font-bold text-slate-900 tracking-tight">
-                <span className="w-6 h-6 rounded-md bg-slate-900 grid place-items-center">
-                    <span className="w-2.5 h-2.5 rounded-sm bg-blue-500" />
-                </span>
+                <img src="/logo.svg" alt="" className="w-7 h-7" />
                 Izborna karta
             </a>
 
