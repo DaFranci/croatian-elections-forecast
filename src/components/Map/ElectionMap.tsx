@@ -429,23 +429,25 @@ function ElectionMap() {
                     <Popup
                         longitude={hoverInfo.longitude}
                         latitude={hoverInfo.latitude}
-                        offset={[0, -10]}
+                        anchor="bottom"
+                        offset={12}
                         closeButton={false}
-                        className="municipality-tooltip"
+                        closeOnClick={false}
+                        className="map-tooltip"
                     >
-                        <div className="municipality-name">
+                        <p className="text-sm font-semibold leading-tight text-slate-900 whitespace-nowrap">
                             {hoverInfo.feature.properties.name}
-                            {viewMode === 'municipality' && electionData && !electionData.results[hoverInfo.feature.properties.id] && (
-                                <div style={{ fontSize: '0.8em', opacity: 0.8, marginTop: '2px' }}>
-                                    Nema podataka za {year}.
-                                </div>
-                            )}
-                            {viewMode === 'district' && electionData?.results[hoverInfo.feature.properties.id]?.constituency && (
-                                <div style={{ fontSize: '0.8em', opacity: 0.8, marginTop: '2px' }}>
-                                    {electionData.results[hoverInfo.feature.properties.id].constituency}
-                                </div>
-                            )}
-                        </div>
+                        </p>
+                        {viewMode === 'municipality' && electionData && !electionData.results[hoverInfo.feature.properties.id] && (
+                            <p className="mt-0.5 text-xs leading-tight text-slate-500 whitespace-nowrap">
+                                Nema podataka za {year}.
+                            </p>
+                        )}
+                        {viewMode === 'district' && electionData?.results[hoverInfo.feature.properties.id]?.constituency && (
+                            <p className="mt-0.5 text-xs leading-tight text-slate-500 whitespace-nowrap">
+                                {electionData.results[hoverInfo.feature.properties.id].constituency}
+                            </p>
+                        )}
                     </Popup>
                 )}
             </Map>

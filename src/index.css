@@ -186,3 +186,21 @@ a:hover {
     --font-size-3xl: 1.5rem;
   }
 }
+
+/* Map hover tooltip: a compact card matching the results panel, without MapLibre's arrow */
+.map-tooltip {
+  pointer-events: none;
+}
+
+.map-tooltip .maplibregl-popup-content {
+  padding: 6px 10px;
+  border-radius: var(--radius-md);
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  box-shadow: 0 0 0 1px #e2e8f0, var(--shadow-md);
+}
+
+.map-tooltip .maplibregl-popup-tip {
+  display: none;
+}

@@ -31,6 +31,25 @@ def create_id_from_name(name):
     id_str = id_str.strip('-')
     return id_str
 
+# GADM drops the spaces in multi-word names; these also merge a lowercase
+# preposition or conjunction that a capital-letter split can't recover
+NAME_FIXES = {
+    'BiogradnaMoru': 'Biograd na Moru',
+    'HumnaSutli': 'Hum na Sutli',
+    'KraljevecnaSutli': 'Kraljevec na Sutli',
+    'SvetaMarijanaMuri': 'Sveta Marija na Muri',
+    'SvetiJurajnaBregu': 'Sveti Juraj na Bregu',
+    'SvetiMartinnaMuri': 'Sveti Martin na Muri',
+    'SvetiPetaruŠumi': 'Sveti Petar u Šumi',
+    'SvetiFilipiJakov': 'Sveti Filip i Jakov',
+}
+
+def display_name(name):
+    """Restore the spaces GADM removes, e.g. VaraždinskeToplice → Varaždinske Toplice."""
+    if name in NAME_FIXES:
+        return NAME_FIXES[name]
+    return re.sub(r'(?<=[a-zčćđšž])(?=[A-ZČĆĐŠŽ])', ' ', name)
+
 def transform_gadm_geojson(input_file, output_file):
     """Transform GADM GeoJSON to our application format."""
     
@@ -48,7 +67,7 @@ def transform_gadm_geojson(input_file, output_file):
         # Create new properties matching our app's expectations
         new_props = {
             'id': create_id_from_name(props.get('NAME_2', 'unknown')),
-            'name': props.get('NAME_2', 'Unknown'),
+            'name': display_name(props.get('NAME_2', 'Unknown')),
             'admin_level': 7,  # Municipality level
             'type': props.get('TYPE_2', 'Unknown'),
             'county': props.get('NAME_1', 'Unknown'),
