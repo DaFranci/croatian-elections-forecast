@@ -72,7 +72,7 @@ The optimized build will be in the `dist/` directory. Asset URLs are relative (`
 
 ### Deploying to GitHub Pages
 
-`.github/workflows/deploy.yml` builds the site and publishes it on every push to `master`.
+`.github/workflows/deploy.yml` builds the site and publishes it on every push to `main`.
 One-time setup: in the repository, go to **Settings → Pages** and set **Source** to **GitHub Actions**.
 
 Everything in `public/` is copied into the build and published, so source files the site doesn't
