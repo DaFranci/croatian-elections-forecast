@@ -1,72 +1,65 @@
-# Croatian Parliamentary Election Visualization Platform
+# Izborna karta
 
-An interactive, high-performance web application for visualizing Croatian parliamentary election results at the municipality level using WebGL-accelerated mapping technology.
+An interactive map of Croatian election results by municipality and constituency, with a forecast of
+the next parliamentary election and a blog. The site is in Croatian.
 
-![Croatian Elections App](https://img.shields.io/badge/React-18.3-blue) ![MapLibre GL JS](https://img.shields.io/badge/MapLibre-4.7-green) ![TypeScript](https://img.shields.io/badge/TypeScript-5.6-blue)
+![React](https://img.shields.io/badge/React-18.3-blue) ![MapLibre GL JS](https://img.shields.io/badge/MapLibre-4.7-green) ![TypeScript](https://img.shields.io/badge/TypeScript-5.6-blue)
 
 ## Features
 
-### 🗺️ Interactive Map Visualization
-- **WebGL-powered rendering** using MapLibre GL JS for smooth performance with 500+ municipalities
-- **Multiple visualization modes**:
-  - **Winner Map**: Color-coded by winning party/coalition
-  - **Margin of Victory**: Opacity-based visualization showing strength of wins
-  - **Turnout Heatmap**: Gradient visualization of voter participation
-  - **Swing Analysis**: Comparison between elections (planned)
+### Results map (Rezultati)
 
-### 📊 Rich Data Display
-- **Municipality Details**: Click any municipality to see:
-  - Detailed vote breakdown by party
-  - Interactive bar charts
-  - Turnout statistics
-  - Winner information with margin of victory
-  
-- **National Summary**: Parliament seat distribution using D'Hondt method
-  - Pie chart visualization
-  - Seat count by party
-  - Total seats allocated
+Official results from the State Electoral Commission (DIP) for:
 
-### 🎨 Modern Design
-- Glassmorphism UI effects
-- Smooth animations and transitions
-- Responsive design for mobile and desktop
-- Dark theme optimized for data visualization
-- Croatian party brand colors (HDZ blue, SDP red, etc.)
+| Election | Years |
+|---|---|
+| Parliamentary | 2003, 2007, 2011, 2015, 2016, 2020, 2024 |
+| European Parliament | 2013, 2014, 2019, 2024 |
+| Presidential (both rounds) | 2005, 2009, 2014, 2019, 2024 |
+| Local (municipal and city councils; mayors listed per municipality) | 2013, 2017, 2021, 2025 |
+
+- **Two views:** electoral constituencies (parliamentary elections) or municipalities and cities.
+- **Three map modes:** winner, turnout, and margin of victory.
+- **Results panel:** national, constituency or municipality results, with a hemicycle of the
+  seats won. Coalitions are shown under their campaign names (Kukuriku, Restart, Rijeke pravde, …)
+  with their partners.
+- **Diaspora (XI) and national minorities (XII)** appear as cards beside the map, with their own
+  results.
+- **Historical boundaries:** each election is drawn on the municipalities and constituencies in
+  force at the time (2003 and 2005 municipalities; constituencies before the 2024 redistricting).
+
+### Forecast (Prognoza)
+
+A forecast of the next parliamentary election: seats per list with their ranges, the chance of
+each list coming first and of reaching a majority, and the poll average since the 2024 election.
+The page displays a published forecast (`public/data/forecast/forecast.json`); the model that
+produces it is not part of this repository.
+
+### Blog
+
+Analyses of elections, polls and the forecast. Posts are React components registered in
+`src/components/Blog/posts.ts`; any data they show lives in `public/data/blog/`.
 
 ## Technology Stack
 
-- **Frontend Framework**: React 18 with TypeScript
-- **Build Tool**: Vite 6
-- **Mapping**: MapLibre GL JS 4.7 (WebGL)
-- **Charts**: Recharts 2.12
-- **Data Visualization**: D3.js 7
-- **Geospatial**: Turf.js for spatial calculations
+- **Frontend:** React 18 with TypeScript, built with Vite 6
+- **Styling:** Tailwind CSS 4, Radix UI primitives, Lucide icons
+- **Mapping:** MapLibre GL JS 4 (WebGL) via react-map-gl
+- **Charts:** Recharts
+- **Data pipeline:** Python scripts in `scripts/`
 
 ## Getting Started
 
-### Prerequisites
+Requires Node.js 18+ and npm.
 
-- Node.js 18+ and npm
-
-### Installation
-
-1. Clone the repository:
 ```bash
 git clone <repository-url>
 cd Elections
-```
-
-2. Install dependencies:
-```bash
 npm install
-```
-
-3. Start the development server:
-```bash
 npm run dev
 ```
 
-4. Open your browser and navigate to `http://localhost:5173`
+Then open `http://localhost:5173`.
 
 ### Build for Production
 
@@ -74,163 +67,71 @@ npm run dev
 npm run build
 ```
 
-The optimized build will be in the `dist/` directory.
+The optimized build will be in the `dist/` directory. Asset URLs are relative (`base: './'` in
+`vite.config.ts`), so the build works at any path, including `https://<user>.github.io/<repo>/`.
+
+### Deploying to GitHub Pages
+
+`.github/workflows/deploy.yml` builds the site and publishes it on every push to `master`.
+One-time setup: in the repository, go to **Settings → Pages** and set **Source** to **GitHub Actions**.
+
+Everything in `public/` is copied into the build and published, so source files the site doesn't
+load belong elsewhere (raw results CSVs are in `data/elections/csvs/`).
 
 ## Project Structure
 
 ```
 Elections/
+├── .github/workflows/deploy.yml   # Build and publish to GitHub Pages
+├── data/
+│   └── elections/csvs/            # Raw DIP results (input to scripts/, not published)
 ├── public/
-│   └── data/
-│       ├── elections/          # Election results JSON
-│       │   ├── 2024-parliamentary.json
-│       │   └── parties.json
-│       └── geospatial/         # GeoJSON boundaries
-│           └── municipalities.geojson
-├── src/
-│   ├── components/
-│   │   ├── Map/               # Map components
-│   │   │   ├── ElectionMap.tsx
-│   │   │   └── MapControls.tsx
-│   │   └── UI/                # UI components
-│   │       ├── Header.tsx
-│   │       ├── Sidebar.tsx
-│   │       ├── MunicipalityDetail.tsx
-│   │       ├── NationalSummary.tsx
-│   │       └── VisualizationSelector.tsx
-│   ├── context/
-│   │   └── AppContext.tsx     # Global state management
-│   ├── types/
-│   │   └── index.ts           # TypeScript definitions
-│   ├── utils/
-│   │   ├── dataLoader.ts      # Data loading utilities
-│   │   └── dataProcessor.ts   # Data processing functions
-│   ├── App.tsx
-│   ├── main.tsx
-│   └── index.css
-├── package.json
-├── tsconfig.json
-├── vite.config.ts
-└── README.md
+│   ├── logo.svg
+│   └── data/                      # Everything the site loads
+│       ├── elections/             # <year>-<type>[-<round>].json, parties.json
+│       ├── geospatial/            # Municipality, constituency and Zagreb district boundaries
+│       ├── forecast/              # Published forecast
+│       └── blog/                  # Data for blog posts
+├── scripts/                       # Turn DIP results and boundary data into the files above
+└── src/
+    ├── components/
+    │   ├── Map/                   # Map and the diaspora/minority cards
+    │   ├── Panels/                # Election picker, legend, results panel, hemicycle
+    │   ├── Forecast/              # Prognoza page and poll average chart
+    │   ├── Blog/                  # Blog list, article view and posts
+    │   └── Layout/                # Top bar and shared page layout
+    ├── context/AppContext.tsx     # Selected election, view and map mode
+    ├── types/                     # Election list and data types
+    └── utils/                     # Data loading, coalitions, region results, formatting
 ```
 
-## Data Sources
+## Data
 
-### Current Implementation
-- **Election Data**: Sample 2024 parliamentary election data for 15 major Croatian cities
-- **Geospatial Data**: Simplified GeoJSON with approximate municipality boundaries
+- **Election results:** [DIP](https://www.izbori.hr/), converted to JSON by the scripts below.
+- **Boundaries:** GeoJSON in `public/data/geospatial/`, built from OpenStreetMap and GADM data (see
+  [scripts/README.md](scripts/README.md)).
+- **Forecast and blog data:** published results only.
 
-### Future Enhancements
-The application is designed to work with:
-- **Official DIP Data**: State Electoral Commission (Državno izborno povjerenstvo) results
-- **OpenStreetMap**: Detailed administrative boundaries via Overpass API
-- **Historical Data**: Elections from 1990-2024
-- **Full Coverage**: All 556 municipalities and 6,750+ settlements
+### Updating results
 
-## Usage
-
-### Visualization Modes
-
-1. **Winner Map** (🏆): Shows which party/coalition won each municipality
-   - Each municipality is colored by the winning party's brand color
-   - HDZ (blue), SDP Coalition (red), Most (gold), etc.
-
-2. **Margin Map** (📊): Shows the strength of victory
-   - Same colors as Winner Map
-   - Opacity indicates margin: solid = landslide, pale = narrow win
-
-3. **Turnout Map** (📈): Visualizes voter participation
-   - Gradient from grey (low turnout) to green (high turnout)
-   - Independent of party results
-
-4. **Swing Map** (↔️): Compare two elections (coming soon)
-   - Shows percentage point changes between elections
-   - Red-to-blue gradient for left-to-right swing
-
-### Interacting with the Map
-
-- **Pan**: Click and drag the map
-- **Zoom**: Use mouse wheel or zoom controls
-- **Select Municipality**: Click on any municipality polygon
-- **View Details**: Selected municipality details appear in the sidebar
-- **Reset View**: Click the reset button to return to initial view
-
-## Development
-
-### Adding New Election Data
-
-1. Create a new JSON file in `public/data/elections/`:
-```json
-{
-  "election_id": "2020-parliamentary",
-  "date": "2020-07-05",
-  "turnout_national": 0.463,
-  "results": {
-    "municipality_id": {
-      "name": "Zagreb",
-      "total_voters": 598000,
-      "votes_cast": 276854,
-      "turnout": 0.463,
-      "parties": {
-        "HDZ": 83056,
-        "Restart": 110741,
-        ...
-      }
-    }
-  }
-}
+```bash
+python scripts/transform_election_data.py <year>         # parliamentary, from data/elections/csvs/<year>/
+python scripts/transform_eu_data.py <year>               # European Parliament
+python scripts/transform_presidential_data.py [year ...] # presidential, both rounds
+python scripts/transform_local_data.py [year ...]        # local; downloads DIP's archive into a temp cache
+python scripts/validate_election_data.py                 # check vote totals, IDs and parties
 ```
 
-2. Update the election selector component to include the new election
+Older parliamentary results published per polling station are converted first with
+`scripts/convert_legacy_csv.py <year>`.
 
-### Adding New Geospatial Data
-
-Replace `public/data/geospatial/municipalities.geojson` with:
-- Real OSM data from Overpass API
-- GADM administrative boundaries
-- Custom processed GeoJSON
-
-Ensure the `id` property in GeoJSON features matches the `municipality_id` in election data.
-
-## Performance Considerations
-
-- **WebGL Rendering**: Can handle 10,000+ features at 60 FPS
-- **Data Caching**: Election and geospatial data cached in memory
-- **Code Splitting**: Vendor, map, and chart libraries split into separate bundles
-- **Lazy Loading**: Data loaded on demand
-
-## Browser Support
-
-- Chrome/Edge 90+
-- Firefox 88+
-- Safari 14+
-- Mobile browsers (iOS Safari, Chrome Android)
-
-## Contributing
-
-Contributions are welcome! Areas for improvement:
-- Integration with real DIP data sources
-- Historical election data (1990-2024)
-- County and constituency-level views
-- Zagreb city district drill-down
-- Polling station point visualization
-- Export/share functionality
-- Multi-language support (Croatian/English)
+To add an election to the site, add its JSON file and an entry to `ELECTIONS` in `src/types/index.ts`.
 
 ## License
 
-This project is open source and available under the MIT License.
+This project is open source and available under the [MIT License](LICENSE).
 
 ## Acknowledgments
 
-- **Data Sources**: State Electoral Commission (DIP), OpenStreetMap
-- **Inspiration**: Based on comprehensive technical specification for Croatian election visualization
-- **Technologies**: React, MapLibre GL JS, Recharts, D3.js
-
-## Contact
-
-For questions, suggestions, or data contributions, please open an issue on GitHub.
-
----
-
-**Note**: This is a demonstration application with sample data. For production use with real election data, please ensure compliance with data licensing and attribution requirements.
+- **Data:** State Electoral Commission of the Republic of Croatia (DIP), OpenStreetMap contributors, GADM
+- **Technologies:** React, MapLibre GL JS, Recharts, Tailwind CSS
