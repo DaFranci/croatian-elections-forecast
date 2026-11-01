@@ -27,6 +27,7 @@ export function displayName(name: string) {
     return name.split(' ').map(word => {
         if (word !== word.toUpperCase() || !/[A-ZČĆĐŠŽ]/.test(word)) return word
         if (['I', 'U'].includes(word)) return word.toLowerCase()
+        if (word === 'SAD') return word // Sjedinjene Američke Države
         return word.charAt(0) + word.slice(1).toLowerCase().replace(/([-(])(\p{L})/gu, (_, sep, c) => sep + c.toUpperCase())
     }).join(' ')
 }
@@ -48,7 +49,26 @@ function memberLabel(member: string, parties: PartyInfo[]) {
         const known = parties.find(p => normalize(p.id) === normalize(part))
         if (known) return known.partyShortName ?? known.shortName
     }
-    parts.reverse()
+    return shortLabel(member)
+}
+
+const INDEPENDENT_LIST = /^NE(?:O|ZA)VISNA LISTA$/i
+
+// The person an independent list is named after: 'NEOVISNA LISTA - NINA SKOČAK',
+// 'DUSPARA MIRKO - NEZAVISNA LISTA - DUSPARA MIRKO - NL' -> the name in name case
+function listPerson(parts: string[]) {
+    const repeated = parts.find((p, i) => parts.indexOf(p) !== i)
+    const afterIndependent = parts.find((_, i) => i > 0 && INDEPENDENT_LIST.test(parts[i - 1]) && !INDEPENDENT_LIST.test(parts[i]))
+    const person = repeated ?? afterIndependent
+    return person && !/^[A-ZČĆĐŠŽ]{1,5}$/.test(person) ? displayName(person) : undefined
+}
+
+// Short label of a party without an entry in parties.json: its abbreviation, the person an
+// independent list is named after, or its name ('HRVATSKA KONZERVATIVNA STRANKA - HKS' -> 'HKS')
+function shortLabel(name: string) {
+    const parts = name.replace(/"/g, '').split(' - ').map(p => p.trim()).filter(Boolean)
+    const person = listPerson(parts)
+    if (person) return person
     const last = parts[parts.length - 1]
     const isAbbreviation = parts.length > 1 && last.length < parts[0].length && /^[A-ZČĆĐŠŽ][\p{L}.]{0,4}$/u.test(last.split(' ')[0])
     return isAbbreviation ? last : sentenceCase(parts[0])
@@ -58,6 +78,18 @@ function memberLabel(member: string, parties: PartyInfo[]) {
 function coalitionMembers(listName: string, lead: string, parties: PartyInfo[]) {
     const partners = listName.split(',').slice(1).map(m => m.trim()).filter(Boolean).map(m => memberLabel(m, parties))
     return [...new Set([lead, ...partners])]
+}
+
+// 'NEOVISNA LISTA - NINA SKOČAK' -> 'Neovisna lista - Nina Skočak', 'AKCIJA MLADIH - AM' -> 'Akcija mladih - AM',
+// 'DUSPARA MIRKO - NEZAVISNA LISTA - DUSPARA MIRKO - NL' -> 'Duspara Mirko - Nezavisna lista - NL'
+function listDisplayName(lead: string) {
+    const parts = lead.replace(/"/g, '').split(' - ').map(p => p.trim()).filter(Boolean)
+    const person = listPerson(parts)
+    return [...new Set(parts)].map(part => {
+        if (person && displayName(part) === person) return person
+        if (part.length <= 5) return part
+        return sentenceCase(part)
+    }).join(' - ')
 }
 
 function withMembers(party: PartyInfo, members: string[]): PartyInfo {
@@ -80,6 +112,7 @@ function withMembers(party: PartyInfo, members: string[]): PartyInfo {
 // Party info for this election: lists that ran as coalitions are named after the coalition.
 // Where partners differ between constituencies, all partners are named, most-voted lists first.
 export function withCoalitions(parties: PartyInfo[], data: ElectionData, electionId: string): PartyInfo[] {
+    if (data.candidates) return [...parties, ...candidateParties(data, parties)]
     const names = COALITION_NAMES[electionId] ?? {}
     const listVotes: Record<string, Record<string, number>> = {}
     const regions = data.constituencies ? Object.values(data.constituencies) : Object.values(data.results)
@@ -95,14 +128,12 @@ export function withCoalitions(parties: PartyInfo[], data: ElectionData, electio
         const known = parties.find(p => p.id === partyId)
         const base: PartyInfo = known ?? {
             id: partyId,
-            // 'NEOVISNA LISTA - NINA SKOČAK' -> 'Neovisna lista - Nina Skočak', 'AKCIJA MLADIH - AM' -> 'Akcija mladih - AM'
-            name: listNames[0].split(',')[0].replace(/"/g, '').split(' - ')
-                .map((part, i) => i === 0 ? sentenceCase(part.trim()) : part.trim().length <= 5 ? part.trim() : displayName(part.trim()))
-                .join(' - '),
-            shortName: partyId.length > 24 ? memberLabel(listNames[0].split(',')[0], parties) : partyId,
+            name: listDisplayName(listNames[0].split(',')[0]),
+            shortName: shortLabel(listNames[0].split(',')[0]),
             color: getPartyColor('Other', parties),
         }
-        const members = [...new Set(listNames.flatMap(l => coalitionMembers(l, base.shortName, parties)))]
+        // Local lists have different partners in every municipality, so nationally they go by their lead party
+        const members = data.type === 'local' ? [base.shortName] : [...new Set(listNames.flatMap(l => coalitionMembers(l, base.shortName, parties)))]
         const campaign = names[partyId]
         result.set(partyId, withMembers({
             ...base,
@@ -114,8 +145,19 @@ export function withCoalitions(parties: PartyInfo[], data: ElectionData, electio
     return [...result.values()]
 }
 
+// Presidential candidates in the shape of parties: 'Kolinda Grabar-Kitarović', shown short as 'Grabar-Kitarović'
+function candidateParties(data: ElectionData, parties: PartyInfo[]): PartyInfo[] {
+    return Object.entries(data.candidates!).map(([id, candidate]) => ({
+        id,
+        name: candidate.name,
+        shortName: candidate.name.split(' ').slice(1).join(' '),
+        color: candidate.color ?? getPartyColor(candidate.party ?? 'Other', parties),
+        description: candidate.label,
+    }))
+}
+
 // The same list as run in one constituency or municipality, with only its local partners
 export function localParty(party: PartyInfo, listName: string | undefined, parties: PartyInfo[]): PartyInfo {
-    if (!listName || !party.coalition) return party
+    if (!listName || (!party.coalition && !listName.includes(','))) return party
     return withMembers(party, coalitionMembers(listName, party.partyShortName ?? party.shortName, parties))
 }

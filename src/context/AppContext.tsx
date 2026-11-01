@@ -1,9 +1,10 @@
 import React, { createContext, useContext, useState, ReactNode } from 'react';
-import { AppState, ELECTIONS, ElectionType, VisualizationMode, ViewMode, Year, findElection } from '../types';
+import { AppState, ELECTIONS, ElectionType, Round, VisualizationMode, ViewMode, Year, findElection } from '../types';
 
 interface AppContextType extends AppState {
     setElectionType: (type: ElectionType) => void;
     setYear: (year: Year) => void;
+    setRound: (round: Round) => void;
     setVisualizationMode: (mode: VisualizationMode) => void;
     setViewMode: (mode: ViewMode) => void;
     setActiveId: (id: number | string | null) => void;
@@ -17,6 +18,7 @@ export const AppProvider: React.FC<{ children: ReactNode }> = ({ children }) => 
     const [state, setState] = useState<AppState>({
         electionType: 'parliamentary',
         year: 2024,
+        round: 2,
         visualizationMode: 'winner',
         viewMode: 'municipality',
         activeId: null,
@@ -45,6 +47,10 @@ export const AppProvider: React.FC<{ children: ReactNode }> = ({ children }) => 
         });
     };
 
+    const setRound = (round: Round) => {
+        setState(prev => ({ ...prev, round }));
+    };
+
     const setVisualizationMode = (mode: VisualizationMode) => {
         setState(prev => ({ ...prev, visualizationMode: mode }));
     };
@@ -71,6 +77,7 @@ export const AppProvider: React.FC<{ children: ReactNode }> = ({ children }) => 
                 ...state,
                 setElectionType,
                 setYear,
+                setRound,
                 setVisualizationMode,
                 setViewMode,
                 setActiveId,

@@ -1,5 +1,5 @@
 import { useAppContext } from '../../context/AppContext'
-import { ELECTIONS, ELECTION_TYPES, ElectionType, findElection } from '../../types'
+import { ELECTIONS, ELECTION_TYPES, ElectionType, findElection, hasRounds } from '../../types'
 import { cn } from '@/lib/utils'
 import * as Select from '@radix-ui/react-select'
 import { MapIcon, LayoutGrid, ChevronDown, Check, Landmark, UserRound, Building2, Globe } from 'lucide-react'
@@ -32,7 +32,7 @@ function TypeIcon({ type, active }: { type: ElectionType; active?: boolean }) {
 }
 
 function ElectionControls() {
-    const { electionType, year, viewMode, visualizationMode, setElectionType, setYear, setViewMode, setVisualizationMode } = useAppContext()
+    const { electionType, year, round, viewMode, visualizationMode, setElectionType, setYear, setRound, setViewMode, setVisualizationMode } = useAppContext()
     const elections = ELECTIONS.filter(e => e.type === electionType)
     const hasConstituencies = !!findElection(electionType, year)?.constituencies
 
@@ -98,6 +98,17 @@ function ElectionControls() {
                     </button>
                 ))}
             </div>
+
+            {/* Round (presidential elections) */}
+            {hasRounds(electionType) && (
+                <div className="flex bg-slate-100 p-0.5 rounded-md">
+                    {([1, 2] as const).map(r => (
+                        <button key={r} onClick={() => setRound(r)} className={segment(round === r)}>
+                            {r}. krug
+                        </button>
+                    ))}
+                </div>
+            )}
 
             <div className="h-px bg-slate-100" />
 

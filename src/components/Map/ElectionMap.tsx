@@ -4,15 +4,20 @@ import type { FillLayer, LineLayer } from 'react-map-gl/maplibre';
 import { useAppContext } from '../../context/AppContext';
 import { loadGeoJSON, loadElectionData, loadPartyData } from '../../utils/dataLoader';
 import { calculateWinners, getPartyColor, joinElectionWithGeo, NO_DATA_COLOR } from '../../utils/dataProcessor';
-import { ElectionData, PartyInfo, findElection } from '../../types';
+import { ElectionData, PartyInfo, findElection, electionId as fileId } from '../../types';
 import MapInsets from './MapInsets';
 import { withCoalitions } from '../../utils/coalitions';
 
 const CROATIA_BOUNDS: [[number, number], [number, number]] = [[13.4, 42.35], [19.5, 46.6]];
 
-// Fit the whole of Croatia on load into the space the floating panels leave free:
+// Last camera position, kept outside the component so it survives remounts
+// (e.g. visiting the forecast page and coming back)
+let lastViewState: { longitude: number; latitude: number; zoom: number } | null = null;
+
+// Fit the whole of Croatia on first load into the space the floating panels leave free:
 // the results sidebar on the right on desktop, controls and bottom sheet on mobile
 function initialViewState() {
+    if (lastViewState) return { ...lastViewState, pitch: 0, bearing: 0 };
     const desktop = window.matchMedia('(min-width: 1024px)').matches;
     return {
         bounds: CROATIA_BOUNDS,
@@ -44,6 +49,7 @@ function ElectionMap() {
     const {
         electionType,
         year,
+        round,
         visualizationMode,
         viewMode,
         activeId,
@@ -64,8 +70,7 @@ function ElectionMap() {
         feature: any;
     } | null>(null);
 
-    // Map year to election ID
-    const electionId = `${year}-${electionType}`;
+    const electionId = fileId(electionType, year, round);
 
     // Boundaries in force for the selected election
     const electionInfo = findElection(electionType, year);
@@ -372,10 +377,14 @@ function ElectionMap() {
     }, [setHoveredMunicipality]);
 
     const handleZoom = useCallback((evt: any) => {
-        setZoomLevel(evt.viewState.zoom);
+        const { longitude, latitude, zoom } = evt.viewState;
+        lastViewState = { longitude, latitude, zoom };
+        setZoomLevel(zoom);
     }, [setZoomLevel]);
 
-    if (loading) {
+    // Only block on the first load; later election switches keep the map mounted
+    // so the zoom and position stay put while the new data arrives
+    if (loading && !geoData) {
         return (
             <div className="absolute inset-0 flex flex-col items-center justify-center bg-slate-100">
                 <div className="w-12 h-12 border-4 border-blue-600 border-t-transparent rounded-full animate-spin"></div>

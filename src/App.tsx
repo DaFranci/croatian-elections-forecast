@@ -4,7 +4,7 @@ import { loadElectionData, loadPartyData } from './utils/dataLoader'
 import { calculateWinners } from './utils/dataProcessor'
 import { isAvailable, regionResults } from './utils/regionResults'
 import { withCoalitions } from './utils/coalitions'
-import { ElectionData, PartyInfo, findElection } from './types'
+import { ElectionData, PartyInfo, electionDate, electionId as fileId } from './types'
 import ElectionMap from './components/Map/ElectionMap'
 import TopBar, { NAV_LINKS } from './components/Layout/TopBar'
 import ElectionControls from './components/Panels/ElectionControls'
@@ -28,15 +28,14 @@ function useHashPage() {
 }
 
 function AppContent() {
-    const { electionType, year, activeId, viewMode, setActiveId } = useAppContext()
+    const { electionType, year, round, activeId, viewMode, setActiveId } = useAppContext()
 
     const [electionData, setElectionData] = useState<ElectionData | null>(null)
     const [parties, setParties] = useState<PartyInfo[]>([])
     const [loading, setLoading] = useState(true)
     const page = useHashPage()
 
-    // Map year to election ID
-    const electionId = `${year}-${electionType}`
+    const electionId = fileId(electionType, year, round)
 
     useEffect(() => {
         async function loadData() {
@@ -72,7 +71,7 @@ function AppContent() {
         [electionData, activeId, viewMode]
     )
 
-    const dateString = findElection(electionType, year)?.date
+    const dateString = electionDate(electionType, year, round)
 
     return (
         <div className="h-dvh flex flex-col bg-slate-50 text-slate-900 font-sans overflow-hidden">

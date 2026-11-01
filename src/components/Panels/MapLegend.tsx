@@ -1,5 +1,5 @@
 import { useAppContext } from '../../context/AppContext'
-import { NO_DATA_COLOR } from '../../utils/dataProcessor'
+import { getPartyColor, NO_DATA_COLOR } from '../../utils/dataProcessor'
 import { ElectionData, PartyInfo } from '../../types'
 
 function MapLegend({ parties, electionData }: { parties: PartyInfo[]; electionData: ElectionData }) {
@@ -8,7 +8,11 @@ function MapLegend({ parties, electionData }: { parties: PartyInfo[]; electionDa
     // Only the parties that actually color the map
     const regions = viewMode === 'district' ? electionData.constituencies ?? {} : electionData.results
     const winners = new Set(Object.values(regions).map(r => r.winner))
-    const shownParties = parties.filter(p => winners.has(p.id))
+    // Lists without a colour of their own (local and independent lists) share one entry
+    const otherColor = getPartyColor('Other', parties)
+    const winning = parties.filter(p => winners.has(p.id))
+    const shownParties = winning.filter(p => p.color !== otherColor)
+    if (shownParties.length < winning.length) shownParties.push({ id: 'Other', name: 'Ostali', shortName: 'Ostale liste', color: otherColor })
 
     return (
         <div className="hidden lg:block absolute z-10 bottom-3 left-3 max-w-[calc(100%-380px)] bg-white/95 backdrop-blur rounded-xl shadow-lg ring-1 ring-slate-200 px-3 py-2 text-slate-600">

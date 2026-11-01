@@ -1,4 +1,4 @@
-import { DIASPORA_ID, ElectionData, ElectionResult, MINORITIES_ID, MinorityGroup, ViewMode } from '../types'
+import { DIASPORA_ID, ElectionData, ElectionResult, MayorRound, MINORITIES_ID, MinorityGroup, ViewMode } from '../types'
 import { allocateDHondt, calculateSeats, SEATS_PER_CONSTITUENCY, THRESHOLD_PERCENTAGE } from './dataProcessor'
 
 export interface PartyResult {
@@ -7,6 +7,7 @@ export interface PartyResult {
     votes: number
     percent: number
     seats: number
+    wins?: number // local elections: councils won
 }
 
 export interface CountryResult {
@@ -27,6 +28,10 @@ export interface RegionResults {
     showSeats: boolean
     results: PartyResult[]
     parliament?: { seats: Record<string, number>; minoritySeats: number }
+    mayor?: MayorRound[] // local elections, municipality view
+    unit?: 'grad' | 'općina'
+    round?: 1 | 2 // presidential elections
+    runoff?: string[] // round 1: the two candidates who went on to the second round
     countries?: CountryResult[]
     minorities?: MinorityGroup[]
 }
@@ -80,18 +85,44 @@ function national(data: ElectionData): RegionResults {
     // which aren't part of any municipality
     const regions = data.constituencies ? Object.values(data.constituencies) : Object.values(data.results)
     const { parties, totalVoters, votesCast } = aggregate(regions)
-    const seats = calculateSeats(data)
+    // Presidential elections have no seats
+    const hasSeats = !!(data.constituencies || data.seats)
+    const seats = hasSeats ? calculateSeats(data) : {}
     const minoritySeats = (data.minorities ?? []).reduce((sum, g) => sum + g.seats, 0)
 
     return {
         id: 'national',
         name: 'Ukupni rezultati',
-        scope: 'Republika Hrvatska',
+        scope: data.type === 'local' ? 'Gradska i općinska vijeća' : 'Republika Hrvatska',
         turnout: (votesCast / totalVoters) * 100,
-        showSeats: true,
-        results: partyResults(parties, votesCast, seats),
-        parliament: { seats, minoritySeats },
+        showSeats: hasSeats,
+        results: data.type === 'local' ? localTotals(data, partyResults(parties, votesCast)) : partyResults(parties, votesCast, seats),
+        ...(hasSeats && { parliament: { seats, minoritySeats } }),
     }
+}
+
+// Councils won per list, keeping the largest lists and folding thousands of local ones into 'Ostale liste'
+const LOCAL_TOP_LISTS = 10
+const LOCAL_MIN_WINS = 3
+export const OTHER_LISTS_ID = 'OSTALI'
+
+function localTotals(data: ElectionData, results: PartyResult[]): PartyResult[] {
+    const wins: Record<string, number> = {}
+    Object.values(data.results).forEach(r => { if (r.winner) wins[r.winner] = (wins[r.winner] ?? 0) + 1 })
+
+    const shown: PartyResult[] = []
+    const other: PartyResult = { partyId: OTHER_LISTS_ID, listName: 'Ostale liste', votes: 0, percent: 0, seats: 0, wins: 0 }
+    results.forEach((r, i) => {
+        const won = wins[r.partyId] ?? 0
+        if (i < LOCAL_TOP_LISTS || won >= LOCAL_MIN_WINS) {
+            shown.push({ ...r, wins: won })
+        } else {
+            other.votes += r.votes
+            other.percent += r.percent
+            other.wins! += won
+        }
+    })
+    return other.votes ? [...shown, other] : shown
 }
 
 function diaspora(data: ElectionData): RegionResults {
@@ -145,6 +176,16 @@ export function isAvailable(data: ElectionData, activeId: string | number, viewM
 }
 
 export function regionResults(data: ElectionData, activeId: string | number | null, viewMode: ViewMode): RegionResults | null {
+    const results = selectedResults(data, activeId, viewMode)
+    if (!results || !data.round) return results
+
+    // A candidate needs a majority of the votes cast; otherwise the top two go to a runoff
+    const [first, second] = national(data).results
+    const runoff = data.round === 1 && first.percent <= 50 ? [first.partyId, second.partyId] : undefined
+    return { ...results, round: data.round, runoff }
+}
+
+function selectedResults(data: ElectionData, activeId: string | number | null, viewMode: ViewMode): RegionResults | null {
     if (activeId === null || !isAvailable(data, activeId, viewMode)) return national(data)
     if (activeId === DIASPORA_ID) return diaspora(data)
     if (activeId === MINORITIES_ID) return minorities(data)
@@ -170,5 +211,7 @@ export function regionResults(data: ElectionData, activeId: string | number | nu
         turnout: municipality.turnout * 100,
         showSeats: false,
         results: partyResults(municipality.parties, municipality.votes_cast),
+        mayor: municipality.mayor,
+        unit: municipality.unit,
     }
 }
