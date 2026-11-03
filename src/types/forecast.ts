@@ -11,7 +11,7 @@ export interface ForecastList {
     name: string;
     color: string;
     result2024: number | null; // share of the domestic vote, null for lists that didn't run
-    pollAverage: { mean: number; lo: number; hi: number }; // 80 % band, % of decided voters
+    pollAverage: { mean: number; lo: number; hi: number }; // average and the range 80 % of polls fall in, % of decided voters
     vote: Range; // simulated election-day share, 10th / 50th / 90th percentile
     seats: Range;
     expectedSeats: number; // mean seats rounded so all lists add up to the 143 non-minority seats
@@ -29,7 +29,7 @@ export interface ForecastBloc {
     pMajorityWithMinorities: number;
 }
 
-// One point per week; each list holds [lo, mean, hi] of the 80 % band
+// One point per week; each list holds [lo, mean, hi]: the average and the range 80 % of polls fall in
 export type TrendPoint = { date: string } & Record<string, [number, number, number] | string>;
 export type PollPoint = { date: string; firm: string } & Record<string, number | string>;
 

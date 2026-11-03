@@ -128,7 +128,7 @@ function ForecastPage() {
 
             <Section
                 title="Prosjek anketa"
-                description="Udio među opredijeljenim biračima. Linija je prosjek svih anketa, korigiran za sustavna odstupanja pojedinih agencija; pojas pokazuje nesigurnost, a točke pojedine ankete."
+                description="Udio među opredijeljenim biračima. Linija je prosjek svih anketa, korigiran za sustavna odstupanja pojedinih agencija; pojas je raspon u koji pada oko 80% anketa, a točke pojedine ankete."
             >
                 <PollAverageChart data={data} />
             </Section>

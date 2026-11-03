@@ -17,7 +17,7 @@ const dateLabel = (t: number) => {
 type TrendRow = TrendPoint & { t: number }
 type PollRow = PollPoint & { t: number }
 
-// Poll average: house-effect-adjusted trend with its 80 % band, individual polls as dots
+// Poll average: house-effect-adjusted trend with the range 80 % of polls should fall in, individual polls as dots
 function PollAverageChart({ data }: { data: ForecastData }) {
     const [hovered, setHovered] = useState<string | null>(null)
     const lists = data.trendLists.map(id => data.lists.find(l => l.id === id)!).filter(Boolean)
